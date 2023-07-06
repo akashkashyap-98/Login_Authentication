@@ -3,6 +3,9 @@ from rest_framework import serializers
 from .models import *
 
 class UserCreteSerializer(serializers.ModelSerializer):
+    password = serializers.CharField(
+        style={'input_type': 'password'}
+    )
 
     class Meta:
         model = Register
@@ -16,7 +19,7 @@ class UserUpdateSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Register
-        fields = ['first_name','last_name', 'password' , 'mobile']
+        fields = ['first_name','last_name', 'password', 'confirm_password' , 'mobile']
 
 
     def update(self, instance, validated_data):
@@ -29,10 +32,15 @@ class UserUpdateSerializer(serializers.ModelSerializer):
         # instance.mobile = validated_data.get('mobile', instance.mobile)
         # instance.role = validated_data.get('role', instance.role)
         # instance.save()
-        super().update(instance = instance, validated_data= validated_data)
+        super().update(instance = instance, validated_data = validated_data)
         return instance  
 
 class UserGetSerializer(serializers.ModelSerializer):
      class Meta:
         model = Register
         fields = ['id', 'first_name','last_name', 'username' , 'mobile' , 'email', 'password' ,'confirm_password']
+
+
+
+
+
