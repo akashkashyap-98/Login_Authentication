@@ -82,3 +82,53 @@ class RegisterUserDetailById(APIView):
             return Response({"status": "true",'response': "User deleted successfully!!"},200)
         else:
             return Response({"status": "false" , "error" :"User doesn't exists. " }, status=status.HTTP_400_BAD_REQUEST)
+
+
+class LoginUserPostAndGet(APIView):
+    permission_classes = ()
+    authentication_classes=()
+
+    def post(self,request):
+        data=request.data
+        serializer = LoginUserCreateSerializer(data=data)
+        if serializer.is_valid():
+            dbuser = Register.objects.get(email=data.get('email'))
+            print(dbuser)
+            if dbuser:
+
+                print("i am db user", dbuser.email , dbuser.password)
+                if Register.objects.filter(email=dbuser.email) and Register.objects.filter(password=dbuser.password):
+                # if dbuser.email == data.get('email') and dbuser.password == data.get('Password'):
+                    print("-------------------------------------")
+                    print(dbuser.email)
+                    print(data.get('email'))
+                    serializer.save()
+                    return Response(
+                        {'message':'user LoggedIn successfully',
+                        'staus_code': 201,
+                        'response': 'success'}, 201
+                    )
+                else:
+                    return Response(
+                        {'message':'Please Check Your Credentials',
+                        'staus_code': 401,}, 401
+                    )
+            else:
+                return Response(
+                    {'message':'Please Check Your Credentials',
+                        'staus_code': 401,}, 401
+                )
+        else:
+            return Response({
+                "error" :serializer.errors,
+                'status_code': 400, }, 400)
+
+
+
+            
+
+
+
+
+    
+

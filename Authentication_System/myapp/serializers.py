@@ -3,9 +3,6 @@ from rest_framework import serializers
 from .models import *
 
 class UserCreteSerializer(serializers.ModelSerializer):
-    password = serializers.CharField(
-        style={'input_type': 'password'}
-    )
 
     class Meta:
         model = Register
@@ -39,6 +36,21 @@ class UserGetSerializer(serializers.ModelSerializer):
      class Meta:
         model = Register
         fields = ['id', 'first_name','last_name', 'username' , 'mobile' , 'email', 'password' ,'confirm_password']
+
+class LoginUserCreateSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Login
+        fields = ['email', 'password']
+
+    def create(self, validated_data):
+        return Login.objects.create(**validated_data)
+
+class LogoutUserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Login
+        fileds = [ 'email', 'password' ]
+
 
 
 
