@@ -3,13 +3,16 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from .serializers import *
 from rest_framework.decorators import authentication_classes, permission_classes
+from rest_framework.permissions import IsAuthenticated
+from rest_framework_simplejwt.authentication import JWTAuthentication
+from rest_framework_simplejwt.tokens import RefreshToken
 
 
 # Create your views here.
 
 class RegisterUserPostAndGet(APIView):
-    permission_classes = ()
-    authentication_classes=()
+    permission_classes = []
+    authentication_classes=[]
 
     def post(self,request):
         data=request.data
@@ -39,8 +42,8 @@ class RegisterUserPostAndGet(APIView):
         return Response({'status':200 , 'payload':serializer.data})
 
 class RegisterUserDetailById(APIView):
-    permission_classes = ()
-    authentication_classes=()
+    permission_classes = [IsAuthenticated]
+    authentication_classes=[ JWTAuthentication ]
 
     def get(self, request , id , format=None):
         if Register.objects.filter(id=id).exists():
@@ -85,15 +88,15 @@ class RegisterUserDetailById(APIView):
 
 
 class LoginUserPostAndGet(APIView):
-    permission_classes = ()
-    authentication_classes=()
+    permission_classes = []
+    authentication_classes=[]
 
     def post(self,request):
         data=request.data
         serializer = LoginUserCreateSerializer(data=data)
         if serializer.is_valid():
             dbuser = Register.objects.get(email=data.get('email'))
-            print(dbuser)
+            # print(dbuser)
             if dbuser:
 
                 print("i am db user", dbuser.email , dbuser.password)
@@ -103,10 +106,17 @@ class LoginUserPostAndGet(APIView):
                     print(dbuser.email)
                     print(data.get('email'))
                     serializer.save()
+
+                    #-----creating token manually------------------
+
+                    refresh = RefreshToken.for_user(dbuser)
+
                     return Response(
                         {'message':'user LoggedIn successfully',
                         'staus_code': 201,
-                        'response': 'success'}, 201
+                        'response': 'success',
+                        'refresh': str(refresh),
+                        'access': str(refresh.access_token),}, 201
                     )
                 else:
                     return Response(
@@ -122,13 +132,59 @@ class LoginUserPostAndGet(APIView):
             return Response({
                 "error" :serializer.errors,
                 'status_code': 400, }, 400)
+        
 
+class LoginResponsePage(APIView):
+    permission_classes = [IsAuthenticated]
+    authentication_classes=[ JWTAuthentication ]
 
+    def get(self, request):
+        data = request.data
+        # Add your desired redirection logic here
+        return Response({'message':'page after login '})
+        
 
-            
+        
+class Logout(APIView):
+    # permission_classes = (IsAuthenticated,)
 
+    def post(self, request):
+        data=request.data
+        if data:
+            print("--------i am TRY----------")
+            refresh_token = request.data["refresh_token"]
+            print("--------------------", refresh_token)
+            token = RefreshToken(refresh_token)
+            token.blacklist()
+            return Response({"message": "Successfully logged out."})
+        else:
+            return Response({"message": "Invalid token."})
 
+# class LogoutUserPost(APIView):
+#     permission_classes = []
+#     authentication_classes=[]
 
-
-    
-
+#     def post(self, request):
+#         data=request.data
+#         serializer=LogoutUserSerializer(data=data)
+#         print("-------testting  1 for logout--------------")
+#         if serializer.is_valid():
+#             print("-------testting for logout--------------")
+#             user_email = data.get('email')
+#             user_password = data.get('password')
+#             if Login.objects.filter(email = user_email) and Login.objects.filter(password = user_password) :
+#                 Login.objects.get(email=dbuser.email).delete()
+#                 serializer.save()
+#                 return Response(
+#                 {'message':'user Logged Out successfully',
+#                 'staus_code': 201,
+#                 'response': 'success'}, 201
+#                 )
+#             else:
+#                 return Response({
+#                 "error" :serializer.errors,
+#                 'status_code': 400, }, 400)
+#         else:
+#             return Response({
+#                 "error" :serializer.errors,
+#                 'status_code': 400, }, 400)

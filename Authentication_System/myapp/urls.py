@@ -7,5 +7,6 @@ urlpatterns = [
     path('user/', RegisterUserPostAndGet.as_view()),
     path('user/<int:id>/' , RegisterUserDetailById.as_view()),
     path('login/', LoginUserPostAndGet.as_view()),
-    # path('logout/', LogoutUserPost.as_view()),
+    path('login_response/', LoginResponsePage.as_view()),
+    path('logout/', Logout.as_view(), name='logout'),
 ]

@@ -46,10 +46,10 @@ class LoginUserCreateSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         return Login.objects.create(**validated_data)
 
-class LogoutUserSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Login
-        fileds = [ 'email', 'password' ]
+# class LogoutUserSerializer(serializers.ModelSerializer):
+#     class Meta:
+#         model = Login
+#         fileds = [ 'email', 'password' ]
 
 
 
