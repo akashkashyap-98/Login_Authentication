@@ -38,10 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    
-    'knox',
+    'rest_framework_simplejwt',
+    'rest_framework_simplejwt.token_blacklist',
+    # 'knox',
     'myapp',
-    # 'rest_framework_simplejwt.token_blacklist'
+    
 ]
 
 MIDDLEWARE = [
@@ -140,6 +141,10 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication',
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ]
+}
+
+SIMPLE_JWT = {
+    'BLACKLIST': 'rest_framework_simplejwt.token_blacklist.models.OutstandingToken',
 }
 
 from datetime import timedelta

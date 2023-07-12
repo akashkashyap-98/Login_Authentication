@@ -2,10 +2,14 @@ from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from .serializers import *
+from rest_framework import status
 from rest_framework.decorators import authentication_classes, permission_classes
 from rest_framework.permissions import IsAuthenticated
 from rest_framework_simplejwt.authentication import JWTAuthentication
 from rest_framework_simplejwt.tokens import RefreshToken
+from rest_framework_simplejwt.tokens import AccessToken
+from rest_framework_simplejwt.token_blacklist.models import OutstandingToken
+
 
 
 # Create your views here.
@@ -103,8 +107,6 @@ class LoginUserPostAndGet(APIView):
                 if Register.objects.filter(email=dbuser.email) and Register.objects.filter(password=dbuser.password):
                 # if dbuser.email == data.get('email') and dbuser.password == data.get('Password'):
                     print("-------------------------------------")
-                    print(dbuser.email)
-                    print(data.get('email'))
                     serializer.save()
 
                     #-----creating token manually------------------
@@ -135,56 +137,66 @@ class LoginUserPostAndGet(APIView):
         
 
 class LoginResponsePage(APIView):
-    permission_classes = [IsAuthenticated]
-    authentication_classes=[ JWTAuthentication ]
+    permission_classes = []
+    authentication_classes=[]
 
-    def get(self, request):
+    def post(self, request):
         data = request.data
-        # Add your desired redirection logic here
-        return Response({'message':'page after login '})
+        try:
+            print("------I am TRY---------")
+            token = request.META['HTTP_AUTHORIZATION'].split(' ')[1]
+            print(token)
+            token_obj = RefreshToken(token)
+            if token_obj:
+                return Response({'message':'page after login , This page can only be seen by the user who have proper login credentials'})
+        except Exception as e:
+            return Response({'message':'please check your token and try again'}, status=status.HTTP_400_BAD_REQUEST)
         
 
         
 class Logout(APIView):
-    # permission_classes = (IsAuthenticated,)
+    permission_classes = []
+    authentication_classes=[]
 
-    def post(self, request):
+    def post(self, request , format = None):
         data=request.data
-        if data:
-            print("--------i am TRY----------")
-            refresh_token = request.data["refresh_token"]
-            print("--------------------", refresh_token)
+        try:
+            print("======i am try=========")
+            refresh_token = request.data['refresh_token']
             token = RefreshToken(refresh_token)
+            print(token)
             token.blacklist()
-            return Response({"message": "Successfully logged out."})
-        else:
-            return Response({"message": "Invalid token."})
+            print("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
+            return Response({"message": "Successfully logged out."}, status=status.HTTP_200_OK)
+        except Exception as e:
+            return Response({"message": "Invalid token."}, status=status.HTTP_400_BAD_REQUEST)
+        
 
-# class LogoutUserPost(APIView):
+
+
+
+
+# class Logout(APIView):
 #     permission_classes = []
 #     authentication_classes=[]
 
 #     def post(self, request):
 #         data=request.data
-#         serializer=LogoutUserSerializer(data=data)
+#         # serializer=LogoutUserSerializer(data=data)
 #         print("-------testting  1 for logout--------------")
-#         if serializer.is_valid():
-#             print("-------testting for logout--------------")
-#             user_email = data.get('email')
-#             user_password = data.get('password')
-#             if Login.objects.filter(email = user_email) and Login.objects.filter(password = user_password) :
-#                 Login.objects.get(email=dbuser.email).delete()
-#                 serializer.save()
-#                 return Response(
-#                 {'message':'user Logged Out successfully',
-#                 'staus_code': 201,
-#                 'response': 'success'}, 201
-#                 )
-#             else:
-#                 return Response({
-#                 "error" :serializer.errors,
-#                 'status_code': 400, }, 400)
+#         # if serializer.is_valid():
+#         print("-------testting for logout--------------")
+#         user_email = data.get('email')
+#         user_password = data.get('password')
+#         if Login.objects.filter(email = user_email) and Login.objects.filter(password = user_password) :
+#             Login.objects.filter(email='user_email').delete()
+#             print("-------user deleted from login table--------")
+#             return Response(
+#             {'message':'user Logged Out successfully',
+#             'staus_code': 201,
+#             'response': 'success'}, 201
+#             )
 #         else:
 #             return Response({
-#                 "error" :serializer.errors,
+#                 'message':'please check your credentials',
 #                 'status_code': 400, }, 400)
