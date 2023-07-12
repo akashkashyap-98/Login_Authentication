@@ -2,6 +2,7 @@ from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from .serializers import *
+from .models import *
 from rest_framework import status
 from rest_framework.decorators import authentication_classes, permission_classes
 from rest_framework.permissions import IsAuthenticated
@@ -105,10 +106,14 @@ class LoginUserPostAndGet(APIView):
 
                 print("i am db user", dbuser.email , dbuser.password)
                 if Register.objects.filter(email=dbuser.email) and Register.objects.filter(password=dbuser.password):
-                # if dbuser.email == data.get('email') and dbuser.password == data.get('Password'):
+                    
+                    userr = Login.objects.filter(email=dbuser.email).update(is_active=True)
+                    print("----------debugging---------------")
+                    print(userr)
+
                     print("-------------------------------------")
                     serializer.save()
-
+                    
                     #-----creating token manually------------------
 
                     refresh = RefreshToken.for_user(dbuser)
@@ -166,7 +171,6 @@ class Logout(APIView):
             token = RefreshToken(refresh_token)
             print(token)
             token.blacklist()
-            print("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
             return Response({"message": "Successfully logged out."}, status=status.HTTP_200_OK)
         except Exception as e:
             return Response({"message": "Invalid token."}, status=status.HTTP_400_BAD_REQUEST)
