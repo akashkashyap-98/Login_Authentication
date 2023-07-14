@@ -11,6 +11,14 @@ from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework_simplejwt.tokens import AccessToken
 from rest_framework_simplejwt.token_blacklist.models import OutstandingToken
 
+import logging
+logging.basicConfig(
+    filename="myapp/logs/logfile1.log",
+    filemode='a',
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S',
+)
+
 
 
 # Create your views here.
@@ -98,21 +106,24 @@ class LoginUserPostAndGet(APIView):
 
     def post(self,request):
         data=request.data
+        print(data)
         serializer = LoginUserCreateSerializer(data=data)
         if serializer.is_valid():
             dbuser = Register.objects.get(email=data.get('email'))
-            # print(dbuser)
-            if dbuser:
+            print("--------------------------")
+            print(dbuser.email , dbuser.password)
+            if dbuser is not None:
 
                 print("i am db user", dbuser.email , dbuser.password)
                 if Register.objects.filter(email=dbuser.email) and Register.objects.filter(password=dbuser.password):
-                    
+                    logging.warning("Email and password matched")
+
+                    serializer.save()
+
+                    #----if user login the is_active field turns True-----
                     userr = Login.objects.filter(email=dbuser.email).update(is_active=True)
                     print("----------debugging---------------")
                     print(userr)
-
-                    print("-------------------------------------")
-                    serializer.save()
                     
                     #-----creating token manually------------------
 
@@ -131,6 +142,7 @@ class LoginUserPostAndGet(APIView):
                         'staus_code': 401,}, 401
                     )
             else:
+                logging.warning("EMAIL OR PASSWORD IS INCORRECT")
                 return Response(
                     {'message':'Please Check Your Credentials',
                         'staus_code': 401,}, 401
@@ -151,10 +163,16 @@ class LoginResponsePage(APIView):
             print("------I am TRY---------")
             token = request.META['HTTP_AUTHORIZATION'].split(' ')[1]
             print(token)
+
             token_obj = RefreshToken(token)
             if token_obj:
-                return Response({'message':'page after login , This page can only be seen by the user who have proper login credentials'})
+                inactive_users = Login.objects.filter(is_active=False).values('email')
+
+                return Response({'message':'page after login , This page can only be seen by the user who have proper login credentials' ,
+                                 'inactive_users':list(inactive_users)})
         except Exception as e:
+            logging.warning("Please enter a valid token")
+            logging.info("AKASH KASHYAP")
             return Response({'message':'please check your token and try again'}, status=status.HTTP_400_BAD_REQUEST)
         
 
@@ -167,11 +185,28 @@ class Logout(APIView):
         data=request.data
         try:
             print("======i am try=========")
-            refresh_token = request.data['refresh_token']
+            refresh_token = request.META['HTTP_AUTHORIZATION'].split(' ')[1]
             token = RefreshToken(refresh_token)
             print(token)
-            token.blacklist()
-            return Response({"message": "Successfully logged out."}, status=status.HTTP_200_OK)
+
+            user_email = data.get('email')
+            print(user_email)
+            user_password = data.get('password')
+            print(user_password)
+            print("---------------------------------")
+            if user_email and user_password:
+                print("-------------------------")
+                if Login.objects.filter(email=user_email) and Login.objects.filter(password=user_password):
+                    print("=====Email and password matched successfully====")
+                    Login.objects.filter(email=user_email).update(is_active=False)
+
+                    # token.blacklist()
+                    return Response({"message": "Successfully logged out."}, status=status.HTTP_200_OK)
+                else:
+                    return Response({'message':'Please check your email and password and try again'})
+            else:
+                return Response({'message':'please enter email and password to logout'})
+            
         except Exception as e:
             return Response({"message": "Invalid token."}, status=status.HTTP_400_BAD_REQUEST)
         
@@ -204,3 +239,4 @@ class Logout(APIView):
 #             return Response({
 #                 'message':'please check your credentials',
 #                 'status_code': 400, }, 400)
+

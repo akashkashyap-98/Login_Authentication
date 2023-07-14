@@ -197,11 +197,11 @@ SIMPLE_JWT = {
 #         'file': {
 #             'level': 'DEBUG',
 #             'class': 'logging.FileHandler',
-#             'filename': './logs/logfile.log',
+#             'filename': './logs/logfile1.log',
 #         },
 #     },
 #     'loggers': {
-#         __name__: {
+#         'django': {
 #             'handlers': ['file'],
 #             'level': 'DEBUG',
 #         },

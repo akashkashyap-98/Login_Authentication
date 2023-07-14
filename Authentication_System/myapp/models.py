@@ -23,7 +23,7 @@ class Register(models.Model):
     
     
     def __str__(self):
-        return self.email, self.username, self.mobile
+        return self.email
 
 class Login(models.Model):
     email = models.EmailField(null=False, blank=False , unique=True)
