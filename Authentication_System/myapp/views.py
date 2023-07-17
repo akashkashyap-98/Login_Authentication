@@ -34,6 +34,7 @@ class RegisterUserPostAndGet(APIView):
         if serializer.is_valid():
             if data.get('password')==data.get('confirm_password'):
                 serializer.save()
+                logger.info("user registered successfully")
                 return Response(
                     {'message':'user registered successfully',
                     'staus_code': 201,
@@ -41,9 +42,11 @@ class RegisterUserPostAndGet(APIView):
 
                 )
             else:
+                logger.error("password and confirm password must be same , please check it and try again")
                 return Response({'message':'please check your password and try again',
                 'status_code': 400,}, 400)
         else:
+            logger.error("serializer is not valid , please check the json data")
             return Response({
 				"error" :serializer.errors,
 				'status_code': 400
@@ -63,8 +66,10 @@ class RegisterUserDetailById(APIView):
         if Register.objects.filter(id=id).exists():
             user_obj = Register.objects.get(id=id)
             serializer = UserGetSerializer(user_obj, context={'request':request})
+            logger.info("user fetched by id successfully")
             return Response({"status": "true" , "data" :serializer.data},200)
         else:
+            logger.error("unable to fetch the user by the entered id")
             return Response({"status": "false" , "response" :"unable to find the User!"},404)
 
     def put(self, request , id , format=None):
@@ -79,25 +84,31 @@ class RegisterUserDetailById(APIView):
 
                 if data.get('password')==data.get('confirm_password'):
                     serializer.save()
+                    logger.info("user updated successfully")
                     return Response(
                         {'message':'user updated successfully',
                         'staus_code': 201,
                         'response': serializer.data,}, 201)
                 else:
+                    logger.error("incorrect password")
                     return Response({'message':'please check your password and try again',
                     'status_code': 400,}, 400)
                 
             else:
+                logger.error("invalid  serializer data")
                 return Response({"status": "false" , "error" :serializer.errors}, status=status.HTTP_400_BAD_REQUEST)
         else:
+            logger.error("unable to find the user with the entered id")
             return Response({"status": "false" , "response" :"unable to find the User!"},404)
 
     def delete(self, request, id , format=None):
         if Register.objects.filter(id=id).exists():
             user_obj=Register.objects.get(id=id)
             user_obj.delete()
+            logger.info("user deleted successfully")
             return Response({"status": "true",'response': "User deleted successfully!!"},200)
         else:
+            logger.error("incorrect id , user with this id does not exists.")
             return Response({"status": "false" , "error" :"User doesn't exists. " }, status=status.HTTP_400_BAD_REQUEST)
 
 
@@ -128,6 +139,7 @@ class LoginUserPostAndGet(APIView):
 
                     refresh = RefreshToken.for_user(dbuser)
 
+                    logger.info("user logged in successfully")
                     return Response(
                         {'message':'user LoggedIn successfully',
                         'staus_code': 201,
@@ -136,17 +148,19 @@ class LoginUserPostAndGet(APIView):
                         'access': str(refresh.access_token),}, 201
                     )
                 else:
+                    logger.error("invalid credentials")
                     return Response(
                         {'message':'Please Check Your Credentials',
                         'staus_code': 401,}, 401
                     )
             else:
-                logging.warning("EMAIL OR PASSWORD IS INCORRECT")
+                logger.error("EMAIL OR PASSWORD IS INCORRECT")
                 return Response(
                     {'message':'Please Check Your Credentials',
                         'staus_code': 401,}, 401
                 )
         else:
+            logger.error("invalid serializer data")
             return Response({
                 "error" :serializer.errors,
                 'status_code': 400, }, 400)
@@ -167,11 +181,11 @@ class LoginResponsePage(APIView):
             if token_obj:
                 inactive_users = Login.objects.filter(is_active=False).values('email')
 
+                logger.info("welcome to login response page")
                 return Response({'message':'page after login , This page can only be seen by the user who have proper login credentials' ,
                                  'inactive_users':list(inactive_users)})
         except Exception as e:
-            logging.warning("Please enter a valid token")
-            logging.info("AKASH KASHYAP")
+            logger.error("Please enter a valid token")
             return Response({'message':'please check your token and try again'}, status=status.HTTP_400_BAD_REQUEST)
         
 
