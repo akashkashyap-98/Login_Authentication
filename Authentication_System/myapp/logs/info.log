@@ -1,0 +1,30 @@
+2023-07-17 14:58:49 INFO Watching for file changes with StatReloader
+2023-07-17 14:58:49 INFO Watching for file changes with StatReloader
+2023-07-17 14:59:00 ERROR please enter valid credentials for logout
+2023-07-17 14:59:00 INFO "POST /logout/ HTTP/1.1" 200 64
+2023-07-17 14:59:00 INFO "POST /logout/ HTTP/1.1" 200 64
+2023-07-17 15:00:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 15:00:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 15:00:31 INFO Watching for file changes with StatReloader
+2023-07-17 15:00:31 INFO Watching for file changes with StatReloader
+2023-07-17 15:01:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 15:01:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 15:01:14 INFO Watching for file changes with StatReloader
+2023-07-17 15:01:14 INFO Watching for file changes with StatReloader
+2023-07-17 15:01:47 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 15:01:47 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 15:01:47 INFO Watching for file changes with StatReloader
+2023-07-17 15:01:47 INFO Watching for file changes with StatReloader
+2023-07-17 15:02:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 15:02:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 15:02:02 INFO Watching for file changes with StatReloader
+2023-07-17 15:02:02 INFO Watching for file changes with StatReloader
+2023-07-17 15:02:09 INFO Successfully logged out.
+2023-07-17 15:02:09 INFO "POST /logout/ HTTP/1.1" 200 38
+2023-07-17 15:02:09 INFO "POST /logout/ HTTP/1.1" 200 38
+2023-07-17 15:04:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 15:04:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 15:04:10 INFO Watching for file changes with StatReloader
+2023-07-17 15:04:10 INFO Watching for file changes with StatReloader
+2023-07-17 15:04:54 INFO Watching for file changes with StatReloader
+2023-07-17 15:04:54 INFO Watching for file changes with StatReloader

@@ -12,13 +12,14 @@ from rest_framework_simplejwt.tokens import AccessToken
 from rest_framework_simplejwt.token_blacklist.models import OutstandingToken
 
 import logging
-logging.basicConfig(
-    filename="myapp/logs/logfile1.log",
-    filemode='a',
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    datefmt='%Y-%m-%d %H:%M:%S',
-)
+# logging.basicConfig(
+#     filename="myapp/logs/logfile1.log",
+#     filemode='a',
+#     format='%(asctime)s - %(levelname)s - %(message)s',
+#     datefmt='%Y-%m-%d %H:%M:%S',
+# )
 
+logger = logging.getLogger('myapp.views')
 
 
 # Create your views here.
@@ -110,8 +111,6 @@ class LoginUserPostAndGet(APIView):
         serializer = LoginUserCreateSerializer(data=data)
         if serializer.is_valid():
             dbuser = Register.objects.get(email=data.get('email'))
-            print("--------------------------")
-            print(dbuser.email , dbuser.password)
             if dbuser is not None:
 
                 print("i am db user", dbuser.email , dbuser.password)
@@ -124,7 +123,7 @@ class LoginUserPostAndGet(APIView):
                     userr = Login.objects.filter(email=dbuser.email).update(is_active=True)
                     print("----------debugging---------------")
                     print(userr)
-                    
+
                     #-----creating token manually------------------
 
                     refresh = RefreshToken.for_user(dbuser)
@@ -201,13 +200,17 @@ class Logout(APIView):
                     Login.objects.filter(email=user_email).update(is_active=False)
 
                     # token.blacklist()
+                    logger.info("Successfully logged out.")
                     return Response({"message": "Successfully logged out."}, status=status.HTTP_200_OK)
                 else:
+                    logger.error("please enter valid credentials for logout")
                     return Response({'message':'Please check your email and password and try again'})
             else:
+                logger.error("please enter email and password to logout")
                 return Response({'message':'please enter email and password to logout'})
             
         except Exception as e:
+            logger.error("Invalid token.")
             return Response({"message": "Invalid token."}, status=status.HTTP_400_BAD_REQUEST)
         
 
