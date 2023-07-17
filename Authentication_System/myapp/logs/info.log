@@ -82,3 +82,82 @@
 2023-07-17 17:33:37 INFO Watching for file changes with StatReloader
 2023-07-17 17:34:23 INFO Watching for file changes with StatReloader
 2023-07-17 17:34:23 INFO Watching for file changes with StatReloader
+2023-07-17 18:28:05 INFO Watching for file changes with StatReloader
+2023-07-17 18:28:05 INFO Watching for file changes with StatReloader
+2023-07-17 19:46:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 19:46:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 19:46:13 INFO Watching for file changes with StatReloader
+2023-07-17 19:46:13 INFO Watching for file changes with StatReloader
+2023-07-17 19:47:46 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 19:47:46 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 19:47:46 INFO Watching for file changes with StatReloader
+2023-07-17 19:47:46 INFO Watching for file changes with StatReloader
+2023-07-17 19:48:28 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 19:48:28 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 19:48:29 INFO Watching for file changes with StatReloader
+2023-07-17 19:48:29 INFO Watching for file changes with StatReloader
+2023-07-17 19:49:41 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 19:49:41 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 19:49:42 INFO Watching for file changes with StatReloader
+2023-07-17 19:49:42 INFO Watching for file changes with StatReloader
+2023-07-17 19:50:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 19:50:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 19:50:19 INFO Watching for file changes with StatReloader
+2023-07-17 19:50:19 INFO Watching for file changes with StatReloader
+2023-07-17 19:50:57 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 19:50:57 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 19:50:57 INFO Watching for file changes with StatReloader
+2023-07-17 19:50:57 INFO Watching for file changes with StatReloader
+2023-07-17 19:51:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 19:51:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 19:51:10 INFO Watching for file changes with StatReloader
+2023-07-17 19:51:10 INFO Watching for file changes with StatReloader
+2023-07-17 19:52:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 19:52:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 19:52:02 INFO Watching for file changes with StatReloader
+2023-07-17 19:52:02 INFO Watching for file changes with StatReloader
+2023-07-17 19:53:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 19:53:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-17 19:53:31 INFO Watching for file changes with StatReloader
+2023-07-17 19:53:31 INFO Watching for file changes with StatReloader
+2023-07-17 19:58:17 INFO "GET /user/ HTTP/1.1" 200 1298
+2023-07-17 19:58:17 INFO "GET /user/ HTTP/1.1" 200 1298
+2023-07-17 19:59:03 ERROR password and confirm password must be same , please check it and try again
+2023-07-17 19:59:03 WARNING "POST /user/ HTTP/1.1" 400 72
+2023-07-17 19:59:03 WARNING "POST /user/ HTTP/1.1" 400 72
+2023-07-17 19:59:15 INFO user registered successfully
+2023-07-17 19:59:15 INFO "POST /user/ HTTP/1.1" 201 252
+2023-07-17 19:59:15 INFO "POST /user/ HTTP/1.1" 201 252
+2023-07-17 19:59:52 ERROR An error occurred: Register matching query does not exist.
+2023-07-17 19:59:52 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-17 19:59:52 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-17 20:00:07 WARNING Email and password matched
+2023-07-17 20:00:07 INFO user logged in successfully
+2023-07-17 20:00:07 INFO "POST /login/ HTTP/1.1" 201 560
+2023-07-17 20:00:07 INFO "POST /login/ HTTP/1.1" 201 560
+2023-07-17 20:00:31 INFO welcome to login response page
+2023-07-17 20:00:31 INFO "POST /login_response/ HTTP/1.1" 200 266
+2023-07-17 20:00:31 INFO "POST /login_response/ HTTP/1.1" 200 266
+2023-07-17 20:00:40 ERROR Please enter a valid token
+2023-07-17 20:00:40 WARNING "POST /login_response/ HTTP/1.1" 400 51
+2023-07-17 20:00:40 WARNING "POST /login_response/ HTTP/1.1" 400 51
+2023-07-17 20:00:49 INFO welcome to login response page
+2023-07-17 20:00:49 INFO "POST /login_response/ HTTP/1.1" 200 266
+2023-07-17 20:00:49 INFO "POST /login_response/ HTTP/1.1" 200 266
+2023-07-17 20:01:13 INFO Successfully logged out.
+2023-07-17 20:01:13 INFO "POST /logout/ HTTP/1.1" 200 38
+2023-07-17 20:01:13 INFO "POST /logout/ HTTP/1.1" 200 38
+2023-07-17 20:01:22 ERROR please enter valid credentials for logout
+2023-07-17 20:01:22 INFO "POST /logout/ HTTP/1.1" 200 64
+2023-07-17 20:01:22 INFO "POST /logout/ HTTP/1.1" 200 64
+2023-07-17 20:01:33 ERROR please enter valid credentials for logout
+2023-07-17 20:01:33 INFO "POST /logout/ HTTP/1.1" 200 64
+2023-07-17 20:01:33 INFO "POST /logout/ HTTP/1.1" 200 64
+2023-07-17 20:01:40 INFO Successfully logged out.
+2023-07-17 20:01:40 INFO "POST /logout/ HTTP/1.1" 200 38
+2023-07-17 20:01:40 INFO "POST /logout/ HTTP/1.1" 200 38
+2023-07-17 20:01:46 INFO welcome to login response page
+2023-07-17 20:01:46 INFO "POST /login_response/ HTTP/1.1" 200 295
+2023-07-17 20:01:46 INFO "POST /login_response/ HTTP/1.1" 200 295
+2023-07-17 20:32:34 INFO Watching for file changes with StatReloader
+2023-07-17 20:32:34 INFO Watching for file changes with StatReloader

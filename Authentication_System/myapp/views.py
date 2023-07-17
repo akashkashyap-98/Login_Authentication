@@ -29,87 +29,142 @@ class RegisterUserPostAndGet(APIView):
     authentication_classes=[]
 
     def post(self,request):
-        data=request.data
-        serializer = UserCreteSerializer(data=data)
-        if serializer.is_valid():
-            if data.get('password')==data.get('confirm_password'):
-                serializer.save()
-                logger.info("user registered successfully")
-                return Response(
-                    {'message':'user registered successfully',
-                    'staus_code': 201,
-                    'response': serializer.data,}, 201
+        try:
+            data=request.data
+            serializer = UserCreteSerializer(data=data)
+            if serializer.is_valid():
+                if data.get('password')==data.get('confirm_password'):
+                    serializer.save()
+                    logger.info("user registered successfully")
+                    return Response(
+                        {'message':'user registered successfully',
+                        'staus_code': 201,
+                        'response': serializer.data,}, 201
 
-                )
+                    )
+                else:
+                    logger.error("password and confirm password must be same , please check it and try again")
+                    return Response({'message':'please check your password and try again',
+                    'status_code': 400,}, 400)
             else:
-                logger.error("password and confirm password must be same , please check it and try again")
-                return Response({'message':'please check your password and try again',
-                'status_code': 400,}, 400)
-        else:
-            logger.error("serializer is not valid , please check the json data")
-            return Response({
-				"error" :serializer.errors,
-				'status_code': 400
-				}, 400)
-    
+                logger.error("serializer is not valid , please check the json data")
+                return Response({
+                    "error" :serializer.errors,
+                    'status_code': 400
+                    }, 400)
+        except Exception as e:
+            logger.error(f"An error occurred: {str(e)}")
+            return Response(
+                {
+                    'message': 'An error occurred',
+                    'status_code': 500,
+                },
+                500
+            )
+
+
+
+
     def get(self,request):
-		# method to return all instances over resource '''
-        user_objs = Register.objects.all()
-        serializer = UserCreteSerializer(user_objs, many=True)
-        return Response({'status':200 , 'payload':serializer.data})
+        try:
+            # method to return all instances over resource '''
+            user_objs = Register.objects.all()
+            serializer = UserCreteSerializer(user_objs, many=True)
+            return Response({'status':200 , 'payload':serializer.data})
+        except Exception as e:
+            logger.error(f"An error occurred: {str(e)}")
+            return Response(
+                {
+                    'message': 'An error occurred',
+                    'status_code': 500,
+                },
+                500
+            )
 
 class RegisterUserDetailById(APIView):
     permission_classes = [IsAuthenticated]
     authentication_classes=[ JWTAuthentication ]
 
     def get(self, request , id , format=None):
-        if Register.objects.filter(id=id).exists():
-            user_obj = Register.objects.get(id=id)
-            serializer = UserGetSerializer(user_obj, context={'request':request})
-            logger.info("user fetched by id successfully")
-            return Response({"status": "true" , "data" :serializer.data},200)
-        else:
-            logger.error("unable to fetch the user by the entered id")
-            return Response({"status": "false" , "response" :"unable to find the User!"},404)
+        try:
+            if Register.objects.filter(id=id).exists():
+                user_obj = Register.objects.get(id=id)
+                serializer = UserGetSerializer(user_obj, context={'request':request})
+                logger.info("user fetched by id successfully")
+                return Response({"status": "true" , "data" :serializer.data},200)
+            else:
+                logger.error("unable to fetch the user by the entered id")
+                return Response({"status": "false" , "response" :"unable to find the User!"},404)
+            
+        except Exception as e:
+            logger.error(f"An error occurred: {str(e)}")
+            return Response(
+                {
+                    'message': 'An error occurred',
+                    'status_code': 500,
+                },
+                500
+            )
 
     def put(self, request , id , format=None):
-        if Register.objects.filter(id=id).exists():
-            data=request.data
-            user_obj = Register.objects.get(id=id)
-            serializer = UserUpdateSerializer(user_obj, data=data)
-            print("---------TESTING----------------")
-            
-            print(data)
-            if serializer.is_valid():
-
-                if data.get('password')==data.get('confirm_password'):
-                    serializer.save()
-                    logger.info("user updated successfully")
-                    return Response(
-                        {'message':'user updated successfully',
-                        'staus_code': 201,
-                        'response': serializer.data,}, 201)
-                else:
-                    logger.error("incorrect password")
-                    return Response({'message':'please check your password and try again',
-                    'status_code': 400,}, 400)
+        try:
+            if Register.objects.filter(id=id).exists():
+                data=request.data
+                user_obj = Register.objects.get(id=id)
+                serializer = UserUpdateSerializer(user_obj, data=data)
+                print("---------TESTING----------------")
                 
+                print(data)
+                if serializer.is_valid():
+
+                    if data.get('password')==data.get('confirm_password'):
+                        serializer.save()
+                        logger.info("user updated successfully")
+                        return Response(
+                            {'message':'user updated successfully',
+                            'staus_code': 201,
+                            'response': serializer.data,}, 201)
+                    else:
+                        logger.error("incorrect password")
+                        return Response({'message':'please check your password and try again',
+                        'status_code': 400,}, 400)
+                    
+                else:
+                    logger.error("invalid  serializer data")
+                    return Response({"status": "false" , "error" :serializer.errors}, status=status.HTTP_400_BAD_REQUEST)
             else:
-                logger.error("invalid  serializer data")
-                return Response({"status": "false" , "error" :serializer.errors}, status=status.HTTP_400_BAD_REQUEST)
-        else:
-            logger.error("unable to find the user with the entered id")
-            return Response({"status": "false" , "response" :"unable to find the User!"},404)
+                logger.error("unable to find the user with the entered id")
+                return Response({"status": "false" , "response" :"unable to find the User!"},404)
+        
+        except Exception as e:
+            logger.error(f"An error occurred: {str(e)}")
+            return Response(
+                {
+                    'message': 'An error occurred',
+                    'status_code': 500,
+                },
+                500
+            )
 
     def delete(self, request, id , format=None):
-        if Register.objects.filter(id=id).exists():
-            user_obj=Register.objects.get(id=id)
-            user_obj.delete()
-            logger.info("user deleted successfully")
-            return Response({"status": "true",'response': "User deleted successfully!!"},200)
-        else:
-            logger.error("incorrect id , user with this id does not exists.")
-            return Response({"status": "false" , "error" :"User doesn't exists. " }, status=status.HTTP_400_BAD_REQUEST)
+        try:
+            if Register.objects.filter(id=id).exists():
+                user_obj=Register.objects.get(id=id)
+                user_obj.delete()
+                logger.info("user deleted successfully")
+                return Response({"status": "true",'response': "User deleted successfully!!"},200)
+            else:
+                logger.error("incorrect id , user with this id does not exists.")
+                return Response({"status": "false" , "error" :"User doesn't exists. " }, status=status.HTTP_400_BAD_REQUEST)
+        except Exception as e:
+            logger.error(f"An error occurred: {str(e)}")
+            return Response(
+                {
+                    'message': 'An error occurred',
+                    'status_code': 500,
+                },
+                500
+            )
 
 
 class LoginUserPostAndGet(APIView):
@@ -117,54 +172,65 @@ class LoginUserPostAndGet(APIView):
     authentication_classes=[]
 
     def post(self,request):
-        data=request.data
-        print(data)
-        serializer = LoginUserCreateSerializer(data=data)
-        if serializer.is_valid():
-            dbuser = Register.objects.get(email=data.get('email'))
-            if dbuser is not None:
+        try:
+            data=request.data
+            print(data)
+            serializer = LoginUserCreateSerializer(data=data)
+            if serializer.is_valid():
+                dbuser = Register.objects.get(email=data.get('email'))
+                if dbuser is not None:
 
-                print("i am db user", dbuser.email , dbuser.password)
-                if Register.objects.filter(email=dbuser.email) and Register.objects.filter(password=dbuser.password):
-                    logging.warning("Email and password matched")
+                    print("i am db user", dbuser.email , dbuser.password)
+                    if Register.objects.filter(email=dbuser.email) and Register.objects.filter(password=dbuser.password):
+                        logging.warning("Email and password matched")
 
-                    serializer.save()
+                        serializer.save()
 
-                    #----if user login the is_active field turns True-----
-                    userr = Login.objects.filter(email=dbuser.email).update(is_active=True)
-                    print("----------debugging---------------")
-                    print(userr)
+                        #----if user login the is_active field turns True-----
+                        userr = Login.objects.filter(email=dbuser.email).update(is_active=True)
+                        print("----------debugging---------------")
+                        print(userr)
 
-                    #-----creating token manually------------------
+                        #-----creating token manually------------------
 
-                    refresh = RefreshToken.for_user(dbuser)
+                        refresh = RefreshToken.for_user(dbuser)
 
-                    logger.info("user logged in successfully")
-                    return Response(
-                        {'message':'user LoggedIn successfully',
-                        'staus_code': 201,
-                        'response': 'success',
-                        'refresh': str(refresh),
-                        'access': str(refresh.access_token),}, 201
-                    )
+                        logger.info("user logged in successfully")
+                        return Response(
+                            {'message':'user LoggedIn successfully',
+                            'staus_code': 201,
+                            'response': 'success',
+                            'refresh': str(refresh),
+                            'access': str(refresh.access_token),}, 201
+                        )
+                    else:
+                        logger.error("invalid credentials")
+                        return Response(
+                            {'message':'Please Check Your Credentials',
+                            'staus_code': 401,}, 401
+                        )
                 else:
-                    logger.error("invalid credentials")
+                    logger.error("EMAIL OR PASSWORD IS INCORRECT")
                     return Response(
                         {'message':'Please Check Your Credentials',
-                        'staus_code': 401,}, 401
+                            'staus_code': 401,}, 401
                     )
             else:
-                logger.error("EMAIL OR PASSWORD IS INCORRECT")
-                return Response(
-                    {'message':'Please Check Your Credentials',
-                        'staus_code': 401,}, 401
-                )
-        else:
-            logger.error("invalid serializer data")
-            return Response({
-                "error" :serializer.errors,
-                'status_code': 400, }, 400)
-        
+                logger.error("invalid serializer data")
+                return Response({
+                    "error" :serializer.errors,
+                    'status_code': 400, }, 400)
+            
+        except Exception as e:
+            logger.error(f"An error occurred: {str(e)}")
+            return Response(
+                {
+                    'message': 'An error occurred',
+                    'status_code': 500,
+                },
+                500
+            )
+            
 
 class LoginResponsePage(APIView):
     permission_classes = []

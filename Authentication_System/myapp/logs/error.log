@@ -1,1 +1,9 @@
 2023-07-17 14:59:00 ERROR please enter valid credentials for logout
+2023-07-17 19:59:03 ERROR password and confirm password must be same , please check it and try again
+2023-07-17 19:59:52 ERROR An error occurred: Register matching query does not exist.
+2023-07-17 19:59:52 ERROR Internal Server Error: /login/
+2023-07-17 19:59:52 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-17 19:59:52 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-17 20:00:40 ERROR Please enter a valid token
+2023-07-17 20:01:22 ERROR please enter valid credentials for logout
+2023-07-17 20:01:33 ERROR please enter valid credentials for logout
