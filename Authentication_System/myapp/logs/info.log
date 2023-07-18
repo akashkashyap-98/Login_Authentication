@@ -161,3 +161,118 @@
 2023-07-17 20:01:46 INFO "POST /login_response/ HTTP/1.1" 200 295
 2023-07-17 20:32:34 INFO Watching for file changes with StatReloader
 2023-07-17 20:32:34 INFO Watching for file changes with StatReloader
+2023-07-17 20:33:45 INFO Watching for file changes with StatReloader
+2023-07-17 20:33:45 INFO Watching for file changes with StatReloader
+2023-07-18 13:14:11 INFO Watching for file changes with StatReloader
+2023-07-18 13:14:11 INFO Watching for file changes with StatReloader
+2023-07-18 13:29:53 INFO Watching for file changes with StatReloader
+2023-07-18 13:29:53 INFO Watching for file changes with StatReloader
+2023-07-18 18:03:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-18 18:03:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-18 18:03:49 INFO Watching for file changes with StatReloader
+2023-07-18 18:03:49 INFO Watching for file changes with StatReloader
+2023-07-18 18:04:00 INFO Watching for file changes with StatReloader
+2023-07-18 18:04:00 INFO Watching for file changes with StatReloader
+2023-07-18 18:30:56 INFO Watching for file changes with StatReloader
+2023-07-18 18:30:56 INFO Watching for file changes with StatReloader
+2023-07-18 18:31:38 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-18 18:31:38 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-18 18:31:38 INFO Watching for file changes with StatReloader
+2023-07-18 18:31:38 INFO Watching for file changes with StatReloader
+2023-07-18 18:32:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-18 18:32:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-18 18:32:09 INFO Watching for file changes with StatReloader
+2023-07-18 18:32:09 INFO Watching for file changes with StatReloader
+2023-07-18 18:35:29 ERROR invalid serializer data
+2023-07-18 18:35:29 WARNING "POST /login/ HTTP/1.1" 400 79
+2023-07-18 18:35:29 WARNING "POST /login/ HTTP/1.1" 400 79
+2023-07-18 18:36:00 INFO "GET /admin/ HTTP/1.1" 200 9158
+2023-07-18 18:36:00 INFO "GET /admin/ HTTP/1.1" 200 9158
+2023-07-18 18:36:00 INFO "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2023-07-18 18:36:00 INFO "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2023-07-18 18:36:00 INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2023-07-18 18:36:00 INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2023-07-18 18:36:00 INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2023-07-18 18:36:00 INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2023-07-18 18:36:00 INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2023-07-18 18:36:00 INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2023-07-18 18:36:00 INFO "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2023-07-18 18:36:00 INFO "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2023-07-18 18:36:00 INFO "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2023-07-18 18:36:00 INFO "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2023-07-18 18:36:00 INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2023-07-18 18:36:00 INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2023-07-18 18:36:00 INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2023-07-18 18:36:00 INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2023-07-18 18:36:00 INFO "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+2023-07-18 18:36:00 INFO "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+2023-07-18 18:36:00 INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2023-07-18 18:36:00 INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2023-07-18 18:36:01 WARNING "GET /favicon.ico HTTP/1.1" 404 3342
+2023-07-18 18:36:01 WARNING "GET /favicon.ico HTTP/1.1" 404 3342
+2023-07-18 18:36:03 INFO "GET /admin/myapp/login/ HTTP/1.1" 200 10615
+2023-07-18 18:36:03 INFO "GET /admin/myapp/login/ HTTP/1.1" 200 10615
+2023-07-18 18:36:03 INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2023-07-18 18:36:03 INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2023-07-18 18:36:03 INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2023-07-18 18:36:03 INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2023-07-18 18:36:03 INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2023-07-18 18:36:03 INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2023-07-18 18:36:03 INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2023-07-18 18:36:03 INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2023-07-18 18:36:03 INFO "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2023-07-18 18:36:03 INFO "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2023-07-18 18:36:03 INFO "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2023-07-18 18:36:03 INFO "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2023-07-18 18:36:03 INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+2023-07-18 18:36:03 INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+2023-07-18 18:36:03 INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+2023-07-18 18:36:03 INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+2023-07-18 18:36:03 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-18 18:36:03 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-18 18:36:03 INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2023-07-18 18:36:03 INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2023-07-18 18:36:03 INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2023-07-18 18:36:03 INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2023-07-18 18:36:03 INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2023-07-18 18:36:03 INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2023-07-18 18:36:08 INFO "GET /admin/myapp/login/81/change/ HTTP/1.1" 200 9921
+2023-07-18 18:36:08 INFO "GET /admin/myapp/login/81/change/ HTTP/1.1" 200 9921
+2023-07-18 18:36:08 INFO "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+2023-07-18 18:36:08 INFO "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+2023-07-18 18:36:08 INFO "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+2023-07-18 18:36:08 INFO "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+2023-07-18 18:36:08 INFO "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+2023-07-18 18:36:08 INFO "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+2023-07-18 18:36:08 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-18 18:36:08 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-18 18:36:08 INFO "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+2023-07-18 18:36:08 INFO "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+2023-07-18 18:36:09 INFO "GET /admin/myapp/login/81/delete/ HTTP/1.1" 200 7692
+2023-07-18 18:36:09 INFO "GET /admin/myapp/login/81/delete/ HTTP/1.1" 200 7692
+2023-07-18 18:36:09 INFO "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+2023-07-18 18:36:09 INFO "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+2023-07-18 18:36:11 INFO "POST /admin/myapp/login/81/delete/ HTTP/1.1" 302 0
+2023-07-18 18:36:11 INFO "POST /admin/myapp/login/81/delete/ HTTP/1.1" 302 0
+2023-07-18 18:36:11 INFO "GET /admin/myapp/login/ HTTP/1.1" 200 10479
+2023-07-18 18:36:11 INFO "GET /admin/myapp/login/ HTTP/1.1" 200 10479
+2023-07-18 18:36:11 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-18 18:36:11 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-18 18:36:14 WARNING Email and password matched
+2023-07-18 18:36:14 INFO user logged in successfully
+2023-07-18 18:36:14 INFO "POST /login/ HTTP/1.1" 201 560
+2023-07-18 18:36:14 INFO "POST /login/ HTTP/1.1" 201 560
+2023-07-18 18:36:34 INFO welcome to login response page
+2023-07-18 18:36:34 INFO "POST /login_response/ HTTP/1.1" 200 266
+2023-07-18 18:36:34 INFO "POST /login_response/ HTTP/1.1" 200 266
+2023-07-18 18:36:50 INFO Successfully logged out.
+2023-07-18 18:36:50 INFO "POST /logout/ HTTP/1.1" 200 38
+2023-07-18 18:36:50 INFO "POST /logout/ HTTP/1.1" 200 38
+2023-07-18 18:38:24 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-18 18:38:24 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-18 18:38:25 INFO Watching for file changes with StatReloader
+2023-07-18 18:38:25 INFO Watching for file changes with StatReloader
+2023-07-18 20:25:45 INFO Watching for file changes with StatReloader
+2023-07-18 20:25:45 INFO Watching for file changes with StatReloader
+2023-07-18 20:25:53 INFO Watching for file changes with StatReloader
+2023-07-18 20:25:53 INFO Watching for file changes with StatReloader

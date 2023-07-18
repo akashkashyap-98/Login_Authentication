@@ -256,12 +256,50 @@ class LoginResponsePage(APIView):
         
 
         
-class Logout(APIView):
-    permission_classes = []
-    authentication_classes=[]
+# class Logout(APIView):
+#     permission_classes = []
+#     authentication_classes=[]
 
-    def post(self, request , format = None):
-        data=request.data
+#     def post(self, request , format = None):
+#         data=request.data
+#         try:
+#             print("======i am try=========")
+#             refresh_token = request.META['HTTP_AUTHORIZATION'].split(' ')[1]
+#             token = RefreshToken(refresh_token)
+#             print(token)
+
+#             user_email = data.get('email')
+#             print(user_email)
+#             user_password = data.get('password')
+#             print(user_password)
+#             print("---------------------------------")
+#             if user_email and user_password:
+#                 print("-------------------------")
+#                 if Login.objects.filter(email=user_email) and Login.objects.filter(password=user_password):
+#                     print("=====Email and password matched successfully====")
+#                     Login.objects.filter(email=user_email).update(is_active=False)
+
+#                     # token.blacklist()
+#                     logger.info("Successfully logged out.")
+#                     return Response({"message": "Successfully logged out."}, status=status.HTTP_200_OK)
+#                 else:
+#                     logger.error("please enter valid credentials for logout")
+#                     return Response({'message':'Please check your email and password and try again'})
+#             else:
+#                 logger.error("please enter email and password to logout")
+#                 return Response({'message':'please enter email and password to logout'})
+            
+#         except Exception as e:
+#             logger.error("Invalid token.")
+#             return Response({"message": "Invalid token."}, status=status.HTTP_400_BAD_REQUEST)
+
+
+from functools import wraps
+
+def authenticate(func):
+    @wraps(func)  # Preserves the original function's name and docstring
+    def wrapper(self, request, *args, **kwargs):
+        data = request.data
         try:
             print("======i am try=========")
             refresh_token = request.META['HTTP_AUTHORIZATION'].split(' ')[1]
@@ -284,42 +322,56 @@ class Logout(APIView):
                     return Response({"message": "Successfully logged out."}, status=status.HTTP_200_OK)
                 else:
                     logger.error("please enter valid credentials for logout")
-                    return Response({'message':'Please check your email and password and try again'})
+                    return Response({'message': 'Please check your email and password and try again'})
             else:
                 logger.error("please enter email and password to logout")
-                return Response({'message':'please enter email and password to logout'})
-            
+                return Response({'message': 'please enter email and password to logout'})
+
         except Exception as e:
             logger.error("Invalid token.")
             return Response({"message": "Invalid token."}, status=status.HTTP_400_BAD_REQUEST)
-        
+
+    return wrapper
+
+
+class Logout(APIView):
+    permission_classes = []
+    authentication_classes = []
+
+    @authenticate  # Applying the decorator to the 'post' method
+    def post(self, request, format=None):
+        data = request.data
+        try:
+            print("======i am try=========")
+            refresh_token = request.META['HTTP_AUTHORIZATION'].split(' ')[1]
+            token = RefreshToken(refresh_token)
+            print(token)
+
+            user_email = data.get('email')
+            print(user_email)
+            user_password = data.get('password')
+            print(user_password)
+            print("---------------------------------")
+            if user_email and user_password:
+                print("-------------------------")
+                if Login.objects.filter(email=user_email) and Login.objects.filter(password=user_password):
+                    print("=====Email and password matched successfully====")
+                    Login.objects.filter(email=user_email).update(is_active=False)
+
+                    # token.blacklist()
+                    logger.info("Successfully logged out.")
+                    return Response({"message": "Successfully logged out."}, status=status.HTTP_200_OK)
+                else:
+                    logger.error("please enter valid credentials for logout")
+                    return Response({'message': 'Please check your email and password and try again'})
+            else:
+                logger.error("please enter email and password to logout")
+                return Response({'message': 'please enter email and password to logout'})
+
+        except Exception as e:
+            logger.error("Invalid token.")
+            return Response({"message": "Invalid token."}, status=status.HTTP_400_BAD_REQUEST)
 
 
 
-
-
-# class Logout(APIView):
-#     permission_classes = []
-#     authentication_classes=[]
-
-#     def post(self, request):
-#         data=request.data
-#         # serializer=LogoutUserSerializer(data=data)
-#         print("-------testting  1 for logout--------------")
-#         # if serializer.is_valid():
-#         print("-------testting for logout--------------")
-#         user_email = data.get('email')
-#         user_password = data.get('password')
-#         if Login.objects.filter(email = user_email) and Login.objects.filter(password = user_password) :
-#             Login.objects.filter(email='user_email').delete()
-#             print("-------user deleted from login table--------")
-#             return Response(
-#             {'message':'user Logged Out successfully',
-#             'staus_code': 201,
-#             'response': 'success'}, 201
-#             )
-#         else:
-#             return Response({
-#                 'message':'please check your credentials',
-#                 'status_code': 400, }, 400)
 
