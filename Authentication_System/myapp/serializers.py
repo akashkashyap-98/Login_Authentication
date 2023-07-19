@@ -1,5 +1,5 @@
 from rest_framework import serializers
-
+import random
 from .models import *
 
 class UserCreteSerializer(serializers.ModelSerializer):
@@ -9,7 +9,18 @@ class UserCreteSerializer(serializers.ModelSerializer):
         fields = ['id', 'first_name','last_name', 'username' , 'mobile' , 'email', 'password' ,'confirm_password',]
 
     def create(self, validated_data):
-       return Register.objects.create(**validated_data)
+        instance =  Register.objects.create(**validated_data)
+
+        # --------logic for creating 6 digit random number OTP---------------
+        random_number=random.randint(111111,999999)
+
+        # ----- saving the random number in CustomUser table in OTP field---------
+        instance.OTP = random_number
+        print("----------OTP-------------")
+        print(instance.OTP)
+        instance.save()
+
+        return instance
 
 
 class UserUpdateSerializer(serializers.ModelSerializer):
@@ -41,7 +52,7 @@ class LoginUserCreateSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Login
-        fields = ['email', 'password']
+        fields = ['email', 'password', 'entered_otp']
 
     def create(self, validated_data):
         return Login.objects.create(**validated_data)

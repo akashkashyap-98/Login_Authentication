@@ -11,6 +11,10 @@ from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework_simplejwt.tokens import AccessToken
 from rest_framework_simplejwt.token_blacklist.models import OutstandingToken
 
+from django.core.mail import send_mail
+from django.contrib import messages
+from django.conf import settings
+
 import logging
 # logging.basicConfig(
 #     filename="myapp/logs/logfile1.log",
@@ -34,7 +38,16 @@ class RegisterUserPostAndGet(APIView):
             serializer = UserCreteSerializer(data=data)
             if serializer.is_valid():
                 if data.get('password')==data.get('confirm_password'):
-                    serializer.save()
+                    instance = serializer.save()
+
+                    # ------sending username and OTP to email-------------
+                    subject = 'WELCOME TO THE TASK_TOKEN '
+                    message = f"Hii! , {instance.email} your username is : {instance.email} and your OTP is {instance.OTP}"
+                    from_email = settings.EMAIL_HOST_USER
+                    recipient_list = [data['email']]
+                    send_mail(subject , message , from_email , recipient_list , fail_silently=False)
+
+                    
                     logger.info("user registered successfully")
                     return Response(
                         {'message':'user registered successfully',
@@ -180,7 +193,7 @@ class LoginUserPostAndGet(APIView):
                 dbuser = Register.objects.get(email=data.get('email'))
                 if dbuser is not None:
 
-                    print("i am db user", dbuser.email , dbuser.password)
+                    print("i am db user", dbuser.email , dbuser.password , data.get['entered_otp'])
                     if Register.objects.filter(email=dbuser.email) and Register.objects.filter(password=dbuser.password):
                         logging.warning("Email and password matched")
 

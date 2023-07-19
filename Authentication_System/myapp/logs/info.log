@@ -276,3 +276,203 @@
 2023-07-18 20:25:45 INFO Watching for file changes with StatReloader
 2023-07-18 20:25:53 INFO Watching for file changes with StatReloader
 2023-07-18 20:25:53 INFO Watching for file changes with StatReloader
+2023-07-18 20:27:15 INFO Watching for file changes with StatReloader
+2023-07-18 20:27:15 INFO Watching for file changes with StatReloader
+2023-07-19 14:19:03 INFO Watching for file changes with StatReloader
+2023-07-19 14:19:03 INFO Watching for file changes with StatReloader
+2023-07-19 14:31:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py changed, reloading.
+2023-07-19 14:31:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py changed, reloading.
+2023-07-19 14:31:09 INFO Watching for file changes with StatReloader
+2023-07-19 14:31:09 INFO Watching for file changes with StatReloader
+2023-07-19 14:31:14 INFO Watching for file changes with StatReloader
+2023-07-19 14:31:14 INFO Watching for file changes with StatReloader
+2023-07-19 14:32:26 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py changed, reloading.
+2023-07-19 14:32:26 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py changed, reloading.
+2023-07-19 14:32:27 INFO Watching for file changes with StatReloader
+2023-07-19 14:32:27 INFO Watching for file changes with StatReloader
+2023-07-19 14:33:06 INFO Watching for file changes with StatReloader
+2023-07-19 14:33:06 INFO Watching for file changes with StatReloader
+2023-07-19 14:33:16 INFO "GET /admin/ HTTP/1.1" 200 9159
+2023-07-19 14:33:16 INFO "GET /admin/ HTTP/1.1" 200 9159
+2023-07-19 14:33:17 WARNING "GET /favicon.ico HTTP/1.1" 404 3342
+2023-07-19 14:33:17 WARNING "GET /favicon.ico HTTP/1.1" 404 3342
+2023-07-19 14:33:19 INFO "GET /admin/myapp/register/ HTTP/1.1" 200 11371
+2023-07-19 14:33:19 INFO "GET /admin/myapp/register/ HTTP/1.1" 200 11371
+2023-07-19 14:33:19 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-19 14:33:19 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-19 14:33:26 INFO "GET /admin/myapp/register/8/change/ HTTP/1.1" 200 13521
+2023-07-19 14:33:26 INFO "GET /admin/myapp/register/8/change/ HTTP/1.1" 200 13521
+2023-07-19 14:33:26 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-19 14:33:26 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-19 14:33:39 INFO "GET /admin/myapp/register/ HTTP/1.1" 200 11371
+2023-07-19 14:33:39 INFO "GET /admin/myapp/register/ HTTP/1.1" 200 11371
+2023-07-19 14:35:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 14:35:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 14:35:57 INFO Watching for file changes with StatReloader
+2023-07-19 14:35:57 INFO Watching for file changes with StatReloader
+2023-07-19 14:37:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 14:37:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 14:37:31 INFO Watching for file changes with StatReloader
+2023-07-19 14:37:31 INFO Watching for file changes with StatReloader
+2023-07-19 14:39:06 ERROR serializer is not valid , please check the json data
+2023-07-19 14:39:06 WARNING "POST /user/ HTTP/1.1" 400 84
+2023-07-19 14:39:06 WARNING "POST /user/ HTTP/1.1" 400 84
+2023-07-19 14:39:17 INFO user registered successfully
+2023-07-19 14:39:17 INFO "POST /user/ HTTP/1.1" 201 247
+2023-07-19 14:39:17 INFO "POST /user/ HTTP/1.1" 201 247
+2023-07-19 14:39:44 WARNING "GET /user/9/ HTTP/1.1" 401 183
+2023-07-19 14:39:44 WARNING "GET /user/9/ HTTP/1.1" 401 183
+2023-07-19 14:39:55 INFO "POST /api/token/ HTTP/1.1" 200 483
+2023-07-19 14:39:55 INFO "POST /api/token/ HTTP/1.1" 200 483
+2023-07-19 14:40:21 INFO user fetched by id successfully
+2023-07-19 14:40:21 INFO "GET /user/9/ HTTP/1.1" 200 201
+2023-07-19 14:40:21 INFO "GET /user/9/ HTTP/1.1" 200 201
+2023-07-19 14:41:20 WARNING "PUT /user/9/ HTTP/1.1" 401 58
+2023-07-19 14:41:20 WARNING "PUT /user/9/ HTTP/1.1" 401 58
+2023-07-19 14:42:08 INFO user updated successfully
+2023-07-19 14:42:08 INFO "PUT /user/9/ HTTP/1.1" 201 186
+2023-07-19 14:42:08 INFO "PUT /user/9/ HTTP/1.1" 201 186
+2023-07-19 14:42:17 INFO user fetched by id successfully
+2023-07-19 14:42:17 INFO "GET /user/9/ HTTP/1.1" 200 201
+2023-07-19 14:42:17 INFO "GET /user/9/ HTTP/1.1" 200 201
+2023-07-19 14:42:28 INFO "GET /admin/myapp/register/ HTTP/1.1" 200 11668
+2023-07-19 14:42:28 INFO "GET /admin/myapp/register/ HTTP/1.1" 200 11668
+2023-07-19 14:42:28 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-19 14:42:28 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-19 14:42:30 INFO "GET /admin/myapp/register/9/change/ HTTP/1.1" 200 13528
+2023-07-19 14:42:30 INFO "GET /admin/myapp/register/9/change/ HTTP/1.1" 200 13528
+2023-07-19 14:42:30 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-19 14:42:30 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-19 14:54:03 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-07-19 14:54:03 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-07-19 14:54:04 INFO Watching for file changes with StatReloader
+2023-07-19 14:54:04 INFO Watching for file changes with StatReloader
+2023-07-19 14:59:27 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-19 14:59:27 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-19 14:59:28 INFO Watching for file changes with StatReloader
+2023-07-19 14:59:28 INFO Watching for file changes with StatReloader
+2023-07-19 15:00:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-19 15:00:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-19 15:00:22 INFO Watching for file changes with StatReloader
+2023-07-19 15:00:22 INFO Watching for file changes with StatReloader
+2023-07-19 15:01:43 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-19 15:01:43 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-19 15:01:44 INFO Watching for file changes with StatReloader
+2023-07-19 15:01:44 INFO Watching for file changes with StatReloader
+2023-07-19 15:06:37 INFO user registered successfully
+2023-07-19 15:06:37 INFO "POST /user/ HTTP/1.1" 201 249
+2023-07-19 15:06:37 INFO "POST /user/ HTTP/1.1" 201 249
+2023-07-19 15:08:40 INFO user registered successfully
+2023-07-19 15:08:40 INFO "POST /user/ HTTP/1.1" 201 260
+2023-07-19 15:08:40 INFO "POST /user/ HTTP/1.1" 201 260
+2023-07-19 18:44:08 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-19 18:44:08 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-19 18:44:09 INFO Watching for file changes with StatReloader
+2023-07-19 18:44:09 INFO Watching for file changes with StatReloader
+2023-07-19 18:44:47 ERROR An error occurred: Field name `OTP` is not valid for model `Login`.
+2023-07-19 18:44:47 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 18:44:47 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 18:47:27 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-19 18:47:27 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-19 18:47:28 INFO Watching for file changes with StatReloader
+2023-07-19 18:47:28 INFO Watching for file changes with StatReloader
+2023-07-19 18:47:58 ERROR An error occurred: Field name `OTP` is not valid for model `Login`.
+2023-07-19 18:47:58 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 18:47:58 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 18:51:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 18:51:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 18:51:11 INFO Watching for file changes with StatReloader
+2023-07-19 18:51:11 INFO Watching for file changes with StatReloader
+2023-07-19 18:51:13 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 18:51:13 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 18:51:13 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 18:51:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 18:51:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 18:51:41 INFO Watching for file changes with StatReloader
+2023-07-19 18:51:41 INFO Watching for file changes with StatReloader
+2023-07-19 19:45:21 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 19:45:21 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 19:45:21 INFO Watching for file changes with StatReloader
+2023-07-19 19:45:21 INFO Watching for file changes with StatReloader
+2023-07-19 19:45:32 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 19:45:32 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 19:45:32 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 19:47:19 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-19 19:47:19 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-19 19:47:19 INFO Watching for file changes with StatReloader
+2023-07-19 19:47:19 INFO Watching for file changes with StatReloader
+2023-07-19 19:47:23 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 19:47:23 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 19:47:23 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 19:53:21 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 19:53:21 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 19:53:21 INFO Watching for file changes with StatReloader
+2023-07-19 19:53:21 INFO Watching for file changes with StatReloader
+2023-07-19 19:53:25 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 19:53:25 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 19:53:25 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 19:53:27 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 19:53:27 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 19:53:27 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 19:59:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 19:59:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 19:59:07 INFO Watching for file changes with StatReloader
+2023-07-19 19:59:07 INFO Watching for file changes with StatReloader
+2023-07-19 19:59:17 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 19:59:17 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 19:59:17 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:02:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 20:02:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 20:02:48 INFO Watching for file changes with StatReloader
+2023-07-19 20:02:48 INFO Watching for file changes with StatReloader
+2023-07-19 20:04:24 INFO Watching for file changes with StatReloader
+2023-07-19 20:04:24 INFO Watching for file changes with StatReloader
+2023-07-19 20:05:00 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 20:05:00 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 20:05:00 INFO Watching for file changes with StatReloader
+2023-07-19 20:05:00 INFO Watching for file changes with StatReloader
+2023-07-19 20:05:13 INFO Watching for file changes with StatReloader
+2023-07-19 20:05:13 INFO Watching for file changes with StatReloader
+2023-07-19 20:05:17 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 20:05:17 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:05:17 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:12:28 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py changed, reloading.
+2023-07-19 20:12:28 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py changed, reloading.
+2023-07-19 20:12:28 INFO Watching for file changes with StatReloader
+2023-07-19 20:12:28 INFO Watching for file changes with StatReloader
+2023-07-19 20:15:08 INFO Watching for file changes with StatReloader
+2023-07-19 20:15:08 INFO Watching for file changes with StatReloader
+2023-07-19 20:16:49 INFO Watching for file changes with StatReloader
+2023-07-19 20:16:49 INFO Watching for file changes with StatReloader
+2023-07-19 20:16:53 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 20:16:53 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:16:53 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:18:24 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 20:18:24 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:18:24 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:18:41 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 20:18:41 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:18:41 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:20:27 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py changed, reloading.
+2023-07-19 20:20:27 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py changed, reloading.
+2023-07-19 20:20:28 INFO Watching for file changes with StatReloader
+2023-07-19 20:20:28 INFO Watching for file changes with StatReloader
+2023-07-19 20:20:31 ERROR An error occurred: Field name `entered_otp` is not valid for model `Login`.
+2023-07-19 20:20:31 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:20:31 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:26:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 20:26:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 20:26:11 INFO Watching for file changes with StatReloader
+2023-07-19 20:26:11 INFO Watching for file changes with StatReloader
+2023-07-19 20:26:19 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 20:26:19 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:26:19 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:27:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 20:27:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-19 20:27:10 INFO Watching for file changes with StatReloader
+2023-07-19 20:27:10 INFO Watching for file changes with StatReloader
+2023-07-19 20:27:13 ERROR An error occurred: Field name `entered_otp` is not valid for model `Login`.
+2023-07-19 20:27:13 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:27:13 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:39:52 INFO Watching for file changes with StatReloader
+2023-07-19 20:39:52 INFO Watching for file changes with StatReloader

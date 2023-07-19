@@ -8,3 +8,64 @@
 2023-07-17 20:01:22 ERROR please enter valid credentials for logout
 2023-07-17 20:01:33 ERROR please enter valid credentials for logout
 2023-07-18 18:35:29 ERROR invalid serializer data
+2023-07-19 14:39:06 ERROR serializer is not valid , please check the json data
+2023-07-19 18:44:47 ERROR An error occurred: Field name `OTP` is not valid for model `Login`.
+2023-07-19 18:44:47 ERROR Internal Server Error: /login/
+2023-07-19 18:44:47 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 18:44:47 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 18:47:58 ERROR An error occurred: Field name `OTP` is not valid for model `Login`.
+2023-07-19 18:47:58 ERROR Internal Server Error: /login/
+2023-07-19 18:47:58 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 18:47:58 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 18:51:13 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 18:51:13 ERROR Internal Server Error: /login/
+2023-07-19 18:51:13 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 18:51:13 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 19:45:32 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 19:45:32 ERROR Internal Server Error: /login/
+2023-07-19 19:45:32 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 19:45:32 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 19:47:23 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 19:47:23 ERROR Internal Server Error: /login/
+2023-07-19 19:47:23 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 19:47:23 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 19:53:25 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 19:53:25 ERROR Internal Server Error: /login/
+2023-07-19 19:53:25 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 19:53:25 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 19:53:27 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 19:53:27 ERROR Internal Server Error: /login/
+2023-07-19 19:53:27 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 19:53:27 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 19:59:17 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 19:59:17 ERROR Internal Server Error: /login/
+2023-07-19 19:59:17 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 19:59:17 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:05:17 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 20:05:17 ERROR Internal Server Error: /login/
+2023-07-19 20:05:17 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:05:17 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:16:53 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 20:16:53 ERROR Internal Server Error: /login/
+2023-07-19 20:16:53 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:16:53 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:18:24 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 20:18:24 ERROR Internal Server Error: /login/
+2023-07-19 20:18:24 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:18:24 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:18:41 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 20:18:41 ERROR Internal Server Error: /login/
+2023-07-19 20:18:41 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:18:41 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:20:31 ERROR An error occurred: Field name `entered_otp` is not valid for model `Login`.
+2023-07-19 20:20:31 ERROR Internal Server Error: /login/
+2023-07-19 20:20:31 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:20:31 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:26:19 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-19 20:26:19 ERROR Internal Server Error: /login/
+2023-07-19 20:26:19 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:26:19 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:27:13 ERROR An error occurred: Field name `entered_otp` is not valid for model `Login`.
+2023-07-19 20:27:13 ERROR Internal Server Error: /login/
+2023-07-19 20:27:13 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-19 20:27:13 ERROR "POST /login/ HTTP/1.1" 500 49

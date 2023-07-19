@@ -20,6 +20,7 @@ class Register(models.Model):
     email = models.EmailField(null=False, blank=False , unique=True)
     password = models.CharField(max_length=50, null=False, blank=False )
     confirm_password = models.CharField(max_length=50, null=False, blank=False)
+    OTP = models.CharField(max_length=10 , null=True , blank=True)
     
     
     def __str__(self):
