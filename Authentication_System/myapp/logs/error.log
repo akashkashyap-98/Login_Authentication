@@ -69,3 +69,265 @@
 2023-07-19 20:27:13 ERROR Internal Server Error: /login/
 2023-07-19 20:27:13 ERROR "POST /login/ HTTP/1.1" 500 49
 2023-07-19 20:27:13 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 13:54:34 ERROR An error occurred: Field name `entered_otp` is not valid for model `Login`.
+2023-07-21 13:54:34 ERROR Internal Server Error: /login/
+2023-07-21 13:54:34 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 13:54:34 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 13:55:48 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-21 13:55:48 ERROR Internal Server Error: /login/
+2023-07-21 13:55:48 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 13:55:48 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 13:55:56 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-21 13:55:56 ERROR Internal Server Error: /login/
+2023-07-21 13:55:56 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 13:55:56 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 13:55:58 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-21 13:55:58 ERROR Internal Server Error: /login/
+2023-07-21 13:55:58 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 13:55:58 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 13:57:07 ERROR An error occurred: 'builtin_function_or_method' object is not subscriptable
+2023-07-21 13:57:07 ERROR Internal Server Error: /login/
+2023-07-21 13:57:07 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 13:57:07 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 13:59:42 ERROR An error occurred: Register matching query does not exist.
+2023-07-21 13:59:42 ERROR Internal Server Error: /login/
+2023-07-21 13:59:42 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 13:59:42 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:00:44 ERROR An error occurred: Register matching query does not exist.
+2023-07-21 14:00:44 ERROR Internal Server Error: /login/
+2023-07-21 14:00:44 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:00:44 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:00:45 ERROR An error occurred: Register matching query does not exist.
+2023-07-21 14:00:45 ERROR Internal Server Error: /login/
+2023-07-21 14:00:45 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:00:45 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:02:24 ERROR An error occurred: Register matching query does not exist.
+2023-07-21 14:02:24 ERROR Internal Server Error: /login/
+2023-07-21 14:02:24 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:02:24 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:02:48 ERROR An error occurred: Register matching query does not exist.
+2023-07-21 14:02:48 ERROR Internal Server Error: /login/
+2023-07-21 14:02:48 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:02:48 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:03:10 ERROR An error occurred: Register matching query does not exist.
+2023-07-21 14:03:10 ERROR Internal Server Error: /login/
+2023-07-21 14:03:10 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:03:10 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:04:00 ERROR An error occurred: Register matching query does not exist.
+2023-07-21 14:04:00 ERROR Internal Server Error: /login/
+2023-07-21 14:04:00 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:04:00 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:05:38 ERROR An error occurred: Register matching query does not exist.
+2023-07-21 14:05:38 ERROR Internal Server Error: /login/
+2023-07-21 14:05:38 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:05:38 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:06:18 ERROR An error occurred: 'QuerySet' object has no attribute 'email'
+2023-07-21 14:06:18 ERROR Internal Server Error: /login/
+2023-07-21 14:06:18 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:06:18 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:06:59 ERROR An error occurred: 'QuerySet' object has no attribute 'email'
+2023-07-21 14:06:59 ERROR Internal Server Error: /login/
+2023-07-21 14:06:59 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:06:59 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:08:01 ERROR An error occurred: 'QuerySet' object has no attribute 'email'
+2023-07-21 14:08:01 ERROR Internal Server Error: /login/
+2023-07-21 14:08:01 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:08:01 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:08:25 ERROR An error occurred: 'QuerySet' object has no attribute 'email'
+2023-07-21 14:08:25 ERROR Internal Server Error: /login/
+2023-07-21 14:08:25 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:08:25 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:08:56 ERROR EMAIL OR PASSWORD IS INCORRECT
+2023-07-21 14:09:54 ERROR An error occurred: 'QuerySet' object has no attribute 'email'
+2023-07-21 14:09:54 ERROR Internal Server Error: /login/
+2023-07-21 14:09:54 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:09:54 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:10:42 ERROR An error occurred: 'QuerySet' object has no attribute 'email'
+2023-07-21 14:10:42 ERROR Internal Server Error: /login/
+2023-07-21 14:10:42 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:10:42 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:11:31 ERROR An error occurred: too many values to unpack (expected 2)
+2023-07-21 14:11:31 ERROR Internal Server Error: /login/
+2023-07-21 14:11:31 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:11:31 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:12:16 ERROR An error occurred: 'QuerySet' object has no attribute 'email'
+2023-07-21 14:12:16 ERROR Internal Server Error: /login/
+2023-07-21 14:12:16 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:12:16 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:13:09 ERROR An error occurred: QuerySet indices must be integers or slices, not str.
+2023-07-21 14:13:09 ERROR Internal Server Error: /login/
+2023-07-21 14:13:09 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:13:09 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:15:12 ERROR An error occurred: 'QuerySet' object has no attribute 'email'
+2023-07-21 14:15:12 ERROR Internal Server Error: /login/
+2023-07-21 14:15:12 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:15:12 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:16:42 ERROR invalid serializer data
+2023-07-21 14:45:22 ERROR An error occurred: 'QuerySet' object has no attribute 'email'
+2023-07-21 14:45:22 ERROR Internal Server Error: /login/
+2023-07-21 14:45:22 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 14:45:22 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 17:34:08 ERROR invalid serializer data
+2023-07-21 17:45:35 ERROR An error occurred: Cannot resolve keyword 'otp' into field. Choices are: OTP, confirm_password, email, first_name, id, last_name, mobile, password, username
+2023-07-21 17:45:35 ERROR Internal Server Error: /login/
+2023-07-21 17:45:35 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 17:45:35 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 17:52:02 ERROR invalid serializer data
+2023-07-21 17:56:30 ERROR An error occurred: QuerySet indices must be integers or slices, not str.
+2023-07-21 17:56:30 ERROR Internal Server Error: /login/
+2023-07-21 17:56:30 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 17:56:30 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:01:29 ERROR An error occurred: too many values to unpack (expected 2)
+2023-07-21 18:01:29 ERROR Internal Server Error: /login/
+2023-07-21 18:01:29 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:01:29 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:02:11 ERROR An error occurred: 'Register' object has no attribute 'get'
+2023-07-21 18:02:11 ERROR Internal Server Error: /login/
+2023-07-21 18:02:11 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:02:11 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:04:07 ERROR An error occurred: name 'a' is not defined
+2023-07-21 18:04:07 ERROR Internal Server Error: /login/
+2023-07-21 18:04:07 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:04:07 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:04:53 ERROR An error occurred: name 'a' is not defined
+2023-07-21 18:04:53 ERROR Internal Server Error: /login/
+2023-07-21 18:04:53 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:04:53 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:09:41 ERROR An error occurred: name 'entered_otp' is not defined
+2023-07-21 18:09:41 ERROR Internal Server Error: /login/
+2023-07-21 18:09:41 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:09:41 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:29:07 ERROR invalid serializer data
+2023-07-21 18:34:20 ERROR invalid credentials
+2023-07-21 18:34:57 ERROR An error occurred: Register matching query does not exist.
+2023-07-21 18:34:57 ERROR Internal Server Error: /login/
+2023-07-21 18:34:57 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:34:57 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:35:08 ERROR An error occurred: Register matching query does not exist.
+2023-07-21 18:35:08 ERROR Internal Server Error: /login/
+2023-07-21 18:35:08 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:35:08 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:37:19 ERROR An error occurred: Register matching query does not exist.
+2023-07-21 18:37:19 ERROR Internal Server Error: /login/
+2023-07-21 18:37:19 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:37:19 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:39:03 ERROR An error occurred: Register matching query does not exist.
+2023-07-21 18:39:03 ERROR Internal Server Error: /login/
+2023-07-21 18:39:03 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:39:03 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:40:42 ERROR An error occurred: Register matching query does not exist.
+2023-07-21 18:40:42 ERROR Internal Server Error: /login/
+2023-07-21 18:40:42 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:40:42 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:42:33 ERROR An error occurred: Register matching query does not exist.
+2023-07-21 18:42:33 ERROR Internal Server Error: /login/
+2023-07-21 18:42:33 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:42:33 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:43:47 ERROR EMAIL OR PASSWORD IS INCORRECT
+2023-07-21 18:44:44 ERROR An error occurred: 'QuerySet' object has no attribute 'OTP'
+2023-07-21 18:44:44 ERROR Internal Server Error: /login/
+2023-07-21 18:44:44 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:44:44 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:44:49 ERROR An error occurred: 'QuerySet' object has no attribute 'OTP'
+2023-07-21 18:44:49 ERROR Internal Server Error: /login/
+2023-07-21 18:44:49 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:44:49 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:46:54 ERROR An error occurred: 'QuerySet' object has no attribute 'OTP'
+2023-07-21 18:46:54 ERROR Internal Server Error: /login/
+2023-07-21 18:46:54 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:46:54 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:48:38 ERROR An error occurred: tuple indices must be integers or slices, not str
+2023-07-21 18:48:38 ERROR Internal Server Error: /login/
+2023-07-21 18:48:38 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:48:38 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:49:44 ERROR An error occurred: 'QuerySet' object has no attribute 'OTP'
+2023-07-21 18:49:44 ERROR Internal Server Error: /login/
+2023-07-21 18:49:44 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:49:44 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:50:43 ERROR An error occurred: 2
+2023-07-21 18:50:43 ERROR Internal Server Error: /login/
+2023-07-21 18:50:43 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:50:43 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:51:16 ERROR An error occurred: 'QuerySet' object has no attribute 'OTP'
+2023-07-21 18:51:16 ERROR Internal Server Error: /login/
+2023-07-21 18:51:16 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:51:16 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:52:25 ERROR An error occurred: 'QuerySet' object has no attribute 'OTP'
+2023-07-21 18:52:25 ERROR Internal Server Error: /login/
+2023-07-21 18:52:25 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:52:25 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:54:13 ERROR An error occurred: 'QuerySet' object has no attribute 'email'
+2023-07-21 18:54:13 ERROR Internal Server Error: /login/
+2023-07-21 18:54:13 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:54:13 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:56:04 ERROR invalid credentials
+2023-07-21 18:56:46 ERROR An error occurred: list index out of range
+2023-07-21 18:56:46 ERROR Internal Server Error: /login/
+2023-07-21 18:56:46 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:56:46 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:57:41 ERROR EMAIL OR PASSWORD IS INCORRECT
+2023-07-21 18:57:54 ERROR invalid credentials
+2023-07-21 18:58:27 ERROR An error occurred: 'QuerySet' object has no attribute 'email'
+2023-07-21 18:58:27 ERROR Internal Server Error: /login/
+2023-07-21 18:58:27 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:58:27 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:59:00 ERROR invalid serializer data
+2023-07-21 18:59:21 ERROR An error occurred: 'QuerySet' object has no attribute 'email'
+2023-07-21 18:59:21 ERROR Internal Server Error: /login/
+2023-07-21 18:59:21 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 18:59:21 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 19:00:15 ERROR invalid serializer data
+2023-07-21 19:00:28 ERROR An error occurred: 'QuerySet' object has no attribute 'id'
+2023-07-21 19:00:28 ERROR Internal Server Error: /login/
+2023-07-21 19:00:28 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 19:00:28 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 19:01:45 ERROR An error occurred: 'Login' object has no attribute 'update'
+2023-07-21 19:01:45 ERROR Internal Server Error: /login/
+2023-07-21 19:01:45 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 19:01:45 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 19:03:34 ERROR invalid serializer data
+2023-07-21 19:03:59 ERROR An error occurred: 'QuerySet' object has no attribute 'id'
+2023-07-21 19:03:59 ERROR Internal Server Error: /login/
+2023-07-21 19:03:59 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 19:03:59 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 19:05:30 ERROR invalid serializer data
+2023-07-21 19:05:43 ERROR An error occurred: 'QuerySet' object has no attribute 'id'
+2023-07-21 19:05:43 ERROR Internal Server Error: /login/
+2023-07-21 19:05:43 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 19:05:43 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 19:06:35 ERROR invalid serializer data
+2023-07-21 19:06:48 ERROR An error occurred: 'Login' object has no attribute 'values'
+2023-07-21 19:06:48 ERROR Internal Server Error: /login/
+2023-07-21 19:06:48 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 19:06:48 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 19:07:31 ERROR invalid serializer data
+2023-07-21 19:08:14 ERROR An error occurred: 'Login' object has no attribute 'values'
+2023-07-21 19:08:14 ERROR Internal Server Error: /login/
+2023-07-21 19:08:14 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 19:08:14 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 19:15:36 ERROR invalid serializer data
+2023-07-21 19:16:08 ERROR An error occurred: 'Login' object has no attribute 'update'
+2023-07-21 19:16:08 ERROR Internal Server Error: /login/
+2023-07-21 19:16:08 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 19:16:08 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 19:17:31 ERROR invalid serializer data
+2023-07-21 19:17:52 ERROR An error occurred: 'Login' object has no attribute 'update'
+2023-07-21 19:17:52 ERROR Internal Server Error: /login/
+2023-07-21 19:17:52 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 19:17:52 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 19:18:16 ERROR An error occurred: 'QuerySet' object has no attribute 'id'
+2023-07-21 19:18:16 ERROR Internal Server Error: /login/
+2023-07-21 19:18:16 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 19:18:16 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 19:20:55 ERROR An error occurred: 'str' object has no attribute 'id'
+2023-07-21 19:20:55 ERROR Internal Server Error: /login/
+2023-07-21 19:20:55 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 19:20:55 ERROR "POST /login/ HTTP/1.1" 500 49
+2023-07-21 19:23:00 ERROR invalid serializer data
+2023-07-21 19:25:09 ERROR EMAIL OR PASSWORD IS INCORRECT
+2023-07-21 19:25:53 ERROR invalid credentials
+2023-07-21 19:28:05 ERROR please enter valid credentials for logout
+2023-07-21 19:28:22 ERROR Invalid token.
+2023-07-21 19:30:35 ERROR password and confirm password must be same , please check it and try again
+2023-07-21 19:31:41 ERROR EMAIL OR PASSWORD IS INCORRECT
+2023-07-21 19:31:51 ERROR invalid credentials

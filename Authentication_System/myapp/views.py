@@ -182,7 +182,7 @@ class RegisterUserDetailById(APIView):
 
 class LoginUserPostAndGet(APIView):
     permission_classes = []
-    authentication_classes=[]
+    authentication_classes = []
 
     def post(self,request):
         try:
@@ -190,37 +190,51 @@ class LoginUserPostAndGet(APIView):
             print(data)
             serializer = LoginUserCreateSerializer(data=data)
             if serializer.is_valid():
-                dbuser = Register.objects.get(email=data.get('email'))
-                if dbuser is not None:
+                dbuser = Register.objects.filter(email=data.get('email')).values('email','password','OTP')
+                print("========= debug ============")
+                print(dbuser)
+                # print(dbuser[0]['OTP'])
+                if dbuser:
+                    if data.get('otp'):
+                        if dbuser[0]['OTP'] == data.get('otp'):
 
-                    print("i am db user", dbuser.email , dbuser.password , data.get['entered_otp'])
-                    if Register.objects.filter(email=dbuser.email) and Register.objects.filter(password=dbuser.password):
-                        logging.warning("Email and password matched")
+                            print("i am db user", dbuser[0]['email'] , dbuser[0]['password'] , data.get('otp'))
+                            if Register.objects.filter(email= data.get('email')) and Register.objects.filter(password=data.get('password')):
+                                logging.warning("Email and password matched")
 
-                        serializer.save()
+                                serializer.save()
 
-                        #----if user login the is_active field turns True-----
-                        userr = Login.objects.filter(email=dbuser.email).update(is_active=True)
-                        print("----------debugging---------------")
-                        print(userr)
+                                #----if user login the is_active field turns True-----
+                                userr = Login.objects.filter(email=dbuser[0]['email']).update(is_active=True)
+                                print("----------debugging---------------")
+                                print(userr)
 
-                        #-----creating token manually------------------
+                                #-----creating token manually------------------
+                                user_obj=Register.objects.get(email=data.get('email'))
+                                refresh = RefreshToken.for_user(user_obj)
 
-                        refresh = RefreshToken.for_user(dbuser)
-
-                        logger.info("user logged in successfully")
-                        return Response(
-                            {'message':'user LoggedIn successfully',
-                            'staus_code': 201,
-                            'response': 'success',
-                            'refresh': str(refresh),
-                            'access': str(refresh.access_token),}, 201
-                        )
+                                logger.info("user logged in successfully")
+                                return Response(
+                                    {'message':'user LoggedIn successfully',
+                                    'staus_code': 201,
+                                    'response': 'success',
+                                    'refresh': str(refresh),
+                                    'access': str(refresh.access_token),}, 201
+                                )
+                            else:
+                                logger.error("invalid credentials")
+                                return Response(
+                                    {'message':'Please Check Your Credentials',
+                                    'staus_code': 401,}, 401
+                                )
+                        else:
+                            return Response(
+                                {'message':'Invalid otp , please check your otp and try again',
+                                    'staus_code': 400,}, 400
+                            )
                     else:
-                        logger.error("invalid credentials")
                         return Response(
-                            {'message':'Please Check Your Credentials',
-                            'staus_code': 401,}, 401
+                            {'message':'please enter the otp to login'}
                         )
                 else:
                     logger.error("EMAIL OR PASSWORD IS INCORRECT")
