@@ -1,4 +1,6 @@
 from django.shortcuts import render
+from django.http import JsonResponse
+
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from .serializers import *
@@ -15,6 +17,7 @@ from django.core.mail import send_mail
 from django.contrib import messages
 from django.conf import settings
 
+from django.db.models import Min, Max
 import logging
 # logging.basicConfig(
 #     filename="myapp/logs/logfile1.log",
@@ -280,45 +283,6 @@ class LoginResponsePage(APIView):
         except Exception as e:
             logger.error("Please enter a valid token")
             return Response({'message':'please check your token and try again'}, status=status.HTTP_400_BAD_REQUEST)
-        
-
-        
-# class Logout(APIView):
-#     permission_classes = []
-#     authentication_classes=[]
-
-#     def post(self, request , format = None):
-#         data=request.data
-#         try:
-#             print("======i am try=========")
-#             refresh_token = request.META['HTTP_AUTHORIZATION'].split(' ')[1]
-#             token = RefreshToken(refresh_token)
-#             print(token)
-
-#             user_email = data.get('email')
-#             print(user_email)
-#             user_password = data.get('password')
-#             print(user_password)
-#             print("---------------------------------")
-#             if user_email and user_password:
-#                 print("-------------------------")
-#                 if Login.objects.filter(email=user_email) and Login.objects.filter(password=user_password):
-#                     print("=====Email and password matched successfully====")
-#                     Login.objects.filter(email=user_email).update(is_active=False)
-
-#                     # token.blacklist()
-#                     logger.info("Successfully logged out.")
-#                     return Response({"message": "Successfully logged out."}, status=status.HTTP_200_OK)
-#                 else:
-#                     logger.error("please enter valid credentials for logout")
-#                     return Response({'message':'Please check your email and password and try again'})
-#             else:
-#                 logger.error("please enter email and password to logout")
-#                 return Response({'message':'please enter email and password to logout'})
-            
-#         except Exception as e:
-#             logger.error("Invalid token.")
-#             return Response({"message": "Invalid token."}, status=status.HTTP_400_BAD_REQUEST)
 
 
 from functools import wraps
@@ -398,7 +362,94 @@ class Logout(APIView):
         except Exception as e:
             logger.error("Invalid token.")
             return Response({"message": "Invalid token."}, status=status.HTTP_400_BAD_REQUEST)
+        
 
 
+class Orm_Implementation(APIView):
+    permission_classes = []
+    authentication_classes=[]
+
+    def get(self, request):
+        #  To get all the register users
+        all_registered_users = Register.objects.all()
+
+        # Filter the users on tha basis of email
+        filter_users = Register.objects.filter(email='akash@gmail.com').values('email','first_name', 'last_name')
+
+        # find the first registered user
+        first_user = Register.objects.all().values_list('email').first()
+
+        # find the last registered  user
+        last_user = Register.objects.all().values_list('email').last()
+
+        # Find the first five registered users
+        first_five_users = Register.objects.all().values_list('email')[0:5]
+
+        # Find the last five registered users
+        last_five_users = Register.objects.order_by('-id').values_list('email')[0:5]
+
+        # find the user whose id is 1
+        user_id_1 = Register.objects.filter(id=1).values_list('email')
+
+        # find the users whose id is less then 5 
+        user_id_lt_5= Register.objects.filter(id__lt=5).values_list('email')
+
+        # find the users whose id is greater then or equals to 5 
+        user_id_gte_5= Register.objects.filter(id__gte=5).values_list('email')
+
+        # union operation
+        union_all_users = user_id_lt_5.union(user_id_gte_5)
+
+        # return all the users except the user having id = 1
+        list_of_users_except_id_1 = Register.objects.exclude(id=1).values_list('email')
+
+        # list of all users whose id in between 5 to 10
+        list_of_users_having_id_between_5to10 = Register.objects.filter(id__range=(5,10)).values_list('email')
+
+        # list of users having 'a' in username
+        list_of_user_having_a_alphabet_in_username = Register.objects.filter(username__icontains='a').values_list('email','username')
+
+        # list of users username starts with 'a'
+        list_of_users_username_startswith_a = Register.objects.filter(username__istartswith='a').values_list('email','username')
+
+        # list of users having id in list [1,2,3]
+        users_in_list = Register.objects.filter(id__in=[1,2,3]).values_list('id','email')
+
+        # list of active useres from login Table
+        active_users = Login.objects.filter(is_active='True').values_list('email')
+
+        # count all the registered users
+        number_of_users = Register.objects.count()
+
+        # user who is having minimum id
+        minimum_id = Register.objects.all().aggregate(Min('id'))
+
+        # maximum id
+        maximum_id = Register.objects.all().aggregate(Max('id'))
 
 
+        return JsonResponse(
+            {
+                'list of all registered users': list(all_registered_users.values_list('email')),
+                'filter_users': list(filter_users),
+                'first_user': list(first_user),
+                'last_user': list(last_user),
+                'first_five_users': list(first_five_users),
+                'last_five_users':list(last_five_users),
+                'user_id_1': list(user_id_1),
+                'user_id_lt_5':list(user_id_lt_5),
+                'user_id_gte_5': list(user_id_gte_5),
+                'union_all_users': list(union_all_users),
+                'list_of_users_except_id_1': list(list_of_users_except_id_1),
+                'list_of_users_having_id_between_5to10' : list(list_of_users_having_id_between_5to10),
+                'list_of_user_having_a_alphabet_in_usernamr' : list(list_of_user_having_a_alphabet_in_username),
+                'list_of_users_username_startswith_a':list(list_of_users_username_startswith_a),
+                'users_in_list' : list(users_in_list),
+                'active_users' : list(active_users),
+                'number_of_users': number_of_users,
+                'minimum_id': minimum_id,
+                'maximum_id': maximum_id
+
+            },
+            status=200  
+        )

@@ -9,4 +9,5 @@ urlpatterns = [
     path('login/', LoginUserPostAndGet.as_view()),
     path('login_response/', LoginResponsePage.as_view()),
     path('logout/', Logout.as_view()),
+    path('orm_implementation/', Orm_Implementation.as_view()),
 ]
