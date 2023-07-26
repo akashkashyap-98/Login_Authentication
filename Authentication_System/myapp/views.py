@@ -453,3 +453,147 @@ class Orm_Implementation(APIView):
             },
             status=200  
         )
+
+
+# =========================== Function based post api for Employee model =============================================
+
+from rest_framework.decorators import api_view
+from rest_framework.permissions import AllowAny
+
+
+@api_view(['POST'])
+@permission_classes([AllowAny])
+def create_employee(request):
+    data = request.data
+    print("---i am data-----", data)
+    serializer = EmployeeSerializer(data=data)
+    if serializer.is_valid():
+        serializer.save() 
+
+        # Log the creation event
+        logger.info(f"Employee created: {serializer.data}")
+
+        return Response({
+            'status':'True',
+            'message': 'Employee created successfully',
+            'response': serializer.data
+        }, 201)
+    else:
+        return Response({
+            'status': 'False',
+            'response': serializer.errors
+        }, 400)
+    
+@api_view(['GET'])
+@permission_classes([AllowAny])
+def get_all_employees(request):
+    try:
+        # method to return all instances over resource '''
+        emp_objs = Employee.objects.all()
+        serializer = EmployeeSerializer(emp_objs, many=True)
+        return Response({'status':200 , 'payload':serializer.data})
+    except Exception as e:
+        logger.error(f"An error occurred: {str(e)}")
+        return Response(
+            {
+                'message': 'An error occurred',
+                'status_code': 500,
+            },
+            500
+        )
+    
+@api_view(['GET'])
+@permission_classes([AllowAny])
+def get_employee_by_id(request , id):
+    try:
+        
+        if Employee.objects.filter(id=id).exists():
+            emp_obj = Employee.objects.filter(id=id)
+            serializer = EmployeeSerializer(emp_obj, many=True)
+            logger.info("Fetched employee by id successfully")
+            return Response({'status':200 , 'payload':serializer.data})
+        else:
+            logger.error("employee id dosen't exists ")
+            return Response({'status':400 , 'message':'employee id dosent exists'})
+
+    except Exception as e:
+        logger.error(f"An error occurred: {str(e)}")
+        return Response(
+            {
+                'message': 'An error occurred',
+                'status_code': 500,
+            },
+            500
+        )
+    
+@api_view(['PUT'])
+@permission_classes([AllowAny])
+def update_employee_by_id(request , id):
+    try:
+        
+        if Employee.objects.filter(id=id).exists():
+            data=request.data
+            emp_obj = Employee.objects.get(id=id)
+            serializer = EmployeeUpdateSerializer(emp_obj, data=data)
+            if serializer.is_valid():
+                serializer.save()
+                logger.info("Employee Updated successfully")
+                return Response({'status':200 , 'payload':serializer.data})
+        else:
+            logger.error("employee id dosen't exists ")
+            return Response({'status':400 , 'message':'employee id dosent exists'})
+
+    except Exception as e:
+        logger.error(f"An error occurred: {str(e)}")
+        return Response(
+            {
+                'message': 'An error occurred',
+                'status_code': 500,
+            },
+            500
+        )
+    
+# ======================= post api for default and second databse =====================================
+
+
+@api_view(['POST'])
+@permission_classes([AllowAny])
+def create_student_default_db(request):
+    try:
+        data = request.data
+        database = data.get('database', 'default')  # Get the 'database' value from the request data
+        print(database)
+        if database not in ['default', 'second_db']:
+            return Response({'error': 'Invalid database specified.'}, status=400)
+        
+        # checking for the database
+        if database == 'default':
+            serializer = StudentDefaultDBSerializer(data=request.data)
+        else:
+            serializer = StudentSecondDBSerializer(data=request.data)
+
+        if serializer.is_valid():
+            serializer.save()  
+
+            logger.info(f"Employee created: {serializer.data}")
+            return Response({
+                'status':'True',
+                'message': 'Employee created successfully',
+                'response': serializer.data
+            }, 201)
+        else:
+            return Response({
+                'status': 'False',
+                'response': serializer.errors
+            }, 400)
+
+    except Exception as e:
+        logger.error(f"An error occurred: {str(e)}")
+        return Response(
+            {
+                'message': 'An error occurred',
+                'status_code': 500,
+            },
+            500
+        )
+        

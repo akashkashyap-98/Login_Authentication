@@ -34,7 +34,33 @@ class Login(models.Model):
     def __str__(self):
         return self.email 
 
+# ================ creating model Emoloyee for function based api==================================================
 
+class Employee(models.Model):
+    name = models.CharField(max_length=100)
+    email = models.EmailField(null=True, blank=True , unique=True)
+    designation = models.CharField(max_length=100)
+    salary = models.DecimalField(max_digits=10, decimal_places=2)
 
+    def __str__(self):
+        return self.name
+    
+# ================= creating student model for default and second databse ===============================================
 
+class StudentDefaultDB(models.Model):
+    full_name = models.CharField(max_length=100)
+    email = models.EmailField(null=True, blank=True , unique=True)
+    school = models.CharField(max_length=100)
+    city = models.CharField(max_length=100)
 
+    def __str__(self):
+        return self.name
+
+class StudentSecondDB(models.Model):
+    full_name = models.CharField(max_length=100)
+    email = models.EmailField(null=True, blank=True , unique=True)
+    school = models.CharField(max_length=100)
+    city = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.name

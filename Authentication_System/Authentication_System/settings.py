@@ -87,6 +87,14 @@ DATABASES = {
         'PASSWORD': 'Root@123',
         'HOST': 'localhost',  # For local development, use 'localhost' or '127.0.0.1'
         'PORT': '3306',  # Default port is usually 3306
+    },
+    'second_db': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'Demo_db_second',
+        'USER': 'root',
+        'PASSWORD': 'Root@123',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
 

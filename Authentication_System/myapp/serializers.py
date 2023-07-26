@@ -57,13 +57,41 @@ class LoginUserCreateSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         return Login.objects.create(**validated_data)
 
-# class LogoutUserSerializer(serializers.ModelSerializer):
-#     class Meta:
-#         model = Login
-#         fileds = [ 'email', 'password' ]
+# ==================== creating serializer for function based view ===============================================
 
+class EmployeeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Employee
+        fields = '__all__'
 
+class EmployeeUpdateSerializer(serializers.ModelSerializer):
 
+    class Meta:
+        model = Employee
+        fields = ['name', 'designation', 'salary']
 
+    def update(self, instance, validated_data):
+        super().update(instance = instance, validated_data = validated_data)
+        return instance
+    
+# =================== creating serializers for default and second databse =====================================
 
+class StudentDefaultDBSerializer(serializers.ModelSerializer):
+    # database = serializers.CharField(max_length=20, default='Demo_db', read_only=True)
+
+    class Meta:
+        model = StudentDefaultDB
+        fields = '__all__'
+
+    # def create(self, validated_data):
+    #     # Set the 'database' field to 'Demo_db'
+    #     validated_data['database'] = 'Demo_db'
+    #     return super().create(validated_data)
+
+class StudentSecondDBSerializer(serializers.ModelSerializer):
+    # database = serializers.CharField(max_length=20, default='Demo_db', read_only=True)
+
+    class Meta:
+        model = StudentSecondDB
+        fields = ['full_name', 'email', 'school', 'city']
 

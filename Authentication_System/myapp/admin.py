@@ -7,6 +7,18 @@ class RegisterAdmin(admin.ModelAdmin):
 
 class LoginAdmin(admin.ModelAdmin):
     list_display = ('email', 'is_active')
+    
+class EmployeeAdmin(admin.ModelAdmin):
+    list_display =  ('name', 'designation', 'salary')
+
+class StudentDefaultDB_Admin(admin.ModelAdmin):
+    list_display =  ('full_name', 'email', 'city')
+
+class StudentSecondDB_Admin(admin.ModelAdmin):
+    list_display =  ('full_name', 'email', 'city')
 
 admin.site.register(Register, RegisterAdmin)
 admin.site.register(Login, LoginAdmin)
+admin.site.register(Employee, EmployeeAdmin )
+admin.site.register(StudentDefaultDB, StudentDefaultDB_Admin)
+admin.site.register(StudentSecondDB, StudentSecondDB_Admin)
