@@ -81,7 +81,10 @@ class StudentDefaultDBSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = StudentDefaultDB
-        fields = '__all__'
+        fields = ['full_name', 'email', 'school', 'city']
+
+    def create(self, validated_data):
+        return StudentDefaultDB.objects.using('default').create(**validated_data)
 
     # def create(self, validated_data):
     #     # Set the 'database' field to 'Demo_db'
@@ -94,4 +97,7 @@ class StudentSecondDBSerializer(serializers.ModelSerializer):
     class Meta:
         model = StudentSecondDB
         fields = ['full_name', 'email', 'school', 'city']
+    
+    def create(self, validated_data):
+        return StudentSecondDB.objects.using('second_db').create(**validated_data)
 

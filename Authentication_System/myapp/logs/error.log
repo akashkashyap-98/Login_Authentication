@@ -2313,3 +2313,34 @@ TypeError: StudentDefaultDB() got unexpected keyword arguments: 'using'
 2023-07-26 20:31:42 ERROR Internal Server Error: /create_student_default_db/
 2023-07-26 20:31:42 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
 2023-07-26 20:31:42 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
+2023-07-27 15:15:45 ERROR An error occurred: No module named 'path'
+2023-07-27 15:15:45 ERROR Internal Server Error: /create_student_default_db/
+2023-07-27 15:15:45 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
+2023-07-27 15:15:45 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
+2023-07-27 15:17:53 ERROR An error occurred: No module named 'path'
+2023-07-27 15:17:53 ERROR Internal Server Error: /create_student_default_db/
+2023-07-27 15:17:53 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
+2023-07-27 15:17:53 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
+2023-07-27 15:21:54 ERROR An error occurred: No module named 'path'
+2023-07-27 15:21:54 ERROR Internal Server Error: /create_student_default_db/
+2023-07-27 15:21:54 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
+2023-07-27 15:21:54 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
+2023-07-27 17:37:32 ERROR An error occurred: No module named 'path'
+2023-07-27 17:37:32 ERROR Internal Server Error: /create_student_default_db/
+2023-07-27 17:37:32 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
+2023-07-27 17:37:32 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
+2023-07-27 17:37:53 ERROR An error occurred: Login() got unexpected keyword arguments: 'full_name', 'school', 'city'
+2023-07-27 17:37:53 ERROR Internal Server Error: /create_student_default_db/
+2023-07-27 17:37:53 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
+2023-07-27 17:37:53 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
+2023-07-27 17:47:33 ERROR An error occurred: (1062, "Duplicate entry 'anuj.yadav@gmail.com' for key 'myapp_studentseconddb.email'")
+2023-07-27 17:47:33 ERROR Internal Server Error: /create_student_multiple_db/
+2023-07-27 17:47:33 ERROR "POST /create_student_multiple_db/ HTTP/1.1" 500 49
+2023-07-27 17:47:33 ERROR "POST /create_student_multiple_db/ HTTP/1.1" 500 49
+2023-07-27 17:49:17 ERROR An error occurred: (1062, "Duplicate entry 'anuj.yadav@gmail.com' for key 'myapp_studentseconddb.email'")
+2023-07-27 17:49:17 ERROR Internal Server Error: /create_student_multiple_db/
+2023-07-27 17:49:17 ERROR "POST /create_student_multiple_db/ HTTP/1.1" 500 61
+2023-07-27 17:49:17 ERROR "POST /create_student_multiple_db/ HTTP/1.1" 500 61
+2023-07-27 17:50:15 ERROR An error occurred: (1062, "Duplicate entry 'anuj.yadav@gmail.com' for key 'myapp_studentseconddb.email'")
+2023-07-27 17:52:21 ERROR An error occurred: (1062, "Duplicate entry 'anuj.yadav@gmail.com' for key 'myapp_studentseconddb.email'")
+2023-07-27 20:08:50 ERROR An error occurred: (1062, "Duplicate entry 'anoop@gmail.com' for key 'myapp_studentseconddb.email'")

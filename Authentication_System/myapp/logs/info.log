@@ -3245,3 +3245,473 @@ TypeError: StudentDefaultDB() got unexpected keyword arguments: 'using'
 2023-07-26 20:55:33 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
 2023-07-26 20:55:34 INFO Watching for file changes with StatReloader
 2023-07-26 20:55:34 INFO Watching for file changes with StatReloader
+2023-07-27 13:08:16 INFO Watching for file changes with StatReloader
+2023-07-27 13:08:16 INFO Watching for file changes with StatReloader
+2023-07-27 13:08:49 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-27 13:08:49 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-27 13:08:49 INFO Watching for file changes with StatReloader
+2023-07-27 13:08:49 INFO Watching for file changes with StatReloader
+2023-07-27 13:29:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-27 13:29:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-27 13:29:18 INFO Watching for file changes with StatReloader
+2023-07-27 13:29:18 INFO Watching for file changes with StatReloader
+2023-07-27 13:29:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-27 13:29:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-27 13:29:30 INFO Watching for file changes with StatReloader
+2023-07-27 13:29:30 INFO Watching for file changes with StatReloader
+2023-07-27 13:29:31 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-27 13:29:31 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-27 13:29:32 INFO Watching for file changes with StatReloader
+2023-07-27 13:29:32 INFO Watching for file changes with StatReloader
+2023-07-27 13:30:52 INFO Employee created: {'full_name': 'ram kumar', 'email': 'ram.kumar@gmail.com', 'school': 'Lucknow public school', 'city': 'lucknow'}
+2023-07-27 13:30:52 INFO "POST /create_student_default_db/ HTTP/1.1" 201 176
+2023-07-27 13:30:52 INFO "POST /create_student_default_db/ HTTP/1.1" 201 176
+2023-07-27 13:31:10 INFO "GET /admin/ HTTP/1.1" 200 10601
+2023-07-27 13:31:10 INFO "GET /admin/ HTTP/1.1" 200 10601
+2023-07-27 13:31:11 WARNING "GET /favicon.ico HTTP/1.1" 404 4515
+2023-07-27 13:31:11 WARNING "GET /favicon.ico HTTP/1.1" 404 4515
+2023-07-27 13:31:15 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10314
+2023-07-27 13:31:15 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10314
+2023-07-27 13:31:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 13:31:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 13:31:17 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10314
+2023-07-27 13:31:17 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10314
+2023-07-27 13:31:17 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 13:31:17 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 13:31:23 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10611
+2023-07-27 13:31:23 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10611
+2023-07-27 13:31:23 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 13:31:23 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 13:31:26 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10611
+2023-07-27 13:31:26 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10611
+2023-07-27 13:31:26 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 13:31:26 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 15:14:16 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-07-27 15:14:16 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-07-27 15:14:16 INFO Watching for file changes with StatReloader
+2023-07-27 15:14:16 INFO Watching for file changes with StatReloader
+2023-07-27 15:15:20 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-27 15:15:20 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-27 15:15:20 INFO Watching for file changes with StatReloader
+2023-07-27 15:15:20 INFO Watching for file changes with StatReloader
+2023-07-27 15:15:45 ERROR An error occurred: No module named 'path'
+2023-07-27 15:15:45 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
+2023-07-27 15:15:45 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
+2023-07-27 15:17:53 ERROR An error occurred: No module named 'path'
+2023-07-27 15:17:53 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
+2023-07-27 15:17:53 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
+2023-07-27 15:18:07 INFO Watching for file changes with StatReloader
+2023-07-27 15:18:07 INFO Watching for file changes with StatReloader
+2023-07-27 15:21:54 ERROR An error occurred: No module named 'path'
+2023-07-27 15:21:54 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
+2023-07-27 15:21:54 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
+2023-07-27 15:24:37 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-07-27 15:24:37 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-07-27 15:24:38 INFO Watching for file changes with StatReloader
+2023-07-27 15:24:38 INFO Watching for file changes with StatReloader
+2023-07-27 17:37:21 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-27 17:37:21 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-27 17:37:22 INFO Watching for file changes with StatReloader
+2023-07-27 17:37:22 INFO Watching for file changes with StatReloader
+2023-07-27 17:37:32 ERROR An error occurred: No module named 'path'
+2023-07-27 17:37:32 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
+2023-07-27 17:37:32 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
+2023-07-27 17:37:50 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-07-27 17:37:50 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-07-27 17:37:51 INFO Watching for file changes with StatReloader
+2023-07-27 17:37:51 INFO Watching for file changes with StatReloader
+2023-07-27 17:37:53 ERROR An error occurred: Login() got unexpected keyword arguments: 'full_name', 'school', 'city'
+2023-07-27 17:37:53 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
+2023-07-27 17:37:53 ERROR "POST /create_student_default_db/ HTTP/1.1" 500 49
+2023-07-27 17:38:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-27 17:38:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-27 17:38:22 INFO Watching for file changes with StatReloader
+2023-07-27 17:38:22 INFO Watching for file changes with StatReloader
+2023-07-27 17:38:24 INFO Employee created: {'full_name': 'raj shukla', 'email': 'raj.shukla@gmail.com', 'school': 'Lucknow public school', 'city': 'lucknow'}
+2023-07-27 17:38:24 INFO "POST /create_student_default_db/ HTTP/1.1" 201 178
+2023-07-27 17:38:24 INFO "POST /create_student_default_db/ HTTP/1.1" 201 178
+2023-07-27 17:38:35 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10611
+2023-07-27 17:38:35 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10611
+2023-07-27 17:38:35 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 17:38:35 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 17:38:37 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10611
+2023-07-27 17:38:37 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10611
+2023-07-27 17:38:37 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 17:38:37 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 17:38:38 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10611
+2023-07-27 17:38:38 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10611
+2023-07-27 17:38:38 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 17:38:38 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 17:38:39 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10611
+2023-07-27 17:38:39 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10611
+2023-07-27 17:38:39 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 17:38:39 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 17:38:39 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10611
+2023-07-27 17:38:39 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10611
+2023-07-27 17:38:39 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 17:38:39 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 17:38:39 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10611
+2023-07-27 17:38:39 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10611
+2023-07-27 17:38:39 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 17:38:39 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 17:38:41 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10314
+2023-07-27 17:38:41 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10314
+2023-07-27 17:38:41 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 17:38:41 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 17:38:43 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10314
+2023-07-27 17:38:43 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10314
+2023-07-27 17:38:43 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 17:38:43 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 17:38:44 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10314
+2023-07-27 17:38:44 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10314
+2023-07-27 17:38:44 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 17:38:44 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 17:40:23 INFO Employee created: {'full_name': 'anuj yadav', 'email': 'anuj.yadav@gmail.com', 'school': 'Lucknow public school', 'city': 'lucknow'}
+2023-07-27 17:40:23 INFO "POST /create_student_default_db/ HTTP/1.1" 201 178
+2023-07-27 17:40:23 INFO "POST /create_student_default_db/ HTTP/1.1" 201 178
+2023-07-27 17:40:50 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10314
+2023-07-27 17:40:50 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10314
+2023-07-27 17:40:50 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 17:40:50 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 17:41:59 INFO Employee created: {'id': 2, 'full_name': 'anuj yadav', 'email': 'anuj.yadav@gmail.com', 'school': 'Lucknow public school', 'city': 'lucknow'}
+2023-07-27 17:41:59 INFO "POST /create_student_default_db/ HTTP/1.1" 201 185
+2023-07-27 17:41:59 INFO "POST /create_student_default_db/ HTTP/1.1" 201 185
+2023-07-27 17:44:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-27 17:44:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-27 17:44:41 INFO Watching for file changes with StatReloader
+2023-07-27 17:44:41 INFO Watching for file changes with StatReloader
+2023-07-27 17:44:46 WARNING "POST /create_student_default_db/ HTTP/1.1" 400 67
+2023-07-27 17:44:46 WARNING "POST /create_student_default_db/ HTTP/1.1" 400 67
+2023-07-27 17:45:37 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-27 17:45:37 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-27 17:45:37 INFO Watching for file changes with StatReloader
+2023-07-27 17:45:37 INFO Watching for file changes with StatReloader
+2023-07-27 17:45:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-27 17:45:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-27 17:45:56 INFO Watching for file changes with StatReloader
+2023-07-27 17:45:56 INFO Watching for file changes with StatReloader
+2023-07-27 17:46:08 WARNING "POST /create_student_default_db/ HTTP/1.1" 404 4563
+2023-07-27 17:46:08 WARNING "POST /create_student_default_db/ HTTP/1.1" 404 4563
+2023-07-27 17:46:22 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 67
+2023-07-27 17:46:22 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 67
+2023-07-27 17:47:33 ERROR An error occurred: (1062, "Duplicate entry 'anuj.yadav@gmail.com' for key 'myapp_studentseconddb.email'")
+2023-07-27 17:47:33 ERROR "POST /create_student_multiple_db/ HTTP/1.1" 500 49
+2023-07-27 17:47:33 ERROR "POST /create_student_multiple_db/ HTTP/1.1" 500 49
+2023-07-27 17:49:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-27 17:49:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-27 17:49:10 INFO Watching for file changes with StatReloader
+2023-07-27 17:49:10 INFO Watching for file changes with StatReloader
+2023-07-27 17:49:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-27 17:49:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-27 17:49:14 INFO Watching for file changes with StatReloader
+2023-07-27 17:49:14 INFO Watching for file changes with StatReloader
+2023-07-27 17:49:17 ERROR An error occurred: (1062, "Duplicate entry 'anuj.yadav@gmail.com' for key 'myapp_studentseconddb.email'")
+2023-07-27 17:49:17 ERROR "POST /create_student_multiple_db/ HTTP/1.1" 500 61
+2023-07-27 17:49:17 ERROR "POST /create_student_multiple_db/ HTTP/1.1" 500 61
+2023-07-27 17:50:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-27 17:50:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-27 17:50:13 INFO Watching for file changes with StatReloader
+2023-07-27 17:50:13 INFO Watching for file changes with StatReloader
+2023-07-27 17:50:15 ERROR An error occurred: (1062, "Duplicate entry 'anuj.yadav@gmail.com' for key 'myapp_studentseconddb.email'")
+2023-07-27 17:50:15 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 149
+2023-07-27 17:50:15 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 149
+2023-07-27 17:50:32 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 94
+2023-07-27 17:50:32 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 94
+2023-07-27 17:51:58 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-27 17:51:58 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-27 17:51:58 INFO Watching for file changes with StatReloader
+2023-07-27 17:51:58 INFO Watching for file changes with StatReloader
+2023-07-27 17:52:14 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 94
+2023-07-27 17:52:14 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 94
+2023-07-27 17:52:21 ERROR An error occurred: (1062, "Duplicate entry 'anuj.yadav@gmail.com' for key 'myapp_studentseconddb.email'")
+2023-07-27 17:52:21 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 149
+2023-07-27 17:52:21 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 149
+2023-07-27 18:26:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-27 18:26:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-27 18:26:23 INFO Watching for file changes with StatReloader
+2023-07-27 18:26:23 INFO Watching for file changes with StatReloader
+2023-07-27 18:26:33 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 94
+2023-07-27 18:26:33 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 94
+2023-07-27 19:58:23 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-27 19:58:23 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-27 19:58:24 INFO Watching for file changes with StatReloader
+2023-07-27 19:58:24 INFO Watching for file changes with StatReloader
+2023-07-27 19:58:29 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 94
+2023-07-27 19:58:29 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 94
+2023-07-27 19:58:55 INFO Employee created: {'full_name': 'nitin srivastava', 'email': 'nitin.srivastava@gmail.com', 'school': 'Lucknow public school', 'city': 'goa'}
+2023-07-27 19:58:55 INFO "POST /create_student_multiple_db/ HTTP/1.1" 201 186
+2023-07-27 19:58:55 INFO "POST /create_student_multiple_db/ HTTP/1.1" 201 186
+2023-07-27 20:00:39 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 93
+2023-07-27 20:00:39 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 93
+2023-07-27 20:02:03 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 93
+2023-07-27 20:02:03 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 93
+2023-07-27 20:02:11 INFO Employee created: {'full_name': 'nitin srivastava', 'email': 'nitin.srivastava1@gmail.com', 'school': 'Lucknow public school', 'city': 'goa'}
+2023-07-27 20:02:11 INFO "POST /create_student_multiple_db/ HTTP/1.1" 201 187
+2023-07-27 20:02:11 INFO "POST /create_student_multiple_db/ HTTP/1.1" 201 187
+2023-07-27 20:08:48 INFO Employee created: {'full_name': 'anoop mishra', 'email': 'anoop@gmail.com', 'school': 'cathedral public school', 'city': 'lucknow'}
+2023-07-27 20:08:48 INFO "POST /create_student_multiple_db/ HTTP/1.1" 201 177
+2023-07-27 20:08:48 INFO "POST /create_student_multiple_db/ HTTP/1.1" 201 177
+2023-07-27 20:08:50 ERROR An error occurred: (1062, "Duplicate entry 'anoop@gmail.com' for key 'myapp_studentseconddb.email'")
+2023-07-27 20:08:50 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 144
+2023-07-27 20:08:50 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 144
+2023-07-27 20:09:11 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:11 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:11 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:11 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:12 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:12 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:12 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:12 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:13 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:13 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:13 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:13 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:13 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:13 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:13 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:13 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:13 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:13 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:13 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:13 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:14 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:14 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:14 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:14 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:14 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:14 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:14 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:14 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:16 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:16 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:16 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:16 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:20 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:20 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:20 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:20 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:21 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:21 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:21 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:21 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:22 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:22 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:22 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:22 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:22 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:22 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:22 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:22 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:22 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:22 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:22 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:22 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:22 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:22 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:23 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:23 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:23 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:23 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:23 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:23 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:23 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:23 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:23 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:23 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:23 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:23 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:23 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:23 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:24 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:24 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:24 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:24 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:24 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:24 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 10923
+2023-07-27 20:09:24 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:24 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:39 INFO Employee created: {'full_name': 'anoop mishra', 'email': 'anoop@gmail.com', 'school': 'cathedral public school', 'city': 'lucknow'}
+2023-07-27 20:09:39 INFO "POST /create_student_multiple_db/ HTTP/1.1" 201 177
+2023-07-27 20:09:39 INFO "POST /create_student_multiple_db/ HTTP/1.1" 201 177
+2023-07-27 20:09:45 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:09:45 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:09:45 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:45 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:47 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:09:47 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:09:47 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:47 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:49 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:09:49 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:09:49 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:49 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:50 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:50 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:50 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:50 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:53 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:53 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10620
+2023-07-27 20:09:53 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:09:53 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:10:00 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:10:00 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:10:00 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:10:00 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:12:53 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-27 20:12:53 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-27 20:12:53 INFO Watching for file changes with StatReloader
+2023-07-27 20:12:53 INFO Watching for file changes with StatReloader
+2023-07-27 20:13:24 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-27 20:13:24 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-27 20:13:24 INFO Watching for file changes with StatReloader
+2023-07-27 20:13:24 INFO Watching for file changes with StatReloader
+2023-07-27 20:13:58 INFO Employee created: {'full_name': 'vikas kumar', 'email': 'vikas@gmail.com', 'school': 'oodles public school', 'city': 'gurgaon'}
+2023-07-27 20:13:58 INFO "POST /create_student_multiple_db/ HTTP/1.1" 201 173
+2023-07-27 20:13:58 INFO "POST /create_student_multiple_db/ HTTP/1.1" 201 173
+2023-07-27 20:14:06 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:14:06 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:14:06 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:06 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:07 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:14:07 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:14:07 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:07 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:08 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:14:08 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:14:08 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:08 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:08 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:14:08 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:14:08 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:08 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:09 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:14:09 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:14:09 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:09 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:10 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:10 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:10 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:10 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:12 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:12 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:12 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:12 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:13 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:13 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:13 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:13 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:13 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:13 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:13 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:13 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:13 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:13 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:13 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:13 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:14 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:14 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:14 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:14 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:15 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:15 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:15 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:15 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:15 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:15 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:16 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:16 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:16 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:16 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:17 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:17 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:17 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:17 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:17 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:17 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:17 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:17 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:17 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:17 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:17 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:17 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:18 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:18 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:18 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:18 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:18 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:18 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:18 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:18 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:18 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:18 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:18 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:18 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:18 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:18 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:19 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:19 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:19 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:19 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:19 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:19 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:19 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:19 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:19 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:19 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:19 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:19 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:20 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:20 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:20 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:20 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:20 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:20 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:20 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:20 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:20 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:20 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:22 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:14:22 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:14:22 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:22 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:35 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:35 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:14:36 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:36 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:14:59 INFO Employee created: {'full_name': 'vikas kumar', 'email': 'vikas@gmail.com', 'school': 'oodles public school', 'city': 'gurgaon'}
+2023-07-27 20:14:59 INFO "POST /create_student_multiple_db/ HTTP/1.1" 201 173
+2023-07-27 20:14:59 INFO "POST /create_student_multiple_db/ HTTP/1.1" 201 173
+2023-07-27 20:15:08 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:15:08 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:15:08 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:15:08 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:15:10 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:15:10 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:15:10 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:15:10 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:15:12 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:15:12 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-27 20:15:12 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:15:12 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:15:14 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:15:14 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-27 20:15:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-27 20:15:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343

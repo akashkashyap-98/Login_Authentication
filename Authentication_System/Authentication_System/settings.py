@@ -98,6 +98,8 @@ DATABASES = {
     }
 }
 
+# DATABASE_ROUTERS = ['path.to.SecondDBRouter']
+
 
 
 # Password validation

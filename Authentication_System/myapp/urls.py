@@ -19,5 +19,5 @@ urlpatterns = [
     path('update_employee_by_id/<int:id>/', views.update_employee_by_id, name='update_employee_by_id'),
 
     # ===== url for apis for default and second databse=====================
-    path('create_student_default_db/', views.create_student_default_db, name='create_student_default_db'),
+    path('create_student_multiple_db/', views.create_student_multiple_db, name='create_student_multiple_db'),
 ]

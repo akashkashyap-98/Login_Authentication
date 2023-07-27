@@ -553,47 +553,55 @@ def update_employee_by_id(request , id):
             500
         )
     
-# ======================= post api for default and second databse =====================================
+# ======================= post api for default and second database =====================================
 
 
 @api_view(['POST'])
 @permission_classes([AllowAny])
-def create_student_default_db(request):
+def create_student_multiple_db(request):
     try:
         data = request.data
-        database = data.get('database', 'default')  # Get the 'database' value from the request data
-        print(database)
-        if database not in ['default', 'second_db']:
-            return Response({'error': 'Invalid database specified.'}, status=400)
-        
-        # checking for the database
-        if database == 'default':
-            serializer = StudentDefaultDBSerializer(data=request.data)
-        else:
-            serializer = StudentSecondDBSerializer(data=request.data)
+        if data.get('database'):
+            database = data.get('database', 'default')  # Get the 'database' value from the request data
+            print(database)
+            if database not in ['default', 'second_db']:
+                return Response({'error': 'Invalid database specified.'}, status=400)
+            
+            # checking for the database
+            if database == 'default':
+                serializer = StudentDefaultDBSerializer(data=request.data)
+            else:
+                serializer = StudentSecondDBSerializer(data=request.data)
 
-        if serializer.is_valid():
-            serializer.save()  
+            if serializer.is_valid():
+                serializer.save()  
 
-            logger.info(f"Employee created: {serializer.data}")
-            return Response({
-                'status':'True',
-                'message': 'Employee created successfully',
-                'response': serializer.data
-            }, 201)
+                logger.info(f"Employee created: {serializer.data}")
+                return Response({
+                    'status':'True',
+                    'message': 'Employee created successfully',
+                    'response': serializer.data
+                }, 201)
+            else:
+                return Response({
+                    'status': 'False',
+                    'response': serializer.errors
+                }, 400)
         else:
             return Response({
-                'status': 'False',
-                'response': serializer.errors
-            }, 400)
+                    'status': 'False',
+                    'response': 'please mention the type of database'
+                }, 400)
+
 
     except Exception as e:
         logger.error(f"An error occurred: {str(e)}")
         return Response(
             {
                 'message': 'An error occurred',
-                'status_code': 500,
+                'status_code': 400,
+                'errors': str(e)
             },
-            500
+            400
         )
         
