@@ -2344,3 +2344,320 @@ TypeError: StudentDefaultDB() got unexpected keyword arguments: 'using'
 2023-07-27 17:50:15 ERROR An error occurred: (1062, "Duplicate entry 'anuj.yadav@gmail.com' for key 'myapp_studentseconddb.email'")
 2023-07-27 17:52:21 ERROR An error occurred: (1062, "Duplicate entry 'anuj.yadav@gmail.com' for key 'myapp_studentseconddb.email'")
 2023-07-27 20:08:50 ERROR An error occurred: (1062, "Duplicate entry 'anoop@gmail.com' for key 'myapp_studentseconddb.email'")
+2023-07-28 13:46:16 ERROR Internal Server Error: /get_student_multiple_db/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+TypeError: get_student_multiple_db() missing 1 required positional argument: 'request'
+2023-07-28 13:46:16 ERROR "GET /get_student_multiple_db/ HTTP/1.1" 500 95605
+2023-07-28 13:46:16 ERROR "GET /get_student_multiple_db/ HTTP/1.1" 500 95605
+2023-07-28 13:47:58 ERROR An error occurred: local variable 'database' referenced before assignment
+2023-07-28 13:47:58 ERROR Internal Server Error: /get_student_multiple_db/
+2023-07-28 13:47:58 ERROR "GET /get_student_multiple_db/ HTTP/1.1" 500 49
+2023-07-28 13:47:58 ERROR "GET /get_student_multiple_db/ HTTP/1.1" 500 49
+2023-07-28 13:49:21 ERROR An error occurred: local variable 'database' referenced before assignment
+2023-07-28 13:49:21 ERROR Internal Server Error: /get_student_multiple_db/
+2023-07-28 13:49:21 ERROR "GET /get_student_multiple_db/ HTTP/1.1" 500 49
+2023-07-28 13:49:21 ERROR "GET /get_student_multiple_db/ HTTP/1.1" 500 49
+2023-07-28 14:22:54 ERROR Internal Server Error: /get_student_by_id_multiple_db/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+TypeError: get_student_by_id_multiple_db() missing 1 required positional argument: 'id'
+2023-07-28 14:22:54 ERROR "GET /get_student_by_id_multiple_db/ HTTP/1.1" 500 95719
+2023-07-28 14:22:54 ERROR "GET /get_student_by_id_multiple_db/ HTTP/1.1" 500 95719
+2023-07-28 14:24:35 ERROR An error occurred: 'StudentDefaultDB' object is not iterable
+2023-07-28 14:24:35 ERROR Internal Server Error: /get_student_by_id_multiple_db/1/
+2023-07-28 14:24:35 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:24:35 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:26:55 ERROR An error occurred: 'StudentDefaultDB' object is not iterable
+2023-07-28 14:26:55 ERROR Internal Server Error: /get_student_by_id_multiple_db/1/
+2023-07-28 14:26:55 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:26:55 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:27:59 ERROR An error occurred: 'StudentDefaultDB' object has no attribute 'name'
+2023-07-28 14:27:59 ERROR Internal Server Error: /get_student_by_id_multiple_db/1/
+2023-07-28 14:27:59 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:27:59 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:28:47 ERROR An error occurred: 'StudentDefaultDB' object has no attribute 'name'
+2023-07-28 14:28:47 ERROR Internal Server Error: /get_student_by_id_multiple_db/1/
+2023-07-28 14:28:47 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:28:47 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:29:11 ERROR An error occurred: 'StudentDefaultDB' object has no attribute 'values'
+2023-07-28 14:29:11 ERROR Internal Server Error: /get_student_by_id_multiple_db/1/
+2023-07-28 14:29:11 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:29:11 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:30:17 ERROR An error occurred: 'StudentDefaultDB' object has no attribute 'values'
+2023-07-28 14:30:17 ERROR Internal Server Error: /get_student_by_id_multiple_db/1/
+2023-07-28 14:30:17 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:30:17 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:31:04 ERROR An error occurred: 'StudentDefaultDB' object has no attribute 'name'
+2023-07-28 14:31:04 ERROR Internal Server Error: /get_student_by_id_multiple_db/1/
+2023-07-28 14:31:04 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:31:04 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:41:27 ERROR An error occurred: 'StudentDefaultDB' object has no attribute 'name'
+2023-07-28 15:41:27 ERROR Internal Server Error: /update_student_by_id_multiple_db/1/
+2023-07-28 15:41:27 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:41:27 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:41:57 ERROR An error occurred: 'StudentDefaultDB' object has no attribute 'name'
+2023-07-28 15:41:57 ERROR Internal Server Error: /update_student_by_id_multiple_db/1/
+2023-07-28 15:41:57 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:41:57 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:42:50 ERROR An error occurred: 'StudentDefaultDB' object has no attribute 'name'
+2023-07-28 15:42:50 ERROR Internal Server Error: /update_student_by_id_multiple_db/1/
+2023-07-28 15:42:50 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:42:50 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:43:53 ERROR An error occurred: 'QuerySet' object has no attribute '_meta'
+2023-07-28 15:43:53 ERROR Internal Server Error: /update_student_by_id_multiple_db/1/
+2023-07-28 15:43:53 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:43:53 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:45:00 ERROR An error occurred: 'QuerySet' object has no attribute '_meta'
+2023-07-28 15:45:00 ERROR Internal Server Error: /update_student_by_id_multiple_db/1/
+2023-07-28 15:45:00 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:45:00 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:45:37 ERROR An error occurred: When a serializer is passed a `data` keyword argument you must call `.is_valid()` before attempting to access the serialized `.data` representation.
+You should either call `.is_valid()` first, or access `.initial_data` instead.
+2023-07-28 15:45:37 ERROR Internal Server Error: /update_student_by_id_multiple_db/1/
+2023-07-28 15:45:37 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:45:37 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:46:32 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 15:46:32 ERROR Internal Server Error: /update_student_by_id_multiple_db/1/
+2023-07-28 15:46:32 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:46:32 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:49:41 ERROR An error occurred: 'StudentDefaultDB' object has no attribute 'name'
+2023-07-28 15:49:41 ERROR Internal Server Error: /update_student_by_id_multiple_db/1/
+2023-07-28 15:49:41 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:49:41 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:50:21 ERROR An error occurred: 'StudentDefaultDB' object has no attribute 'values'
+2023-07-28 15:50:21 ERROR Internal Server Error: /update_student_by_id_multiple_db/1/
+2023-07-28 15:50:21 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:50:21 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:50:41 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 15:50:41 ERROR Internal Server Error: /update_student_by_id_multiple_db/1/
+2023-07-28 15:50:41 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:50:41 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:51:36 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 15:51:36 ERROR Internal Server Error: /update_student_by_id_multiple_db/1/
+2023-07-28 15:51:36 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:51:36 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:52:56 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 15:52:56 ERROR Internal Server Error: /update_student_by_id_multiple_db/1/
+2023-07-28 15:52:56 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:52:56 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:53:26 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 15:53:26 ERROR Internal Server Error: /update_student_by_id_multiple_db/1/
+2023-07-28 15:53:26 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:53:26 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:54:50 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 15:54:50 ERROR Internal Server Error: /update_student_by_id_multiple_db/1/
+2023-07-28 15:54:50 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:54:50 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:55:25 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 15:55:25 ERROR Internal Server Error: /update_student_by_id_multiple_db/1/
+2023-07-28 15:55:25 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:55:25 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:56:13 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 15:56:13 ERROR Internal Server Error: /update_student_by_id_multiple_db/1/
+2023-07-28 15:56:13 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:56:13 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:59:23 ERROR Internal Server Error: /admin/myapp/studentdefaultdb/3/change/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1855, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py", line 57, in __str__
+    return self.name
+AttributeError: 'StudentDefaultDB' object has no attribute 'name'
+2023-07-28 15:59:23 ERROR "GET /admin/myapp/studentdefaultdb/3/change/ HTTP/1.1" 500 116253
+2023-07-28 15:59:23 ERROR "GET /admin/myapp/studentdefaultdb/3/change/ HTTP/1.1" 500 116253
+2023-07-28 15:59:41 ERROR Internal Server Error: /admin/myapp/studentdefaultdb/3/change/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1855, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py", line 57, in __str__
+    return self.name
+AttributeError: 'StudentDefaultDB' object has no attribute 'name'
+2023-07-28 15:59:41 ERROR "GET /admin/myapp/studentdefaultdb/3/change/ HTTP/1.1" 500 116253
+2023-07-28 15:59:41 ERROR "GET /admin/myapp/studentdefaultdb/3/change/ HTTP/1.1" 500 116253
+2023-07-28 15:59:46 ERROR Internal Server Error: /admin/myapp/studentdefaultdb/2/change/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1855, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py", line 57, in __str__
+    return self.name
+AttributeError: 'StudentDefaultDB' object has no attribute 'name'
+2023-07-28 15:59:46 ERROR "GET /admin/myapp/studentdefaultdb/2/change/ HTTP/1.1" 500 116253
+2023-07-28 15:59:46 ERROR "GET /admin/myapp/studentdefaultdb/2/change/ HTTP/1.1" 500 116253
+2023-07-28 15:59:51 ERROR Internal Server Error: /admin/myapp/studentdefaultdb/1/change/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1855, in _changeform_view
+    "subtitle": str(obj) if obj else None,
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py", line 57, in __str__
+    return self.name
+AttributeError: 'StudentDefaultDB' object has no attribute 'name'
+2023-07-28 15:59:51 ERROR "GET /admin/myapp/studentdefaultdb/1/change/ HTTP/1.1" 500 116253
+2023-07-28 15:59:51 ERROR "GET /admin/myapp/studentdefaultdb/1/change/ HTTP/1.1" 500 116253
+2023-07-28 16:01:20 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 16:01:20 ERROR Internal Server Error: /update_student_by_id_multiple_db/1/
+2023-07-28 16:01:20 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 16:01:20 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 16:01:41 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 16:01:41 ERROR Internal Server Error: /update_student_by_id_multiple_db/1/
+2023-07-28 16:01:41 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 16:01:41 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 16:02:56 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 16:02:56 ERROR Internal Server Error: /update_student_by_id_multiple_db/1/
+2023-07-28 16:02:56 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 16:02:56 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 16:04:29 ERROR An error occurred: You cannot call `.save()` after accessing `serializer.data`.If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. 
+2023-07-28 16:04:29 ERROR Internal Server Error: /update_student_by_id_multiple_db/1/
+2023-07-28 16:04:29 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 16:04:29 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 16:06:21 ERROR An error occurred: 'super' object has no attribute 'using'
+2023-07-28 16:06:21 ERROR Internal Server Error: /update_student_by_id_multiple_db/1/
+2023-07-28 16:06:21 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 16:06:21 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 16:17:17 ERROR An error occurred: StudentSecondDB matching query does not exist.
+2023-07-28 16:17:17 ERROR Internal Server Error: /update_student_by_id_multiple_db/3/
+2023-07-28 16:17:17 ERROR "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 500 49
+2023-07-28 16:17:17 ERROR "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 500 49
+2023-07-28 16:17:44 ERROR An error occurred: StudentSecondDB matching query does not exist.
+2023-07-28 16:17:44 ERROR Internal Server Error: /update_student_by_id_multiple_db/3/
+2023-07-28 16:17:44 ERROR "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 500 49
+2023-07-28 16:17:44 ERROR "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 500 49
+2023-07-28 16:20:47 ERROR An error occurred: The connection 'default_db' doesn't exist.
+2023-07-28 16:20:47 ERROR Internal Server Error: /update_student_by_id_multiple_db/3/
+2023-07-28 16:20:47 ERROR "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 500 49
+2023-07-28 16:20:47 ERROR "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 500 49

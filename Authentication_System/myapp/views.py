@@ -605,3 +605,197 @@ def create_student_multiple_db(request):
             400
         )
         
+#  ======================= GET all the users from multiple database =========================================
+@api_view(['GET'])
+@permission_classes([AllowAny])
+def get_student_multiple_db(request):
+    try:
+        data = request.data
+        if data.get('database'):
+            database = data.get('database', 'default')
+            print(database)
+            if database not in ['default', 'second_db']:
+                return Response({'error': 'Invalid database specified.'}, status=400)
+
+            # checking for the database
+            if database == 'default':
+                student_objs = StudentDefaultDB.objects.using('default').all()
+                serializer = StudentDefaultDB_Get_Serializer(student_objs , many=True)
+                return Response({'status':200 , 'payload':serializer.data})
+            else:
+                student_objs = StudentSecondDB.objects.using('second_db').all()
+                serializer = StudentSecondDB_Get_Serializer(student_objs , many=True)
+                return Response({'status':200 , 'payload':serializer.data})
+        
+        else:
+            return Response({
+                    'status': 'False',
+                    'response': 'please mention the type of database'
+                }, 400)
+
+    except Exception as e:
+        logger.error(f"An error occurred: {str(e)}")
+        return Response(
+            {
+                'message': 'An error occurred',
+                'status_code': 500,
+            },
+            500
+        )
+    
+# ========================================= GET the particular user by id fromk multiple database =========================================
+@api_view(['GET'])
+@permission_classes([AllowAny])
+def get_student_by_id_multiple_db(request, id):
+    try:
+        data = request.data
+        if data.get('database'):
+            database = data.get('database', 'default')
+            print(database)
+            if database not in ['default', 'second_db']:
+                return Response({'error': 'Invalid database specified.'}, status=400)
+
+            # checking for the database
+            if database == 'default':
+                if StudentDefaultDB.objects.using('default').filter(id=id).exists():
+                    print("TRUE")
+                    student_objs = StudentDefaultDB.objects.using('default').filter(id=id).values('id', 'full_name', 'email', 'school', 'city')
+                    print(student_objs)
+                    serializer = StudentDefaultDB_Get_Serializer(student_objs , many=True)
+                    return Response({'status':200 , 'payload':serializer.data})
+                else:
+                    return Response({'error': 'id  does not exist.'}, status=400)
+                
+            if database == 'second_db':
+                if StudentSecondDB.objects.using('second_db').filter(id=id).exists():
+                    student_objs = StudentSecondDB.objects.using('second_db').filter(id=id).values('id', 'full_name', 'email', 'school', 'city')
+                    serializer = StudentSecondDB_Get_Serializer(student_objs , many=True)
+                    return Response({'status':200 , 'payload':serializer.data})
+                else:
+                    return Response({'error': 'id  does not exist.'}, status=400)
+        
+        else:
+            return Response({
+                    'status': 'False',
+                    'response': 'please mention the type of database'
+                }, 400)
+
+    except Exception as e:
+        logger.error(f"An error occurred: {str(e)}")
+        return Response(
+            {
+                'message': 'An error occurred',
+                'status_code': 500,
+            },
+            500
+        )
+    
+
+# ========================================= UPDATE the particular user by id fromk multiple database =========================================
+@api_view(['PUT'])
+@permission_classes([AllowAny])
+def update_student_by_id_multiple_db(request, id):
+    try:
+        data = request.data
+        if data.get('database'):
+            database = data.get('database', 'default')
+            print(database)
+            if database not in ['default', 'second_db']:
+                return Response({'error': 'Invalid database specified.'}, status=400)
+
+            # checking for the database
+            if database == 'default':
+                if StudentDefaultDB.objects.using('default').filter(id=id).exists():
+                    print("TRUE")
+                    student_obj = StudentDefaultDB.objects.using('default').get(id=id)
+                    print(student_obj)
+                    serializer = StudentDefaultDB_Update_Serializer(student_obj , data=data)
+                    
+                    if serializer.is_valid():
+                        # print(serializer.data)
+                        serializer.save()
+                        logger.info("Student in default database  Updated successfully")
+                        return Response({'status':200 , 'payload':serializer.data})
+                else:
+                    return Response({'error': 'id  does not exist.'}, status=400)
+                
+            if database == 'second_db':
+                if StudentSecondDB.objects.using('second_db').filter(id=id).exists():
+                    print("TRUE")
+                    student_obj = StudentSecondDB.objects.using('second_db').get(id=id)
+                    print(student_obj)
+                    serializer = StudentDefaultDB_Update_Serializer(student_obj , data=data)
+                    if serializer.is_valid():
+                        serializer.save()
+                        logger.info("Student in second_db database  Updated successfully")
+                        return Response({'status':200 , 'payload':serializer.data})
+                else:
+                    return Response({'error': 'id  does not exist.'}, status=400)
+        
+        else:
+            return Response({
+                    'status': 'False',
+                    'response': 'please mention the type of database'
+                }, 400)
+
+    except Exception as e:
+        logger.error(f"An error occurred: {str(e)}")
+        return Response(
+            {
+                'message': 'An error occurred',
+                'status_code': 500,
+            },
+            500
+        )
+    
+# ========================================= DELETE the particular student by id from multiple database ==================================
+        
+@api_view(['DELETE'])
+@permission_classes([AllowAny])
+def delete_student_by_id_multiple_db(request, id):
+    try:
+        data = request.data
+        if data.get('database'):
+            database = data.get('database', 'default')
+            print(database)
+            if database not in ['default', 'second_db']:
+                return Response({'error': 'Invalid database specified.'}, status=400)
+
+            # checking for the database
+            if database == 'default':
+                if StudentDefaultDB.objects.using('default').filter(id=id).exists():
+                    print("TRUE")
+                    student_obj = StudentDefaultDB.objects.using('default').get(id=id)
+                    print(student_obj)
+                    student_obj.delete()
+                    logger.info("Student in default database  Deleted successfully")
+                    return Response({'status':200 , 'message':'Student deleted from Table of default Database successfully'})
+                else:
+                    return Response({'error': 'id  does not exist.'}, status=400)
+                
+            if database == 'second_db':
+                if StudentSecondDB.objects.using('second_db').filter(id=id).exists():
+                    print("TRUE")
+                    student_obj = StudentSecondDB.objects.using('second_db').get(id=id)
+                    print(student_obj)
+                    student_obj.delete()
+                    logger.info("Student in second_db database  Updated successfully")
+                    return Response({'status':200 , 'message':'Student deleted from Table of second_db Database successfully'})
+                else:
+                    return Response({'error': 'id  does not exist.'}, status=400)
+        
+        else:
+            return Response({
+                    'status': 'False',
+                    'response': 'please mention the type of database'
+                }, 400)
+
+    except Exception as e:
+        logger.error(f"An error occurred: {str(e)}")
+        return Response(
+            {
+                'message': 'An error occurred',
+                'status_code': 500,
+            },
+            500
+        )

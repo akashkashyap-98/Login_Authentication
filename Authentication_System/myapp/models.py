@@ -54,7 +54,7 @@ class StudentDefaultDB(models.Model):
     city = models.CharField(max_length=100)
 
     def __str__(self):
-        return self.name
+        return self.email
 
 class StudentSecondDB(models.Model):
     full_name = models.CharField(max_length=100)
@@ -63,4 +63,4 @@ class StudentSecondDB(models.Model):
     city = models.CharField(max_length=100)
 
     def __str__(self):
-        return self.name
+        return self.email

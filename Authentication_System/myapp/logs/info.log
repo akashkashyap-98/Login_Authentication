@@ -3715,3 +3715,667 @@ TypeError: StudentDefaultDB() got unexpected keyword arguments: 'using'
 2023-07-27 20:15:14 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
 2023-07-27 20:15:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
 2023-07-27 20:15:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 13:10:31 INFO Watching for file changes with StatReloader
+2023-07-28 13:10:31 INFO Watching for file changes with StatReloader
+2023-07-28 13:27:23 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 13:27:23 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 13:27:24 INFO Watching for file changes with StatReloader
+2023-07-28 13:27:24 INFO Watching for file changes with StatReloader
+2023-07-28 13:27:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 13:27:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 13:27:45 INFO Watching for file changes with StatReloader
+2023-07-28 13:27:45 INFO Watching for file changes with StatReloader
+2023-07-28 13:41:26 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 13:41:26 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 13:41:27 INFO Watching for file changes with StatReloader
+2023-07-28 13:41:27 INFO Watching for file changes with StatReloader
+2023-07-28 13:42:45 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 13:42:45 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 13:42:46 INFO Watching for file changes with StatReloader
+2023-07-28 13:42:46 INFO Watching for file changes with StatReloader
+2023-07-28 13:43:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 13:43:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 13:43:52 INFO Watching for file changes with StatReloader
+2023-07-28 13:43:52 INFO Watching for file changes with StatReloader
+2023-07-28 13:44:46 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-28 13:44:46 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-28 13:44:46 INFO Watching for file changes with StatReloader
+2023-07-28 13:44:46 INFO Watching for file changes with StatReloader
+2023-07-28 13:44:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-28 13:44:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-28 13:44:52 INFO Watching for file changes with StatReloader
+2023-07-28 13:44:52 INFO Watching for file changes with StatReloader
+2023-07-28 13:46:16 ERROR "GET /get_student_multiple_db/ HTTP/1.1" 500 95605
+2023-07-28 13:46:16 ERROR "GET /get_student_multiple_db/ HTTP/1.1" 500 95605
+2023-07-28 13:47:17 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 13:47:17 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 13:47:17 INFO Watching for file changes with StatReloader
+2023-07-28 13:47:17 INFO Watching for file changes with StatReloader
+2023-07-28 13:47:23 WARNING "GET /get_student_multiple_db/ HTTP/1.1" 400 67
+2023-07-28 13:47:23 WARNING "GET /get_student_multiple_db/ HTTP/1.1" 400 67
+2023-07-28 13:47:58 ERROR An error occurred: local variable 'database' referenced before assignment
+2023-07-28 13:47:58 ERROR "GET /get_student_multiple_db/ HTTP/1.1" 500 49
+2023-07-28 13:47:58 ERROR "GET /get_student_multiple_db/ HTTP/1.1" 500 49
+2023-07-28 13:49:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 13:49:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 13:49:18 INFO Watching for file changes with StatReloader
+2023-07-28 13:49:18 INFO Watching for file changes with StatReloader
+2023-07-28 13:49:21 ERROR An error occurred: local variable 'database' referenced before assignment
+2023-07-28 13:49:21 ERROR "GET /get_student_multiple_db/ HTTP/1.1" 500 49
+2023-07-28 13:49:21 ERROR "GET /get_student_multiple_db/ HTTP/1.1" 500 49
+2023-07-28 13:49:45 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 13:49:45 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 13:49:45 INFO Watching for file changes with StatReloader
+2023-07-28 13:49:45 INFO Watching for file changes with StatReloader
+2023-07-28 13:49:50 INFO "GET /get_student_multiple_db/ HTTP/1.1" 200 347
+2023-07-28 13:49:50 INFO "GET /get_student_multiple_db/ HTTP/1.1" 200 347
+2023-07-28 13:50:28 INFO "GET /get_student_multiple_db/ HTTP/1.1" 200 569
+2023-07-28 13:50:28 INFO "GET /get_student_multiple_db/ HTTP/1.1" 200 569
+2023-07-28 13:50:52 WARNING "GET /get_student_multiple_db/ HTTP/1.1" 400 39
+2023-07-28 13:50:52 WARNING "GET /get_student_multiple_db/ HTTP/1.1" 400 39
+2023-07-28 13:50:59 INFO "GET /get_student_multiple_db/ HTTP/1.1" 200 569
+2023-07-28 13:50:59 INFO "GET /get_student_multiple_db/ HTTP/1.1" 200 569
+2023-07-28 13:51:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 13:51:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 13:51:44 INFO Watching for file changes with StatReloader
+2023-07-28 13:51:44 INFO Watching for file changes with StatReloader
+2023-07-28 13:51:47 INFO "GET /get_student_multiple_db/ HTTP/1.1" 200 605
+2023-07-28 13:51:47 INFO "GET /get_student_multiple_db/ HTTP/1.1" 200 605
+2023-07-28 14:19:36 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:19:36 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:19:37 INFO Watching for file changes with StatReloader
+2023-07-28 14:19:37 INFO Watching for file changes with StatReloader
+2023-07-28 14:20:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-28 14:20:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-28 14:20:22 INFO Watching for file changes with StatReloader
+2023-07-28 14:20:22 INFO Watching for file changes with StatReloader
+2023-07-28 14:20:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-28 14:20:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-28 14:20:51 INFO Watching for file changes with StatReloader
+2023-07-28 14:20:51 INFO Watching for file changes with StatReloader
+2023-07-28 14:21:00 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:21:00 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:21:00 INFO Watching for file changes with StatReloader
+2023-07-28 14:21:00 INFO Watching for file changes with StatReloader
+2023-07-28 14:22:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:22:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:22:18 INFO Watching for file changes with StatReloader
+2023-07-28 14:22:18 INFO Watching for file changes with StatReloader
+2023-07-28 14:22:25 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:22:25 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:22:25 INFO Watching for file changes with StatReloader
+2023-07-28 14:22:25 INFO Watching for file changes with StatReloader
+2023-07-28 14:22:54 ERROR "GET /get_student_by_id_multiple_db/ HTTP/1.1" 500 95719
+2023-07-28 14:22:54 ERROR "GET /get_student_by_id_multiple_db/ HTTP/1.1" 500 95719
+2023-07-28 14:23:13 WARNING "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 404 4998
+2023-07-28 14:23:13 WARNING "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 404 4998
+2023-07-28 14:23:24 WARNING "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 404 4998
+2023-07-28 14:23:24 WARNING "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 404 4998
+2023-07-28 14:24:04 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-28 14:24:04 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-28 14:24:05 INFO Watching for file changes with StatReloader
+2023-07-28 14:24:05 INFO Watching for file changes with StatReloader
+2023-07-28 14:24:09 WARNING "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 400 67
+2023-07-28 14:24:09 WARNING "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 400 67
+2023-07-28 14:24:35 ERROR An error occurred: 'StudentDefaultDB' object is not iterable
+2023-07-28 14:24:35 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:24:35 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:26:35 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:26:35 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:26:35 INFO Watching for file changes with StatReloader
+2023-07-28 14:26:35 INFO Watching for file changes with StatReloader
+2023-07-28 14:26:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:26:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:26:51 INFO Watching for file changes with StatReloader
+2023-07-28 14:26:51 INFO Watching for file changes with StatReloader
+2023-07-28 14:26:55 ERROR An error occurred: 'StudentDefaultDB' object is not iterable
+2023-07-28 14:26:55 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:26:55 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:27:53 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:27:53 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:27:53 INFO Watching for file changes with StatReloader
+2023-07-28 14:27:53 INFO Watching for file changes with StatReloader
+2023-07-28 14:27:59 ERROR An error occurred: 'StudentDefaultDB' object has no attribute 'name'
+2023-07-28 14:27:59 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:27:59 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:28:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:28:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:28:44 INFO Watching for file changes with StatReloader
+2023-07-28 14:28:44 INFO Watching for file changes with StatReloader
+2023-07-28 14:28:47 ERROR An error occurred: 'StudentDefaultDB' object has no attribute 'name'
+2023-07-28 14:28:47 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:28:47 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:29:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:29:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:29:07 INFO Watching for file changes with StatReloader
+2023-07-28 14:29:07 INFO Watching for file changes with StatReloader
+2023-07-28 14:29:11 ERROR An error occurred: 'StudentDefaultDB' object has no attribute 'values'
+2023-07-28 14:29:11 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:29:11 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:30:15 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:30:15 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:30:15 INFO Watching for file changes with StatReloader
+2023-07-28 14:30:15 INFO Watching for file changes with StatReloader
+2023-07-28 14:30:17 ERROR An error occurred: 'StudentDefaultDB' object has no attribute 'values'
+2023-07-28 14:30:17 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:30:17 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:30:42 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:30:42 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:30:42 INFO Watching for file changes with StatReloader
+2023-07-28 14:30:42 INFO Watching for file changes with StatReloader
+2023-07-28 14:30:51 INFO "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 200 143
+2023-07-28 14:30:51 INFO "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 200 143
+2023-07-28 14:31:01 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:31:01 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:31:01 INFO Watching for file changes with StatReloader
+2023-07-28 14:31:01 INFO Watching for file changes with StatReloader
+2023-07-28 14:31:04 ERROR An error occurred: 'StudentDefaultDB' object has no attribute 'name'
+2023-07-28 14:31:04 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:31:04 ERROR "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 14:31:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:31:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:31:13 INFO Watching for file changes with StatReloader
+2023-07-28 14:31:13 INFO Watching for file changes with StatReloader
+2023-07-28 14:32:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:32:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:32:18 INFO Watching for file changes with StatReloader
+2023-07-28 14:32:18 INFO Watching for file changes with StatReloader
+2023-07-28 14:32:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:32:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 14:32:23 INFO Watching for file changes with StatReloader
+2023-07-28 14:32:23 INFO Watching for file changes with StatReloader
+2023-07-28 14:37:54 INFO "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 200 143
+2023-07-28 14:37:54 INFO "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 200 143
+2023-07-28 14:38:00 WARNING "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 400 39
+2023-07-28 14:38:00 WARNING "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 400 39
+2023-07-28 14:38:06 INFO "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 200 143
+2023-07-28 14:38:06 INFO "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 200 143
+2023-07-28 14:38:18 WARNING "GET /get_student_by_id_multiple_db/14/ HTTP/1.1" 400 31
+2023-07-28 14:38:18 WARNING "GET /get_student_by_id_multiple_db/14/ HTTP/1.1" 400 31
+2023-07-28 14:38:32 WARNING "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 400 67
+2023-07-28 14:38:32 WARNING "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 400 67
+2023-07-28 14:38:40 INFO "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 200 143
+2023-07-28 14:38:40 INFO "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 200 143
+2023-07-28 15:20:25 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:20:25 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:20:26 INFO Watching for file changes with StatReloader
+2023-07-28 15:20:26 INFO Watching for file changes with StatReloader
+2023-07-28 15:22:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 15:22:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 15:22:10 INFO Watching for file changes with StatReloader
+2023-07-28 15:22:10 INFO Watching for file changes with StatReloader
+2023-07-28 15:22:46 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 15:22:46 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 15:22:47 INFO Watching for file changes with StatReloader
+2023-07-28 15:22:47 INFO Watching for file changes with StatReloader
+2023-07-28 15:38:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:38:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:38:14 INFO Watching for file changes with StatReloader
+2023-07-28 15:38:14 INFO Watching for file changes with StatReloader
+2023-07-28 15:39:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-28 15:39:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-28 15:39:02 INFO Watching for file changes with StatReloader
+2023-07-28 15:39:02 INFO Watching for file changes with StatReloader
+2023-07-28 15:39:04 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-28 15:39:04 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-28 15:39:04 INFO Watching for file changes with StatReloader
+2023-07-28 15:39:04 INFO Watching for file changes with StatReloader
+2023-07-28 15:40:32 WARNING "GET /update_student_by_id_multiple_db/1/ HTTP/1.1" 405 40
+2023-07-28 15:40:32 WARNING "GET /update_student_by_id_multiple_db/1/ HTTP/1.1" 405 40
+2023-07-28 15:40:37 WARNING "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 400 67
+2023-07-28 15:40:37 WARNING "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 400 67
+2023-07-28 15:41:27 ERROR An error occurred: 'StudentDefaultDB' object has no attribute 'name'
+2023-07-28 15:41:27 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:41:27 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:41:54 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:41:54 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:41:54 INFO Watching for file changes with StatReloader
+2023-07-28 15:41:54 INFO Watching for file changes with StatReloader
+2023-07-28 15:41:57 ERROR An error occurred: 'StudentDefaultDB' object has no attribute 'name'
+2023-07-28 15:41:57 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:41:57 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:42:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:42:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:42:48 INFO Watching for file changes with StatReloader
+2023-07-28 15:42:48 INFO Watching for file changes with StatReloader
+2023-07-28 15:42:50 ERROR An error occurred: 'StudentDefaultDB' object has no attribute 'name'
+2023-07-28 15:42:50 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:42:50 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:43:49 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:43:49 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:43:49 INFO Watching for file changes with StatReloader
+2023-07-28 15:43:49 INFO Watching for file changes with StatReloader
+2023-07-28 15:43:53 ERROR An error occurred: 'QuerySet' object has no attribute '_meta'
+2023-07-28 15:43:53 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:43:53 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:44:57 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:44:57 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:44:57 INFO Watching for file changes with StatReloader
+2023-07-28 15:44:57 INFO Watching for file changes with StatReloader
+2023-07-28 15:45:00 ERROR An error occurred: 'QuerySet' object has no attribute '_meta'
+2023-07-28 15:45:00 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:45:00 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:45:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:45:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:45:13 INFO Watching for file changes with StatReloader
+2023-07-28 15:45:13 INFO Watching for file changes with StatReloader
+2023-07-28 15:45:33 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:45:33 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:45:34 INFO Watching for file changes with StatReloader
+2023-07-28 15:45:34 INFO Watching for file changes with StatReloader
+2023-07-28 15:45:37 ERROR An error occurred: When a serializer is passed a `data` keyword argument you must call `.is_valid()` before attempting to access the serialized `.data` representation.
+You should either call `.is_valid()` first, or access `.initial_data` instead.
+2023-07-28 15:45:37 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:45:37 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:46:26 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:46:26 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:46:27 INFO Watching for file changes with StatReloader
+2023-07-28 15:46:27 INFO Watching for file changes with StatReloader
+2023-07-28 15:46:32 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 15:46:32 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:46:32 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:49:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 15:49:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 15:49:08 INFO Watching for file changes with StatReloader
+2023-07-28 15:49:08 INFO Watching for file changes with StatReloader
+2023-07-28 15:49:37 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:49:37 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:49:38 INFO Watching for file changes with StatReloader
+2023-07-28 15:49:38 INFO Watching for file changes with StatReloader
+2023-07-28 15:49:41 ERROR An error occurred: 'StudentDefaultDB' object has no attribute 'name'
+2023-07-28 15:49:41 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:49:41 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:50:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:50:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:50:18 INFO Watching for file changes with StatReloader
+2023-07-28 15:50:18 INFO Watching for file changes with StatReloader
+2023-07-28 15:50:21 ERROR An error occurred: 'StudentDefaultDB' object has no attribute 'values'
+2023-07-28 15:50:21 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:50:21 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:50:39 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:50:39 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:50:39 INFO Watching for file changes with StatReloader
+2023-07-28 15:50:39 INFO Watching for file changes with StatReloader
+2023-07-28 15:50:41 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 15:50:41 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:50:41 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:51:33 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 15:51:33 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 15:51:33 INFO Watching for file changes with StatReloader
+2023-07-28 15:51:33 INFO Watching for file changes with StatReloader
+2023-07-28 15:51:36 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 15:51:36 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:51:36 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:52:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 15:52:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 15:52:44 INFO Watching for file changes with StatReloader
+2023-07-28 15:52:44 INFO Watching for file changes with StatReloader
+2023-07-28 15:52:56 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 15:52:56 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:52:56 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:53:23 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 15:53:23 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 15:53:24 INFO Watching for file changes with StatReloader
+2023-07-28 15:53:24 INFO Watching for file changes with StatReloader
+2023-07-28 15:53:26 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 15:53:26 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:53:26 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:54:46 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:54:46 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:54:46 INFO Watching for file changes with StatReloader
+2023-07-28 15:54:46 INFO Watching for file changes with StatReloader
+2023-07-28 15:54:50 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 15:54:50 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:54:50 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:55:21 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 15:55:21 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 15:55:21 INFO Watching for file changes with StatReloader
+2023-07-28 15:55:21 INFO Watching for file changes with StatReloader
+2023-07-28 15:55:25 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 15:55:25 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:55:25 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:56:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:56:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:56:10 INFO Watching for file changes with StatReloader
+2023-07-28 15:56:10 INFO Watching for file changes with StatReloader
+2023-07-28 15:56:13 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 15:56:13 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:56:13 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 15:57:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:57:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 15:57:22 INFO Watching for file changes with StatReloader
+2023-07-28 15:57:22 INFO Watching for file changes with StatReloader
+2023-07-28 15:59:16 INFO "GET /admin/ HTTP/1.1" 200 10601
+2023-07-28 15:59:16 INFO "GET /admin/ HTTP/1.1" 200 10601
+2023-07-28 15:59:17 WARNING "GET /favicon.ico HTTP/1.1" 404 5186
+2023-07-28 15:59:17 WARNING "GET /favicon.ico HTTP/1.1" 404 5186
+2023-07-28 15:59:20 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-28 15:59:20 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-28 15:59:20 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 15:59:20 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 15:59:23 ERROR "GET /admin/myapp/studentdefaultdb/3/change/ HTTP/1.1" 500 116253
+2023-07-28 15:59:23 ERROR "GET /admin/myapp/studentdefaultdb/3/change/ HTTP/1.1" 500 116253
+2023-07-28 15:59:27 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-28 15:59:27 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-28 15:59:34 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-28 15:59:34 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-28 15:59:34 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 15:59:34 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 15:59:39 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-28 15:59:39 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-28 15:59:39 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 15:59:39 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 15:59:41 ERROR "GET /admin/myapp/studentdefaultdb/3/change/ HTTP/1.1" 500 116253
+2023-07-28 15:59:41 ERROR "GET /admin/myapp/studentdefaultdb/3/change/ HTTP/1.1" 500 116253
+2023-07-28 15:59:44 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-28 15:59:44 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-28 15:59:46 ERROR "GET /admin/myapp/studentdefaultdb/2/change/ HTTP/1.1" 500 116253
+2023-07-28 15:59:46 ERROR "GET /admin/myapp/studentdefaultdb/2/change/ HTTP/1.1" 500 116253
+2023-07-28 15:59:47 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-28 15:59:47 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-28 15:59:51 ERROR "GET /admin/myapp/studentdefaultdb/1/change/ HTTP/1.1" 500 116253
+2023-07-28 15:59:51 ERROR "GET /admin/myapp/studentdefaultdb/1/change/ HTTP/1.1" 500 116253
+2023-07-28 16:00:03 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-28 16:00:03 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10921
+2023-07-28 16:00:49 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py changed, reloading.
+2023-07-28 16:00:49 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py changed, reloading.
+2023-07-28 16:00:49 INFO Watching for file changes with StatReloader
+2023-07-28 16:00:49 INFO Watching for file changes with StatReloader
+2023-07-28 16:01:20 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 16:01:20 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 16:01:20 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 16:01:38 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 16:01:38 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 16:01:39 INFO Watching for file changes with StatReloader
+2023-07-28 16:01:39 INFO Watching for file changes with StatReloader
+2023-07-28 16:01:41 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 16:01:41 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 16:01:41 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 16:02:53 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 16:02:53 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 16:02:53 INFO Watching for file changes with StatReloader
+2023-07-28 16:02:53 INFO Watching for file changes with StatReloader
+2023-07-28 16:02:56 ERROR An error occurred: Got AttributeError when attempting to get a value for field `full_name` on serializer `StudentDefaultDB_Update_Serializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'full_name'.
+2023-07-28 16:02:56 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 16:02:56 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 16:04:26 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 16:04:26 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 16:04:27 INFO Watching for file changes with StatReloader
+2023-07-28 16:04:27 INFO Watching for file changes with StatReloader
+2023-07-28 16:04:29 ERROR An error occurred: You cannot call `.save()` after accessing `serializer.data`.If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. 
+2023-07-28 16:04:29 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 16:04:29 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 16:06:15 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 16:06:15 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 16:06:15 INFO Watching for file changes with StatReloader
+2023-07-28 16:06:15 INFO Watching for file changes with StatReloader
+2023-07-28 16:06:21 ERROR An error occurred: 'super' object has no attribute 'using'
+2023-07-28 16:06:21 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 16:06:21 ERROR "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 500 49
+2023-07-28 16:06:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 16:06:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-28 16:06:49 INFO Watching for file changes with StatReloader
+2023-07-28 16:06:49 INFO Watching for file changes with StatReloader
+2023-07-28 16:07:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 16:07:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 16:07:11 INFO Watching for file changes with StatReloader
+2023-07-28 16:07:11 INFO Watching for file changes with StatReloader
+2023-07-28 16:07:14 INFO Student in default database  Updated successfully
+2023-07-28 16:07:14 INFO "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 200 117
+2023-07-28 16:07:14 INFO "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 200 117
+2023-07-28 16:07:37 INFO Student in second_db database  Updated successfully
+2023-07-28 16:07:37 INFO "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 200 117
+2023-07-28 16:07:37 INFO "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 200 117
+2023-07-28 16:07:46 INFO Student in second_db database  Updated successfully
+2023-07-28 16:07:46 INFO "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 200 117
+2023-07-28 16:07:46 INFO "PUT /update_student_by_id_multiple_db/1/ HTTP/1.1" 200 117
+2023-07-28 16:15:24 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10929
+2023-07-28 16:15:24 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10929
+2023-07-28 16:15:24 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 16:15:24 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 16:15:27 INFO "GET /admin/myapp/studentdefaultdb/1/change/ HTTP/1.1" 200 11759
+2023-07-28 16:15:27 INFO "GET /admin/myapp/studentdefaultdb/1/change/ HTTP/1.1" 200 11759
+2023-07-28 16:15:27 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 16:15:27 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 16:17:05 WARNING "PUT /update_student_by_id_multiple_db// HTTP/1.1" 404 5255
+2023-07-28 16:17:05 WARNING "PUT /update_student_by_id_multiple_db// HTTP/1.1" 404 5255
+2023-07-28 16:17:17 ERROR An error occurred: StudentSecondDB matching query does not exist.
+2023-07-28 16:17:17 ERROR "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 500 49
+2023-07-28 16:17:17 ERROR "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 500 49
+2023-07-28 16:17:44 ERROR An error occurred: StudentSecondDB matching query does not exist.
+2023-07-28 16:17:44 ERROR "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 500 49
+2023-07-28 16:17:44 ERROR "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 500 49
+2023-07-28 16:19:21 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-28 16:19:21 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-28 16:19:21 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 16:19:21 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 16:19:23 INFO "GET /admin/myapp/studentseconddb/4/change/ HTTP/1.1" 200 11711
+2023-07-28 16:19:23 INFO "GET /admin/myapp/studentseconddb/4/change/ HTTP/1.1" 200 11711
+2023-07-28 16:19:23 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 16:19:23 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 16:19:25 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-28 16:19:25 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-28 16:19:26 INFO "GET /admin/myapp/studentseconddb/3/change/ HTTP/1.1" 200 11753
+2023-07-28 16:19:26 INFO "GET /admin/myapp/studentseconddb/3/change/ HTTP/1.1" 200 11753
+2023-07-28 16:19:27 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 16:19:27 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 16:19:30 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-28 16:19:30 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 11224
+2023-07-28 16:19:44 INFO "POST /admin/myapp/studentseconddb/ HTTP/1.1" 200 9328
+2023-07-28 16:19:44 INFO "POST /admin/myapp/studentseconddb/ HTTP/1.1" 200 9328
+2023-07-28 16:19:44 INFO "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+2023-07-28 16:19:44 INFO "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+2023-07-28 16:19:45 INFO "POST /admin/myapp/studentseconddb/ HTTP/1.1" 302 0
+2023-07-28 16:19:45 INFO "POST /admin/myapp/studentseconddb/ HTTP/1.1" 302 0
+2023-07-28 16:19:45 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 8900
+2023-07-28 16:19:45 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 8900
+2023-07-28 16:19:45 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 16:19:45 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 16:19:51 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10929
+2023-07-28 16:19:51 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10929
+2023-07-28 16:19:51 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 16:19:51 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 16:19:58 WARNING "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 400 31
+2023-07-28 16:19:58 WARNING "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 400 31
+2023-07-28 16:20:43 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 16:20:43 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 16:20:43 INFO Watching for file changes with StatReloader
+2023-07-28 16:20:43 INFO Watching for file changes with StatReloader
+2023-07-28 16:20:47 ERROR An error occurred: The connection 'default_db' doesn't exist.
+2023-07-28 16:20:47 ERROR "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 500 49
+2023-07-28 16:20:47 ERROR "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 500 49
+2023-07-28 16:21:23 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 16:21:23 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 16:21:24 INFO Watching for file changes with StatReloader
+2023-07-28 16:21:24 INFO Watching for file changes with StatReloader
+2023-07-28 16:21:25 WARNING "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 400 31
+2023-07-28 16:21:25 WARNING "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 400 31
+2023-07-28 16:22:54 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 16:22:54 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 16:22:54 INFO Watching for file changes with StatReloader
+2023-07-28 16:22:54 INFO Watching for file changes with StatReloader
+2023-07-28 16:23:34 INFO "GET /admin/myapp/studentdefaultdb/2/change/ HTTP/1.1" 200 11735
+2023-07-28 16:23:34 INFO "GET /admin/myapp/studentdefaultdb/2/change/ HTTP/1.1" 200 11735
+2023-07-28 16:23:34 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 16:23:34 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 16:23:37 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10929
+2023-07-28 16:23:37 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10929
+2023-07-28 16:23:38 INFO "GET /admin/myapp/studentdefaultdb/1/change/ HTTP/1.1" 200 11759
+2023-07-28 16:23:38 INFO "GET /admin/myapp/studentdefaultdb/1/change/ HTTP/1.1" 200 11759
+2023-07-28 16:23:38 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 16:23:38 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 16:23:40 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10929
+2023-07-28 16:23:40 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10929
+2023-07-28 16:23:42 INFO "GET /admin/myapp/studentdefaultdb/3/change/ HTTP/1.1" 200 11715
+2023-07-28 16:23:42 INFO "GET /admin/myapp/studentdefaultdb/3/change/ HTTP/1.1" 200 11715
+2023-07-28 16:23:42 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 16:23:42 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 16:23:44 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10929
+2023-07-28 16:23:44 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10929
+2023-07-28 16:24:03 WARNING "PUT /update_student_by_id_multiple_db/4/ HTTP/1.1" 400 31
+2023-07-28 16:24:03 WARNING "PUT /update_student_by_id_multiple_db/4/ HTTP/1.1" 400 31
+2023-07-28 16:24:16 WARNING "PUT /update_student_by_id_multiple_db/7/ HTTP/1.1" 400 31
+2023-07-28 16:24:16 WARNING "PUT /update_student_by_id_multiple_db/7/ HTTP/1.1" 400 31
+2023-07-28 16:25:09 WARNING "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 400 31
+2023-07-28 16:25:09 WARNING "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 400 31
+2023-07-28 16:25:10 WARNING "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 400 31
+2023-07-28 16:25:10 WARNING "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 400 31
+2023-07-28 16:26:46 WARNING "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 400 31
+2023-07-28 16:26:46 WARNING "PUT /update_student_by_id_multiple_db/3/ HTTP/1.1" 400 31
+2023-07-28 16:26:54 INFO Student in second_db database  Updated successfully
+2023-07-28 16:26:54 INFO "PUT /update_student_by_id_multiple_db/7/ HTTP/1.1" 200 105
+2023-07-28 16:26:54 INFO "PUT /update_student_by_id_multiple_db/7/ HTTP/1.1" 200 105
+2023-07-28 18:02:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 18:02:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 18:02:02 INFO Watching for file changes with StatReloader
+2023-07-28 18:02:02 INFO Watching for file changes with StatReloader
+2023-07-28 18:09:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 18:09:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 18:09:07 INFO Watching for file changes with StatReloader
+2023-07-28 18:09:07 INFO Watching for file changes with StatReloader
+2023-07-28 18:10:27 WARNING "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 400 31
+2023-07-28 18:10:27 WARNING "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 400 31
+2023-07-28 18:10:39 WARNING "GET /get_student_by_id_multiple_db/7/ HTTP/1.1" 400 31
+2023-07-28 18:10:39 WARNING "GET /get_student_by_id_multiple_db/7/ HTTP/1.1" 400 31
+2023-07-28 18:11:17 WARNING "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 400 31
+2023-07-28 18:11:17 WARNING "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 400 31
+2023-07-28 18:11:52 INFO "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 200 159
+2023-07-28 18:11:52 INFO "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 200 159
+2023-07-28 18:11:58 INFO "GET /get_student_by_id_multiple_db/2/ HTTP/1.1" 200 141
+2023-07-28 18:11:58 INFO "GET /get_student_by_id_multiple_db/2/ HTTP/1.1" 200 141
+2023-07-28 18:12:10 WARNING "GET /get_student_by_id_multiple_db/2/ HTTP/1.1" 400 39
+2023-07-28 18:12:10 WARNING "GET /get_student_by_id_multiple_db/2/ HTTP/1.1" 400 39
+2023-07-28 18:12:16 INFO "GET /get_student_by_id_multiple_db/2/ HTTP/1.1" 200 141
+2023-07-28 18:12:16 INFO "GET /get_student_by_id_multiple_db/2/ HTTP/1.1" 200 141
+2023-07-28 18:12:50 WARNING "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 400 31
+2023-07-28 18:12:50 WARNING "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 400 31
+2023-07-28 18:13:08 INFO "GET /get_student_multiple_db/ HTTP/1.1" 200 623
+2023-07-28 18:13:08 INFO "GET /get_student_multiple_db/ HTTP/1.1" 200 623
+2023-07-28 18:13:16 INFO "GET /get_student_multiple_db/ HTTP/1.1" 200 384
+2023-07-28 18:13:16 INFO "GET /get_student_multiple_db/ HTTP/1.1" 200 384
+2023-07-28 18:16:01 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 18:16:01 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 18:16:01 INFO Watching for file changes with StatReloader
+2023-07-28 18:16:01 INFO Watching for file changes with StatReloader
+2023-07-28 18:18:37 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 18:18:37 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 18:18:38 INFO Watching for file changes with StatReloader
+2023-07-28 18:18:38 INFO Watching for file changes with StatReloader
+2023-07-28 18:18:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 18:18:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 18:18:59 INFO Watching for file changes with StatReloader
+2023-07-28 18:18:59 INFO Watching for file changes with StatReloader
+2023-07-28 18:19:12 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 18:19:12 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-28 18:19:12 INFO Watching for file changes with StatReloader
+2023-07-28 18:19:12 INFO Watching for file changes with StatReloader
+2023-07-28 18:19:46 INFO "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 200 157
+2023-07-28 18:19:46 INFO "GET /get_student_by_id_multiple_db/1/ HTTP/1.1" 200 157
+2023-07-28 18:19:54 INFO "GET /get_student_by_id_multiple_db/2/ HTTP/1.1" 200 141
+2023-07-28 18:19:54 INFO "GET /get_student_by_id_multiple_db/2/ HTTP/1.1" 200 141
+2023-07-28 18:20:04 WARNING "GET /get_student_by_id_multiple_db/3/ HTTP/1.1" 400 31
+2023-07-28 18:20:04 WARNING "GET /get_student_by_id_multiple_db/3/ HTTP/1.1" 400 31
+2023-07-28 18:20:10 WARNING "GET /get_student_by_id_multiple_db/4/ HTTP/1.1" 400 31
+2023-07-28 18:20:10 WARNING "GET /get_student_by_id_multiple_db/4/ HTTP/1.1" 400 31
+2023-07-28 18:20:19 INFO "GET /get_student_by_id_multiple_db/7/ HTTP/1.1" 200 152
+2023-07-28 18:20:19 INFO "GET /get_student_by_id_multiple_db/7/ HTTP/1.1" 200 152
+2023-07-28 18:35:26 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-28 18:35:26 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-28 18:35:26 INFO Watching for file changes with StatReloader
+2023-07-28 18:35:26 INFO Watching for file changes with StatReloader
+2023-07-28 18:35:38 WARNING "GET /delete_student_by_id_multiple_db/10/ HTTP/1.1" 405 40
+2023-07-28 18:35:38 WARNING "GET /delete_student_by_id_multiple_db/10/ HTTP/1.1" 405 40
+2023-07-28 18:35:44 WARNING "DELETE /delete_student_by_id_multiple_db/10/ HTTP/1.1" 400 67
+2023-07-28 18:35:44 WARNING "DELETE /delete_student_by_id_multiple_db/10/ HTTP/1.1" 400 67
+2023-07-28 18:36:02 WARNING "DELETE /delete_student_by_id_multiple_db/10/ HTTP/1.1" 400 31
+2023-07-28 18:36:02 WARNING "DELETE /delete_student_by_id_multiple_db/10/ HTTP/1.1" 400 31
+2023-07-28 18:36:12 INFO Student in second_db database  Updated successfully
+2023-07-28 18:36:12 INFO "DELETE /delete_student_by_id_multiple_db/10/ HTTP/1.1" 200 88
+2023-07-28 18:36:12 INFO "DELETE /delete_student_by_id_multiple_db/10/ HTTP/1.1" 200 88
+2023-07-28 18:36:53 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10929
+2023-07-28 18:36:53 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10929
+2023-07-28 18:36:53 INFO "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 18:36:53 INFO "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 18:36:53 INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2023-07-28 18:36:53 INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2023-07-28 18:36:55 INFO "GET /admin/myapp/studentdefaultdb/1/change/ HTTP/1.1" 200 11759
+2023-07-28 18:36:55 INFO "GET /admin/myapp/studentdefaultdb/1/change/ HTTP/1.1" 200 11759
+2023-07-28 18:36:55 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 18:36:55 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 18:37:00 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10929
+2023-07-28 18:37:00 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10929
+2023-07-28 18:37:01 INFO "GET /admin/myapp/studentdefaultdb/3/change/ HTTP/1.1" 200 11715
+2023-07-28 18:37:01 INFO "GET /admin/myapp/studentdefaultdb/3/change/ HTTP/1.1" 200 11715
+2023-07-28 18:37:01 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 18:37:01 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 18:37:22 INFO Student in default database  Deleted successfully
+2023-07-28 18:37:22 INFO "DELETE /delete_student_by_id_multiple_db/3/ HTTP/1.1" 200 86
+2023-07-28 18:37:22 INFO "DELETE /delete_student_by_id_multiple_db/3/ HTTP/1.1" 200 86
+2023-07-28 18:37:29 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10628
+2023-07-28 18:37:29 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10628
+2023-07-28 18:37:31 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10628
+2023-07-28 18:37:31 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10628
+2023-07-28 18:37:31 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 18:37:31 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 18:37:33 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 8752
+2023-07-28 18:37:33 INFO "GET /admin/myapp/studentseconddb/ HTTP/1.1" 200 8752
+2023-07-28 18:37:33 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 18:37:33 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-28 18:37:35 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10628
+2023-07-28 18:37:35 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10628

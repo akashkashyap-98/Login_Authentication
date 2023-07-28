@@ -100,4 +100,39 @@ class StudentSecondDBSerializer(serializers.ModelSerializer):
     
     def create(self, validated_data):
         return StudentSecondDB.objects.using('second_db').create(**validated_data)
+    
+class StudentDefaultDB_Get_Serializer(serializers.ModelSerializer):
+     class Meta:
+        model = StudentDefaultDB
+        fields = ['id', 'full_name', 'email', 'school', 'city']
+
+class StudentSecondDB_Get_Serializer(serializers.ModelSerializer):
+     class Meta:
+        model = StudentSecondDB
+        fields = ['id', 'full_name', 'email', 'school', 'city']
+
+
+
+
+class StudentDefaultDB_Update_Serializer(serializers.ModelSerializer):
+    print("----------- 1----------------------")
+
+    class Meta:
+        model = StudentDefaultDB
+        fields = ['full_name', 'school', 'city']
+
+    def update(self, instance, validated_data):
+        super().update(instance = instance, validated_data = validated_data)
+        return instance
+    
+class StudentSecondDB_Update_Serializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = StudentSecondDB
+        fields = ['full_name', 'school', 'city']
+
+    def update(self, instance, validated_data):
+        super().update(instance = instance, validated_data = validated_data)
+        return instance
+
 
