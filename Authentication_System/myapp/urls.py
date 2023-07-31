@@ -24,4 +24,13 @@ urlpatterns = [
     path('get_student_by_id_multiple_db/<int:id>/', views.get_student_by_id_multiple_db, name='get_student_by_id_multiple_db'), 
     path('update_student_by_id_multiple_db/<int:id>/', views.update_student_by_id_multiple_db, name='update_student_by_id_multiple_db'),
     path('delete_student_by_id_multiple_db/<int:id>/', views.delete_student_by_id_multiple_db, name='delete_student_by_id_multiple_db'),
+
+    # ======== url for Author and Book (Many to Many relation) ===========================================================================
+     path('create_book/', BookGetAndPostApi.as_view()),
+     path('get_all_books/', BookGetAndPostApi.as_view()),
+     path('get_particulat_book/<int:id>/', BookDetailById.as_view()),
+     path('update_book/<int:id>/', BookDetailById.as_view()),
+     path('delete_book/<int:id>/', BookDetailById.as_view()),
+     path('create_author/', AuthorGetAndPost.as_view()),
+     path('get_all_authors/', AuthorGetAndPost.as_view()),
 ]

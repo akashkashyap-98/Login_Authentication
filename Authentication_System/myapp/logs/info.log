@@ -4379,3 +4379,762 @@ Original exception text was: 'QuerySet' object has no attribute 'full_name'.
 2023-07-28 18:37:33 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
 2023-07-28 18:37:35 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10628
 2023-07-28 18:37:35 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 10628
+2023-07-28 20:39:41 INFO Watching for file changes with StatReloader
+2023-07-28 20:39:41 INFO Watching for file changes with StatReloader
+2023-07-31 15:18:29 INFO Watching for file changes with StatReloader
+2023-07-31 15:18:29 INFO Watching for file changes with StatReloader
+2023-07-31 15:18:42 INFO Watching for file changes with StatReloader
+2023-07-31 15:18:42 INFO Watching for file changes with StatReloader
+2023-07-31 15:19:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 15:19:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 15:19:22 INFO Watching for file changes with StatReloader
+2023-07-31 15:19:22 INFO Watching for file changes with StatReloader
+2023-07-31 15:19:39 INFO Watching for file changes with StatReloader
+2023-07-31 15:19:39 INFO Watching for file changes with StatReloader
+2023-07-31 15:20:13 INFO Watching for file changes with StatReloader
+2023-07-31 15:20:13 INFO Watching for file changes with StatReloader
+2023-07-31 15:20:23 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:20:23 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:20:23 INFO "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2023-07-31 15:20:23 INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2023-07-31 15:20:23 INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2023-07-31 15:20:23 INFO "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2023-07-31 15:20:23 INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2023-07-31 15:20:23 INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2023-07-31 15:20:23 INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2023-07-31 15:20:23 INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2023-07-31 15:20:23 INFO "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2023-07-31 15:20:23 INFO "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2023-07-31 15:20:23 INFO "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2023-07-31 15:20:23 INFO "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2023-07-31 15:20:23 INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2023-07-31 15:20:23 INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2023-07-31 15:20:23 INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2023-07-31 15:20:23 INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2023-07-31 15:20:23 INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2023-07-31 15:20:23 INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2023-07-31 15:20:23 INFO "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+2023-07-31 15:20:23 INFO "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+2023-07-31 15:20:24 WARNING "GET /favicon.ico HTTP/1.1" 404 5422
+2023-07-31 15:20:24 WARNING "GET /favicon.ico HTTP/1.1" 404 5422
+2023-07-31 15:20:43 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:20:43 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:20:45 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:20:45 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:20:46 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:20:46 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:20:46 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:20:46 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:20:46 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:20:46 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:20:46 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:20:46 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:20:46 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:20:46 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:20:49 INFO "GET /admin/myapp/login/ HTTP/1.1" 200 12485
+2023-07-31 15:20:49 INFO "GET /admin/myapp/login/ HTTP/1.1" 200 12485
+2023-07-31 15:20:49 INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:20:49 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:20:49 INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2023-07-31 15:20:49 INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2023-07-31 15:20:51 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:20:51 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:20:53 INFO "GET /admin/myapp/employee/ HTTP/1.1" 200 10238
+2023-07-31 15:20:53 INFO "GET /admin/myapp/employee/ HTTP/1.1" 200 10238
+2023-07-31 15:20:53 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:20:53 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:20:57 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:20:57 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:21:34 INFO Watching for file changes with StatReloader
+2023-07-31 15:21:34 INFO Watching for file changes with StatReloader
+2023-07-31 15:21:40 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:21:40 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:21:41 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:21:41 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:23:29 INFO Watching for file changes with StatReloader
+2023-07-31 15:23:29 INFO Watching for file changes with StatReloader
+2023-07-31 15:23:42 INFO "GET /admin/auth/user/ HTTP/1.1" 200 12210
+2023-07-31 15:23:42 INFO "GET /admin/auth/user/ HTTP/1.1" 200 12210
+2023-07-31 15:23:42 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:23:42 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:23:42 INFO "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+2023-07-31 15:23:42 INFO "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+2023-07-31 15:23:42 INFO "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+2023-07-31 15:23:42 INFO "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+2023-07-31 15:23:45 INFO "GET /admin/auth/group/ HTTP/1.1" 200 9007
+2023-07-31 15:23:45 INFO "GET /admin/auth/group/ HTTP/1.1" 200 9007
+2023-07-31 15:23:45 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:23:45 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:23:48 INFO "GET /admin/myapp/employee/ HTTP/1.1" 200 10238
+2023-07-31 15:23:48 INFO "GET /admin/myapp/employee/ HTTP/1.1" 200 10238
+2023-07-31 15:23:48 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:23:48 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:23:49 INFO "GET /admin/myapp/login/ HTTP/1.1" 200 12485
+2023-07-31 15:23:49 INFO "GET /admin/myapp/login/ HTTP/1.1" 200 12485
+2023-07-31 15:23:49 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:23:49 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:23:50 INFO "GET /admin/myapp/register/ HTTP/1.1" 200 14142
+2023-07-31 15:23:50 INFO "GET /admin/myapp/register/ HTTP/1.1" 200 14142
+2023-07-31 15:23:50 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:23:50 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:24:35 INFO Watching for file changes with StatReloader
+2023-07-31 15:24:35 INFO Watching for file changes with StatReloader
+2023-07-31 15:24:46 INFO "GET /admin/myapp/register/ HTTP/1.1" 200 14142
+2023-07-31 15:24:46 INFO "GET /admin/myapp/register/ HTTP/1.1" 200 14142
+2023-07-31 15:24:46 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:24:46 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:24:49 INFO "GET /admin/myapp/ HTTP/1.1" 200 6830
+2023-07-31 15:24:49 INFO "GET /admin/myapp/ HTTP/1.1" 200 6830
+2023-07-31 15:24:52 INFO "GET /admin/myapp/register/ HTTP/1.1" 200 14142
+2023-07-31 15:24:52 INFO "GET /admin/myapp/register/ HTTP/1.1" 200 14142
+2023-07-31 15:24:53 INFO "GET /admin/myapp/login/ HTTP/1.1" 200 12485
+2023-07-31 15:24:53 INFO "GET /admin/myapp/login/ HTTP/1.1" 200 12485
+2023-07-31 15:24:54 INFO "GET /admin/myapp/employee/ HTTP/1.1" 200 10238
+2023-07-31 15:24:54 INFO "GET /admin/myapp/employee/ HTTP/1.1" 200 10238
+2023-07-31 15:24:54 INFO "GET /admin/auth/group/ HTTP/1.1" 200 9007
+2023-07-31 15:24:54 INFO "GET /admin/auth/group/ HTTP/1.1" 200 9007
+2023-07-31 15:24:55 INFO "GET /admin/auth/user/ HTTP/1.1" 200 12210
+2023-07-31 15:24:55 INFO "GET /admin/auth/user/ HTTP/1.1" 200 12210
+2023-07-31 15:24:56 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:24:56 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:24:59 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:24:59 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:25:00 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:25:00 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:25:59 INFO Watching for file changes with StatReloader
+2023-07-31 15:25:59 INFO Watching for file changes with StatReloader
+2023-07-31 15:26:03 WARNING "GET / HTTP/1.1" 404 5371
+2023-07-31 15:26:03 WARNING "GET / HTTP/1.1" 404 5371
+2023-07-31 15:26:08 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:26:08 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:27:02 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:27:02 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:27:10 INFO "POST /admin/logout/ HTTP/1.1" 200 3576
+2023-07-31 15:27:10 INFO "POST /admin/logout/ HTTP/1.1" 200 3576
+2023-07-31 15:27:12 INFO "GET /admin/ HTTP/1.1" 302 0
+2023-07-31 15:27:12 INFO "GET /admin/ HTTP/1.1" 302 0
+2023-07-31 15:27:12 INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+2023-07-31 15:27:12 INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+2023-07-31 15:27:12 INFO "GET /static/admin/css/login.css HTTP/1.1" 304 0
+2023-07-31 15:27:12 INFO "GET /static/admin/css/login.css HTTP/1.1" 304 0
+2023-07-31 15:27:14 INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2023-07-31 15:27:14 INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2023-07-31 15:27:14 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:27:14 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:27:58 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:27:58 INFO "GET /admin/ HTTP/1.1" 200 10656
+2023-07-31 15:29:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/admin.py changed, reloading.
+2023-07-31 15:29:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/admin.py changed, reloading.
+2023-07-31 15:29:03 INFO Watching for file changes with StatReloader
+2023-07-31 15:29:03 INFO Watching for file changes with StatReloader
+2023-07-31 15:29:07 INFO "GET /admin/ HTTP/1.1" 200 11480
+2023-07-31 15:29:07 INFO "GET /admin/ HTTP/1.1" 200 11480
+2023-07-31 15:29:10 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 9247
+2023-07-31 15:29:10 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 9247
+2023-07-31 15:29:10 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:29:10 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:29:14 INFO "GET /admin/myapp/author/add/ HTTP/1.1" 200 12572
+2023-07-31 15:29:14 INFO "GET /admin/myapp/author/add/ HTTP/1.1" 200 12572
+2023-07-31 15:29:14 INFO "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+2023-07-31 15:29:14 INFO "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+2023-07-31 15:29:14 INFO "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+2023-07-31 15:29:14 INFO "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+2023-07-31 15:29:14 INFO "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+2023-07-31 15:29:14 INFO "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+2023-07-31 15:29:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:29:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:29:14 INFO "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+2023-07-31 15:29:14 INFO "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+2023-07-31 15:29:14 INFO "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+2023-07-31 15:29:14 INFO "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+2023-07-31 15:29:14 INFO "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+2023-07-31 15:29:14 INFO "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+2023-07-31 15:29:14 INFO "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+2023-07-31 15:29:14 INFO "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+2023-07-31 15:29:40 INFO "GET /admin/myapp/book/ HTTP/1.1" 200 9233
+2023-07-31 15:29:40 INFO "GET /admin/myapp/book/ HTTP/1.1" 200 9233
+2023-07-31 15:29:40 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:29:40 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:29:43 INFO "GET /admin/myapp/book/add/ HTTP/1.1" 200 12015
+2023-07-31 15:29:43 INFO "GET /admin/myapp/book/add/ HTTP/1.1" 200 12015
+2023-07-31 15:29:43 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:29:43 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:31:16 INFO "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+2023-07-31 15:31:16 INFO "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+2023-07-31 15:31:40 INFO "POST /admin/myapp/book/add/ HTTP/1.1" 302 0
+2023-07-31 15:31:40 INFO "POST /admin/myapp/book/add/ HTTP/1.1" 302 0
+2023-07-31 15:31:40 INFO "GET /admin/myapp/book/ HTTP/1.1" 200 10583
+2023-07-31 15:31:40 INFO "GET /admin/myapp/book/ HTTP/1.1" 200 10583
+2023-07-31 15:31:40 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:31:40 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:31:44 INFO "GET /admin/myapp/book/add/ HTTP/1.1" 200 12015
+2023-07-31 15:31:44 INFO "GET /admin/myapp/book/add/ HTTP/1.1" 200 12015
+2023-07-31 15:31:44 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:31:44 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:33:15 INFO "POST /admin/myapp/book/add/ HTTP/1.1" 302 0
+2023-07-31 15:33:15 INFO "POST /admin/myapp/book/add/ HTTP/1.1" 302 0
+2023-07-31 15:33:15 INFO "GET /admin/myapp/book/ HTTP/1.1" 200 10796
+2023-07-31 15:33:15 INFO "GET /admin/myapp/book/ HTTP/1.1" 200 10796
+2023-07-31 15:33:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:33:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:33:20 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 9247
+2023-07-31 15:33:20 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 9247
+2023-07-31 15:33:20 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:33:20 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:33:22 INFO "GET /admin/myapp/author/add/ HTTP/1.1" 200 12664
+2023-07-31 15:33:22 INFO "GET /admin/myapp/author/add/ HTTP/1.1" 200 12664
+2023-07-31 15:33:22 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:33:22 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:33:31 INFO "GET /admin/myapp/book/ HTTP/1.1" 200 10594
+2023-07-31 15:33:31 INFO "GET /admin/myapp/book/ HTTP/1.1" 200 10594
+2023-07-31 15:33:31 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:33:31 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:33:32 INFO "GET /admin/myapp/book/2/change/ HTTP/1.1" 200 12328
+2023-07-31 15:33:32 INFO "GET /admin/myapp/book/2/change/ HTTP/1.1" 200 12328
+2023-07-31 15:33:32 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:33:32 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:33:47 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 9247
+2023-07-31 15:33:47 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 9247
+2023-07-31 15:33:47 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:33:47 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:33:49 INFO "GET /admin/myapp/author/add/ HTTP/1.1" 200 12664
+2023-07-31 15:33:49 INFO "GET /admin/myapp/author/add/ HTTP/1.1" 200 12664
+2023-07-31 15:33:49 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:33:49 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:35:15 INFO "POST /admin/myapp/author/add/ HTTP/1.1" 302 0
+2023-07-31 15:35:15 INFO "POST /admin/myapp/author/add/ HTTP/1.1" 302 0
+2023-07-31 15:35:16 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10611
+2023-07-31 15:35:16 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10611
+2023-07-31 15:35:16 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:35:16 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:35:18 INFO "GET /admin/myapp/author/1/change/ HTTP/1.1" 200 12999
+2023-07-31 15:35:18 INFO "GET /admin/myapp/author/1/change/ HTTP/1.1" 200 12999
+2023-07-31 15:35:18 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:35:18 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:35:26 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10403
+2023-07-31 15:35:26 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10403
+2023-07-31 15:35:27 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10403
+2023-07-31 15:35:27 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10403
+2023-07-31 15:35:27 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 15:35:27 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 16:04:34 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 16:04:34 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 16:04:35 INFO Watching for file changes with StatReloader
+2023-07-31 16:04:35 INFO Watching for file changes with StatReloader
+2023-07-31 16:04:36 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 16:04:36 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 16:04:36 INFO Watching for file changes with StatReloader
+2023-07-31 16:04:36 INFO Watching for file changes with StatReloader
+2023-07-31 16:04:38 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 16:04:38 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 16:04:38 INFO Watching for file changes with StatReloader
+2023-07-31 16:04:38 INFO Watching for file changes with StatReloader
+2023-07-31 16:06:27 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:06:27 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:06:28 INFO Watching for file changes with StatReloader
+2023-07-31 16:06:28 INFO Watching for file changes with StatReloader
+2023-07-31 16:12:15 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:12:15 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:12:15 INFO Watching for file changes with StatReloader
+2023-07-31 16:12:15 INFO Watching for file changes with StatReloader
+2023-07-31 16:14:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:14:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:14:30 INFO Watching for file changes with StatReloader
+2023-07-31 16:14:30 INFO Watching for file changes with StatReloader
+2023-07-31 16:15:12 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:15:12 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:15:13 INFO Watching for file changes with StatReloader
+2023-07-31 16:15:13 INFO Watching for file changes with StatReloader
+2023-07-31 16:18:52 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:18:52 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:18:52 INFO Watching for file changes with StatReloader
+2023-07-31 16:18:52 INFO Watching for file changes with StatReloader
+2023-07-31 16:19:04 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:19:04 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:19:04 INFO Watching for file changes with StatReloader
+2023-07-31 16:19:04 INFO Watching for file changes with StatReloader
+2023-07-31 16:24:03 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:24:03 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:24:04 INFO Watching for file changes with StatReloader
+2023-07-31 16:24:04 INFO Watching for file changes with StatReloader
+2023-07-31 16:24:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:24:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:24:51 INFO Watching for file changes with StatReloader
+2023-07-31 16:24:51 INFO Watching for file changes with StatReloader
+2023-07-31 16:51:46 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:51:46 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:51:46 INFO Watching for file changes with StatReloader
+2023-07-31 16:51:46 INFO Watching for file changes with StatReloader
+2023-07-31 16:51:50 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:51:50 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:51:50 INFO Watching for file changes with StatReloader
+2023-07-31 16:51:50 INFO Watching for file changes with StatReloader
+2023-07-31 16:51:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:51:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:51:52 INFO Watching for file changes with StatReloader
+2023-07-31 16:51:52 INFO Watching for file changes with StatReloader
+2023-07-31 16:59:06 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:59:06 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 16:59:06 INFO Watching for file changes with StatReloader
+2023-07-31 16:59:06 INFO Watching for file changes with StatReloader
+2023-07-31 17:00:41 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 17:00:41 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 17:00:41 INFO Watching for file changes with StatReloader
+2023-07-31 17:00:41 INFO Watching for file changes with StatReloader
+2023-07-31 17:02:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 17:02:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 17:02:19 INFO Watching for file changes with StatReloader
+2023-07-31 17:02:19 INFO Watching for file changes with StatReloader
+2023-07-31 17:03:20 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 17:03:20 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 17:03:21 INFO Watching for file changes with StatReloader
+2023-07-31 17:03:21 INFO Watching for file changes with StatReloader
+2023-07-31 17:09:17 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-31 17:09:17 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-31 17:09:17 INFO Watching for file changes with StatReloader
+2023-07-31 17:09:17 INFO Watching for file changes with StatReloader
+2023-07-31 17:09:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-31 17:09:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-31 17:09:32 INFO Watching for file changes with StatReloader
+2023-07-31 17:09:32 INFO Watching for file changes with StatReloader
+2023-07-31 17:12:47 WARNING "GET /create_book/ HTTP/1.1" 403 58
+2023-07-31 17:12:47 WARNING "GET /create_book/ HTTP/1.1" 403 58
+2023-07-31 17:13:25 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 17:13:25 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 17:13:26 INFO Watching for file changes with StatReloader
+2023-07-31 17:13:26 INFO Watching for file changes with StatReloader
+2023-07-31 17:13:28 INFO "GET /create_book/ HTTP/1.1" 200 287
+2023-07-31 17:13:28 INFO "GET /create_book/ HTTP/1.1" 200 287
+2023-07-31 17:14:26 INFO BOOK CREATED SUCCESSFULLY
+2023-07-31 17:14:26 INFO "POST /create_book/ HTTP/1.1" 201 192
+2023-07-31 17:14:26 INFO "POST /create_book/ HTTP/1.1" 201 192
+2023-07-31 17:15:17 INFO "GET /create_book/ HTTP/1.1" 200 400
+2023-07-31 17:15:17 INFO "GET /create_book/ HTTP/1.1" 200 400
+2023-07-31 17:15:29 INFO "GET /get_all_books/ HTTP/1.1" 200 400
+2023-07-31 17:15:29 INFO "GET /get_all_books/ HTTP/1.1" 200 400
+2023-07-31 17:16:48 INFO "GET /get_all_books/ HTTP/1.1" 200 400
+2023-07-31 17:16:48 INFO "GET /get_all_books/ HTTP/1.1" 200 400
+2023-07-31 17:17:51 INFO "GET /get_all_books/ HTTP/1.1" 200 400
+2023-07-31 17:17:51 INFO "GET /get_all_books/ HTTP/1.1" 200 400
+2023-07-31 17:18:42 WARNING "DELETE /delete_book/ HTTP/1.1" 404 6278
+2023-07-31 17:18:42 WARNING "DELETE /delete_book/ HTTP/1.1" 404 6278
+2023-07-31 17:18:59 WARNING "DELETE /delete_book/4/ HTTP/1.1" 403 58
+2023-07-31 17:18:59 WARNING "DELETE /delete_book/4/ HTTP/1.1" 403 58
+2023-07-31 17:19:16 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 17:19:16 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 17:19:17 INFO Watching for file changes with StatReloader
+2023-07-31 17:19:17 INFO Watching for file changes with StatReloader
+2023-07-31 17:19:27 WARNING "DELETE /delete_book/4/ HTTP/1.1" 400 50
+2023-07-31 17:19:27 WARNING "DELETE /delete_book/4/ HTTP/1.1" 400 50
+2023-07-31 17:19:37 INFO "DELETE /delete_book/3/ HTTP/1.1" 200 58
+2023-07-31 17:19:37 INFO "DELETE /delete_book/3/ HTTP/1.1" 200 58
+2023-07-31 17:19:42 INFO "GET /get_all_books/ HTTP/1.1" 200 287
+2023-07-31 17:19:42 INFO "GET /get_all_books/ HTTP/1.1" 200 287
+2023-07-31 17:20:02 WARNING "GET /get_all_books/3/ HTTP/1.1" 404 6287
+2023-07-31 17:20:02 WARNING "GET /get_all_books/3/ HTTP/1.1" 404 6287
+2023-07-31 17:20:14 INFO "GET /get_all_books/ HTTP/1.1" 200 287
+2023-07-31 17:20:14 INFO "GET /get_all_books/ HTTP/1.1" 200 287
+2023-07-31 17:20:44 WARNING "GET /get_particulat_book/6/ HTTP/1.1" 400 73
+2023-07-31 17:20:44 WARNING "GET /get_particulat_book/6/ HTTP/1.1" 400 73
+2023-07-31 17:20:53 INFO "GET /get_particulat_book/2/ HTTP/1.1" 200 141
+2023-07-31 17:20:53 INFO "GET /get_particulat_book/2/ HTTP/1.1" 200 141
+2023-07-31 17:22:29 INFO "GET /get_particulat_book/2/ HTTP/1.1" 200 141
+2023-07-31 17:22:29 INFO "GET /get_particulat_book/2/ HTTP/1.1" 200 141
+2023-07-31 17:23:05 INFO "DELETE /update_book/2/ HTTP/1.1" 200 58
+2023-07-31 17:23:05 INFO "DELETE /update_book/2/ HTTP/1.1" 200 58
+2023-07-31 17:23:45 ERROR "PUT /update_book/2/ HTTP/1.1" 500 82172
+2023-07-31 17:23:45 ERROR "PUT /update_book/2/ HTTP/1.1" 500 82172
+2023-07-31 17:25:27 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 17:25:27 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 17:25:28 INFO Watching for file changes with StatReloader
+2023-07-31 17:25:28 INFO Watching for file changes with StatReloader
+2023-07-31 17:25:33 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 17:25:33 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 17:25:33 INFO Watching for file changes with StatReloader
+2023-07-31 17:25:33 INFO Watching for file changes with StatReloader
+2023-07-31 17:25:39 INFO "PUT /update_book/2/ HTTP/1.1" 200 55
+2023-07-31 17:25:39 INFO "PUT /update_book/2/ HTTP/1.1" 200 55
+2023-07-31 17:26:01 INFO "PUT /update_book/1/ HTTP/1.1" 200 144
+2023-07-31 17:26:01 INFO "PUT /update_book/1/ HTTP/1.1" 200 144
+2023-07-31 17:26:10 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10403
+2023-07-31 17:26:10 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10403
+2023-07-31 17:26:10 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 17:26:10 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 17:26:12 INFO "GET /admin/myapp/book/ HTTP/1.1" 200 10381
+2023-07-31 17:26:12 INFO "GET /admin/myapp/book/ HTTP/1.1" 200 10381
+2023-07-31 17:26:12 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 17:26:12 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 17:26:14 INFO "GET /admin/myapp/book/ HTTP/1.1" 200 10381
+2023-07-31 17:26:14 INFO "GET /admin/myapp/book/ HTTP/1.1" 200 10381
+2023-07-31 17:26:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 17:26:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 17:26:15 INFO "GET /admin/myapp/book/1/change/ HTTP/1.1" 200 12334
+2023-07-31 17:26:15 INFO "GET /admin/myapp/book/1/change/ HTTP/1.1" 200 12334
+2023-07-31 17:26:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 17:26:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 17:26:19 INFO "GET /admin/myapp/book/ HTTP/1.1" 200 10381
+2023-07-31 17:26:19 INFO "GET /admin/myapp/book/ HTTP/1.1" 200 10381
+2023-07-31 18:26:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 18:26:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 18:26:22 INFO Watching for file changes with StatReloader
+2023-07-31 18:26:22 INFO Watching for file changes with StatReloader
+2023-07-31 18:27:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 18:27:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 18:27:11 INFO Watching for file changes with StatReloader
+2023-07-31 18:27:11 INFO Watching for file changes with StatReloader
+2023-07-31 18:29:35 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 18:29:35 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 18:29:35 INFO Watching for file changes with StatReloader
+2023-07-31 18:29:35 INFO Watching for file changes with StatReloader
+2023-07-31 18:30:27 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10403
+2023-07-31 18:30:27 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10403
+2023-07-31 18:30:27 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:30:27 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:30:29 INFO "GET /admin/myapp/author/1/change/ HTTP/1.1" 200 12953
+2023-07-31 18:30:29 INFO "GET /admin/myapp/author/1/change/ HTTP/1.1" 200 12953
+2023-07-31 18:30:29 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:30:29 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:30:38 INFO "GET /admin/myapp/book/ HTTP/1.1" 200 10381
+2023-07-31 18:30:38 INFO "GET /admin/myapp/book/ HTTP/1.1" 200 10381
+2023-07-31 18:30:38 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:30:38 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:30:41 INFO "GET /admin/myapp/book/add/ HTTP/1.1" 200 12015
+2023-07-31 18:30:41 INFO "GET /admin/myapp/book/add/ HTTP/1.1" 200 12015
+2023-07-31 18:30:42 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:30:42 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:31:47 INFO "POST /admin/myapp/book/add/ HTTP/1.1" 302 0
+2023-07-31 18:31:47 INFO "POST /admin/myapp/book/add/ HTTP/1.1" 302 0
+2023-07-31 18:31:47 INFO "GET /admin/myapp/book/ HTTP/1.1" 200 10796
+2023-07-31 18:31:47 INFO "GET /admin/myapp/book/ HTTP/1.1" 200 10796
+2023-07-31 18:31:47 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:31:47 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:31:51 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10403
+2023-07-31 18:31:51 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10403
+2023-07-31 18:31:51 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:31:51 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:31:53 INFO "GET /admin/myapp/author/1/change/ HTTP/1.1" 200 12999
+2023-07-31 18:31:53 INFO "GET /admin/myapp/author/1/change/ HTTP/1.1" 200 12999
+2023-07-31 18:31:53 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:31:53 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:32:02 INFO "POST /admin/myapp/author/1/change/ HTTP/1.1" 302 0
+2023-07-31 18:32:02 INFO "POST /admin/myapp/author/1/change/ HTTP/1.1" 302 0
+2023-07-31 18:32:02 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10613
+2023-07-31 18:32:02 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10613
+2023-07-31 18:32:02 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:32:02 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:32:04 INFO "GET /admin/myapp/author/1/change/ HTTP/1.1" 200 13008
+2023-07-31 18:32:04 INFO "GET /admin/myapp/author/1/change/ HTTP/1.1" 200 13008
+2023-07-31 18:32:04 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:32:04 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:32:20 INFO "POST /admin/myapp/author/1/change/ HTTP/1.1" 302 0
+2023-07-31 18:32:20 INFO "POST /admin/myapp/author/1/change/ HTTP/1.1" 302 0
+2023-07-31 18:32:20 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10613
+2023-07-31 18:32:20 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10613
+2023-07-31 18:32:20 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:32:20 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:37:54 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 18:37:54 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 18:37:54 INFO Watching for file changes with StatReloader
+2023-07-31 18:37:54 INFO Watching for file changes with StatReloader
+2023-07-31 18:39:42 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-31 18:39:42 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-31 18:39:43 INFO Watching for file changes with StatReloader
+2023-07-31 18:39:43 INFO Watching for file changes with StatReloader
+2023-07-31 18:39:45 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-31 18:39:45 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-31 18:39:45 INFO Watching for file changes with StatReloader
+2023-07-31 18:39:45 INFO Watching for file changes with StatReloader
+2023-07-31 18:39:49 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 18:39:49 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 18:39:50 INFO Watching for file changes with StatReloader
+2023-07-31 18:39:50 INFO Watching for file changes with StatReloader
+2023-07-31 18:40:29 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-31 18:40:29 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-31 18:40:29 INFO Watching for file changes with StatReloader
+2023-07-31 18:40:29 INFO Watching for file changes with StatReloader
+2023-07-31 18:41:01 WARNING "POST /create_author/ HTTP/1.1" 400 74
+2023-07-31 18:41:01 WARNING "POST /create_author/ HTTP/1.1" 400 74
+2023-07-31 18:52:56 INFO AUTHOR CREATED SUCCESSFULLY
+2023-07-31 18:52:56 ERROR An error occurred: 'ManyRelatedManager' object is not iterable
+2023-07-31 18:52:56 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 18:52:56 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 18:53:07 INFO AUTHOR CREATED SUCCESSFULLY
+2023-07-31 18:53:07 ERROR An error occurred: 'ManyRelatedManager' object is not iterable
+2023-07-31 18:53:07 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 18:53:07 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 18:54:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 18:54:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 18:54:19 INFO Watching for file changes with StatReloader
+2023-07-31 18:54:19 INFO Watching for file changes with StatReloader
+2023-07-31 18:54:20 ERROR An error occurred: 'ManyRelatedManager' object is not iterable
+2023-07-31 18:54:20 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 18:54:20 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 18:54:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 18:54:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 18:54:59 INFO Watching for file changes with StatReloader
+2023-07-31 18:54:59 INFO Watching for file changes with StatReloader
+2023-07-31 18:55:01 INFO AUTHOR CREATED SUCCESSFULLY
+2023-07-31 18:55:01 ERROR An error occurred: 'ManyRelatedManager' object is not iterable
+2023-07-31 18:55:01 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 18:55:01 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 18:55:11 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 11268
+2023-07-31 18:55:11 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 11268
+2023-07-31 18:55:11 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:55:11 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:55:15 INFO "GET /admin/myapp/author/2/change/ HTTP/1.1" 200 12958
+2023-07-31 18:55:15 INFO "GET /admin/myapp/author/2/change/ HTTP/1.1" 200 12958
+2023-07-31 18:55:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:55:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 18:55:29 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 11268
+2023-07-31 18:55:29 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 11268
+2023-07-31 18:56:10 INFO AUTHOR CREATED SUCCESSFULLY
+2023-07-31 18:56:10 ERROR An error occurred: 'ManyRelatedManager' object is not iterable
+2023-07-31 18:56:10 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 18:56:10 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 18:56:46 INFO AUTHOR CREATED SUCCESSFULLY
+2023-07-31 18:56:46 ERROR An error occurred: 'ManyRelatedManager' object is not iterable
+2023-07-31 18:56:46 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 18:56:46 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 18:57:18 INFO AUTHOR CREATED SUCCESSFULLY
+2023-07-31 18:57:18 ERROR An error occurred: 'ManyRelatedManager' object is not iterable
+2023-07-31 18:57:18 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 18:57:18 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 18:57:27 INFO Watching for file changes with StatReloader
+2023-07-31 18:57:27 INFO Watching for file changes with StatReloader
+2023-07-31 18:57:37 INFO AUTHOR CREATED SUCCESSFULLY
+2023-07-31 18:57:37 ERROR An error occurred: 'ManyRelatedManager' object is not iterable
+2023-07-31 18:57:37 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 18:57:37 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 18:58:42 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 18:58:42 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 18:58:42 INFO Watching for file changes with StatReloader
+2023-07-31 18:58:42 INFO Watching for file changes with StatReloader
+2023-07-31 18:58:52 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 18:58:52 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 18:58:53 INFO Watching for file changes with StatReloader
+2023-07-31 18:58:53 INFO Watching for file changes with StatReloader
+2023-07-31 19:00:03 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 19:00:03 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 19:00:04 INFO Watching for file changes with StatReloader
+2023-07-31 19:00:04 INFO Watching for file changes with StatReloader
+2023-07-31 19:00:07 INFO AUTHOR CREATED SUCCESSFULLY
+2023-07-31 19:00:07 ERROR An error occurred: 'ManyRelatedManager' object is not iterable
+2023-07-31 19:00:07 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 19:00:07 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 19:00:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 19:00:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 19:00:44 INFO Watching for file changes with StatReloader
+2023-07-31 19:00:44 INFO Watching for file changes with StatReloader
+2023-07-31 19:00:46 INFO AUTHOR CREATED SUCCESSFULLY
+2023-07-31 19:00:46 ERROR An error occurred: 'ManyRelatedManager' object is not iterable
+2023-07-31 19:00:46 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 19:00:46 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 19:02:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 19:02:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 19:02:11 INFO Watching for file changes with StatReloader
+2023-07-31 19:02:11 INFO Watching for file changes with StatReloader
+2023-07-31 19:02:14 INFO AUTHOR CREATED SUCCESSFULLY
+2023-07-31 19:02:14 ERROR An error occurred: 'ManyRelatedManager' object is not iterable
+2023-07-31 19:02:14 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 19:02:14 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 19:02:32 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 12792
+2023-07-31 19:02:32 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 12792
+2023-07-31 19:02:32 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:02:32 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:02:36 INFO "GET /admin/myapp/author/2/change/ HTTP/1.1" 200 12958
+2023-07-31 19:02:36 INFO "GET /admin/myapp/author/2/change/ HTTP/1.1" 200 12958
+2023-07-31 19:02:36 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:02:36 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:02:41 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 12792
+2023-07-31 19:02:41 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 12792
+2023-07-31 19:02:51 INFO "POST /admin/myapp/author/ HTTP/1.1" 200 11588
+2023-07-31 19:02:51 INFO "POST /admin/myapp/author/ HTTP/1.1" 200 11588
+2023-07-31 19:02:51 INFO "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+2023-07-31 19:02:51 INFO "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+2023-07-31 19:02:55 INFO "POST /admin/myapp/author/ HTTP/1.1" 302 0
+2023-07-31 19:02:55 INFO "POST /admin/myapp/author/ HTTP/1.1" 302 0
+2023-07-31 19:02:55 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10541
+2023-07-31 19:02:55 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10541
+2023-07-31 19:02:55 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:02:55 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:06:58 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 19:06:58 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 19:06:59 INFO Watching for file changes with StatReloader
+2023-07-31 19:06:59 INFO Watching for file changes with StatReloader
+2023-07-31 19:07:02 INFO AUTHOR CREATED SUCCESSFULLY
+2023-07-31 19:07:02 ERROR An error occurred: 'ManyRelatedManager' object is not iterable
+2023-07-31 19:07:02 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 19:07:02 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 19:08:55 INFO Watching for file changes with StatReloader
+2023-07-31 19:08:55 INFO Watching for file changes with StatReloader
+2023-07-31 19:10:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 19:10:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 19:10:57 INFO Watching for file changes with StatReloader
+2023-07-31 19:10:57 INFO Watching for file changes with StatReloader
+2023-07-31 19:11:00 ERROR An error occurred: name 'AuthorCreteSerializer' is not defined
+2023-07-31 19:11:00 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 19:11:00 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 19:11:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 19:11:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 19:11:40 INFO Watching for file changes with StatReloader
+2023-07-31 19:11:40 INFO Watching for file changes with StatReloader
+2023-07-31 19:11:43 INFO AUTHOR CREATED SUCCESSFULLY
+2023-07-31 19:11:43 INFO "POST /create_author/ HTTP/1.1" 201 95
+2023-07-31 19:11:43 INFO "POST /create_author/ HTTP/1.1" 201 95
+2023-07-31 19:12:01 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 19:12:01 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 19:12:02 INFO Watching for file changes with StatReloader
+2023-07-31 19:12:02 INFO Watching for file changes with StatReloader
+2023-07-31 19:12:03 INFO AUTHOR CREATED SUCCESSFULLY
+2023-07-31 19:12:03 INFO "POST /create_author/ HTTP/1.1" 201 176
+2023-07-31 19:12:03 INFO "POST /create_author/ HTTP/1.1" 201 176
+2023-07-31 19:12:15 WARNING "POST /create_author/ HTTP/1.1" 400 74
+2023-07-31 19:12:15 WARNING "POST /create_author/ HTTP/1.1" 400 74
+2023-07-31 19:12:38 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 11061
+2023-07-31 19:12:38 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 11061
+2023-07-31 19:12:38 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:12:38 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:12:50 INFO "POST /admin/myapp/author/ HTTP/1.1" 200 9466
+2023-07-31 19:12:50 INFO "POST /admin/myapp/author/ HTTP/1.1" 200 9466
+2023-07-31 19:12:52 INFO "POST /admin/myapp/author/ HTTP/1.1" 302 0
+2023-07-31 19:12:52 INFO "POST /admin/myapp/author/ HTTP/1.1" 302 0
+2023-07-31 19:12:52 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10760
+2023-07-31 19:12:52 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10760
+2023-07-31 19:12:52 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:12:52 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:12:59 WARNING "POST /create_author/ HTTP/1.1" 400 74
+2023-07-31 19:12:59 WARNING "POST /create_author/ HTTP/1.1" 400 74
+2023-07-31 19:13:07 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10623
+2023-07-31 19:13:07 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10623
+2023-07-31 19:13:07 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:13:07 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:13:09 INFO "GET /admin/myapp/author/13/change/ HTTP/1.1" 200 12954
+2023-07-31 19:13:09 INFO "GET /admin/myapp/author/13/change/ HTTP/1.1" 200 12954
+2023-07-31 19:13:09 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:13:09 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:13:26 INFO AUTHOR CREATED SUCCESSFULLY
+2023-07-31 19:13:26 INFO "POST /create_author/ HTTP/1.1" 201 179
+2023-07-31 19:13:26 INFO "POST /create_author/ HTTP/1.1" 201 179
+2023-07-31 19:18:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 19:18:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 19:18:14 INFO Watching for file changes with StatReloader
+2023-07-31 19:18:14 INFO Watching for file changes with StatReloader
+2023-07-31 19:18:18 INFO AUTHOR CREATED SUCCESSFULLY
+2023-07-31 19:18:18 INFO "POST /create_author/ HTTP/1.1" 201 179
+2023-07-31 19:18:18 INFO "POST /create_author/ HTTP/1.1" 201 179
+2023-07-31 19:18:25 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 19:18:25 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 19:18:26 INFO Watching for file changes with StatReloader
+2023-07-31 19:18:26 INFO Watching for file changes with StatReloader
+2023-07-31 19:18:28 INFO AUTHOR CREATED SUCCESSFULLY
+2023-07-31 19:18:28 ERROR An error occurred: 'ManyRelatedManager' object is not iterable
+2023-07-31 19:18:28 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 19:18:28 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 19:19:23 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 19:19:23 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 19:19:24 INFO Watching for file changes with StatReloader
+2023-07-31 19:19:24 INFO Watching for file changes with StatReloader
+2023-07-31 19:19:26 INFO AUTHOR CREATED SUCCESSFULLY
+2023-07-31 19:19:26 ERROR An error occurred: 'ManyRelatedManager' object is not iterable
+2023-07-31 19:19:26 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 19:19:26 ERROR "POST /create_author/ HTTP/1.1" 500 49
+2023-07-31 19:19:39 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 19:19:39 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 19:19:40 INFO Watching for file changes with StatReloader
+2023-07-31 19:19:40 INFO Watching for file changes with StatReloader
+2023-07-31 19:20:46 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 11499
+2023-07-31 19:20:46 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 11499
+2023-07-31 19:20:46 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:20:46 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:20:48 INFO "GET /admin/myapp/author/13/change/ HTTP/1.1" 200 12954
+2023-07-31 19:20:48 INFO "GET /admin/myapp/author/13/change/ HTTP/1.1" 200 12954
+2023-07-31 19:20:48 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:20:48 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:21:41 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 19:21:41 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 19:21:42 INFO Watching for file changes with StatReloader
+2023-07-31 19:21:42 INFO Watching for file changes with StatReloader
+2023-07-31 19:21:44 INFO AUTHOR CREATED SUCCESSFULLY
+2023-07-31 19:21:44 INFO "POST /create_author/ HTTP/1.1" 201 179
+2023-07-31 19:21:44 INFO "POST /create_author/ HTTP/1.1" 201 179
+2023-07-31 19:22:25 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 19:22:25 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 19:22:25 INFO Watching for file changes with StatReloader
+2023-07-31 19:22:25 INFO Watching for file changes with StatReloader
+2023-07-31 19:22:27 INFO AUTHOR CREATED SUCCESSFULLY
+2023-07-31 19:22:27 INFO "POST /create_author/ HTTP/1.1" 201 179
+2023-07-31 19:22:27 INFO "POST /create_author/ HTTP/1.1" 201 179
+2023-07-31 19:24:17 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 19:24:17 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 19:24:17 INFO Watching for file changes with StatReloader
+2023-07-31 19:24:17 INFO Watching for file changes with StatReloader
+2023-07-31 19:24:20 INFO AUTHOR CREATED SUCCESSFULLY
+2023-07-31 19:24:20 INFO "POST /create_author/ HTTP/1.1" 201 179
+2023-07-31 19:24:20 INFO "POST /create_author/ HTTP/1.1" 201 179
+2023-07-31 19:25:46 WARNING "POST /create_author/ HTTP/1.1" 400 74
+2023-07-31 19:25:46 WARNING "POST /create_author/ HTTP/1.1" 400 74
+2023-07-31 19:28:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 19:28:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 19:28:10 INFO Watching for file changes with StatReloader
+2023-07-31 19:28:10 INFO Watching for file changes with StatReloader
+2023-07-31 19:30:07 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 12156
+2023-07-31 19:30:07 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 12156
+2023-07-31 19:30:07 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:30:07 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:30:20 INFO "POST /admin/myapp/author/ HTTP/1.1" 200 11227
+2023-07-31 19:30:20 INFO "POST /admin/myapp/author/ HTTP/1.1" 200 11227
+2023-07-31 19:30:24 INFO "POST /admin/myapp/author/ HTTP/1.1" 302 0
+2023-07-31 19:30:24 INFO "POST /admin/myapp/author/ HTTP/1.1" 302 0
+2023-07-31 19:30:24 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10760
+2023-07-31 19:30:24 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 10760
+2023-07-31 19:30:24 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:30:24 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:30:29 INFO "GET /admin/myapp/book/ HTTP/1.1" 200 10594
+2023-07-31 19:30:29 INFO "GET /admin/myapp/book/ HTTP/1.1" 200 10594
+2023-07-31 19:30:29 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:30:29 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-07-31 19:32:57 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 19:32:57 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 19:32:57 INFO Watching for file changes with StatReloader
+2023-07-31 19:32:57 INFO Watching for file changes with StatReloader
+2023-07-31 19:33:27 INFO AUTHOR CREATED SUCCESSFULLY
+2023-07-31 19:33:27 INFO "POST /create_author/ HTTP/1.1" 201 167
+2023-07-31 19:33:27 INFO "POST /create_author/ HTTP/1.1" 201 167
+2023-07-31 20:30:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 20:30:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-07-31 20:30:10 INFO Watching for file changes with StatReloader
+2023-07-31 20:30:10 INFO Watching for file changes with StatReloader
+2023-07-31 20:33:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 20:33:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-07-31 20:33:14 INFO Watching for file changes with StatReloader
+2023-07-31 20:33:14 INFO Watching for file changes with StatReloader
+2023-07-31 20:33:55 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-31 20:33:55 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-07-31 20:33:55 INFO Watching for file changes with StatReloader
+2023-07-31 20:33:55 INFO Watching for file changes with StatReloader
+2023-07-31 20:34:13 INFO "GET /get_all_authors/ HTTP/1.1" 200 723
+2023-07-31 20:34:13 INFO "GET /get_all_authors/ HTTP/1.1" 200 723

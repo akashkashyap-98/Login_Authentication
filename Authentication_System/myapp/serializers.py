@@ -1,5 +1,6 @@
 from rest_framework import serializers
 import random
+import traceback
 from .models import *
 
 class UserCreteSerializer(serializers.ModelSerializer):
@@ -115,7 +116,6 @@ class StudentSecondDB_Get_Serializer(serializers.ModelSerializer):
 
 
 class StudentDefaultDB_Update_Serializer(serializers.ModelSerializer):
-    print("----------- 1----------------------")
 
     class Meta:
         model = StudentDefaultDB
@@ -136,3 +136,82 @@ class StudentSecondDB_Update_Serializer(serializers.ModelSerializer):
         return instance
 
 
+# ------------making serializer for Book Model--------------
+
+class BookCreateSerializer(serializers.ModelSerializer):
+
+	class Meta:
+		model=Book
+		fields = ['title' , 'description' , 'publisher' , 'release_date'] 
+                
+	def create(self , validated_data):
+		return Book.objects.create(**validated_data)
+
+class BookUpdateSerializer(serializers.ModelSerializer):
+
+	class Meta:
+		model=Book
+		fields = ['title' , 'description' , 'publisher' , 'release_date'] 
+
+	def update(self,instance , validated_data):
+		super().update(instance=instance , validated_data=validated_data)
+		return instance
+
+class BookGetSerializer(serializers.ModelSerializer):
+
+	class Meta:
+		model=Book
+		fields=['id', 'title' , 'description' , 'publisher' , 'release_date'] 
+
+# ----------- making serializer for Author Model ------------------
+
+# class AuthorCreteSerializer(serializers.ModelSerializer):
+# 	books = serializers.ListField()
+# 	# books=BookCreateSerializer(many=True , read_only=True)
+
+
+
+# 	class Meta:
+# 		model = Author
+# 		fields = [ 'name' ,'biography' , 'date_of_birth' , 'books']
+# 		# depth=1  
+
+# 	def create(self, validated_data):
+# 		try:
+# 			books = validated_data.pop("books", None)
+# 			instance =  Author.objects.create(**validated_data)
+
+# 			if books:
+# 				# book_objs = Book.objects.filter(id__in=books)
+# 				instance.books.add(*Book.objects.filter(id__in=books))
+					
+# 		except Exception as e:
+# 			traceback.print_exc()
+
+# 		return instance
+
+
+class AuthorCreateSerializer(serializers.ModelSerializer):
+    books = serializers.PrimaryKeyRelatedField(queryset=Book.objects.all(), many=True)
+
+
+    class Meta:
+        model = Author
+        fields = ['name', 'biography', 'date_of_birth', 'books']
+
+    def create(self, validated_data):
+        books_data = validated_data.pop('books')
+        print("i am books data ", books_data)
+        instance = Author.objects.create(**validated_data)
+
+        for book in books_data:
+            instance.books.add(book)
+
+        return instance
+    
+class AuthorGetSerializer(serializers.ModelSerializer):
+     books = BookGetSerializer(many=True)
+     
+     class Meta:
+          model = Author
+          fields = ['id', 'name', 'biography', 'date_of_birth', 'books']

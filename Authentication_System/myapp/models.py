@@ -64,3 +64,23 @@ class StudentSecondDB(models.Model):
 
     def __str__(self):
         return self.email
+    
+
+
+# ================= creating models Author and Books for Many to Many Relationships =================================================
+
+# Retrieve all books and their authors as a dictionary-like data
+# books_with_authors_data = Book.objects.values('title', 'release_date', 'authors__name')
+
+class Book(models.Model):
+
+	title = models.CharField(max_length=100, null=True, blank=True)
+	description = models.CharField(max_length=500, null=True, blank=True)
+	publisher = models.CharField(max_length=200, null=True, blank=True)
+	release_date = models.DateField()
+
+class Author(models.Model):
+	name = models.CharField(max_length=100, null=True, blank=True)
+	biography = models.TextField(null=True, blank=True)
+	date_of_birth = models.DateField()
+	books = models.ManyToManyField(Book, related_name='author_book' , blank=True)

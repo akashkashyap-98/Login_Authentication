@@ -799,3 +799,168 @@ def delete_student_by_id_multiple_db(request, id):
             },
             500
         )
+
+# ===================================== creating views for Author and Book (Many to Many Relationship)==================================
+
+class BookGetAndPostApi(APIView):
+    permission_classes = []
+    authentication_classes=[]
+
+    def post(self, request):
+        try:
+            data = request.data
+            serializer = BookCreateSerializer(data=data)
+            if serializer.is_valid():
+                serializer.save()
+                logger.info("BOOK CREATED SUCCESSFULLY")
+                return Response({
+                'message':'BOOK CREATED SUCCESSFULLY',
+                'status':'true',
+                'status_code':'201',
+                'response':serializer.data,
+                },201)
+            else:
+                return Response({'status':'False' , 'message':'NOT ABLE TO CREATE BOOK', 'status_code': 400} , 400)
+
+        except Exception as e:
+            logger.error(f"An error occurred: {str(e)}")
+            return Response(
+                {
+                    'message': 'An error occurred',
+                    'status_code': 500,
+                },
+                500
+            ) 
+    
+    def get(self, request):
+
+        book_obj=Book.objects.all()
+        serializer=BookGetSerializer(book_obj , many=True)
+        return Response({'status':'True' , "data":serializer.data},200)
+    
+class BookDetailById(APIView):
+    permission_classes = []
+    authentication_classes=[]
+
+    def get(self, request, id, format=None):
+        try:
+            if Book.objects.filter(id=id).exists():
+                book_obj = Book.objects.get(id=id)
+                serializer = BookGetSerializer(book_obj, context={'request':request})
+                return Response({'status':'True' , 'data':serializer.data} , 200)
+            else:
+                return Response({'status':'False' , 'response':'UNABLE TO FIND THE BOOK' , 'status_code':400}, 400)
+            
+        except Exception as e:
+            logger.error(f"An error occurred: {str(e)}")
+            return Response(
+                {
+                    'message': 'An error occurred',
+                    'status_code': 500,
+                },
+                500
+            )  
+
+    def put(self , request , id , format=None):
+        try:
+            data=request.data
+            if Book.objects.filter(id=id).exists():
+                book_obj=Book.objects.get(id=id)
+                serializer=BookUpdateSerializer(book_obj , data=data)
+                if serializer.is_valid():
+                    serializer.save()
+                    return Response({'status':'True' , 'response':serializer.data} , 200)
+                else:
+                    return Response({'status':'False' , 'error':serializer.errors }  , status=status.HTTP_400_BAD_REQUEST )
+            else:
+                return Response(
+                    {'status':'False',
+                     'message':'id of book dosent exists'}
+                )
+                
+        except Exception as e:
+            logger.error(f"An error occurred: {str(e)}")
+            return Response(
+                {
+                    'message': 'An error occurred',
+                    'status_code': 500,
+                },
+                500
+            )  
+
+
+    def delete(self , request , id , format=None):
+        try:
+            if Book.objects.filter(id=id).exists():
+                book_obj=Book.objects.get(id=id)
+                book_obj.delete()
+                return Response({'status':'True' , 'response': 'Book deleted successfully!!' } , 200)
+            else:
+                return Response({"status": "false" , "error" :"Book doesn't exists. " } , status=status.HTTP_400_BAD_REQUEST)
+            
+        except Exception as e:
+            logger.error(f"An error occurred: {str(e)}")
+            return Response(
+                {
+                    'message': 'An error occurred',
+                    'status_code': 500,
+                },
+                500
+            )  
+
+
+class AuthorGetAndPost(APIView):
+    permission_classes = []
+    authentication_classes=[]
+
+    def post(self, request):
+        try:
+            data = request.data
+            serializer = AuthorCreateSerializer(data=data)
+            if serializer.is_valid():
+                serializer.save()
+                logger.info("AUTHOR CREATED SUCCESSFULLY")
+                print(serializer.data)
+                return Response({
+                    'message':'AUTHOR CREATED SUCCESSFULLY',
+                    'status':'true',
+                    'status_code':'201',
+                    'response':serializer.data,
+                    },201)
+            else:
+                return Response({'status':'False' , 'message':'NOT ABLE TO CREATE AUTHOR', 'status_code': 400} , 400)
+
+        except Exception as e:
+            logger.error(f"An error occurred: {str(e)}")
+            return Response(
+                {
+                    'message': 'An error occurred',
+                    'status_code': 500,
+                },
+                500
+            ) 
+        
+        
+    def get(self, request):
+        try:
+            author_objs = Author.objects.all()
+            serializer = AuthorGetSerializer(author_objs, many=True)
+            return Response(
+                {'status':'True' ,
+                  "data":serializer.data}
+                  ,200)
+        except Exception as e:
+            logger.error(f"An error occurred: {str(e)}")
+            return Response(
+                {
+                    'message': 'An error occurred',
+                    'status_code': 500,
+                },
+                500
+            ) 
+        
+
+
+
+
+    
