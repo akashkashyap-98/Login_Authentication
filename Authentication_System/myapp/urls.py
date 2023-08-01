@@ -10,6 +10,8 @@ urlpatterns = [
     path('login/', LoginUserPostAndGet.as_view()),
     path('login_response/', LoginResponsePage.as_view()),
     path('logout/', Logout.as_view()),
+
+    # ========= url for studying and implementation of ORM queries =================
     path('orm_implementation/', Orm_Implementation.as_view()),
 
     # ===== url for function based api=====================================
@@ -26,11 +28,19 @@ urlpatterns = [
     path('delete_student_by_id_multiple_db/<int:id>/', views.delete_student_by_id_multiple_db, name='delete_student_by_id_multiple_db'),
 
     # ======== url for Author and Book (Many to Many relation) ===========================================================================
-     path('create_book/', BookGetAndPostApi.as_view()),
-     path('get_all_books/', BookGetAndPostApi.as_view()),
-     path('get_particulat_book/<int:id>/', BookDetailById.as_view()),
-     path('update_book/<int:id>/', BookDetailById.as_view()),
-     path('delete_book/<int:id>/', BookDetailById.as_view()),
-     path('create_author/', AuthorGetAndPost.as_view()),
-     path('get_all_authors/', AuthorGetAndPost.as_view()),
+    path('create_book/', BookGetAndPostApi.as_view()),
+    path('get_all_books/', BookGetAndPostApi.as_view()),
+    path('get_particulat_book/<int:id>/', BookDetailById.as_view()),
+    path('update_book/<int:id>/', BookDetailById.as_view()),
+    path('delete_book/<int:id>/', BookDetailById.as_view()),
+    path('create_author/', AuthorGetAndPost.as_view()),
+    path('get_all_authors/', AuthorGetAndPost.as_view()),
+    path('get_author_by_id/<int:id>/', AuthorDetailsById.as_view()),
+    path('update_author_by_id/<int:id>/', AuthorDetailsById.as_view()),
+    path('delete_author_by_id/<int:id>/', AuthorDetailsById.as_view()),
+
+    # ========== get api for ORM implementation for models: University , Department , Student (Foreign Key Relation) ==============================
+    path('get_orm_foreignKey_relation/', ForeignKey_ORM.as_view()),
 ]
+
+

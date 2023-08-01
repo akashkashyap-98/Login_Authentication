@@ -958,9 +958,115 @@ class AuthorGetAndPost(APIView):
                 },
                 500
             ) 
+
+
+class AuthorDetailsById(APIView):
+    permission_classes = []
+    authentication_classes=[]
+
+    def get(self, request, id, format=None):
+        try:
+            if Author.objects.filter(id=id).exists():
+                author_obj = Author.objects.get(id=id)
+                serializer = AuthorGetSerializer(author_obj, context={'request':request})
+                print(serializer.data)
+                return Response(
+                    {
+                        'status':'True',
+                        'data':serializer.data
+                    } , 200
+                )
+            else:
+                return Response(
+                    {
+                        'status':'False',
+                        'response':'UNABLE TO FIND THE AUTHOR with the given ID',
+                        'status_code':400
+                    }, 400
+                )
         
+        except Exception as e:
+            logger.error(f"An error occurred: {str(e)}")
+            return Response(
+                {
+                    'message': 'An error occurred',
+                    'status_code': 500,
+                },
+                500
+            ) 
 
+    def put(self, request, id, format=None):
+        try:
+            data=request.data
+            if Author.objects.filter(id=id).exists():
+                author_obj = Author.objects.get(id=id)
+                serializer = AuthorUpdateSerializer(author_obj, data=data)
+                if serializer.is_valid():
+                    serializer.save()
+                    return Response({'status':'True' , 'response':serializer.data} , 200)
+                else:
+                    return Response({'status':'False' , 'error':serializer.errors }  , status=status.HTTP_400_BAD_REQUEST )
+            else:
+                return Response(
+                    {
+                        'status':'False',
+                        'response':'UNABLE TO FIND THE AUTHOR with the given ID',
+                        'status_code':400
+                    }, 400
+                )
+            
 
+        except Exception as e:
+            logger.error(f"An error occurred: {str(e)}")
+            return Response(
+                {
+                    'message': 'An error occurred',
+                    'status_code': 500,
+                },
+                500
+            ) 
+        
+    def delete(self, request , id , format=None):
+        try:
+            if Author.objects.filter(id=id).exists():
+                author_obj = Author.objects.get(id=id)
+                author_obj.delete()
+                return Response({'status':'True' , 'response': 'Author deleted successfully!!' } , 200)
+            else:
+                return Response({"status": "false" , "error" :"Author with  this is  doesn't exists. " } , status=status.HTTP_400_BAD_REQUEST)
 
+        except Exception as e:
+            logger.error(f"An error occurred: {str(e)}")
+            return Response(
+                {
+                    'message': 'An error occurred',
+                    'status_code': 500,
+                },
+                500
+            ) 
+        
+#======================= making GET api for implementing Queries based on Foreign key (models: University , Department , Student) =======================
 
-    
+class ForeignKey_ORM(APIView):
+    permission_classes = []
+    authentication_classes=[]
+
+    def get(self, request):
+        
+        # Get all students in a 'Computer Science and Engineering' department and their university name 
+        students_in_CSE_with_university_name = Student.objects.filter(department__department_name='Computer Science and Engineering').select_related('department__university')
+
+        # By specifying department__university, we are telling Django to include the related university data for each student 
+        # in the result set. This way, when you access student.department.university in the loop, Django will not need to make
+        #  a separate query to fetch the university object. Instead, it will fetch all the related university objects upfront 
+        # using a SQL join and attach them to the corresponding departments in the result set.
+        for student in students_in_CSE_with_university_name:
+            student_name = student.student_name
+            department_name = student.department.department_name
+            university_name = student.department.university.university_name
+
+            print('student_name = ',student_name  , 'department_name = ',department_name , 'university_name = ', university_name)
+           
+        return JsonResponse(
+            {'students_with_university_name': list(students_in_CSE_with_university_name.values('id', 'student_name'))}
+        )

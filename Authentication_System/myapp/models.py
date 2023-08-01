@@ -84,3 +84,26 @@ class Author(models.Model):
 	biography = models.TextField(null=True, blank=True)
 	date_of_birth = models.DateField()
 	books = models.ManyToManyField(Book, related_name='author_book' , blank=True)
+        
+# ====================  creating model for FOREIGN KEY RELATION  for implementing ORM Query ===================================
+
+
+class University(models.Model):
+    university_name = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.university_name
+    
+class Department(models.Model):
+    department_name = models.CharField(max_length=100)
+    university = models.ForeignKey(University, on_delete=models.CASCADE, related_name='departments')
+
+    def __str__(self):
+        return self.department_name
+
+class Student(models.Model):
+    student_name = models.CharField(max_length=100)
+    department = models.ForeignKey(Department, on_delete=models.CASCADE, related_name='students')
+
+    def __str__(self):
+        return self.student_name

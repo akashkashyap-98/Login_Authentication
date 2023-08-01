@@ -215,3 +215,14 @@ class AuthorGetSerializer(serializers.ModelSerializer):
      class Meta:
           model = Author
           fields = ['id', 'name', 'biography', 'date_of_birth', 'books']
+
+class AuthorUpdateSerializer(serializers.ModelSerializer):
+     
+    class Meta:
+        model = Author
+        fields = ['name', 'biography', 'date_of_birth', 'books']
+
+    def update(self,instance , validated_data):
+        super().update(instance=instance , validated_data=validated_data)
+        return instance
+
