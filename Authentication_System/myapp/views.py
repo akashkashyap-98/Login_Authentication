@@ -1053,9 +1053,9 @@ class ForeignKey_ORM(APIView):
 
     def get(self, request):
         
-        # Get all students in a 'Computer Science and Engineering' department and their university name 
+        # 1. Get all students in a 'Computer Science and Engineering' department and their university name 
         students_in_CSE_with_university_name = Student.objects.filter(department__department_name='Computer Science and Engineering').select_related('department__university')
-
+        
         # By specifying department__university, we are telling Django to include the related university data for each student 
         # in the result set. This way, when you access student.department.university in the loop, Django will not need to make
         #  a separate query to fetch the university object. Instead, it will fetch all the related university objects upfront 
@@ -1066,7 +1066,69 @@ class ForeignKey_ORM(APIView):
             university_name = student.department.university.university_name
 
             print('student_name = ',student_name  , 'department_name = ',department_name , 'university_name = ', university_name)
+
+
+        # 2. Retrieve all departments of a university with related_name 'departments':
+        university = University.objects.get(university_name='Babu Banarsi Das University')
+        departments = university.departments.all().values()
+        print(departments)
+                        #  another method without using related name
+        a= Department.objects.all().filter(university=University.objects.get(university_name='Babu Banarsi Das University')).values()
+        print("================", a)
            
+        # 3. Retrieve a specific student ('Akash Kashyap') and access their department using related_name:
+        get_dept_of_specific_student=Student.objects.get(student_name='Akash Kashyap').department.department_name
+        print(get_dept_of_specific_student)
+
+        # 4. Retrieve all students of a specific university ('Babu Banarsi Das University'):
+        specific_university = University.objects.get(university_name='Babu Banarsi Das University')
+        print(specific_university)
+        students = Student.objects.filter(department__university=specific_university).values()
+        print(students)
+
+        # 5. Retrieve all departments and their corresponding university names 
+        departments = Department.objects.all().values_list('department_name', 'university__university_name')
+        print("###################", departments)
+        list1 = list(departments)
+
+
+        # 6. Fetch all students of a department with department_name = 'Computer Science and Engineering':
+        department = Department.objects.get(department_name='Computer Science and Engineering')
+        students = department.students.all().values()
+                            # second method without using related name
+        second_method = Student.objects.all().filter(department = Department.objects.get(department_name= 'Computer Science and Engineering')).values()
+
+
+        # 7. Fetch all students of all departments of a specific university with university_name = 'Babu Banarsi Das University':
+        university = University.objects.get(university_name='Babu Banarsi Das University')
+        print(university)
+        all_students_of_all_departments_of_specific_university = Student.objects.all().filter(department__university=university).values()
+                                                                    # filter all departments whose university is same i.e: BBDU
+        print(all_students_of_all_departments_of_specific_university)
+
+
+        # 8. Fetch all departments along with the count of students in each department:
+        from django.db.models import Count
+        list2=[]
+        
+        all_departments= Department.objects.all().annotate(student_count=Count('students'))
+        
+        for dept in all_departments:
+            w=(dept.department_name, dept.student_count)
+            list2.append(w)
+            print(list2)
+
+
         return JsonResponse(
-            {'students_with_university_name': list(students_in_CSE_with_university_name.values('id', 'student_name'))}
+            {
+                'students_with_university_name': list(students_in_CSE_with_university_name.values()),
+                'departments of a university': list(departments),
+                'get_dept_of_specific_student': get_dept_of_specific_student,
+                'all_students_of_specific_university(BBDU)': list(students),
+                'all_department_and _their_university': list1,
+                'all_students_of_CSE_department': list(students),
+                'all_students_of_all_departments_of_specific_university': list(all_students_of_all_departments_of_specific_university),
+                'all_dept_with_all_count_of_students_in_each_dept': list2
+                
+            }
         )

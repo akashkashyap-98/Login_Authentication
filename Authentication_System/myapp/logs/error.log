@@ -2885,3 +2885,2070 @@ Traceback (most recent call last):
 AttributeError: 'Student' object has no attribute 'department_name'
 2023-08-01 20:13:47 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96266
 2023-08-01 20:13:47 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96266
+2023-08-02 14:07:08 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1078, in get
+    'departments of a university': list(departments).values()
+AttributeError: 'list' object has no attribute 'values'
+2023-08-02 14:07:08 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96089
+2023-08-02 14:07:08 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96089
+2023-08-02 14:07:38 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1078, in get
+    'departments of a university': list(departments).values('department_name')
+AttributeError: 'list' object has no attribute 'values'
+2023-08-02 14:07:38 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96143
+2023-08-02 14:07:38 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96143
+2023-08-02 14:08:19 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1078, in get
+    'departments of a university': list(departments).values_list('department_name')
+AttributeError: 'list' object has no attribute 'values_list'
+2023-08-02 14:08:19 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96183
+2023-08-02 14:08:19 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96183
+2023-08-02 14:08:36 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1075, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type QuerySet is not JSON serializable
+2023-08-02 14:08:36 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 124916
+2023-08-02 14:08:36 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 124916
+2023-08-02 14:08:56 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1075, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Department is not JSON serializable
+2023-08-02 14:08:56 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 125173
+2023-08-02 14:08:56 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 125173
+2023-08-02 14:10:19 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1075, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type QuerySet is not JSON serializable
+2023-08-02 14:10:19 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 124993
+2023-08-02 14:10:19 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 124993
+2023-08-02 14:10:55 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1076, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type QuerySet is not JSON serializable
+2023-08-02 14:10:55 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 124860
+2023-08-02 14:10:55 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 124860
+2023-08-02 14:11:39 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1076, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type QuerySet is not JSON serializable
+2023-08-02 14:11:39 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 126813
+2023-08-02 14:11:39 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 126813
+2023-08-02 14:14:33 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1073, in get
+    print(university.values())
+AttributeError: 'University' object has no attribute 'values'
+2023-08-02 14:14:33 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96445
+2023-08-02 14:14:33 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96445
+2023-08-02 14:15:39 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1073, in get
+    print(university.values_list())
+AttributeError: 'University' object has no attribute 'values_list'
+2023-08-02 14:15:39 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96485
+2023-08-02 14:15:39 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96485
+2023-08-02 14:39:37 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1081, in get
+    'students_with_university_name': list(students_in_CSE_with_university_name.values('id', 'student_name'), a),
+TypeError: list expected at most 1 argument, got 2
+2023-08-02 14:39:37 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96893
+2023-08-02 14:39:37 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96893
+2023-08-02 14:59:20 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1080, in get
+    specific_student_with_dept=Student.objects.filter(student_name='Akash Kashyap').department.department_name
+AttributeError: 'QuerySet' object has no attribute 'department'
+2023-08-02 14:59:20 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 97680
+2023-08-02 14:59:20 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 97680
+2023-08-02 15:14:27 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'Babu Banarsi Das University'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1084, in get
+    all_students_of_specific_university = Student.objects.all().filter(department__university='Babu Banarsi Das University')
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1534, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1565, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1480, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1307, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'Babu Banarsi Das University'.
+2023-08-02 15:14:27 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 153608
+2023-08-02 15:14:27 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 153608
+2023-08-02 15:25:26 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1084, in get
+    all_students_of_specific_university = Student.objects.filter(university_name=University.objects.get(university_name='Babu Banarsi Das University'))
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1534, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1565, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1415, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1225, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1713, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'university_name' into field. Choices are: department, department_id, id, student_name
+2023-08-02 15:25:26 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143014
+2023-08-02 15:25:26 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143014
+2023-08-02 15:26:19 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1084, in get
+    all_students_of_specific_university = Student.objects.filter(university_name=University.objects.get(university_name='Babu Banarsi Das University'))
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1534, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1565, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1415, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1225, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1713, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'university_name' into field. Choices are: department, department_id, id, student_name
+2023-08-02 15:26:19 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143014
+2023-08-02 15:26:19 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143014
+2023-08-02 15:28:24 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1084, in get
+    all_students_of_specific_university = Student.objects.filter(university_name=University.objects.get(department__university__university_name='Babu Banarsi Das University'))
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1534, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1565, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1415, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1225, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1713, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'department' into field. Choices are: departments, id, university_name
+2023-08-02 15:28:24 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 148776
+2023-08-02 15:28:24 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 148776
+2023-08-02 15:29:26 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1084, in get
+    all_students_of_specific_university = Student.objects.filter(university_name=Student.objects.get(department__university__university_name='Babu Banarsi Das University'))
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 640, in get
+    raise self.model.MultipleObjectsReturned(
+myapp.models.Student.MultipleObjectsReturned: get() returned more than one Student -- it returned 5!
+2023-08-02 15:29:26 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 107280
+2023-08-02 15:29:26 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 107280
+2023-08-02 15:30:17 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1084, in get
+    all_students_of_specific_university = Student.objects.filter(university_name=Student.objects.filter(department__university__university_name='Babu Banarsi Das University'))
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1534, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1565, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1415, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1225, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1713, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'university_name' into field. Choices are: department, department_id, id, student_name
+2023-08-02 15:30:17 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 144072
+2023-08-02 15:30:17 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 144072
+2023-08-02 15:37:33 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1084, in get
+    specific_university = University.objects.get(university_name='Babu Banarsi Das University').values('university_name')
+AttributeError: 'University' object has no attribute 'values'
+2023-08-02 15:37:33 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 97852
+2023-08-02 15:37:33 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 97852
+2023-08-02 15:38:12 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1084, in get
+    specific_university = University.objects.get(university_name='Babu Banarsi Das University').values_list('university_name')
+AttributeError: 'University' object has no attribute 'values_list'
+2023-08-02 15:38:12 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 97892
+2023-08-02 15:38:12 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 97892
+2023-08-02 15:43:07 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1090, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Student is not JSON serializable
+2023-08-02 15:43:07 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 132622
+2023-08-02 15:43:07 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 132622
+2023-08-02 15:43:45 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1090, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type QuerySet is not JSON serializable
+2023-08-02 15:43:45 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 131844
+2023-08-02 15:43:45 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 131844
+2023-08-02 15:44:20 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1090, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type QuerySet is not JSON serializable
+2023-08-02 15:44:20 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 132912
+2023-08-02 15:44:20 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 132912
+2023-08-02 15:44:54 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1090, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type QuerySet is not JSON serializable
+2023-08-02 15:44:54 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 135093
+2023-08-02 15:44:54 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 135093
+2023-08-02 15:45:15 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1090, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type QuerySet is not JSON serializable
+2023-08-02 15:45:15 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 131844
+2023-08-02 15:45:15 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 131844
+2023-08-02 15:45:56 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1091, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type QuerySet is not JSON serializable
+2023-08-02 15:45:56 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 131765
+2023-08-02 15:45:56 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 131765
+2023-08-02 15:46:27 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1091, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type QuerySet is not JSON serializable
+2023-08-02 15:46:27 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 135014
+2023-08-02 15:46:27 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 135014
+2023-08-02 15:50:10 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1088, in get
+    stu = Student.objects.filter(University.objects.get(university_name='Babu Banarsi Das University')).values()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1534, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1565, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1412, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable University object
+2023-08-02 15:50:10 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 131902
+2023-08-02 15:50:10 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 131902
+2023-08-02 17:55:51 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1092, in get
+    all_students = university.students.all().values()
+AttributeError: 'University' object has no attribute 'students'
+2023-08-02 17:55:51 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98487
+2023-08-02 17:55:51 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98487
+2023-08-02 17:56:29 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1092, in get
+    all_students = university.students.all()
+AttributeError: 'University' object has no attribute 'students'
+2023-08-02 17:56:29 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98469
+2023-08-02 17:56:29 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98469
+2023-08-02 18:10:26 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1098, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Department is not JSON serializable
+2023-08-02 18:10:26 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 138228
+2023-08-02 18:10:26 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 138228
+2023-08-02 18:12:10 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1098, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Department is not JSON serializable
+2023-08-02 18:12:10 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143973
+2023-08-02 18:12:10 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143973
+2023-08-02 18:13:04 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1093, in get
+    a = (dept.department_name, dept.university.university_name)
+AttributeError: 'dict' object has no attribute 'department_name'
+2023-08-02 18:13:04 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99200
+2023-08-02 18:13:04 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99200
+2023-08-02 18:14:36 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1098, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Department is not JSON serializable
+2023-08-02 18:14:36 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143979
+2023-08-02 18:14:36 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143979
+2023-08-02 18:15:08 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1093, in get
+    a = (dept.department_name, dept.university.university_name)
+AttributeError: 'dict' object has no attribute 'department_name'
+2023-08-02 18:15:08 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99200
+2023-08-02 18:15:08 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99200
+2023-08-02 18:16:00 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1094, in get
+    a = (dept.department_name, dept.university.university_name)
+AttributeError: 'dict' object has no attribute 'department_name'
+2023-08-02 18:16:00 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99186
+2023-08-02 18:16:00 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99186
+2023-08-02 18:19:06 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1093, in get
+    a = (dept.department_name, dept.university.university_name)
+AttributeError: 'dict' object has no attribute 'department_name'
+2023-08-02 18:19:06 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99200
+2023-08-02 18:19:06 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99200
+2023-08-02 18:20:58 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1090, in get
+    list1=[],i=0
+TypeError: cannot unpack non-iterable int object
+2023-08-02 18:20:58 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98491
+2023-08-02 18:20:58 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98491
+2023-08-02 18:21:16 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1090, in get
+    list1=[],i=0
+TypeError: cannot unpack non-iterable int object
+2023-08-02 18:21:16 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98491
+2023-08-02 18:21:16 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98491
+2023-08-02 18:22:18 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1090, in get
+    list1=[],i=0
+TypeError: cannot unpack non-iterable int object
+2023-08-02 18:22:18 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98491
+2023-08-02 18:22:18 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98491
+2023-08-02 18:24:01 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1093, in get
+    a = (dept.department_name, dept.university.university_name)
+AttributeError: 'dict' object has no attribute 'department_name'
+2023-08-02 18:24:01 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99200
+2023-08-02 18:24:01 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99200
+2023-08-02 18:26:18 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1098, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Department is not JSON serializable
+2023-08-02 18:26:18 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 144011
+2023-08-02 18:26:18 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 144011
+2023-08-02 18:27:18 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1093, in get
+    a = (dept.department_name, dept.university.university_name)
+AttributeError: 'dict' object has no attribute 'department_name'
+2023-08-02 18:27:18 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99239
+2023-08-02 18:27:18 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99239
+2023-08-02 18:27:40 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1098, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Department is not JSON serializable
+2023-08-02 18:27:40 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 144013
+2023-08-02 18:27:40 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 144013
+2023-08-02 18:29:20 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1099, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Department is not JSON serializable
+2023-08-02 18:29:20 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143991
+2023-08-02 18:29:20 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143991
+2023-08-02 18:31:37 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1098, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Department is not JSON serializable
+2023-08-02 18:31:37 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 140821
+2023-08-02 18:31:37 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 140821
+2023-08-02 18:32:06 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1098, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Department is not JSON serializable
+2023-08-02 18:32:06 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 140865
+2023-08-02 18:32:06 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 140865
+2023-08-02 18:32:48 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1093, in get
+    a = (dept.department_name)
+AttributeError: 'dict' object has no attribute 'department_name'
+2023-08-02 18:32:48 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99173
+2023-08-02 18:32:48 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99173
+2023-08-02 18:34:17 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1091, in get
+    departments = Department.objects.all().values().select_related('university')
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1546, in select_related
+    raise TypeError(
+TypeError: Cannot call select_related() after .values() or .values_list()
+2023-08-02 18:34:17 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 103310
+2023-08-02 18:34:17 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 103310
+2023-08-02 18:34:52 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1099, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Department is not JSON serializable
+2023-08-02 18:34:52 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143987
+2023-08-02 18:34:52 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143987
+2023-08-02 18:35:42 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1105, in get
+    'all_department_and _their_university': list1.values()
+AttributeError: 'list' object has no attribute 'values'
+2023-08-02 18:35:42 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98549
+2023-08-02 18:35:42 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98549
+2023-08-02 18:36:25 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1105, in get
+    'all_department_and _their_university': list1.values()
+AttributeError: 'list' object has no attribute 'values'
+2023-08-02 18:36:25 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98549
+2023-08-02 18:36:25 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98549
+2023-08-02 18:36:36 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1099, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Department is not JSON serializable
+2023-08-02 18:36:36 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143985
+2023-08-02 18:36:36 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143985
+2023-08-02 18:38:46 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1102, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Department is not JSON serializable
+2023-08-02 18:38:46 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 149341
+2023-08-02 18:38:46 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 149341
+2023-08-02 18:47:28 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1098, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Student is not JSON serializable
+2023-08-02 18:47:28 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 141543
+2023-08-02 18:47:28 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 141543
+2023-08-02 18:51:49 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1100, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type QuerySet is not JSON serializable
+2023-08-02 18:51:49 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 146265
+2023-08-02 18:51:49 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 146265
+2023-08-02 19:11:37 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1100, in get
+    students = Student.objects.all().filter(department_name = 'Computer Science and Engineering')
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1534, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1565, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1415, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1225, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1713, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'department_name' into field. Choices are: department, department_id, id, student_name
+2023-08-02 19:11:37 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 140468
+2023-08-02 19:11:37 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 140468
+2023-08-02 19:12:37 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'Computer Science and Engineering'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1100, in get
+    students = Student.objects.all().filter(department = 'Computer Science and Engineering')
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1534, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1565, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1480, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1307, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'Computer Science and Engineering'.
+2023-08-02 19:12:37 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 154906
+2023-08-02 19:12:37 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 154906
+2023-08-02 19:14:58 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1102, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Student is not JSON serializable
+2023-08-02 19:14:58 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 142524
+2023-08-02 19:14:58 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 142524
+2023-08-02 19:43:01 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1109, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Student is not JSON serializable
+2023-08-02 19:43:01 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 144093
+2023-08-02 19:43:01 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 144093
+2023-08-02 19:51:27 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1110, in get
+    return JsonResponse(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/http/response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/serializers/json.py", line 106, in default
+    return super().default(o)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type QuerySet is not JSON serializable
+2023-08-02 19:51:27 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 151578
+2023-08-02 19:51:27 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 151578
+2023-08-02 20:16:36 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1114, in get
+    list1=list(dept.department_name, dept.student_count)
+TypeError: list expected at most 1 argument, got 2
+2023-08-02 20:16:36 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 101129
+2023-08-02 20:16:36 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 101129
+2023-08-02 20:17:11 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1092, in get
+    list1 = list(departments)
+UnboundLocalError: local variable 'list' referenced before assignment
+2023-08-02 20:17:11 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98818
+2023-08-02 20:17:11 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98818
+2023-08-02 20:17:42 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1092, in get
+    list1 = list(departments)
+UnboundLocalError: local variable 'list' referenced before assignment
+2023-08-02 20:17:42 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98818
+2023-08-02 20:17:42 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98818
+2023-08-02 20:18:34 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1092, in get
+    list1 = list(departments)
+UnboundLocalError: local variable 'list' referenced before assignment
+2023-08-02 20:18:34 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98818
+2023-08-02 20:18:34 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98818
+2023-08-02 20:18:51 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1116, in get
+    list.append(aa)
+TypeError: descriptor 'append' for 'list' objects doesn't apply to a 'tuple' object
+2023-08-02 20:18:51 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 101821
+2023-08-02 20:18:51 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 101821
+2023-08-02 20:19:53 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1092, in get
+    list1 = list(departments)
+UnboundLocalError: local variable 'list' referenced before assignment
+2023-08-02 20:19:53 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98818
+2023-08-02 20:19:53 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98818
+2023-08-02 20:21:29 ERROR Internal Server Error: /get_orm_foreignKey_relation/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1115, in get
+    print(list(dept.department_name, dept.student_count))
+TypeError: list expected at most 1 argument, got 2
+2023-08-02 20:21:29 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 101061
+2023-08-02 20:21:29 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 101061
+2023-08-02 20:41:20 ERROR serializer is not valid , please check the json data
+2023-08-02 20:41:31 ERROR serializer is not valid , please check the json data
+2023-08-02 20:42:10 ERROR serializer is not valid , please check the json data

@@ -5740,3 +5740,832 @@ Original exception text was: 'QuerySet' object has no attribute 'full_name'.
 2023-08-01 20:14:38 INFO Watching for file changes with StatReloader
 2023-08-01 20:33:48 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 154
 2023-08-01 20:33:48 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 154
+2023-08-01 21:00:18 INFO Watching for file changes with StatReloader
+2023-08-01 21:00:18 INFO Watching for file changes with StatReloader
+2023-08-02 13:59:17 INFO Watching for file changes with StatReloader
+2023-08-02 13:59:17 INFO Watching for file changes with StatReloader
+2023-08-02 13:59:22 INFO "GET /admin/ HTTP/1.1" 200 13053
+2023-08-02 13:59:22 INFO "GET /admin/ HTTP/1.1" 200 13053
+2023-08-02 13:59:22 WARNING "GET /favicon.ico HTTP/1.1" 404 7314
+2023-08-02 13:59:22 WARNING "GET /favicon.ico HTTP/1.1" 404 7314
+2023-08-02 13:59:28 INFO "GET /admin/myapp/university/ HTTP/1.1" 200 13876
+2023-08-02 13:59:28 INFO "GET /admin/myapp/university/ HTTP/1.1" 200 13876
+2023-08-02 13:59:28 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 13:59:28 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 13:59:36 INFO "GET /admin/myapp/university/2/change/ HTTP/1.1" 200 11298
+2023-08-02 13:59:36 INFO "GET /admin/myapp/university/2/change/ HTTP/1.1" 200 11298
+2023-08-02 13:59:36 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 13:59:36 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 14:02:19 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:02:19 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:02:19 INFO Watching for file changes with StatReloader
+2023-08-02 14:02:19 INFO Watching for file changes with StatReloader
+2023-08-02 14:06:29 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:06:29 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:06:30 INFO Watching for file changes with StatReloader
+2023-08-02 14:06:30 INFO Watching for file changes with StatReloader
+2023-08-02 14:07:08 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96089
+2023-08-02 14:07:08 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96089
+2023-08-02 14:07:34 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:07:34 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:07:34 INFO Watching for file changes with StatReloader
+2023-08-02 14:07:34 INFO Watching for file changes with StatReloader
+2023-08-02 14:07:38 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96143
+2023-08-02 14:07:38 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96143
+2023-08-02 14:08:16 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:08:16 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:08:17 INFO Watching for file changes with StatReloader
+2023-08-02 14:08:17 INFO Watching for file changes with StatReloader
+2023-08-02 14:08:19 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96183
+2023-08-02 14:08:19 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96183
+2023-08-02 14:08:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:08:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:08:33 INFO Watching for file changes with StatReloader
+2023-08-02 14:08:33 INFO Watching for file changes with StatReloader
+2023-08-02 14:08:36 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 124916
+2023-08-02 14:08:36 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 124916
+2023-08-02 14:08:53 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:08:53 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:08:54 INFO Watching for file changes with StatReloader
+2023-08-02 14:08:54 INFO Watching for file changes with StatReloader
+2023-08-02 14:08:56 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 125173
+2023-08-02 14:08:56 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 125173
+2023-08-02 14:10:17 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:10:17 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:10:17 INFO Watching for file changes with StatReloader
+2023-08-02 14:10:17 INFO Watching for file changes with StatReloader
+2023-08-02 14:10:19 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 124993
+2023-08-02 14:10:19 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 124993
+2023-08-02 14:10:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:10:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:10:52 INFO Watching for file changes with StatReloader
+2023-08-02 14:10:52 INFO Watching for file changes with StatReloader
+2023-08-02 14:10:55 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 124860
+2023-08-02 14:10:55 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 124860
+2023-08-02 14:11:34 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:11:34 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:11:34 INFO Watching for file changes with StatReloader
+2023-08-02 14:11:34 INFO Watching for file changes with StatReloader
+2023-08-02 14:11:39 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 126813
+2023-08-02 14:11:39 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 126813
+2023-08-02 14:12:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:12:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:12:40 INFO Watching for file changes with StatReloader
+2023-08-02 14:12:40 INFO Watching for file changes with StatReloader
+2023-08-02 14:12:42 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 424
+2023-08-02 14:12:42 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 424
+2023-08-02 14:14:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:14:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:14:31 INFO Watching for file changes with StatReloader
+2023-08-02 14:14:31 INFO Watching for file changes with StatReloader
+2023-08-02 14:14:33 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96445
+2023-08-02 14:14:33 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96445
+2023-08-02 14:15:35 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:15:35 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:15:36 INFO Watching for file changes with StatReloader
+2023-08-02 14:15:36 INFO Watching for file changes with StatReloader
+2023-08-02 14:15:39 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96485
+2023-08-02 14:15:39 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96485
+2023-08-02 14:15:53 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:15:53 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:15:54 INFO Watching for file changes with StatReloader
+2023-08-02 14:15:54 INFO Watching for file changes with StatReloader
+2023-08-02 14:15:55 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 424
+2023-08-02 14:15:55 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 424
+2023-08-02 14:36:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:36:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:36:45 INFO Watching for file changes with StatReloader
+2023-08-02 14:36:45 INFO Watching for file changes with StatReloader
+2023-08-02 14:36:47 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 424
+2023-08-02 14:36:47 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 424
+2023-08-02 14:37:45 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:37:45 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:37:46 INFO Watching for file changes with StatReloader
+2023-08-02 14:37:46 INFO Watching for file changes with StatReloader
+2023-08-02 14:37:48 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 424
+2023-08-02 14:37:48 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 424
+2023-08-02 14:39:34 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:39:34 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:39:35 INFO Watching for file changes with StatReloader
+2023-08-02 14:39:35 INFO Watching for file changes with StatReloader
+2023-08-02 14:39:37 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96893
+2023-08-02 14:39:37 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 96893
+2023-08-02 14:39:50 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:39:50 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:39:50 INFO Watching for file changes with StatReloader
+2023-08-02 14:39:50 INFO Watching for file changes with StatReloader
+2023-08-02 14:39:52 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 424
+2023-08-02 14:39:52 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 424
+2023-08-02 14:48:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:48:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:48:10 INFO Watching for file changes with StatReloader
+2023-08-02 14:48:10 INFO Watching for file changes with StatReloader
+2023-08-02 14:48:29 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:48:29 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:48:29 INFO Watching for file changes with StatReloader
+2023-08-02 14:48:29 INFO Watching for file changes with StatReloader
+2023-08-02 14:48:31 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 424
+2023-08-02 14:48:31 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 424
+2023-08-02 14:49:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:49:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:49:02 INFO Watching for file changes with StatReloader
+2023-08-02 14:49:02 INFO Watching for file changes with StatReloader
+2023-08-02 14:49:07 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 424
+2023-08-02 14:49:07 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 424
+2023-08-02 14:51:47 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:51:47 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:51:47 INFO Watching for file changes with StatReloader
+2023-08-02 14:51:47 INFO Watching for file changes with StatReloader
+2023-08-02 14:51:50 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 424
+2023-08-02 14:51:50 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 424
+2023-08-02 14:59:15 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:59:15 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:59:16 INFO Watching for file changes with StatReloader
+2023-08-02 14:59:16 INFO Watching for file changes with StatReloader
+2023-08-02 14:59:20 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 97680
+2023-08-02 14:59:20 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 97680
+2023-08-02 14:59:43 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:59:43 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 14:59:43 INFO Watching for file changes with StatReloader
+2023-08-02 14:59:43 INFO Watching for file changes with StatReloader
+2023-08-02 14:59:47 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 424
+2023-08-02 14:59:47 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 424
+2023-08-02 15:01:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:01:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:01:11 INFO Watching for file changes with StatReloader
+2023-08-02 15:01:11 INFO Watching for file changes with StatReloader
+2023-08-02 15:01:14 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 618
+2023-08-02 15:01:14 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 618
+2023-08-02 15:01:53 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:01:53 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:01:53 INFO Watching for file changes with StatReloader
+2023-08-02 15:01:53 INFO Watching for file changes with StatReloader
+2023-08-02 15:01:55 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 492
+2023-08-02 15:01:55 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 492
+2023-08-02 15:14:24 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:14:24 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:14:25 INFO Watching for file changes with StatReloader
+2023-08-02 15:14:25 INFO Watching for file changes with StatReloader
+2023-08-02 15:14:27 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 153608
+2023-08-02 15:14:27 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 153608
+2023-08-02 15:22:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:22:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:23:00 INFO Watching for file changes with StatReloader
+2023-08-02 15:23:00 INFO Watching for file changes with StatReloader
+2023-08-02 15:25:16 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:25:16 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:25:17 INFO Watching for file changes with StatReloader
+2023-08-02 15:25:17 INFO Watching for file changes with StatReloader
+2023-08-02 15:25:26 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143014
+2023-08-02 15:25:26 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143014
+2023-08-02 15:26:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:26:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:26:14 INFO Watching for file changes with StatReloader
+2023-08-02 15:26:14 INFO Watching for file changes with StatReloader
+2023-08-02 15:26:19 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143014
+2023-08-02 15:26:19 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143014
+2023-08-02 15:28:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:28:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:28:23 INFO Watching for file changes with StatReloader
+2023-08-02 15:28:23 INFO Watching for file changes with StatReloader
+2023-08-02 15:28:24 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 148776
+2023-08-02 15:28:24 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 148776
+2023-08-02 15:29:23 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:29:23 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:29:24 INFO Watching for file changes with StatReloader
+2023-08-02 15:29:24 INFO Watching for file changes with StatReloader
+2023-08-02 15:29:26 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 107280
+2023-08-02 15:29:26 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 107280
+2023-08-02 15:29:55 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:29:55 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:29:56 INFO Watching for file changes with StatReloader
+2023-08-02 15:29:56 INFO Watching for file changes with StatReloader
+2023-08-02 15:30:17 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 144072
+2023-08-02 15:30:17 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 144072
+2023-08-02 15:32:43 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:32:43 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:32:44 INFO Watching for file changes with StatReloader
+2023-08-02 15:32:44 INFO Watching for file changes with StatReloader
+2023-08-02 15:37:28 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:37:28 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:37:28 INFO Watching for file changes with StatReloader
+2023-08-02 15:37:28 INFO Watching for file changes with StatReloader
+2023-08-02 15:37:33 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 97852
+2023-08-02 15:37:33 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 97852
+2023-08-02 15:38:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:38:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:38:10 INFO Watching for file changes with StatReloader
+2023-08-02 15:38:10 INFO Watching for file changes with StatReloader
+2023-08-02 15:38:12 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 97892
+2023-08-02 15:38:12 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 97892
+2023-08-02 15:38:27 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:38:27 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:38:27 INFO Watching for file changes with StatReloader
+2023-08-02 15:38:27 INFO Watching for file changes with StatReloader
+2023-08-02 15:38:41 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 492
+2023-08-02 15:38:41 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 492
+2023-08-02 15:39:37 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:39:37 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:39:37 INFO Watching for file changes with StatReloader
+2023-08-02 15:39:37 INFO Watching for file changes with StatReloader
+2023-08-02 15:39:39 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 492
+2023-08-02 15:39:39 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 492
+2023-08-02 15:40:15 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:40:15 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:40:16 INFO Watching for file changes with StatReloader
+2023-08-02 15:40:16 INFO Watching for file changes with StatReloader
+2023-08-02 15:40:19 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 492
+2023-08-02 15:40:19 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 492
+2023-08-02 15:42:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:42:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:42:15 INFO Watching for file changes with StatReloader
+2023-08-02 15:42:15 INFO Watching for file changes with StatReloader
+2023-08-02 15:43:04 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:43:04 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:43:04 INFO Watching for file changes with StatReloader
+2023-08-02 15:43:04 INFO Watching for file changes with StatReloader
+2023-08-02 15:43:07 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 132622
+2023-08-02 15:43:07 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 132622
+2023-08-02 15:43:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:43:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:43:32 INFO Watching for file changes with StatReloader
+2023-08-02 15:43:32 INFO Watching for file changes with StatReloader
+2023-08-02 15:43:45 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 131844
+2023-08-02 15:43:45 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 131844
+2023-08-02 15:44:15 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:44:15 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:44:16 INFO Watching for file changes with StatReloader
+2023-08-02 15:44:16 INFO Watching for file changes with StatReloader
+2023-08-02 15:44:20 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 132912
+2023-08-02 15:44:20 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 132912
+2023-08-02 15:44:50 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:44:50 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:44:50 INFO Watching for file changes with StatReloader
+2023-08-02 15:44:50 INFO Watching for file changes with StatReloader
+2023-08-02 15:44:54 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 135093
+2023-08-02 15:44:54 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 135093
+2023-08-02 15:45:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:45:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:45:11 INFO Watching for file changes with StatReloader
+2023-08-02 15:45:11 INFO Watching for file changes with StatReloader
+2023-08-02 15:45:15 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 131844
+2023-08-02 15:45:15 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 131844
+2023-08-02 15:45:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:45:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:45:52 INFO Watching for file changes with StatReloader
+2023-08-02 15:45:52 INFO Watching for file changes with StatReloader
+2023-08-02 15:45:56 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 131765
+2023-08-02 15:45:56 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 131765
+2023-08-02 15:46:23 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:46:23 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:46:23 INFO Watching for file changes with StatReloader
+2023-08-02 15:46:23 INFO Watching for file changes with StatReloader
+2023-08-02 15:46:27 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 135014
+2023-08-02 15:46:27 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 135014
+2023-08-02 15:46:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:46:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:46:57 INFO Watching for file changes with StatReloader
+2023-08-02 15:46:57 INFO Watching for file changes with StatReloader
+2023-08-02 15:47:05 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 841
+2023-08-02 15:47:05 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 841
+2023-08-02 15:50:08 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:50:08 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:50:08 INFO Watching for file changes with StatReloader
+2023-08-02 15:50:08 INFO Watching for file changes with StatReloader
+2023-08-02 15:50:10 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 131902
+2023-08-02 15:50:10 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 131902
+2023-08-02 15:50:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:50:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 15:50:40 INFO Watching for file changes with StatReloader
+2023-08-02 15:50:40 INFO Watching for file changes with StatReloader
+2023-08-02 16:24:21 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 841
+2023-08-02 16:24:21 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 841
+2023-08-02 17:39:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 17:39:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 17:39:03 INFO Watching for file changes with StatReloader
+2023-08-02 17:39:03 INFO Watching for file changes with StatReloader
+2023-08-02 17:39:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 17:39:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 17:39:31 INFO Watching for file changes with StatReloader
+2023-08-02 17:39:31 INFO Watching for file changes with StatReloader
+2023-08-02 17:39:34 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 901
+2023-08-02 17:39:34 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 901
+2023-08-02 17:42:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 17:42:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 17:42:44 INFO Watching for file changes with StatReloader
+2023-08-02 17:42:44 INFO Watching for file changes with StatReloader
+2023-08-02 17:42:54 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 901
+2023-08-02 17:42:54 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 901
+2023-08-02 17:55:47 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 17:55:47 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 17:55:48 INFO Watching for file changes with StatReloader
+2023-08-02 17:55:48 INFO Watching for file changes with StatReloader
+2023-08-02 17:55:51 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98487
+2023-08-02 17:55:51 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98487
+2023-08-02 17:56:26 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 17:56:26 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 17:56:26 INFO Watching for file changes with StatReloader
+2023-08-02 17:56:26 INFO Watching for file changes with StatReloader
+2023-08-02 17:56:29 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98469
+2023-08-02 17:56:29 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98469
+2023-08-02 18:10:20 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:10:20 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:10:20 INFO Watching for file changes with StatReloader
+2023-08-02 18:10:20 INFO Watching for file changes with StatReloader
+2023-08-02 18:10:26 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 138228
+2023-08-02 18:10:26 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 138228
+2023-08-02 18:12:08 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:12:08 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:12:08 INFO Watching for file changes with StatReloader
+2023-08-02 18:12:08 INFO Watching for file changes with StatReloader
+2023-08-02 18:12:10 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143973
+2023-08-02 18:12:10 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143973
+2023-08-02 18:12:55 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:12:55 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:12:55 INFO Watching for file changes with StatReloader
+2023-08-02 18:12:55 INFO Watching for file changes with StatReloader
+2023-08-02 18:13:04 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99200
+2023-08-02 18:13:04 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99200
+2023-08-02 18:14:33 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:14:33 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:14:34 INFO Watching for file changes with StatReloader
+2023-08-02 18:14:34 INFO Watching for file changes with StatReloader
+2023-08-02 18:14:36 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143979
+2023-08-02 18:14:36 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143979
+2023-08-02 18:15:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:15:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:15:03 INFO Watching for file changes with StatReloader
+2023-08-02 18:15:03 INFO Watching for file changes with StatReloader
+2023-08-02 18:15:08 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99200
+2023-08-02 18:15:08 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99200
+2023-08-02 18:15:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:15:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:15:56 INFO Watching for file changes with StatReloader
+2023-08-02 18:15:56 INFO Watching for file changes with StatReloader
+2023-08-02 18:16:00 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99186
+2023-08-02 18:16:00 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99186
+2023-08-02 18:19:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:19:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:19:03 INFO Watching for file changes with StatReloader
+2023-08-02 18:19:03 INFO Watching for file changes with StatReloader
+2023-08-02 18:19:06 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99200
+2023-08-02 18:19:06 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99200
+2023-08-02 18:20:54 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:20:54 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:20:54 INFO Watching for file changes with StatReloader
+2023-08-02 18:20:54 INFO Watching for file changes with StatReloader
+2023-08-02 18:20:58 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98491
+2023-08-02 18:20:58 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98491
+2023-08-02 18:21:12 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:21:12 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:21:12 INFO Watching for file changes with StatReloader
+2023-08-02 18:21:12 INFO Watching for file changes with StatReloader
+2023-08-02 18:21:16 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98491
+2023-08-02 18:21:16 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98491
+2023-08-02 18:22:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:22:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:22:07 INFO Watching for file changes with StatReloader
+2023-08-02 18:22:07 INFO Watching for file changes with StatReloader
+2023-08-02 18:22:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:22:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:22:15 INFO Watching for file changes with StatReloader
+2023-08-02 18:22:15 INFO Watching for file changes with StatReloader
+2023-08-02 18:22:18 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98491
+2023-08-02 18:22:18 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98491
+2023-08-02 18:22:43 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:22:43 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:22:43 INFO Watching for file changes with StatReloader
+2023-08-02 18:22:43 INFO Watching for file changes with StatReloader
+2023-08-02 18:24:01 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99200
+2023-08-02 18:24:01 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99200
+2023-08-02 18:26:17 INFO Watching for file changes with StatReloader
+2023-08-02 18:26:17 INFO Watching for file changes with StatReloader
+2023-08-02 18:26:18 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 144011
+2023-08-02 18:26:18 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 144011
+2023-08-02 18:27:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:27:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:27:15 INFO Watching for file changes with StatReloader
+2023-08-02 18:27:15 INFO Watching for file changes with StatReloader
+2023-08-02 18:27:18 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99239
+2023-08-02 18:27:18 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99239
+2023-08-02 18:27:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:27:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:27:31 INFO Watching for file changes with StatReloader
+2023-08-02 18:27:31 INFO Watching for file changes with StatReloader
+2023-08-02 18:27:40 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 144013
+2023-08-02 18:27:40 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 144013
+2023-08-02 18:28:55 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:28:55 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:28:55 INFO Watching for file changes with StatReloader
+2023-08-02 18:28:55 INFO Watching for file changes with StatReloader
+2023-08-02 18:29:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:29:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:29:10 INFO Watching for file changes with StatReloader
+2023-08-02 18:29:10 INFO Watching for file changes with StatReloader
+2023-08-02 18:29:20 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143991
+2023-08-02 18:29:20 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143991
+2023-08-02 18:31:34 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:31:34 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:31:34 INFO Watching for file changes with StatReloader
+2023-08-02 18:31:34 INFO Watching for file changes with StatReloader
+2023-08-02 18:31:37 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 140821
+2023-08-02 18:31:37 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 140821
+2023-08-02 18:32:00 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:32:00 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:32:01 INFO Watching for file changes with StatReloader
+2023-08-02 18:32:01 INFO Watching for file changes with StatReloader
+2023-08-02 18:32:03 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:32:03 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:32:03 INFO Watching for file changes with StatReloader
+2023-08-02 18:32:03 INFO Watching for file changes with StatReloader
+2023-08-02 18:32:06 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 140865
+2023-08-02 18:32:06 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 140865
+2023-08-02 18:32:43 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:32:43 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:32:44 INFO Watching for file changes with StatReloader
+2023-08-02 18:32:44 INFO Watching for file changes with StatReloader
+2023-08-02 18:32:48 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99173
+2023-08-02 18:32:48 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 99173
+2023-08-02 18:33:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:33:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:33:14 INFO Watching for file changes with StatReloader
+2023-08-02 18:33:14 INFO Watching for file changes with StatReloader
+2023-08-02 18:34:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:34:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:34:14 INFO Watching for file changes with StatReloader
+2023-08-02 18:34:14 INFO Watching for file changes with StatReloader
+2023-08-02 18:34:17 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 103310
+2023-08-02 18:34:17 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 103310
+2023-08-02 18:34:45 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:34:45 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:34:45 INFO Watching for file changes with StatReloader
+2023-08-02 18:34:45 INFO Watching for file changes with StatReloader
+2023-08-02 18:34:52 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143987
+2023-08-02 18:34:52 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143987
+2023-08-02 18:35:39 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:35:39 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:35:40 INFO Watching for file changes with StatReloader
+2023-08-02 18:35:40 INFO Watching for file changes with StatReloader
+2023-08-02 18:35:42 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98549
+2023-08-02 18:35:42 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98549
+2023-08-02 18:36:25 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98549
+2023-08-02 18:36:25 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98549
+2023-08-02 18:36:33 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:36:33 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:36:33 INFO Watching for file changes with StatReloader
+2023-08-02 18:36:33 INFO Watching for file changes with StatReloader
+2023-08-02 18:36:36 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143985
+2023-08-02 18:36:36 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 143985
+2023-08-02 18:36:56 INFO Watching for file changes with StatReloader
+2023-08-02 18:36:56 INFO Watching for file changes with StatReloader
+2023-08-02 18:38:43 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:38:43 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:38:43 INFO Watching for file changes with StatReloader
+2023-08-02 18:38:43 INFO Watching for file changes with StatReloader
+2023-08-02 18:38:46 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 149341
+2023-08-02 18:38:46 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 149341
+2023-08-02 18:40:55 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:40:55 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:40:56 INFO Watching for file changes with StatReloader
+2023-08-02 18:40:56 INFO Watching for file changes with StatReloader
+2023-08-02 18:40:59 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1520
+2023-08-02 18:40:59 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1520
+2023-08-02 18:41:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:41:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:41:40 INFO Watching for file changes with StatReloader
+2023-08-02 18:41:40 INFO Watching for file changes with StatReloader
+2023-08-02 18:41:43 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1520
+2023-08-02 18:41:43 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1520
+2023-08-02 18:42:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:42:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:43:00 INFO Watching for file changes with StatReloader
+2023-08-02 18:43:00 INFO Watching for file changes with StatReloader
+2023-08-02 18:47:24 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:47:24 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:47:25 INFO Watching for file changes with StatReloader
+2023-08-02 18:47:25 INFO Watching for file changes with StatReloader
+2023-08-02 18:47:28 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 141543
+2023-08-02 18:47:28 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 141543
+2023-08-02 18:47:55 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:47:55 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:47:55 INFO Watching for file changes with StatReloader
+2023-08-02 18:47:55 INFO Watching for file changes with StatReloader
+2023-08-02 18:47:57 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1397
+2023-08-02 18:47:57 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1397
+2023-08-02 18:51:47 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:51:47 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:51:47 INFO Watching for file changes with StatReloader
+2023-08-02 18:51:47 INFO Watching for file changes with StatReloader
+2023-08-02 18:51:49 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 146265
+2023-08-02 18:51:49 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 146265
+2023-08-02 18:52:01 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:52:01 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 18:52:01 INFO Watching for file changes with StatReloader
+2023-08-02 18:52:01 INFO Watching for file changes with StatReloader
+2023-08-02 18:52:03 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1612
+2023-08-02 18:52:03 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1612
+2023-08-02 19:11:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:11:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:11:12 INFO Watching for file changes with StatReloader
+2023-08-02 19:11:12 INFO Watching for file changes with StatReloader
+2023-08-02 19:11:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:11:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:11:33 INFO Watching for file changes with StatReloader
+2023-08-02 19:11:33 INFO Watching for file changes with StatReloader
+2023-08-02 19:11:37 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 140468
+2023-08-02 19:11:37 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 140468
+2023-08-02 19:12:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:12:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:12:33 INFO Watching for file changes with StatReloader
+2023-08-02 19:12:33 INFO Watching for file changes with StatReloader
+2023-08-02 19:12:37 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 154906
+2023-08-02 19:12:37 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 154906
+2023-08-02 19:13:35 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:13:35 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:13:36 INFO Watching for file changes with StatReloader
+2023-08-02 19:13:36 INFO Watching for file changes with StatReloader
+2023-08-02 19:14:55 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:14:55 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:14:55 INFO Watching for file changes with StatReloader
+2023-08-02 19:14:55 INFO Watching for file changes with StatReloader
+2023-08-02 19:14:58 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 142524
+2023-08-02 19:14:58 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 142524
+2023-08-02 19:15:17 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:15:17 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:15:17 INFO Watching for file changes with StatReloader
+2023-08-02 19:15:17 INFO Watching for file changes with StatReloader
+2023-08-02 19:15:20 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1612
+2023-08-02 19:15:20 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1612
+2023-08-02 19:17:13 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1612
+2023-08-02 19:17:13 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1612
+2023-08-02 19:39:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:39:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:39:08 INFO Watching for file changes with StatReloader
+2023-08-02 19:39:08 INFO Watching for file changes with StatReloader
+2023-08-02 19:39:10 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1612
+2023-08-02 19:39:10 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1612
+2023-08-02 19:40:36 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:40:36 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:40:36 INFO Watching for file changes with StatReloader
+2023-08-02 19:40:36 INFO Watching for file changes with StatReloader
+2023-08-02 19:42:58 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:42:58 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:42:58 INFO Watching for file changes with StatReloader
+2023-08-02 19:42:58 INFO Watching for file changes with StatReloader
+2023-08-02 19:43:01 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 144093
+2023-08-02 19:43:01 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 144093
+2023-08-02 19:43:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:43:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:43:44 INFO Watching for file changes with StatReloader
+2023-08-02 19:43:44 INFO Watching for file changes with StatReloader
+2023-08-02 19:43:46 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1612
+2023-08-02 19:43:46 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1612
+2023-08-02 19:44:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:44:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:44:13 INFO Watching for file changes with StatReloader
+2023-08-02 19:44:13 INFO Watching for file changes with StatReloader
+2023-08-02 19:44:16 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1612
+2023-08-02 19:44:16 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1612
+2023-08-02 19:46:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:46:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:46:13 INFO Watching for file changes with StatReloader
+2023-08-02 19:46:13 INFO Watching for file changes with StatReloader
+2023-08-02 19:46:15 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1612
+2023-08-02 19:46:15 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1612
+2023-08-02 19:46:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:46:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:47:00 INFO Watching for file changes with StatReloader
+2023-08-02 19:47:00 INFO Watching for file changes with StatReloader
+2023-08-02 19:47:02 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1612
+2023-08-02 19:47:02 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1612
+2023-08-02 19:47:17 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:47:17 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:47:18 INFO Watching for file changes with StatReloader
+2023-08-02 19:47:18 INFO Watching for file changes with StatReloader
+2023-08-02 19:48:12 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:48:12 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:48:12 INFO Watching for file changes with StatReloader
+2023-08-02 19:48:12 INFO Watching for file changes with StatReloader
+2023-08-02 19:49:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:49:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:49:10 INFO Watching for file changes with StatReloader
+2023-08-02 19:49:10 INFO Watching for file changes with StatReloader
+2023-08-02 19:51:00 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:51:00 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:51:00 INFO Watching for file changes with StatReloader
+2023-08-02 19:51:00 INFO Watching for file changes with StatReloader
+2023-08-02 19:51:23 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:51:23 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:51:23 INFO Watching for file changes with StatReloader
+2023-08-02 19:51:23 INFO Watching for file changes with StatReloader
+2023-08-02 19:51:27 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 151578
+2023-08-02 19:51:27 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 151578
+2023-08-02 19:51:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:51:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 19:51:48 INFO Watching for file changes with StatReloader
+2023-08-02 19:51:48 INFO Watching for file changes with StatReloader
+2023-08-02 19:51:50 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1974
+2023-08-02 19:51:50 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1974
+2023-08-02 20:09:42 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:09:42 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:09:43 INFO Watching for file changes with StatReloader
+2023-08-02 20:09:43 INFO Watching for file changes with StatReloader
+2023-08-02 20:09:45 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1974
+2023-08-02 20:09:45 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1974
+2023-08-02 20:15:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:15:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:15:14 INFO Watching for file changes with StatReloader
+2023-08-02 20:15:14 INFO Watching for file changes with StatReloader
+2023-08-02 20:15:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:15:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:15:56 INFO Watching for file changes with StatReloader
+2023-08-02 20:15:56 INFO Watching for file changes with StatReloader
+2023-08-02 20:16:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:16:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:16:32 INFO Watching for file changes with StatReloader
+2023-08-02 20:16:32 INFO Watching for file changes with StatReloader
+2023-08-02 20:16:36 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 101129
+2023-08-02 20:16:36 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 101129
+2023-08-02 20:17:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:17:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:17:08 INFO Watching for file changes with StatReloader
+2023-08-02 20:17:08 INFO Watching for file changes with StatReloader
+2023-08-02 20:17:11 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98818
+2023-08-02 20:17:11 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98818
+2023-08-02 20:17:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:17:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:17:40 INFO Watching for file changes with StatReloader
+2023-08-02 20:17:40 INFO Watching for file changes with StatReloader
+2023-08-02 20:17:42 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98818
+2023-08-02 20:17:42 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98818
+2023-08-02 20:18:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:18:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:18:31 INFO Watching for file changes with StatReloader
+2023-08-02 20:18:31 INFO Watching for file changes with StatReloader
+2023-08-02 20:18:34 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98818
+2023-08-02 20:18:34 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98818
+2023-08-02 20:18:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:18:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:18:49 INFO Watching for file changes with StatReloader
+2023-08-02 20:18:49 INFO Watching for file changes with StatReloader
+2023-08-02 20:18:51 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 101821
+2023-08-02 20:18:51 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 101821
+2023-08-02 20:19:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:19:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:19:52 INFO Watching for file changes with StatReloader
+2023-08-02 20:19:52 INFO Watching for file changes with StatReloader
+2023-08-02 20:19:53 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98818
+2023-08-02 20:19:53 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 98818
+2023-08-02 20:20:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:20:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:20:10 INFO Watching for file changes with StatReloader
+2023-08-02 20:20:10 INFO Watching for file changes with StatReloader
+2023-08-02 20:20:12 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:20:12 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:20:12 INFO Watching for file changes with StatReloader
+2023-08-02 20:20:12 INFO Watching for file changes with StatReloader
+2023-08-02 20:20:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:20:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:20:15 INFO Watching for file changes with StatReloader
+2023-08-02 20:20:15 INFO Watching for file changes with StatReloader
+2023-08-02 20:20:17 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1974
+2023-08-02 20:20:17 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1974
+2023-08-02 20:21:26 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:21:26 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:21:27 INFO Watching for file changes with StatReloader
+2023-08-02 20:21:27 INFO Watching for file changes with StatReloader
+2023-08-02 20:21:29 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 101061
+2023-08-02 20:21:29 ERROR "GET /get_orm_foreignKey_relation/ HTTP/1.1" 500 101061
+2023-08-02 20:23:01 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:23:01 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:23:01 INFO Watching for file changes with StatReloader
+2023-08-02 20:23:01 INFO Watching for file changes with StatReloader
+2023-08-02 20:23:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:23:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:23:49 INFO Watching for file changes with StatReloader
+2023-08-02 20:23:49 INFO Watching for file changes with StatReloader
+2023-08-02 20:25:31 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:25:31 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:25:31 INFO Watching for file changes with StatReloader
+2023-08-02 20:25:31 INFO Watching for file changes with StatReloader
+2023-08-02 20:25:34 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1974
+2023-08-02 20:25:34 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1974
+2023-08-02 20:27:29 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:27:29 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:27:29 INFO Watching for file changes with StatReloader
+2023-08-02 20:27:29 INFO Watching for file changes with StatReloader
+2023-08-02 20:27:31 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1974
+2023-08-02 20:27:31 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1974
+2023-08-02 20:29:37 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:29:37 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:29:37 INFO Watching for file changes with StatReloader
+2023-08-02 20:29:37 INFO Watching for file changes with StatReloader
+2023-08-02 20:29:40 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1974
+2023-08-02 20:29:40 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1974
+2023-08-02 20:31:45 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:31:45 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:31:46 INFO Watching for file changes with StatReloader
+2023-08-02 20:31:46 INFO Watching for file changes with StatReloader
+2023-08-02 20:31:48 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1974
+2023-08-02 20:31:48 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1974
+2023-08-02 20:32:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:32:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:33:00 INFO Watching for file changes with StatReloader
+2023-08-02 20:33:00 INFO Watching for file changes with StatReloader
+2023-08-02 20:33:04 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1974
+2023-08-02 20:33:04 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 1974
+2023-08-02 20:35:04 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:35:04 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:35:04 INFO Watching for file changes with StatReloader
+2023-08-02 20:35:04 INFO Watching for file changes with StatReloader
+2023-08-02 20:35:06 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 2243
+2023-08-02 20:35:06 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 2243
+2023-08-02 20:35:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:35:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:35:40 INFO Watching for file changes with StatReloader
+2023-08-02 20:35:40 INFO Watching for file changes with StatReloader
+2023-08-02 20:38:04 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:38:04 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-02 20:38:05 INFO Watching for file changes with StatReloader
+2023-08-02 20:38:05 INFO Watching for file changes with StatReloader
+2023-08-02 20:39:23 INFO "GET /user/ HTTP/1.1" 200 2577
+2023-08-02 20:39:23 INFO "GET /user/ HTTP/1.1" 200 2577
+2023-08-02 20:40:02 INFO "GET /admin/myapp/university/2/change/ HTTP/1.1" 200 11298
+2023-08-02 20:40:02 INFO "GET /admin/myapp/university/2/change/ HTTP/1.1" 200 11298
+2023-08-02 20:40:02 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 20:40:02 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 20:40:06 INFO "GET /admin/myapp/register/ HTTP/1.1" 200 15610
+2023-08-02 20:40:06 INFO "GET /admin/myapp/register/ HTTP/1.1" 200 15610
+2023-08-02 20:40:06 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 20:40:06 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 20:40:14 INFO "GET /admin/myapp/login/ HTTP/1.1" 200 13953
+2023-08-02 20:40:14 INFO "GET /admin/myapp/login/ HTTP/1.1" 200 13953
+2023-08-02 20:40:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 20:40:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 20:40:23 INFO "GET /admin/auth/user/ HTTP/1.1" 200 13678
+2023-08-02 20:40:23 INFO "GET /admin/auth/user/ HTTP/1.1" 200 13678
+2023-08-02 20:40:23 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 20:40:23 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 20:40:34 INFO "GET /admin/myapp/register/ HTTP/1.1" 200 15610
+2023-08-02 20:40:34 INFO "GET /admin/myapp/register/ HTTP/1.1" 200 15610
+2023-08-02 20:40:34 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 20:40:34 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 20:41:20 ERROR serializer is not valid , please check the json data
+2023-08-02 20:41:20 WARNING "POST /user/ HTTP/1.1" 400 82
+2023-08-02 20:41:20 WARNING "POST /user/ HTTP/1.1" 400 82
+2023-08-02 20:41:31 ERROR serializer is not valid , please check the json data
+2023-08-02 20:41:31 WARNING "POST /user/ HTTP/1.1" 400 134
+2023-08-02 20:41:31 WARNING "POST /user/ HTTP/1.1" 400 134
+2023-08-02 20:42:10 ERROR serializer is not valid , please check the json data
+2023-08-02 20:42:10 WARNING "POST /user/ HTTP/1.1" 400 70
+2023-08-02 20:42:10 WARNING "POST /user/ HTTP/1.1" 400 70
+2023-08-02 20:42:46 INFO user registered successfully
+2023-08-02 20:42:46 INFO "POST /user/ HTTP/1.1" 201 256
+2023-08-02 20:42:46 INFO "POST /user/ HTTP/1.1" 201 256
+2023-08-02 20:43:48 INFO "POST /login/ HTTP/1.1" 200 43
+2023-08-02 20:43:48 INFO "POST /login/ HTTP/1.1" 200 43
+2023-08-02 20:44:18 WARNING Email and password matched
+2023-08-02 20:44:18 INFO user logged in successfully
+2023-08-02 20:44:18 INFO "POST /login/ HTTP/1.1" 201 563
+2023-08-02 20:44:18 INFO "POST /login/ HTTP/1.1" 201 563
+2023-08-02 20:46:36 INFO welcome to login response page
+2023-08-02 20:46:36 INFO "POST /login_response/ HTTP/1.1" 200 327
+2023-08-02 20:46:36 INFO "POST /login_response/ HTTP/1.1" 200 327
+2023-08-02 20:46:55 INFO "GET /admin/myapp/login/ HTTP/1.1" 200 14265
+2023-08-02 20:46:55 INFO "GET /admin/myapp/login/ HTTP/1.1" 200 14265
+2023-08-02 20:46:55 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 20:46:55 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 20:48:04 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 2243
+2023-08-02 20:48:04 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 2243
+2023-08-02 21:04:55 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 67
+2023-08-02 21:04:55 WARNING "POST /create_student_multiple_db/ HTTP/1.1" 400 67
+2023-08-02 21:07:16 INFO Employee created: {'full_name': 'ramu yadav', 'email': 'ramu.yadav@gmail.com', 'school': 'Lucknow public school', 'city': 'lucknow'}
+2023-08-02 21:07:16 INFO "POST /create_student_multiple_db/ HTTP/1.1" 201 178
+2023-08-02 21:07:16 INFO "POST /create_student_multiple_db/ HTTP/1.1" 201 178
+2023-08-02 21:08:22 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 12096
+2023-08-02 21:08:22 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 12096
+2023-08-02 21:08:22 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 21:08:22 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 21:08:24 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 12096
+2023-08-02 21:08:24 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 12096
+2023-08-02 21:08:24 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 21:08:24 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 21:08:55 INFO Employee created: {'full_name': 'ramu yadav', 'email': 'ramu.yadav@gmail.com', 'school': 'Lucknow public school', 'city': 'lucknow'}
+2023-08-02 21:08:55 INFO "POST /create_student_multiple_db/ HTTP/1.1" 201 178
+2023-08-02 21:08:55 INFO "POST /create_student_multiple_db/ HTTP/1.1" 201 178
+2023-08-02 21:09:01 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 12401
+2023-08-02 21:09:01 INFO "GET /admin/myapp/studentdefaultdb/ HTTP/1.1" 200 12401
+2023-08-02 21:09:01 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 21:09:01 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-02 21:09:25 INFO "GET /get_student_multiple_db/ HTTP/1.1" 200 628
+2023-08-02 21:09:25 INFO "GET /get_student_multiple_db/ HTTP/1.1" 200 628
+2023-08-02 21:12:57 INFO "GET /get_student_by_id_multiple_db/11/ HTTP/1.1" 200 142
+2023-08-02 21:12:57 INFO "GET /get_student_by_id_multiple_db/11/ HTTP/1.1" 200 142
+2023-08-02 21:13:54 WARNING "PUT /update_student_by_id_multiple_db/11/ HTTP/1.1" 400 67
+2023-08-02 21:13:54 WARNING "PUT /update_student_by_id_multiple_db/11/ HTTP/1.1" 400 67
+2023-08-02 21:14:25 INFO Student in second_db database  Updated successfully
+2023-08-02 21:14:25 INFO "PUT /update_student_by_id_multiple_db/11/ HTTP/1.1" 200 108
+2023-08-02 21:14:25 INFO "PUT /update_student_by_id_multiple_db/11/ HTTP/1.1" 200 108
+2023-08-02 21:15:25 INFO Student in second_db database  Updated successfully
+2023-08-02 21:15:25 INFO "DELETE /delete_student_by_id_multiple_db/11/ HTTP/1.1" 200 88
+2023-08-02 21:15:25 INFO "DELETE /delete_student_by_id_multiple_db/11/ HTTP/1.1" 200 88
