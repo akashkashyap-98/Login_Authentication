@@ -1119,6 +1119,29 @@ class ForeignKey_ORM(APIView):
             print(list2)
 
 
+        # 9. Get all students in a 'Computer Science and Engineering' department and their university name   (without using for loop , modification in orm query no. 8)
+
+        students_in_CSE_with_university_name = Student.objects.filter(department__department_name='Computer Science and Engineering').values('student_name','department__department_name','department__university__university_name')
+        print(students_in_CSE_with_university_name)
+
+        # 10. Fetch all departments along with the count of students in each department: (without using for loop , modification in orm query no. 8)
+        print("#######################################################################")
+
+        all_departments_with_count= Department.objects.all().annotate(student_count=Count('students')).values('department_name','student_count')
+        print(all_departments_with_count)
+
+
+        # 11. Fetch all departments that have no students:
+
+        departments_with_no_students = Department.objects.all().filter(students=None).values()
+
+        # 12. Fetch all universities along with the count of departments and the total number of students in each university:
+
+        from django.db.models import Sum, IntegerField
+        from django.db.models.functions import Cast
+        universities_with_depsrtments_with_all_students = University.objects.all().annotate(dept_count=Count('departments'), total_stu=Cast(Sum('departments__students') , IntegerField())).values()
+        
+
         return JsonResponse(
             {
                 'students_with_university_name': list(students_in_CSE_with_university_name.values()),
@@ -1128,7 +1151,10 @@ class ForeignKey_ORM(APIView):
                 'all_department_and _their_university': list1,
                 'all_students_of_CSE_department': list(students),
                 'all_students_of_all_departments_of_specific_university': list(all_students_of_all_departments_of_specific_university),
-                'all_dept_with_all_count_of_students_in_each_dept': list2
-                
+                'all_dept_with_all_count_of_students_in_each_dept': list2,
+                'students_in_CSE_with_university_name':  list(students_in_CSE_with_university_name),
+                'all_dept_with_all_count_of_students_in_each_dept_1': list(all_departments_with_count),
+                'departments_with_no_students':list(departments_with_no_students),
+                'universities_with_depsrtments_with_all_students': list(universities_with_depsrtments_with_all_students)
             }
         )

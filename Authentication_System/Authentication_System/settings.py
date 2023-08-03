@@ -229,11 +229,16 @@ LOGGING = {
         'django': {
             'handlers': ['console', 'info_file', 'error_file'],
             'level': 'INFO',
-            'propagate': True,
+            'propagate': False,
         },
         'django.request': {
             'handlers': ['console', 'error_file'],
             'level': 'ERROR',
+            'propagate': False,
+        },
+        'myapp.views': {
+            'handlers': ['console', 'info_file', 'error_file'],
+            'level': 'INFO',
             'propagate': False,
         },
     },
