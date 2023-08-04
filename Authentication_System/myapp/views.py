@@ -1140,7 +1140,47 @@ class ForeignKey_ORM(APIView):
         from django.db.models import Sum, IntegerField
         from django.db.models.functions import Cast
         universities_with_depsrtments_with_all_students = University.objects.all().annotate(dept_count=Count('departments'), total_stu=Cast(Sum('departments__students') , IntegerField())).values()
+          
+
+        # 13. Fetch all departments of a university ('Babu Banarsi Das University') with the related_name 'departments':
+
+        all_departments_of_BBDU = University.objects.filter(university_name='Babu Banarsi Das University').values_list('departments__department_name')
+                                        # second method without using related name
+        aaaa = Department.objects.filter(university__university_name='Babu Banarsi Das University')
+
+
+        # 14. Fetch all students of a department with the related_name 'students':
+        all_students_of_dept_CSE = Department.objects.filter(department_name='Computer Science and Engineering').values_list('students__student_name')
+                                        # second method without using related name
+        second_method = Student.objects.filter(department__department_name='Computer Science and Engineering')
+
+
+        # 15. Fetch all students and their respective department names:
+        students_with_respective_dept_name = Student.objects.all().values('student_name', 'department__department_name')
         
+
+        # 16. Fetch all universities and the count of departments in each university:
+        all_universities_with_dept_count = University.objects.all().annotate(dept_count=Count('departments')).values('university_name', 'dept_count')
+
+
+        #  17. Fetch the university of a specific student using the related_name 'university':
+
+        university_of_specific_student = University.objects.filter(departments__students__student_name='Akash Kashyap').values()
+                        # second method without using related name
+        university_of_specific_student_2 = Student.objects.filter(student_name='Akash Kashyap').values('student_name', 'department__university__university_name')
+
+
+        # 18. Fetch all departments along with their corresponding university names:
+        all_departments_with_university_names = Department.objects.all().values('department_name', 'university__university_name')
+    
+                                # another method by using related name 
+        all_departments_with_university_names_2 = University.objects.all().values('departments__department_name','university_name').exclude(departments__department_name=None)
+
+        # 19. Fetch all students of a specific university using the related_name 'students':
+        all_students_of_specific_university = University.objects.filter(university_name='Babu Banarsi Das University').values('departments__students__student_name')
+        print("@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@@##@#@#@#@#", all_students_of_specific_university)
+
+
 
         return JsonResponse(
             {
@@ -1155,6 +1195,14 @@ class ForeignKey_ORM(APIView):
                 'students_in_CSE_with_university_name':  list(students_in_CSE_with_university_name),
                 'all_dept_with_all_count_of_students_in_each_dept_1': list(all_departments_with_count),
                 'departments_with_no_students':list(departments_with_no_students),
-                'universities_with_depsrtments_with_all_students': list(universities_with_depsrtments_with_all_students)
+                'universities_with_depsrtments_with_all_students': list(universities_with_depsrtments_with_all_students),
+                'all_departments_of_BBDU': list(all_departments_of_BBDU),
+                'all_students_of_dept_CSE': list(all_students_of_dept_CSE),
+                'students_with_respective_dept_name': list(students_with_respective_dept_name),
+                'all_universities_with_dept_count':list(all_universities_with_dept_count),
+                'university_of_specific_student': list(university_of_specific_student),
+                'all_departments_with_university_names':list(all_departments_with_university_names),
+                'all_students_of_specific_university': list(all_students_of_specific_university)
+
             }
         )
