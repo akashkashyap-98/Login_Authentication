@@ -107,3 +107,31 @@ class Student(models.Model):
 
     def __str__(self):
         return self.student_name
+    
+
+# ======================== creating models for MULTIPLE DTABASE ==================================
+
+class DeveloperDefaultDB(models.Model):
+    full_name = models.CharField(max_length=100)
+    email = models.EmailField(null=True, blank=True , unique=True)
+    organization  = models.CharField(max_length=100)
+    city = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.email
+
+
+class DeveloperSecondDB(models.Model):
+    full_name = models.CharField(max_length=100)
+    email = models.EmailField(null=True, blank=True , unique=True)
+    organization = models.CharField(max_length=100)
+    city = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.email
+
+
+    
+
+
+

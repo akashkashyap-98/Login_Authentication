@@ -26,6 +26,12 @@ class Department_Admin(admin.ModelAdmin):
 class Student_Admin(admin.ModelAdmin):
     list_display =  ('id', 'student_name', 'department')
 
+class DeveloperDefaultDB_Admin(admin.ModelAdmin):
+    list_display =  ('id', 'full_name', 'email', 'organization', 'city')
+
+class DeveloperSecondDB_Admin(admin.ModelAdmin):
+    list_display =  ('id',  'full_name', 'email', 'organization', 'city')
+
 admin.site.register(Register, RegisterAdmin)
 admin.site.register(Login, LoginAdmin)
 admin.site.register(Employee, EmployeeAdmin )
@@ -36,3 +42,5 @@ admin.site.register(Book)
 admin.site.register(University, University_Admin)
 admin.site.register(Department, Department_Admin)
 admin.site.register(Student, Student_Admin)
+admin.site.register(DeveloperDefaultDB, DeveloperDefaultDB_Admin)
+admin.site.register(DeveloperSecondDB, DeveloperSecondDB_Admin)

@@ -1206,3 +1206,129 @@ class ForeignKey_ORM(APIView):
 
             }
         )
+
+
+# ====================== MULTIPLE DATABASE ===============================================================================
+
+@api_view(['POST'])
+@permission_classes([AllowAny])
+def create_developer_second_db(request):
+    try:
+        data = request.data
+        serializer = DeveloperPOST_SecondDBSerializer(data=data)
+        if serializer.is_valid():
+            serializer.save()  
+
+            logger.info(f"Developer created: {serializer.data}")
+            return Response({
+                'status':'True',
+                'message': 'Employee created successfully',
+                'response': serializer.data
+            }, 201)
+        else:
+            return Response({
+                'status': 'False',
+                'response': serializer.errors
+            }, 400)
+
+
+    except Exception as e:
+        logger.error(f"An error occurred: {str(e)}")
+        return Response(
+            {
+                'message': 'An error occurred',
+                'status_code': 400,
+                'errors': str(e)
+            },
+            400
+        )
+    
+@api_view(['GET'])
+@permission_classes([AllowAny])
+def get_all_developers_second_db(request):
+    try:
+        all_developers = DeveloperSecondDB.objects.using('second_db').all()
+        serializer = DeveloperGET_SecondDBSerializer(all_developers , many=True)
+        logger.info("FETCHED ALL THE DEVELOPERS FROM SECOND DATABASE")
+        return Response({'status':200 , 'payload':serializer.data})
+    except Exception as e:
+        logger.error(f"An error occurred: {str(e)}")
+        return Response(
+            {
+                'message': 'An error occurred',
+                'status_code': 500,
+            },
+            500
+        )
+    
+@api_view(['PUT'])
+@permission_classes([AllowAny])
+def update_developers_second_db(request, id):
+    try:
+        data=request.data
+        if DeveloperSecondDB.objects.using('second_db').filter(id=id).exists():
+            developer_obj = DeveloperSecondDB.objects.using('second_db').get(id=id)
+            serializer = developer_UPDATE_serializer(developer_obj, data=data)
+            if serializer.is_valid():
+                serializer.save()
+                logger.info("DEVELOPER WITH UPDATED SUCCESSFULLY")
+                return Response({'status':'True' , 'data':serializer.data} , 200)
+        else:
+            return Response({'status':'False' , 'response':'UNABLE TO FIND THE DEVELOPER' , 'status_code':400}, 400)
+        
+    except Exception as e:
+        logger.error(f"An error occurred: {str(e)}")
+        return Response(
+            {
+                'message': 'An error occurred',
+                'status_code': 500,
+            },
+            500
+        )  
+    
+
+@api_view(['GET'])
+@permission_classes([AllowAny])
+def get_developers_second_db(request, id):
+    try:
+        if DeveloperSecondDB.objects.using('second_db').filter(id=id).exists():
+            developer_obj = DeveloperSecondDB.objects.using('second_db').get(id=id)
+            serializer = DeveloperGET_SecondDBSerializer(developer_obj)
+            logger.info("DEVELOPER WITH ID  FETCHED SUCCESSFULLY")
+            return Response({'status':'True' , 'data':serializer.data} , 200)
+        else:
+            return Response({'status':'False' , 'response':'UNABLE TO FIND THE DEVELOPER' , 'status_code':400}, 400)
+        
+    except Exception as e:
+        logger.error(f"An error occurred: {str(e)}")
+        return Response(
+            {
+                'message': 'An error occurred',
+                'status_code': 500,
+            },
+            500
+        )  
+    
+@api_view(['DELETE'])
+@permission_classes([AllowAny])
+def delete_developers_second_db(request, id):
+    try:
+        if DeveloperSecondDB.objects.using('second_db').filter(id=id).exists():
+            developer_obj = DeveloperSecondDB.objects.using('second_db').get(id=id)
+            developer_obj.delete()
+            logger.info("DEVELOPER  DELETED SUCCESSFULLY FROM SECOND DATABASE")
+            return Response({'status':'True' , 'message':'DEVELOPER  DELETED SUCCESSFULLY FROM SECOND DATABASE' }, 200)
+        else:
+            return Response({'status':'False' , 'response':'UNABLE TO FIND THE DEVELOPER' , 'status_code':400}, 400)
+        
+    except Exception as e:
+        logger.error(f"An error occurred: {str(e)}")
+        return Response(
+            {
+                'message': 'An error occurred',
+                'status_code': 500,
+            },
+            500
+        )  
+
+

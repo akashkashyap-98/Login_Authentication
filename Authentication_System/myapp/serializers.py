@@ -226,3 +226,33 @@ class AuthorUpdateSerializer(serializers.ModelSerializer):
         super().update(instance=instance , validated_data=validated_data)
         return instance
 
+# ==================================================================================================
+
+
+class DeveloperPOST_SecondDBSerializer(serializers.ModelSerializer):
+     
+    class Meta:
+        model = DeveloperSecondDB
+        fields = ['full_name', 'email', 'organization', 'city']
+
+    def create(self, validated_data):
+        return DeveloperSecondDB.objects.using('second_db').create(**validated_data)
+    
+class DeveloperGET_SecondDBSerializer(serializers.ModelSerializer):
+     
+    class Meta:
+        model = DeveloperSecondDB
+        fields = ['id', 'full_name', 'email', 'organization', 'city']
+
+class developer_UPDATE_serializer(serializers.ModelSerializer):
+     
+    class Meta:
+        model = DeveloperSecondDB
+        fields = ['full_name', 'email', 'organization', 'city']
+
+    def update(self,instance , validated_data ):
+        super().update(instance=instance, validated_data=validated_data)
+        return instance
+
+
+     

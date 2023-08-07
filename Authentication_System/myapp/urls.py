@@ -41,6 +41,16 @@ urlpatterns = [
 
     # ========== get api for ORM implementation for models: University , Department , Student (Foreign Key Relation) ==============================
     path('get_orm_foreignKey_relation/', ForeignKey_ORM.as_view()),
+
+    # ========== url for model 'DeveloperSecondDB' to post the data in second database  ==================
+    path('create_developer_second_db/', views.create_developer_second_db, name='create_developer_second_db'),
+    path('get_all_developers_second_db/', views.get_all_developers_second_db, name='get_all_developers_second_db'),
+    path('update_developers_second_db/<int:id>/', views.update_developers_second_db, name='update_developers_second_db'),
+    path('get_developers_second_db/<int:id>/', views.get_developers_second_db, name='get_developers_second_db'),
+    path('delete_developers_second_db/<int:id>/', views.delete_developers_second_db, name='delete_developers_second_db'),
+
+
+
 ]
 
 
