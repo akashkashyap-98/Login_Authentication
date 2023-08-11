@@ -1332,3 +1332,73 @@ def delete_developers_second_db(request, id):
         )  
 
 
+                                            
+# ===================== Book and author model many to many relation ================================================
+
+
+class MANY_TO_MANY_ORM(APIView):
+    permission_classes = []
+    authentication_classes=[]
+
+    def get(self, request):
+
+        # 1. Get all books written by a specific author with id=1
+        all_books_by_author_id_1 = Author.objects.filter(id=1).values('name', 'books__title')
+        print(all_books_by_author_id_1)
+
+        # 2. Get all authors of a specific book with id=4
+        all_authors_of_book_id_4 = Book.objects.filter(id=4).values('title', 'author_book__name')
+        print(all_authors_of_book_id_4)
+
+        # 3. Get all authors and their books:
+        all_authors_and_their_books = Author.objects.all().values('name', 'books__title')
+        print(all_authors_and_their_books)
+
+        # 4. Get all books released after a certain date by a specific author:
+        all_books_by_author_id_1_released_after_01_01_1990 = Book.objects.all().filter(author_book__id=1, author_book__date_of_birth__gt='1950-01-01').values('title')
+        print(all_books_by_author_id_1_released_after_01_01_1990)
+
+        # 5. Get all authors who have written more than a certain number of books:
+        from django.db.models import Count
+
+        all_author_who_have_written_more_then_1_book= Author.objects.all().annotate(book_count=Count('books')).filter(book_count__gt=1).values('name', 'book_count')
+        print(all_author_who_have_written_more_then_1_book)
+
+        # 6. Get all authors and their books, sorted by the number of books each author has:
+        all_authors_and_books_sortedby_num_of_books = Author.objects.all().annotate(book_count=Count('books')).values('name', 'book_count').order_by('book_count')
+        print(all_authors_and_books_sortedby_num_of_books)
+                                        # second method 
+        authors_with_books_sorted_by_count = Author.objects.annotate(num_books=Count('books')).order_by('num_books')
+        for author in authors_with_books_sorted_by_count:
+            print(f"Author: {author.name}, Number of Books: {author.num_books}")
+            for book in author.books.all():
+                print(f"Book: {book.title}")
+
+        # 7. Get all books written by authors whose biography contains a certain keyword:
+        all_books_written_by_authors_biography_contains_India = Book.objects.all().filter(author_book__biography__icontains='India').values('title')
+        print(all_books_written_by_authors_biography_contains_India)
+
+        # 8. Get the count of books written by each author:
+        count_of_books_written_by_each_author = Author.objects.annotate(book_count=Count('books')).values('name', 'book_count')
+        print(count_of_books_written_by_each_author)
+
+        return JsonResponse(
+            {
+            'all_books_by_author_id_1': list(all_books_by_author_id_1),
+            'all_authors_of_book_id_4' : list(all_authors_of_book_id_4),
+            'all_authors_and_their_books' : list(all_authors_and_their_books),
+            'all_books_by_author_id_1_released_after_01_01_1990': list(all_books_by_author_id_1_released_after_01_01_1990),
+            'all_author_who_have_written_more_then_1_book': list(all_author_who_have_written_more_then_1_book),
+            'all_authors_and_books_sortedby_num_of_books': list(all_authors_and_books_sortedby_num_of_books),
+            'all_books_written_by_authors_biography_contains_India': list(all_books_written_by_authors_biography_contains_India),
+            'count_of_books_written_by_each_author': list(count_of_books_written_by_each_author)
+
+
+            }
+
+        )
+
+
+
+
+

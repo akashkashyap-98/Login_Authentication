@@ -226,22 +226,24 @@ LOGGING = {
         'handlers': ['console', 'info_file', 'error_file'],
         'level': 'INFO',
     },
+
     'loggers': {
+        'myapp.views': {
+            'handlers': ['info_file', 'error_file'],
+            'level': 'INFO',
+            'propagate': False,
+        },
         'django': {
             'handlers': ['console', 'info_file', 'error_file'],
             'level': 'INFO',
-            'propagate': False,
+            'propagate': True,
         },
         'django.request': {
             'handlers': ['console', 'error_file'],
             'level': 'ERROR',
             'propagate': False,
         },
-        'myapp.views': {
-            'handlers': ['console', 'info_file', 'error_file'],
-            'level': 'INFO',
-            'propagate': False,
-        },
+        
     },
     'formatters': {
         'verbose': {

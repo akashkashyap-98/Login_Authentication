@@ -49,6 +49,9 @@ urlpatterns = [
     path('get_developers_second_db/<int:id>/', views.get_developers_second_db, name='get_developers_second_db'),
     path('delete_developers_second_db/<int:id>/', views.delete_developers_second_db, name='delete_developers_second_db'),
 
+    # =========== url for many to many relation ORM =========================================================
+    path('MANY_TO_MANY_ORM/', MANY_TO_MANY_ORM.as_view()),
+
 
 
 ]
