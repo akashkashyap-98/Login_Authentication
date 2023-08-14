@@ -131,7 +131,27 @@ class DeveloperSecondDB(models.Model):
         return self.email
 
 
-    
+# ============================= model for HORSE IMAGE================================================
+
+
+class Horse(models.Model):
+	
+	name=models.CharField(max_length=50, null=True, blank=True)
+	age = models.PositiveIntegerField(null=True, blank=True)
+	profile_image=models.ImageField(null=True , blank=True)
+	is_favourite=models.BooleanField(null=True , blank=True)
+	created_at = models.DateField(auto_now_add = True)
+	updated_at = models.DateField(auto_now = True)
+        
+    # ---OVERRIDING THE DELETE FUNCTION----this will delete the model and its realted files from databse also-----
+	def delete(self, *args, **kwargs):
+		# You have to prepare what you need before delete the model
+		storage, path = self.profile_image.storage, self.profile_image.path
+		# Delete the model before the file
+		super(Horse, self).delete(*args, **kwargs)
+		# Delete the file after the model
+		storage.delete(path)
+
 
 
 

@@ -53,7 +53,12 @@ urlpatterns = [
     path('MANY_TO_MANY_ORM/', MANY_TO_MANY_ORM.as_view()),
 
 
-
+    # ========== url for Horse model and save image in database =====================================
+    path('Create_Horse/', views.Create_Horse, name='Create_Horse'),
+    path('get_all_horses/', views.get_all_horses, name='get_all_horses'),  
+    path('get_horse_by_id/<int:id>/', views.get_horse_by_id, name='get_horse_by_id'), 
+    path('update_Horse/<int:id>/', views.update_Horse, name='update_Horse'), 
+    path('delete_horse/<int:id>/', views.delete_horse, name='delete_horse'),
 ]
 
 

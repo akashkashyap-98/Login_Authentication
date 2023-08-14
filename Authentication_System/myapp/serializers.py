@@ -253,6 +253,32 @@ class developer_UPDATE_serializer(serializers.ModelSerializer):
     def update(self,instance , validated_data ):
         super().update(instance=instance, validated_data=validated_data)
         return instance
+    
 
+# ========================== making serializer for Horse model ============================================================
+class HorseCreteSerializer(serializers.ModelSerializer):
 
+	class Meta:
+		model = Horse
+		fields = [ 'name', 'age', 'is_favourite', 'profile_image']
+
+	def create(self, validated_data):
+		return Horse.objects.create(**validated_data)
+
+class Horse_get_serializer(serializers.ModelSerializer):
      
+     class Meta:
+        model = Horse
+        fields = [ 'id', 'name', 'age', 'is_favourite', 'profile_image', 'created_at', 'updated_at']
+
+class HorseUpdateSerializer(serializers.ModelSerializer):
+
+	class Meta:
+		model = Horse
+		fields = ['name', 'age','profile_image','is_favourite']
+
+
+	def update(self, instance, validated_data):
+
+		super().update(instance = instance, validated_data= validated_data)
+		return instance  

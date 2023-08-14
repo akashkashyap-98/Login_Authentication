@@ -1399,6 +1399,134 @@ class MANY_TO_MANY_ORM(APIView):
         )
 
 
+# ====================== apis to store IMAGE ========================================================================
+
+
+@api_view(['POST'])
+@permission_classes([AllowAny])
+def Create_Horse(request):
+    try:
+        data = request.data
+        serializer = HorseCreteSerializer(data=data)
+        if serializer.is_valid():
+            serializer.save()  
+
+            logger.info(f"Horse created successfully ")
+            return Response({
+                'status':'True',
+                'message': 'Horse created successfully',
+                'response': serializer.data
+            }, 201)
+        else:
+            return Response({
+                'status': 'False',
+                'response': serializer.errors
+            }, 400)
+
+
+    except Exception as e:
+        logger.error(f"An error occurred: {str(e)}")
+        return Response(
+            {
+                'message': 'An error occurred',
+                'status_code': 400,
+                'errors': str(e)
+            },
+            400
+        )
+    
+@api_view(['GET'])
+@permission_classes([AllowAny])
+def get_all_horses(request):
+    try:
+        all_horses = Horse.objects.all()
+        serializer = Horse_get_serializer(all_horses , many=True)
+        logger.info("FETCHED ALL THE HORSES ")
+        return Response({'status':200 , 'payload':serializer.data})
+    except Exception as e:
+        logger.error(f"An error occurred: {str(e)}")
+        return Response(
+            {
+                'message': 'An error occurred',
+                'status_code': 500,
+            },
+            500
+        )
+    
+@api_view(['GET'])
+@permission_classes([AllowAny])
+def get_horse_by_id(request, id):
+    try:
+        print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
+        if Horse.objects.filter(id=id).exists():
+            horse_obj = Horse.objects.get(id=id)
+            print(horse_obj)
+            serializer = Horse_get_serializer(horse_obj)
+            logger.info("HORSE FETCHED SUCCESSFULLY")
+            return Response({'status':200 , 'payload':serializer.data})
+    except Exception as e:
+        logger.error(f"An error occurred: {str(e)}")
+        return Response(
+            {
+                'message': 'An error occurred',
+                'status_code': 500,
+            },
+            500
+        )
+                                  
+
+@api_view(['PUT'])
+@permission_classes([AllowAny])
+def update_Horse(request, id):
+    try:
+        data=request.data
+        if Horse.objects.filter(id=id).exists():
+            horse_obj = Horse.objects.get(id=id)
+            serializer = HorseUpdateSerializer(horse_obj, data=data)
+            if serializer.is_valid():
+                serializer.save()
+                logger.info("HORSE UPDATED SUCCESSFULLY")
+                return Response({'status':'True' , 'message':'HORSE UPDATED SUCCESSFULLY' , 'data':serializer.data} , 200)
+        else:
+            return Response({'status':'False' , 'response':'UNABLE TO FIND THE HORSE' , 'status_code':400}, 400)
+        
+    except Exception as e:
+        logger.error(f"An error occurred: {str(e)}")
+        return Response(
+            {
+                'message': 'An error occurred',
+                'status_code': 500,
+            },
+            500                                                                                                                                                              
+        )  
+    
+
+@api_view(['DELETE'])
+@permission_classes([AllowAny])
+def delete_horse(request, id):
+    try:
+        if Horse.objects.filter(id=id).exists():
+            horse_obj = Horse.objects.get(id=id)
+            horse_obj.delete()
+            logger.info("HORSE  DELETED SUCCESSFULLY ")
+            return Response({'status':'True' , 'message':'HORSE  DELETED SUCCESSFULLY ' }, 200)
+        else:
+            return Response({'status':'False' , 'response':'UNABLE TO FIND THE HORSE' , 'status_code':400}, 400)
+        
+    except Exception as e:
+        logger.error(f"An error occurred: {str(e)}")
+        return Response(
+            {
+                'message': 'An error occurred',
+                'status_code': 500,
+            },
+            500
+        )  
+    
+
+
+    
+
 
 
 

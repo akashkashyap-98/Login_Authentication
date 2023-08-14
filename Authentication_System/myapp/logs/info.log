@@ -48,3 +48,323 @@
 2023-08-11 13:07:36 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
 2023-08-11 13:07:37 INFO Watching for file changes with StatReloader
 2023-08-11 13:07:37 INFO Watching for file changes with StatReloader
+2023-08-11 13:10:24 INFO Watching for file changes with StatReloader
+2023-08-11 13:10:24 INFO Watching for file changes with StatReloader
+2023-08-14 05:27:16 INFO Watching for file changes with StatReloader
+2023-08-14 05:27:16 INFO Watching for file changes with StatReloader
+2023-08-14 05:47:20 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py changed, reloading.
+2023-08-14 05:47:20 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py changed, reloading.
+2023-08-14 05:47:20 INFO Watching for file changes with StatReloader
+2023-08-14 05:47:20 INFO Watching for file changes with StatReloader
+2023-08-14 05:48:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/admin.py changed, reloading.
+2023-08-14 05:48:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/admin.py changed, reloading.
+2023-08-14 05:48:07 INFO Watching for file changes with StatReloader
+2023-08-14 05:48:07 INFO Watching for file changes with StatReloader
+2023-08-14 05:54:12 INFO Watching for file changes with StatReloader
+2023-08-14 05:54:12 INFO Watching for file changes with StatReloader
+2023-08-14 05:57:37 INFO Watching for file changes with StatReloader
+2023-08-14 05:57:37 INFO Watching for file changes with StatReloader
+2023-08-14 05:58:00 INFO "GET /admin/ HTTP/1.1" 200 14406
+2023-08-14 05:58:00 INFO "GET /admin/ HTTP/1.1" 200 14406
+2023-08-14 05:58:01 WARNING "GET /favicon.ico HTTP/1.1" 404 8572
+2023-08-14 05:58:01 WARNING "GET /favicon.ico HTTP/1.1" 404 8572
+2023-08-14 05:58:05 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 11096
+2023-08-14 05:58:05 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 11096
+2023-08-14 05:58:05 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 05:58:05 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 05:58:07 INFO "GET /admin/myapp/horse/add/ HTTP/1.1" 200 14309
+2023-08-14 05:58:07 INFO "GET /admin/myapp/horse/add/ HTTP/1.1" 200 14309
+2023-08-14 05:58:07 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 05:58:07 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 05:58:42 INFO "POST /admin/myapp/horse/add/ HTTP/1.1" 302 0
+2023-08-14 05:58:42 INFO "POST /admin/myapp/horse/add/ HTTP/1.1" 302 0
+2023-08-14 05:58:42 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 12453
+2023-08-14 05:58:42 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 12453
+2023-08-14 05:58:42 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 05:58:42 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 05:58:44 INFO "GET /admin/myapp/horse/1/change/ HTTP/1.1" 200 14573
+2023-08-14 05:58:44 INFO "GET /admin/myapp/horse/1/change/ HTTP/1.1" 200 14573
+2023-08-14 05:58:44 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 05:58:44 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 05:59:00 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 12248
+2023-08-14 05:59:00 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 12248
+2023-08-14 05:59:00 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 05:59:00 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 05:59:03 INFO "GET /admin/myapp/horse/1/change/ HTTP/1.1" 200 14573
+2023-08-14 05:59:03 INFO "GET /admin/myapp/horse/1/change/ HTTP/1.1" 200 14573
+2023-08-14 05:59:03 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 05:59:03 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 06:01:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/admin.py changed, reloading.
+2023-08-14 06:01:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/admin.py changed, reloading.
+2023-08-14 06:01:11 INFO Watching for file changes with StatReloader
+2023-08-14 06:01:11 INFO Watching for file changes with StatReloader
+2023-08-14 06:01:14 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13049
+2023-08-14 06:01:14 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13049
+2023-08-14 06:01:19 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13049
+2023-08-14 06:01:19 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13049
+2023-08-14 06:01:19 INFO "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+2023-08-14 06:01:19 INFO "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+2023-08-14 06:01:19 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 06:01:19 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 06:28:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-08-14 06:28:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-08-14 06:28:07 INFO Watching for file changes with StatReloader
+2023-08-14 06:28:07 INFO Watching for file changes with StatReloader
+2023-08-14 06:30:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 06:30:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 06:30:32 INFO Watching for file changes with StatReloader
+2023-08-14 06:30:32 INFO Watching for file changes with StatReloader
+2023-08-14 06:34:34 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 06:34:34 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 06:34:35 INFO Watching for file changes with StatReloader
+2023-08-14 06:34:35 INFO Watching for file changes with StatReloader
+2023-08-14 06:35:57 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-08-14 06:35:57 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-08-14 06:35:57 INFO Watching for file changes with StatReloader
+2023-08-14 06:35:57 INFO Watching for file changes with StatReloader
+2023-08-14 06:36:19 WARNING "GET /Create_Horse/ HTTP/1.1" 405 40
+2023-08-14 06:36:19 WARNING "GET /Create_Horse/ HTTP/1.1" 405 40
+2023-08-14 06:39:59 ERROR "POST /Create_Horse/ HTTP/1.1" 500 96576
+2023-08-14 06:39:59 ERROR "POST /Create_Horse/ HTTP/1.1" 500 96576
+2023-08-14 06:40:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 06:40:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 06:40:57 INFO Watching for file changes with StatReloader
+2023-08-14 06:40:57 INFO Watching for file changes with StatReloader
+2023-08-14 06:40:59 INFO Horse created successfully 
+2023-08-14 06:40:59 INFO "POST /Create_Horse/ HTTP/1.1" 201 158
+2023-08-14 06:40:59 INFO "POST /Create_Horse/ HTTP/1.1" 201 158
+2023-08-14 06:41:15 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13478
+2023-08-14 06:41:15 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13478
+2023-08-14 06:41:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 06:41:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 06:41:19 INFO "GET /admin/myapp/horse/2/change/ HTTP/1.1" 200 14844
+2023-08-14 06:41:19 INFO "GET /admin/myapp/horse/2/change/ HTTP/1.1" 200 14844
+2023-08-14 06:41:19 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 06:41:19 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 06:46:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-08-14 06:46:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-08-14 06:46:03 INFO Watching for file changes with StatReloader
+2023-08-14 06:46:03 INFO Watching for file changes with StatReloader
+2023-08-14 06:46:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 06:46:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 06:46:08 INFO Watching for file changes with StatReloader
+2023-08-14 06:46:08 INFO Watching for file changes with StatReloader
+2023-08-14 06:46:54 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-08-14 06:46:54 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-08-14 06:46:54 INFO Watching for file changes with StatReloader
+2023-08-14 06:46:54 INFO Watching for file changes with StatReloader
+2023-08-14 06:47:43 INFO Watching for file changes with StatReloader
+2023-08-14 06:47:43 INFO Watching for file changes with StatReloader
+2023-08-14 06:48:08 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 06:48:08 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 06:48:08 INFO Watching for file changes with StatReloader
+2023-08-14 06:48:08 INFO Watching for file changes with StatReloader
+2023-08-14 06:48:14 INFO FETCHED ALL THE HORSES 
+2023-08-14 06:48:14 INFO "GET /get_all_horses/ HTTP/1.1" 200 329
+2023-08-14 06:48:14 INFO "GET /get_all_horses/ HTTP/1.1" 200 329
+2023-08-14 06:48:39 WARNING "GET /white_horse.jpeg HTTP/1.1" 404 8953
+2023-08-14 06:48:39 WARNING "GET /white_horse.jpeg HTTP/1.1" 404 8953
+2023-08-14 06:49:15 WARNING "GET /white_horse.jpeg HTTP/1.1" 404 8953
+2023-08-14 06:49:15 WARNING "GET /white_horse.jpeg HTTP/1.1" 404 8953
+2023-08-14 06:52:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-08-14 06:52:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-08-14 06:52:49 INFO Watching for file changes with StatReloader
+2023-08-14 06:52:49 INFO Watching for file changes with StatReloader
+2023-08-14 06:55:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 06:55:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 06:55:33 INFO Watching for file changes with StatReloader
+2023-08-14 06:55:33 INFO Watching for file changes with StatReloader
+2023-08-14 06:57:52 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-08-14 06:57:52 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-08-14 06:57:52 INFO Watching for file changes with StatReloader
+2023-08-14 06:57:52 INFO Watching for file changes with StatReloader
+2023-08-14 06:58:16 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-08-14 06:58:16 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-08-14 06:58:16 INFO Watching for file changes with StatReloader
+2023-08-14 06:58:16 INFO Watching for file changes with StatReloader
+2023-08-14 06:58:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-08-14 06:58:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-08-14 06:58:57 INFO Watching for file changes with StatReloader
+2023-08-14 06:58:57 INFO Watching for file changes with StatReloader
+2023-08-14 06:58:59 INFO FETCHED ALL THE HORSES 
+2023-08-14 06:58:59 INFO "GET /get_all_horses/ HTTP/1.1" 200 343
+2023-08-14 06:58:59 INFO "GET /get_all_horses/ HTTP/1.1" 200 343
+2023-08-14 07:03:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-08-14 07:03:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-08-14 07:03:13 INFO Watching for file changes with StatReloader
+2023-08-14 07:03:13 INFO Watching for file changes with StatReloader
+2023-08-14 07:03:34 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 07:03:34 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 07:03:34 INFO Watching for file changes with StatReloader
+2023-08-14 07:03:34 INFO Watching for file changes with StatReloader
+2023-08-14 07:03:37 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 07:03:37 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 07:03:37 INFO Watching for file changes with StatReloader
+2023-08-14 07:03:37 INFO Watching for file changes with StatReloader
+2023-08-14 07:04:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-08-14 07:04:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-08-14 07:04:23 INFO Watching for file changes with StatReloader
+2023-08-14 07:04:23 INFO Watching for file changes with StatReloader
+2023-08-14 07:04:43 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-08-14 07:04:43 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-08-14 07:04:44 INFO Watching for file changes with StatReloader
+2023-08-14 07:04:44 INFO Watching for file changes with StatReloader
+2023-08-14 07:05:45 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-08-14 07:05:45 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-08-14 07:05:46 INFO Watching for file changes with StatReloader
+2023-08-14 07:05:46 INFO Watching for file changes with StatReloader
+2023-08-14 07:05:52 INFO HORSE FETCHED SUCCESSFULLY
+2023-08-14 07:05:52 ERROR An error occurred: 'Horse' object is not iterable
+2023-08-14 07:05:52 ERROR "GET /get_horse_by_id/1/ HTTP/1.1" 500 49
+2023-08-14 07:05:52 ERROR "GET /get_horse_by_id/1/ HTTP/1.1" 500 49
+2023-08-14 07:06:31 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 07:06:31 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 07:06:31 INFO Watching for file changes with StatReloader
+2023-08-14 07:06:31 INFO Watching for file changes with StatReloader
+2023-08-14 07:06:34 INFO HORSE FETCHED SUCCESSFULLY
+2023-08-14 07:06:34 ERROR An error occurred: 'Horse' object is not iterable
+2023-08-14 07:06:34 ERROR "GET /get_horse_by_id/1/ HTTP/1.1" 500 49
+2023-08-14 07:06:34 ERROR "GET /get_horse_by_id/1/ HTTP/1.1" 500 49
+2023-08-14 07:06:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 07:06:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 07:07:00 INFO Watching for file changes with StatReloader
+2023-08-14 07:07:00 INFO Watching for file changes with StatReloader
+2023-08-14 07:07:02 INFO HORSE FETCHED SUCCESSFULLY
+2023-08-14 07:07:02 ERROR An error occurred: 'Horse' object is not iterable
+2023-08-14 07:07:02 ERROR "GET /get_horse_by_id/1/ HTTP/1.1" 500 49
+2023-08-14 07:07:02 ERROR "GET /get_horse_by_id/1/ HTTP/1.1" 500 49
+2023-08-14 07:07:54 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 07:07:54 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 07:07:54 INFO Watching for file changes with StatReloader
+2023-08-14 07:07:54 INFO Watching for file changes with StatReloader
+2023-08-14 07:07:57 INFO HORSE FETCHED SUCCESSFULLY
+2023-08-14 07:07:57 INFO "GET /get_horse_by_id/1/ HTTP/1.1" 200 175
+2023-08-14 07:07:57 INFO "GET /get_horse_by_id/1/ HTTP/1.1" 200 175
+2023-08-14 07:08:08 INFO HORSE FETCHED SUCCESSFULLY
+2023-08-14 07:08:08 INFO "GET /get_horse_by_id/2/ HTTP/1.1" 200 190
+2023-08-14 07:08:08 INFO "GET /get_horse_by_id/2/ HTTP/1.1" 200 190
+2023-08-14 07:09:33 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-08-14 07:09:33 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-08-14 07:09:33 INFO Watching for file changes with StatReloader
+2023-08-14 07:09:33 INFO Watching for file changes with StatReloader
+2023-08-14 07:09:49 INFO HORSE FETCHED SUCCESSFULLY
+2023-08-14 07:09:49 INFO "GET /get_horse_by_id/2/ HTTP/1.1" 200 190
+2023-08-14 07:09:49 INFO "GET /get_horse_by_id/2/ HTTP/1.1" 200 190
+2023-08-14 07:09:55 WARNING "PUT /get_horse_by_id/2/ HTTP/1.1" 405 40
+2023-08-14 07:09:55 WARNING "PUT /get_horse_by_id/2/ HTTP/1.1" 405 40
+2023-08-14 07:10:22 INFO HORSE UPDATED SUCCESSFULLY
+2023-08-14 07:10:22 INFO "PUT /update_Horse/2/ HTTP/1.1" 200 151
+2023-08-14 07:10:22 INFO "PUT /update_Horse/2/ HTTP/1.1" 200 151
+2023-08-14 07:10:57 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13478
+2023-08-14 07:10:57 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13478
+2023-08-14 07:10:59 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13478
+2023-08-14 07:10:59 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13478
+2023-08-14 07:10:59 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 07:10:59 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 07:11:18 INFO "GET /admin/myapp/horse/2/change/ HTTP/1.1" 200 14844
+2023-08-14 07:11:18 INFO "GET /admin/myapp/horse/2/change/ HTTP/1.1" 200 14844
+2023-08-14 07:11:18 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 07:11:18 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 07:12:40 INFO HORSE UPDATED SUCCESSFULLY
+2023-08-14 07:12:40 INFO "PUT /update_Horse/2/ HTTP/1.1" 200 156
+2023-08-14 07:12:40 INFO "PUT /update_Horse/2/ HTTP/1.1" 200 156
+2023-08-14 07:12:50 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13486
+2023-08-14 07:12:50 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13486
+2023-08-14 07:12:51 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13486
+2023-08-14 07:12:51 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13486
+2023-08-14 07:12:51 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 07:12:51 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 07:12:53 INFO "GET /admin/myapp/horse/2/change/ HTTP/1.1" 200 14844
+2023-08-14 07:12:53 INFO "GET /admin/myapp/horse/2/change/ HTTP/1.1" 200 14844
+2023-08-14 07:12:53 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 07:12:53 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 07:13:01 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13486
+2023-08-14 07:13:01 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13486
+2023-08-14 08:38:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-08-14 08:38:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-08-14 08:38:48 INFO Watching for file changes with StatReloader
+2023-08-14 08:38:48 INFO Watching for file changes with StatReloader
+2023-08-14 08:57:01 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 08:57:01 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 08:57:01 INFO Watching for file changes with StatReloader
+2023-08-14 08:57:01 INFO Watching for file changes with StatReloader
+2023-08-14 10:30:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 10:30:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 10:30:33 INFO Watching for file changes with StatReloader
+2023-08-14 10:30:33 INFO Watching for file changes with StatReloader
+2023-08-14 10:30:34 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 10:30:34 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 10:30:34 INFO Watching for file changes with StatReloader
+2023-08-14 10:30:34 INFO Watching for file changes with StatReloader
+2023-08-14 10:31:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-08-14 10:31:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-08-14 10:31:10 INFO Watching for file changes with StatReloader
+2023-08-14 10:31:10 INFO Watching for file changes with StatReloader
+2023-08-14 10:32:04 WARNING "GET /delete_horse/2/ HTTP/1.1" 405 40
+2023-08-14 10:32:04 WARNING "GET /delete_horse/2/ HTTP/1.1" 405 40
+2023-08-14 10:32:13 INFO HORSE  DELETED SUCCESSFULLY 
+2023-08-14 10:32:13 INFO "DELETE /delete_horse/2/ HTTP/1.1" 200 58
+2023-08-14 10:32:13 INFO "DELETE /delete_horse/2/ HTTP/1.1" 200 58
+2023-08-14 10:32:22 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13049
+2023-08-14 10:32:22 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13049
+2023-08-14 10:32:22 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 10:32:22 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 10:34:42 INFO "GET /admin/myapp/horse/1/change/ HTTP/1.1" 200 14573
+2023-08-14 10:34:42 INFO "GET /admin/myapp/horse/1/change/ HTTP/1.1" 200 14573
+2023-08-14 10:34:42 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 10:34:42 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 10:45:56 INFO Horse created successfully 
+2023-08-14 10:45:56 INFO "POST /Create_Horse/ HTTP/1.1" 201 153
+2023-08-14 10:45:56 INFO "POST /Create_Horse/ HTTP/1.1" 201 153
+2023-08-14 10:46:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 10:46:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-14 10:46:11 INFO Watching for file changes with StatReloader
+2023-08-14 10:46:11 INFO Watching for file changes with StatReloader
+2023-08-14 10:46:18 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13473
+2023-08-14 10:46:18 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13473
+2023-08-14 10:46:20 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13473
+2023-08-14 10:46:20 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13473
+2023-08-14 10:46:20 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 10:46:20 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 11:03:26 INFO Watching for file changes with StatReloader
+2023-08-14 11:03:26 INFO Watching for file changes with StatReloader
+2023-08-14 11:06:01 INFO Horse created successfully 
+2023-08-14 11:06:01 INFO "POST /Create_Horse/ HTTP/1.1" 201 156
+2023-08-14 11:06:01 INFO "POST /Create_Horse/ HTTP/1.1" 201 156
+2023-08-14 11:06:29 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-08-14 11:06:29 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-08-14 11:06:29 INFO Watching for file changes with StatReloader
+2023-08-14 11:06:29 INFO Watching for file changes with StatReloader
+2023-08-14 11:06:39 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-08-14 11:06:39 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-08-14 11:06:39 INFO Watching for file changes with StatReloader
+2023-08-14 11:06:39 INFO Watching for file changes with StatReloader
+2023-08-14 11:06:56 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13493
+2023-08-14 11:06:56 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13493
+2023-08-14 11:06:56 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 11:06:56 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 11:08:00 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py changed, reloading.
+2023-08-14 11:08:00 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py changed, reloading.
+2023-08-14 11:08:01 INFO Watching for file changes with StatReloader
+2023-08-14 11:08:01 INFO Watching for file changes with StatReloader
+2023-08-14 11:08:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py changed, reloading.
+2023-08-14 11:08:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py changed, reloading.
+2023-08-14 11:08:02 INFO Watching for file changes with StatReloader
+2023-08-14 11:08:02 INFO Watching for file changes with StatReloader
+2023-08-14 11:28:08 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py changed, reloading.
+2023-08-14 11:28:08 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py changed, reloading.
+2023-08-14 11:28:08 INFO Watching for file changes with StatReloader
+2023-08-14 11:28:08 INFO Watching for file changes with StatReloader
+2023-08-14 11:28:40 INFO HORSE  DELETED SUCCESSFULLY 
+2023-08-14 11:28:40 INFO "DELETE /delete_horse/4/ HTTP/1.1" 200 58
+2023-08-14 11:28:40 INFO "DELETE /delete_horse/4/ HTTP/1.1" 200 58
+2023-08-14 11:29:24 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13151
+2023-08-14 11:29:24 INFO "GET /admin/myapp/horse/ HTTP/1.1" 200 13151
+2023-08-14 11:29:24 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 11:29:24 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 11:51:01 INFO "GET /admin/myapp/horse/3/change/ HTTP/1.1" 200 14316
+2023-08-14 11:51:01 INFO "GET /admin/myapp/horse/3/change/ HTTP/1.1" 200 14316
+2023-08-14 11:51:01 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 11:51:01 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-14 12:40:13 WARNING "DELETE /delete_horse/4/ HTTP/1.1" 400 74
+2023-08-14 12:40:13 WARNING "DELETE /delete_horse/4/ HTTP/1.1" 400 74

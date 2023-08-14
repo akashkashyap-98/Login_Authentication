@@ -32,6 +32,9 @@ class DeveloperDefaultDB_Admin(admin.ModelAdmin):
 class DeveloperSecondDB_Admin(admin.ModelAdmin):
     list_display =  ('id',  'full_name', 'email', 'organization', 'city')
 
+class Horse_Admin(admin.ModelAdmin):
+    list_display =  ('id',  'name', 'created_at', 'updated_at')
+
 admin.site.register(Register, RegisterAdmin)
 admin.site.register(Login, LoginAdmin)
 admin.site.register(Employee, EmployeeAdmin )
@@ -44,3 +47,5 @@ admin.site.register(Department, Department_Admin)
 admin.site.register(Student, Student_Admin)
 admin.site.register(DeveloperDefaultDB, DeveloperDefaultDB_Admin)
 admin.site.register(DeveloperSecondDB, DeveloperSecondDB_Admin)
+admin.site.register(Horse, Horse_Admin)
+

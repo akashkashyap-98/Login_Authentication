@@ -64,3 +64,38 @@ Traceback (most recent call last):
     assert isinstance(response, HttpResponseBase), (
 AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
 2023-08-11 11:47:36 ERROR "PUT /update_developers_second_db/1/ HTTP/1.1" 500 82601
+2023-08-14 06:39:59 ERROR Internal Server Error: /Create_Horse/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+TypeError: Create_Horse() missing 1 required positional argument: 'request'
+2023-08-14 06:39:59 ERROR "POST /Create_Horse/ HTTP/1.1" 500 96576
+2023-08-14 06:39:59 ERROR "POST /Create_Horse/ HTTP/1.1" 500 96576
+2023-08-14 07:05:52 ERROR An error occurred: 'Horse' object is not iterable
+2023-08-14 07:05:52 ERROR Internal Server Error: /get_horse_by_id/1/
+2023-08-14 07:05:52 ERROR "GET /get_horse_by_id/1/ HTTP/1.1" 500 49
+2023-08-14 07:05:52 ERROR "GET /get_horse_by_id/1/ HTTP/1.1" 500 49
+2023-08-14 07:06:34 ERROR An error occurred: 'Horse' object is not iterable
+2023-08-14 07:06:34 ERROR Internal Server Error: /get_horse_by_id/1/
+2023-08-14 07:06:34 ERROR "GET /get_horse_by_id/1/ HTTP/1.1" 500 49
+2023-08-14 07:06:34 ERROR "GET /get_horse_by_id/1/ HTTP/1.1" 500 49
+2023-08-14 07:07:02 ERROR An error occurred: 'Horse' object is not iterable
+2023-08-14 07:07:02 ERROR Internal Server Error: /get_horse_by_id/1/
+2023-08-14 07:07:02 ERROR "GET /get_horse_by_id/1/ HTTP/1.1" 500 49
+2023-08-14 07:07:02 ERROR "GET /get_horse_by_id/1/ HTTP/1.1" 500 49
