@@ -368,3 +368,334 @@
 2023-08-14 11:51:01 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
 2023-08-14 12:40:13 WARNING "DELETE /delete_horse/4/ HTTP/1.1" 400 74
 2023-08-14 12:40:13 WARNING "DELETE /delete_horse/4/ HTTP/1.1" 400 74
+2023-08-16 04:50:44 INFO Watching for file changes with StatReloader
+2023-08-16 04:50:44 INFO Watching for file changes with StatReloader
+2023-08-16 04:50:56 INFO Watching for file changes with StatReloader
+2023-08-16 04:50:56 INFO Watching for file changes with StatReloader
+2023-08-16 05:32:24 INFO FETCHED ALL THE HORSES 
+2023-08-16 05:32:24 INFO "GET /get_all_horses/ HTTP/1.1" 200 300
+2023-08-16 05:32:24 INFO "GET /get_all_horses/ HTTP/1.1" 200 300
+2023-08-16 06:22:22 INFO "GET /admin/myapp/horse/3/change/ HTTP/1.1" 302 0
+2023-08-16 06:22:22 INFO "GET /admin/myapp/horse/3/change/ HTTP/1.1" 302 0
+2023-08-16 06:22:22 INFO "GET /admin/login/?next=/admin/myapp/horse/3/change/ HTTP/1.1" 200 4223
+2023-08-16 06:22:22 INFO "GET /admin/login/?next=/admin/myapp/horse/3/change/ HTTP/1.1" 200 4223
+2023-08-16 06:22:23 INFO "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2023-08-16 06:22:23 INFO "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2023-08-16 06:22:23 INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2023-08-16 06:22:23 INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2023-08-16 06:22:23 INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2023-08-16 06:22:23 INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2023-08-16 06:22:23 INFO "GET /static/admin/css/login.css HTTP/1.1" 304 0
+2023-08-16 06:22:23 INFO "GET /static/admin/css/login.css HTTP/1.1" 304 0
+2023-08-16 06:22:23 INFO "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2023-08-16 06:22:23 INFO "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2023-08-16 06:22:23 INFO "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2023-08-16 06:22:23 INFO "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2023-08-16 06:22:23 INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2023-08-16 06:22:23 INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2023-08-16 06:22:23 WARNING "GET /favicon.ico HTTP/1.1" 404 9532
+2023-08-16 06:22:23 WARNING "GET /favicon.ico HTTP/1.1" 404 9532
+2023-08-16 06:22:25 INFO "POST /admin/login/?next=/admin/myapp/horse/3/change/ HTTP/1.1" 302 0
+2023-08-16 06:22:25 INFO "POST /admin/login/?next=/admin/myapp/horse/3/change/ HTTP/1.1" 302 0
+2023-08-16 06:22:25 INFO "GET /admin/myapp/horse/3/change/ HTTP/1.1" 200 14316
+2023-08-16 06:22:25 INFO "GET /admin/myapp/horse/3/change/ HTTP/1.1" 200 14316
+2023-08-16 06:22:25 INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-16 06:22:25 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-16 06:22:25 INFO "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2023-08-16 06:22:25 INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2023-08-16 06:35:31 INFO "GET /admin/login/?next=/admin/myapp/horse/3/change/ HTTP/1.1" 302 0
+2023-08-16 06:35:31 INFO "GET /admin/login/?next=/admin/myapp/horse/3/change/ HTTP/1.1" 302 0
+2023-08-16 06:35:31 INFO "GET /admin/ HTTP/1.1" 200 14405
+2023-08-16 06:35:31 INFO "GET /admin/ HTTP/1.1" 200 14405
+2023-08-16 06:35:31 INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2023-08-16 06:35:31 INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2023-08-16 06:35:31 INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2023-08-16 06:35:31 INFO "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+2023-08-16 06:35:31 INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2023-08-16 06:35:31 INFO "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+2023-08-16 07:59:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 07:59:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 07:59:56 INFO Watching for file changes with StatReloader
+2023-08-16 07:59:56 INFO Watching for file changes with StatReloader
+2023-08-16 08:00:07 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 08:00:07 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 08:01:08 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:01:08 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:01:09 INFO Watching for file changes with StatReloader
+2023-08-16 08:01:09 INFO Watching for file changes with StatReloader
+2023-08-16 08:02:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:02:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:02:52 INFO Watching for file changes with StatReloader
+2023-08-16 08:02:52 INFO Watching for file changes with StatReloader
+2023-08-16 08:02:56 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 08:02:56 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 08:05:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:05:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:05:31 INFO Watching for file changes with StatReloader
+2023-08-16 08:05:31 INFO Watching for file changes with StatReloader
+2023-08-16 08:05:33 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 184682
+2023-08-16 08:05:33 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 184682
+2023-08-16 08:07:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:07:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:07:08 INFO Watching for file changes with StatReloader
+2023-08-16 08:07:08 INFO Watching for file changes with StatReloader
+2023-08-16 08:07:11 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 08:07:11 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 08:07:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:07:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:07:59 INFO Watching for file changes with StatReloader
+2023-08-16 08:07:59 INFO Watching for file changes with StatReloader
+2023-08-16 08:08:01 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 08:08:01 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 08:08:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:08:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:08:56 INFO Watching for file changes with StatReloader
+2023-08-16 08:08:56 INFO Watching for file changes with StatReloader
+2023-08-16 08:08:59 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 08:08:59 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 08:11:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:11:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:11:03 INFO Watching for file changes with StatReloader
+2023-08-16 08:11:03 INFO Watching for file changes with StatReloader
+2023-08-16 08:11:08 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 185914
+2023-08-16 08:11:08 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 185914
+2023-08-16 08:12:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:12:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:12:12 INFO Watching for file changes with StatReloader
+2023-08-16 08:12:12 INFO Watching for file changes with StatReloader
+2023-08-16 08:12:14 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 112743
+2023-08-16 08:12:14 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 112743
+2023-08-16 08:12:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:12:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:12:59 INFO Watching for file changes with StatReloader
+2023-08-16 08:12:59 INFO Watching for file changes with StatReloader
+2023-08-16 08:13:03 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 08:13:03 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 08:13:26 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 08:13:26 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 08:19:42 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:19:42 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:19:42 INFO Watching for file changes with StatReloader
+2023-08-16 08:19:42 INFO Watching for file changes with StatReloader
+2023-08-16 08:19:45 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 189148
+2023-08-16 08:19:45 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 189148
+2023-08-16 08:22:19 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:22:19 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:22:19 INFO Watching for file changes with StatReloader
+2023-08-16 08:22:19 INFO Watching for file changes with StatReloader
+2023-08-16 08:22:22 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 189386
+2023-08-16 08:22:22 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 189386
+2023-08-16 08:24:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:24:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 08:24:18 INFO Watching for file changes with StatReloader
+2023-08-16 08:24:18 INFO Watching for file changes with StatReloader
+2023-08-16 08:24:22 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 188092
+2023-08-16 08:24:22 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 188092
+2023-08-16 09:52:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 09:52:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 09:52:12 INFO Watching for file changes with StatReloader
+2023-08-16 09:52:12 INFO Watching for file changes with StatReloader
+2023-08-16 09:52:14 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 113171
+2023-08-16 09:52:14 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 113171
+2023-08-16 09:58:00 INFO Watching for file changes with StatReloader
+2023-08-16 09:58:00 INFO Watching for file changes with StatReloader
+2023-08-16 09:58:03 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 09:58:03 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 09:58:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 09:58:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 09:58:49 INFO Watching for file changes with StatReloader
+2023-08-16 09:58:49 INFO Watching for file changes with StatReloader
+2023-08-16 09:58:51 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 09:58:51 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 10:27:02 INFO Watching for file changes with StatReloader
+2023-08-16 10:27:02 INFO Watching for file changes with StatReloader
+2023-08-16 10:27:06 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 96067
+2023-08-16 10:27:06 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 96067
+2023-08-16 10:27:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 10:27:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 10:27:32 INFO Watching for file changes with StatReloader
+2023-08-16 10:27:32 INFO Watching for file changes with StatReloader
+2023-08-16 10:27:34 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 10:27:34 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 10:28:05 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 10:28:05 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 10:28:06 INFO Watching for file changes with StatReloader
+2023-08-16 10:28:06 INFO Watching for file changes with StatReloader
+2023-08-16 10:28:09 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 10:28:09 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 10:28:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 10:28:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 10:28:19 INFO Watching for file changes with StatReloader
+2023-08-16 10:28:19 INFO Watching for file changes with StatReloader
+2023-08-16 10:28:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 10:28:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 10:28:51 INFO Watching for file changes with StatReloader
+2023-08-16 10:28:51 INFO Watching for file changes with StatReloader
+2023-08-16 10:28:53 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 163517
+2023-08-16 10:28:53 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 163517
+2023-08-16 10:44:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 10:44:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 10:44:09 INFO Watching for file changes with StatReloader
+2023-08-16 10:44:09 INFO Watching for file changes with StatReloader
+2023-08-16 10:44:12 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 163336
+2023-08-16 10:44:12 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 163336
+2023-08-16 10:44:57 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 10:44:57 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 10:44:57 INFO Watching for file changes with StatReloader
+2023-08-16 10:44:57 INFO Watching for file changes with StatReloader
+2023-08-16 10:45:01 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 96069
+2023-08-16 10:45:01 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 96069
+2023-08-16 10:48:04 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 10:48:04 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 10:48:05 INFO Watching for file changes with StatReloader
+2023-08-16 10:48:05 INFO Watching for file changes with StatReloader
+2023-08-16 10:48:07 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 10:48:07 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 10:52:45 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 10:52:45 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 10:52:45 INFO Watching for file changes with StatReloader
+2023-08-16 10:52:45 INFO Watching for file changes with StatReloader
+2023-08-16 10:52:47 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 10:52:47 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 10:53:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 10:53:10 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 10:53:10 INFO Watching for file changes with StatReloader
+2023-08-16 10:53:10 INFO Watching for file changes with StatReloader
+2023-08-16 10:53:13 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 164988
+2023-08-16 10:53:13 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 164988
+2023-08-16 10:53:35 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 10:53:35 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 10:53:35 INFO Watching for file changes with StatReloader
+2023-08-16 10:53:35 INFO Watching for file changes with StatReloader
+2023-08-16 10:53:37 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 10:53:37 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 11:00:17 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 11:00:17 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 11:00:17 INFO Watching for file changes with StatReloader
+2023-08-16 11:00:17 INFO Watching for file changes with StatReloader
+2023-08-16 11:13:37 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 11:13:37 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-16 11:58:36 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 12479
+2023-08-16 11:58:36 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 12479
+2023-08-16 11:58:36 INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2023-08-16 11:58:36 INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2023-08-16 11:58:36 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-16 11:58:36 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-16 11:58:36 INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2023-08-16 11:58:36 INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2023-08-16 11:58:36 INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2023-08-16 11:58:36 INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2023-08-16 11:58:43 INFO "GET /admin/myapp/author/1/change/ HTTP/1.1" 200 14865
+2023-08-16 11:58:43 INFO "GET /admin/myapp/author/1/change/ HTTP/1.1" 200 14865
+2023-08-16 11:58:43 INFO "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+2023-08-16 11:58:43 INFO "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+2023-08-16 11:58:43 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-16 11:58:43 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-08-16 11:58:43 INFO "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+2023-08-16 11:58:43 INFO "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+2023-08-16 11:58:43 INFO "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+2023-08-16 11:58:43 INFO "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+2023-08-16 11:58:47 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 12479
+2023-08-16 11:58:47 INFO "GET /admin/myapp/author/ HTTP/1.1" 200 12479
+2023-08-16 11:58:49 INFO "GET /admin/myapp/author/1/change/ HTTP/1.1" 200 14865
+2023-08-16 11:58:49 INFO "GET /admin/myapp/author/1/change/ HTTP/1.1" 200 14865
+2023-08-16 12:08:41 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 12:08:41 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-16 12:08:41 INFO Watching for file changes with StatReloader
+2023-08-16 12:08:41 INFO Watching for file changes with StatReloader
+2023-08-17 11:17:09 INFO Watching for file changes with StatReloader
+2023-08-17 11:17:09 INFO Watching for file changes with StatReloader
+2023-08-17 11:17:13 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-17 11:17:13 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-17 11:19:29 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 11:19:29 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 11:19:30 INFO Watching for file changes with StatReloader
+2023-08-17 11:19:30 INFO Watching for file changes with StatReloader
+2023-08-17 11:19:37 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 11:19:37 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 11:19:37 INFO Watching for file changes with StatReloader
+2023-08-17 11:19:37 INFO Watching for file changes with StatReloader
+2023-08-17 11:19:42 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-17 11:19:42 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-17 11:21:46 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 11:21:46 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 11:21:47 INFO Watching for file changes with StatReloader
+2023-08-17 11:21:47 INFO Watching for file changes with StatReloader
+2023-08-17 11:21:50 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-17 11:21:50 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-17 11:27:19 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 11:27:19 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 11:27:19 INFO Watching for file changes with StatReloader
+2023-08-17 11:27:19 INFO Watching for file changes with StatReloader
+2023-08-17 11:27:22 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 97121
+2023-08-17 11:27:22 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 97121
+2023-08-17 11:30:22 INFO Watching for file changes with StatReloader
+2023-08-17 11:30:22 INFO Watching for file changes with StatReloader
+2023-08-17 11:30:24 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-17 11:30:24 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-17 11:52:24 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 11:52:24 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 11:52:25 INFO Watching for file changes with StatReloader
+2023-08-17 11:52:25 INFO Watching for file changes with StatReloader
+2023-08-17 11:52:28 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-17 11:52:28 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-17 11:53:35 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 11:53:35 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 11:53:35 INFO Watching for file changes with StatReloader
+2023-08-17 11:53:35 INFO Watching for file changes with StatReloader
+2023-08-17 11:53:38 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-17 11:53:38 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-17 11:53:52 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 11:53:52 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 11:53:52 INFO Watching for file changes with StatReloader
+2023-08-17 11:53:52 INFO Watching for file changes with StatReloader
+2023-08-17 11:53:55 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-17 11:53:55 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-17 11:54:45 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 11:54:45 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 11:54:46 INFO Watching for file changes with StatReloader
+2023-08-17 11:54:46 INFO Watching for file changes with StatReloader
+2023-08-17 12:13:15 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 12:13:15 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 12:13:16 INFO Watching for file changes with StatReloader
+2023-08-17 12:13:16 INFO Watching for file changes with StatReloader
+2023-08-17 12:13:21 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 98962
+2023-08-17 12:13:21 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 98962
+2023-08-17 12:13:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 12:13:51 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 12:13:51 INFO Watching for file changes with StatReloader
+2023-08-17 12:13:51 INFO Watching for file changes with StatReloader
+2023-08-17 12:13:55 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-17 12:13:55 INFO "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 200 1100
+2023-08-17 12:17:53 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 12:17:53 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 12:17:53 INFO Watching for file changes with StatReloader
+2023-08-17 12:17:53 INFO Watching for file changes with StatReloader
+2023-08-17 12:25:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 12:25:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-17 12:25:11 INFO Watching for file changes with StatReloader
+2023-08-17 12:25:11 INFO Watching for file changes with StatReloader

@@ -16,6 +16,7 @@ from rest_framework_simplejwt.token_blacklist.models import OutstandingToken
 from django.core.mail import send_mail
 from django.contrib import messages
 from django.conf import settings
+from django.db import connection
 
 from django.db.models import Min, Max
 import logging
@@ -1344,20 +1345,48 @@ class MANY_TO_MANY_ORM(APIView):
 
         # 1. Get all books written by a specific author with id=1
         all_books_by_author_id_1 = Author.objects.filter(id=1).values('name', 'books__title')
-        print(all_books_by_author_id_1)
+
+        cursor = connection.cursor()
+        raw_query_1 = ('''  SELECT myapp_author.name, myapp_book.title 
+                            FROM myapp_author 
+                            INNER JOIN myapp_book ON myapp_author.id = myapp_book.id 
+                            WHERE myapp_author.id = 1; ''')
+        cursor.execute(raw_query_1) 
+        result1 = cursor.fetchall()      
+        print(result1)
+        print("------------------------------")
 
         # 2. Get all authors of a specific book with id=4
         all_authors_of_book_id_4 = Book.objects.filter(id=4).values('title', 'author_book__name')
-        print(all_authors_of_book_id_4)
+
+        cursor = connection.cursor()
+        raw_query_2 = ('''  SELECT myapp_book.id, myapp_book.title, myapp_author.name
+                            FROM myapp_book
+                            INNER JOIN myapp_author_books ON myapp_author_books.book_id = myapp_book.id 
+                            INNER JOIN myapp_author ON myapp_author_books.author_id = myapp_author.id
+                            WHERE myapp_book.id = 4; ''')
+        cursor.execute(raw_query_2)
+        result2=cursor.fetchall()
+        # print(result2)
+        for row in result2:
+            book_id, book_title, author_name = row
+            print(f"Book ID: {book_id}, Title: {book_title}, Author: {author_name}")
 
         # 3. Get all authors and their books:
         all_authors_and_their_books = Author.objects.all().values('name', 'books__title')
-        print(all_authors_and_their_books)
+        
+        cursor = connection.cursor()
+        raw_query_3 = ('''  SELECT myapp_author.name, myapp_book.title FROM  myapp_author 
+                            INNER JOIN myapp_author_books ON myapp_author_books.author_id = myapp_author.id 
+                            INNER JOIN myapp_book ON myapp_book.id = myapp_author_books.book_id ''')
+        cursor.execute(raw_query_3)
+        result3 = cursor.fetchall()
+        print(result3)
 
         # 4. Get all books released after a certain date by a specific author:
         all_books_by_author_id_1_released_after_01_01_1990 = Book.objects.all().filter(author_book__id=1, author_book__date_of_birth__gt='1950-01-01').values('title')
         print(all_books_by_author_id_1_released_after_01_01_1990)
-
+       
         # 5. Get all authors who have written more than a certain number of books:
         from django.db.models import Count
 
@@ -1396,7 +1425,7 @@ class MANY_TO_MANY_ORM(APIView):
 
             }
 
-        )
+        )       
 
 
 # ====================== apis to store IMAGE ========================================================================

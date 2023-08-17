@@ -99,3 +99,681 @@ TypeError: Create_Horse() missing 1 required positional argument: 'request'
 2023-08-14 07:07:02 ERROR Internal Server Error: /get_horse_by_id/1/
 2023-08-14 07:07:02 ERROR "GET /get_horse_by_id/1/ HTTP/1.1" 500 49
 2023-08-14 07:07:02 ERROR "GET /get_horse_by_id/1/ HTTP/1.1" 500 49
+2023-08-16 08:05:33 ERROR Internal Server Error: /MANY_TO_MANY_ORM/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'Demo_db.Author' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1349, in get
+    for author in raw_query:
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 2080, in __iter__
+    self._fetch_all()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 2067, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 2094, in iterator
+    yield from RawModelIterable(self)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 158, in __iter__
+    query_iterator = iter(query)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 112, in __iter__
+    self._execute_query()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 152, in _execute_query
+    self.cursor.execute(self.sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'Demo_db.Author' doesn't exist")
+2023-08-16 08:05:33 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 184682
+2023-08-16 08:05:33 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 184682
+2023-08-16 08:11:08 ERROR Internal Server Error: /MANY_TO_MANY_ORM/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1054, "Unknown column 'books' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1349, in get
+    print(list(raw_query))
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 2072, in __len__
+    self._fetch_all()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 2067, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 2094, in iterator
+    yield from RawModelIterable(self)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 158, in __iter__
+    query_iterator = iter(query)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 112, in __iter__
+    self._execute_query()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 152, in _execute_query
+    self.cursor.execute(self.sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'books' in 'field list'")
+2023-08-16 08:11:08 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 185914
+2023-08-16 08:11:08 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 185914
+2023-08-16 08:12:14 ERROR Internal Server Error: /MANY_TO_MANY_ORM/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1349, in get
+    print(list(raw_query))
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 2072, in __len__
+    self._fetch_all()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 2067, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 2094, in iterator
+    yield from RawModelIterable(self)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 168, in __iter__
+    raise exceptions.FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Raw query must include the primary key
+2023-08-16 08:12:14 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 112743
+2023-08-16 08:12:14 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 112743
+2023-08-16 08:19:45 ERROR Internal Server Error: /MANY_TO_MANY_ORM/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on myapp_author.id and myapp_book.id WHERE myapp_author.id=1' at line 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1349, in get
+    print(list(raw_query))
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 2072, in __len__
+    self._fetch_all()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 2067, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 2094, in iterator
+    yield from RawModelIterable(self)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 158, in __iter__
+    query_iterator = iter(query)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 112, in __iter__
+    self._execute_query()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 152, in _execute_query
+    self.cursor.execute(self.sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on myapp_author.id and myapp_book.id WHERE myapp_author.id=1' at line 1")
+2023-08-16 08:19:45 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 189148
+2023-08-16 08:19:45 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 189148
+2023-08-16 08:22:22 ERROR Internal Server Error: /MANY_TO_MANY_ORM/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on myapp_author.id and myapp_book.author_id WHERE myapp_author.id=1' at line 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1349, in get
+    print(list(raw_query))
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 2072, in __len__
+    self._fetch_all()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 2067, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 2094, in iterator
+    yield from RawModelIterable(self)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 158, in __iter__
+    query_iterator = iter(query)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 112, in __iter__
+    self._execute_query()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 152, in _execute_query
+    self.cursor.execute(self.sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on myapp_author.id and myapp_book.author_id WHERE myapp_author.id=1' at line 1")
+2023-08-16 08:22:22 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 189386
+2023-08-16 08:22:22 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 189386
+2023-08-16 08:24:22 ERROR Internal Server Error: /MANY_TO_MANY_ORM/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1054, "Unknown column 'myapp_book.author_id' in 'on clause'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1349, in get
+    print(list(raw_query))
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 2072, in __len__
+    self._fetch_all()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 2067, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 2094, in iterator
+    yield from RawModelIterable(self)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 158, in __iter__
+    query_iterator = iter(query)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 112, in __iter__
+    self._execute_query()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 152, in _execute_query
+    self.cursor.execute(self.sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'myapp_book.author_id' in 'on clause'")
+2023-08-16 08:24:22 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 188092
+2023-08-16 08:24:22 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 188092
+2023-08-16 09:52:14 ERROR Internal Server Error: /MANY_TO_MANY_ORM/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1349, in get
+    print(list(raw_query))
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 2072, in __len__
+    self._fetch_all()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 2067, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 2094, in iterator
+    yield from RawModelIterable(self)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 168, in __iter__
+    raise exceptions.FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Raw query must include the primary key
+2023-08-16 09:52:14 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 113171
+2023-08-16 09:52:14 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 113171
+2023-08-16 10:27:06 ERROR Internal Server Error: /MANY_TO_MANY_ORM/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1352, in get
+    print(list(raw_query))
+TypeError: 'int' object is not iterable
+2023-08-16 10:27:06 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 96067
+2023-08-16 10:27:06 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 96067
+2023-08-16 10:28:53 ERROR Internal Server Error: /MANY_TO_MANY_ORM/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1054, "Unknown column 'myapp_author.name' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1350, in get
+    raw_query = cursor.execute(''' SELECT  myapp_author.name, myapp_book.title FROM myapp_author FULL JOIN myapp_book ON myapp_author.id = myapp_book.id WHERE myapp_author.id = 1; ''')
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'myapp_author.name' in 'field list'")
+2023-08-16 10:28:53 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 163517
+2023-08-16 10:28:53 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 163517
+2023-08-16 10:44:12 ERROR Internal Server Error: /MANY_TO_MANY_ORM/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1054, "Unknown column 'myapp_author.name' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1350, in get
+    raw_query = cursor.execute(''' SELECT  myapp_author.name, myapp_book.title FROM myapp_author FULL JOIN myapp_book ON myapp_author.id = myapp_book.id WHERE myapp_author.id = 1; ''')
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'myapp_author.name' in 'field list'")
+2023-08-16 10:44:12 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 163336
+2023-08-16 10:44:12 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 163336
+2023-08-16 10:45:01 ERROR Internal Server Error: /MANY_TO_MANY_ORM/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1351, in get
+    results=raw_query.fetchall()
+AttributeError: 'int' object has no attribute 'fetchall'
+2023-08-16 10:45:01 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 96069
+2023-08-16 10:45:01 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 96069
+2023-08-16 10:53:13 ERROR Internal Server Error: /MANY_TO_MANY_ORM/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN myapp_book ON myapp_author.id = myapp_book.id WHERE myapp_author.id =' at line 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1350, in get
+    raw_query = cursor.execute(''' SELECT  myapp_author.name, myapp_book.title FROM myapp_author OUTER JOIN myapp_book ON myapp_author.id = myapp_book.id WHERE myapp_author.id = 1; ''')
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN myapp_book ON myapp_author.id = myapp_book.id WHERE myapp_author.id =' at line 1")
+2023-08-16 10:53:13 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 164988
+2023-08-16 10:53:13 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 164988
+2023-08-17 11:27:22 ERROR Internal Server Error: /MANY_TO_MANY_ORM/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1360, in get
+    result2= raw_query_2.fetchall()
+AttributeError: 'int' object has no attribute 'fetchall'
+2023-08-17 11:27:22 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 97121
+2023-08-17 11:27:22 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 97121
+2023-08-17 12:13:21 ERROR Internal Server Error: /MANY_TO_MANY_ORM/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1371, in get
+    cursor = cursor.connection()
+TypeError: 'Connection' object is not callable
+2023-08-17 12:13:21 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 98962
+2023-08-17 12:13:21 ERROR "GET /MANY_TO_MANY_ORM/ HTTP/1.1" 500 98962
