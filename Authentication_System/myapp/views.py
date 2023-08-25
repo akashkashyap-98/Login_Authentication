@@ -1068,6 +1068,17 @@ class ForeignKey_ORM(APIView):
 
             print('student_name = ',student_name  , 'department_name = ',department_name , 'university_name = ', university_name)
 
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT  myapp_student.id , myapp_student.student_name, myapp_university.university_name  
+                            FROM myapp_student 
+                            LEFT JOIN myapp_department ON myapp_department.id = myapp_student.department_id 
+                            LEFT JOIN  myapp_university   ON myapp_university.id = myapp_department.university_id 
+                            WHERE myapp_department.department_name = 'Computer Science and Engineering'; ''')
+        
+        result_1 = cursor.fetchall()
+        print("---------------- result_1 -----------------------")
+        print(result_1)
+
 
         # 2. Retrieve all departments of a university with related_name 'departments':
         university = University.objects.get(university_name='Babu Banarsi Das University')
@@ -1075,22 +1086,60 @@ class ForeignKey_ORM(APIView):
         print(departments)
                         #  another method without using related name
         a= Department.objects.all().filter(university=University.objects.get(university_name='Babu Banarsi Das University')).values()
-        print("================", a)
+        
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_department.id, myapp_department.department_name 
+                            FROM myapp_department 
+                            INNER JOIN myapp_university ON myapp_university.id = myapp_department.university_id 
+                            WHERE myapp_university.university_name = 'Babu Banarsi Das University'; ''')
+        
+        result_2 = cursor.fetchall()
+        print("---------------- result_2 -----------------------")
+        print(result_2)
+
            
         # 3. Retrieve a specific student ('Akash Kashyap') and access their department using related_name:
         get_dept_of_specific_student=Student.objects.get(student_name='Akash Kashyap').department.department_name
-        print(get_dept_of_specific_student)
+        
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_student.id , myapp_student.student_name , myapp_department.department_name 
+                            FROM myapp_student 
+                            LEFT JOIN myapp_department ON myapp_department.id = myapp_student.department_id 
+                            WHERE myapp_student.student_name = 'Akash Kashyap'; ''')
+        
+        result_3 = cursor.fetchall()
+        print("---------------- result_3 -----------------------")
+        print(result_3)
+
 
         # 4. Retrieve all students of a specific university ('Babu Banarsi Das University'):
-        specific_university = University.objects.get(university_name='Babu Banarsi Das University')
-        print(specific_university)
-        students = Student.objects.filter(department__university=specific_university).values()
-        print(students)
+        
+        studentss = Student.objects.filter(department__university__university_name='Babu Banarsi Das University').values()
+
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_student.id , myapp_student.student_name 
+                            FROM myapp_student 
+                            LEFT JOIN myapp_department ON myapp_department.id = myapp_student.department_id 
+                            LEFT JOIN myapp_university ON myapp_university.id = myapp_department.university_id 
+                            WHERE myapp_university.university_name = 'Babu Banarsi Das University'; ''')
+        
+        result_4 = cursor.fetchall()
+        print("---------------- result_4 -----------------------")
+        print(result_4)
 
         # 5. Retrieve all departments and their corresponding university names 
         departments = Department.objects.all().values_list('department_name', 'university__university_name')
-        print("###################", departments)
-        list1 = list(departments)
+        
+
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_department.department_name , myapp_university.university_name 
+                            FROM myapp_department 
+                            LEFT JOIN myapp_university  ON myapp_university.id  = myapp_department.university_id ; ''')
+        
+        result_5 = cursor.fetchall()
+        print("---------------- result_5 -----------------------")
+        print(result_5)
+
 
 
         # 6. Fetch all students of a department with department_name = 'Computer Science and Engineering':
@@ -1099,13 +1148,33 @@ class ForeignKey_ORM(APIView):
                             # second method without using related name
         second_method = Student.objects.all().filter(department = Department.objects.get(department_name= 'Computer Science and Engineering')).values()
 
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_student.student_name , myapp_department.department_name 
+                            FROM myapp_student 
+                            INNER JOIN myapp_department ON myapp_department.id = myapp_student.department_id 
+                            WHERE myapp_department.department_name = 'Computer Science and Engineering';''')
+        
+        result_6 = cursor.fetchall()
+        print("---------------- result_6 -----------------------")
+        print(result_6)
+                                            
 
         # 7. Fetch all students of all departments of a specific university with university_name = 'Babu Banarsi Das University':
         university = University.objects.get(university_name='Babu Banarsi Das University')
-        print(university)
+        # print(university)
         all_students_of_all_departments_of_specific_university = Student.objects.all().filter(department__university=university).values()
                                                                     # filter all departments whose university is same i.e: BBDU
-        print(all_students_of_all_departments_of_specific_university)
+        
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_student.student_name , myapp_department.department_name , myapp_university.university_name 
+                            FROM myapp_student 
+                            LEFT JOIN myapp_department ON myapp_department.id = myapp_student.department_id 
+                            LEFT JOIN myapp_university ON myapp_university.id = myapp_department.university_id 
+                            WHERE myapp_university.university_name = 'Babu Banarsi Das University'; ''')         
+        
+        result_7 = cursor.fetchall()
+        print("---------------- result_7 -----------------------")
+        print(result_7)
 
 
         # 8. Fetch all departments along with the count of students in each department:
@@ -1119,29 +1188,80 @@ class ForeignKey_ORM(APIView):
             list2.append(w)
             print(list2)
 
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_department.department_name , COUNT(myapp_student.id) AS student_count
+                            FROM myapp_department 
+                            LEFT JOIN myapp_student ON myapp_student.department_id = myapp_department.id 
+                            GROUP BY myapp_department.department_name;  ''')
+        
+        result_8 = cursor.fetchall()
+        print("---------------- result_8 -----------------------")               
+        print(result_8)                                                         
+
 
         # 9. Get all students in a 'Computer Science and Engineering' department and their university name   (without using for loop , modification in orm query no. 8)
 
         students_in_CSE_with_university_name = Student.objects.filter(department__department_name='Computer Science and Engineering').values('student_name','department__department_name','department__university__university_name')
-        print(students_in_CSE_with_university_name)
+
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_student.student_name , myapp_university.university_name 
+                            FROM myapp_student 
+                            LEFT JOIN myapp_department ON myapp_department.id = myapp_student.department_id 
+                            LEFT JOIN myapp_university ON myapp_university.id = myapp_department.university_id 
+                            WHERE myapp_department.department_name = 'Computer Science and Engineering';  ''')
+        
+        result_9 = cursor.fetchall()
+        print("---------------- result_9 -----------------------")
+        print(result_9)
 
         # 10. Fetch all departments along with the count of students in each department: (without using for loop , modification in orm query no. 8)
-        print("#######################################################################")
 
         all_departments_with_count= Department.objects.all().annotate(student_count=Count('students')).values('department_name','student_count')
-        print(all_departments_with_count)
+        
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_department.department_name , COUNT(myapp_student.id) AS student_count
+                            FROM myapp_department 
+                            LEFT JOIN myapp_student ON myapp_student.department_id = myapp_department.id 
+                            GROUP BY myapp_department.department_name;   ''')
+        
+        result_10 = cursor.fetchall()
+        print("---------------- result_10 -----------------------")
+        print(result_10)                                          
+
 
 
         # 11. Fetch all departments that have no students:
 
         departments_with_no_students = Department.objects.all().filter(students=None).values()
 
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_department.id , myapp_department.department_name   
+                            FROM  myapp_department    
+                            LEFT JOIN myapp_student ON myapp_student.department_id = myapp_department.id 
+                            WHERE myapp_student.id IS NULL;   ''')
+        
+        result_11 = cursor.fetchall()
+        print("---------------- result_11 -----------------------")       
+        print(result_11)                                          
+      
+
         # 12. Fetch all universities along with the count of departments and the total number of students in each university:
 
         from django.db.models import Sum, IntegerField
         from django.db.models.functions import Cast
         universities_with_depsrtments_with_all_students = University.objects.all().annotate(dept_count=Count('departments'), total_stu=Cast(Sum('departments__students') , IntegerField())).values()
-          
+
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_university.id , myapp_university.university_name , COUNT(DISTINCT  myapp_department.id) AS dept_count, COUNT(myapp_student.id) AS total_stu
+                            FROM myapp_university
+                            LEFT JOIN myapp_department ON myapp_department.university_id = myapp_university.id 
+                            LEFT JOIN myapp_student ON myapp_student.department_id = myapp_department.id 
+                            GROUP BY myapp_university.id, myapp_university.university_name ;  ''')
+        
+        result_12 = cursor.fetchall()
+        print("---------------- result_12 -----------------------")       
+        print(result_12)                     
+                                                   
 
         # 13. Fetch all departments of a university ('Babu Banarsi Das University') with the related_name 'departments':
 
@@ -1149,26 +1269,80 @@ class ForeignKey_ORM(APIView):
                                         # second method without using related name
         aaaa = Department.objects.filter(university__university_name='Babu Banarsi Das University')
 
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_department.id , myapp_department.department_name , myapp_university.university_name 
+                            FROM myapp_department 
+                            INNER JOIN myapp_university ON myapp_university.id = myapp_department.university_id 
+                            WHERE myapp_university.university_name = 'Babu Banarsi Das University';  ''')                  
+        
+        result_13 = cursor.fetchall()                                                                                                                          
+        print("---------------- result_13 -----------------------")                                                                 
+        print(result_13)                    
 
-        # 14. Fetch all students of a department with the related_name 'students':
+
+        # 14. Fetch all students of a department 'Computer Science and Engineering' with the related_name 'students':
         all_students_of_dept_CSE = Department.objects.filter(department_name='Computer Science and Engineering').values_list('students__student_name')
-                                        # second method without using related name
+                                        # second method without using related name    
         second_method = Student.objects.filter(department__department_name='Computer Science and Engineering')
+
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_student.id, myapp_student.student_name , myapp_department.department_name 
+                            FROM myapp_student
+                            INNER JOIN myapp_department ON myapp_department.id = myapp_student.department_id 
+                            WHERE myapp_department.department_name = 'Computer Science and Engineering';  ''')        
+        
+        result_14 = cursor.fetchall()
+        print("---------------- result_14 -----------------------")                    
+        print(result_14)                                                         
+
+
 
 
         # 15. Fetch all students and their respective department names:
         students_with_respective_dept_name = Student.objects.all().values('student_name', 'department__department_name')
+
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_student.id, myapp_student.student_name , myapp_department.department_name 
+                            FROM myapp_student 
+                            LEFT JOIN myapp_department ON myapp_department.id = myapp_student.department_id;   ''')                                            
+        
+        result_15 = cursor.fetchall()
+        print("---------------- result_15 -----------------------")       
+        print(result_15)                            
+
         
 
         # 16. Fetch all universities and the count of departments in each university:
         all_universities_with_dept_count = University.objects.all().annotate(dept_count=Count('departments')).values('university_name', 'dept_count')
 
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_university.id , myapp_university.university_name , COUNT(myapp_department.id) AS dept_count
+                            FROM myapp_university 
+                            LEFT JOIN myapp_department ON myapp_department.university_id = myapp_university.id 
+                            GROUP BY myapp_university.id;   ''')                                                          
+        
+        result_16 = cursor.fetchall()
+        print("---------------- result_16 -----------------------")                                                                                                             
+        print(result_16)                                            
 
-        #  17. Fetch the university of a specific student using the related_name 'university':
+
+        #  17. Fetch the university of a specific student 'Akash Kashyap' using the related_name 'university':
 
         university_of_specific_student = University.objects.filter(departments__students__student_name='Akash Kashyap').values()
-                        # second method without using related name
+                        # second method without using related name                           
         university_of_specific_student_2 = Student.objects.filter(student_name='Akash Kashyap').values('student_name', 'department__university__university_name')
+
+
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_university.id , myapp_university.university_name , myapp_student.student_name 
+                            FROM myapp_university 
+                            LEFT JOIN myapp_department ON myapp_department.university_id = myapp_university.id 
+                            LEFT JOIN myapp_student ON myapp_student.department_id = myapp_department.id 
+                            WHERE myapp_student.student_name = 'Akash Kashyap';   ''')                                 
+        
+        result_17 = cursor.fetchall()
+        print("---------------- result_17 -----------------------")                                                                  
+        print(result_17)             
 
 
         # 18. Fetch all departments along with their corresponding university names:
@@ -1177,10 +1351,80 @@ class ForeignKey_ORM(APIView):
                                 # another method by using related name 
         all_departments_with_university_names_2 = University.objects.all().values('departments__department_name','university_name').exclude(departments__department_name=None)
 
-        # 19. Fetch all students of a specific university using the related_name 'students':
-        all_students_of_specific_university = University.objects.filter(university_name='Babu Banarsi Das University').values('departments__students__student_name')
-        print("@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@#@@##@#@#@#@#", all_students_of_specific_university)
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_department.id, myapp_department.department_name , myapp_university.university_name 
+                            FROM myapp_department 
+                            LEFT JOIN myapp_university ON myapp_university.id = myapp_department.university_id;   ''')
+        
+        result_18 = cursor.fetchall()
+        print("---------------- result_18 -----------------------")       
+        print(result_18)     
 
+
+        # 19. Fetch all students of a specific university using the related_name 'students':
+        all_students_of_specific_university = University.objects.filter(university_name='Babu Banarsi Das University').values('departments__students__student_name')                                                         
+
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_student.id, myapp_student.student_name , myapp_university.university_name 
+                            FROM myapp_student 
+                            LEFT JOIN myapp_department ON myapp_department.id = myapp_student.department_id 
+                            LEFT JOIN myapp_university ON myapp_university.id = myapp_department.university_id 
+                            WHERE myapp_university.university_name = 'Babu Banarsi Das University';   ''')
+                                    
+        result_19 = cursor.fetchall()
+        print("---------------- result_19 -----------------------")       
+        print(result_19)
+
+
+        # 20. Get Students with Their Department and University:
+
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_student.id, myapp_student.student_name , myapp_department.department_name , myapp_university.university_name 
+                            FROM myapp_student
+                            INNER JOIN myapp_department ON myapp_department.id = myapp_student.department_id 
+                            INNER JOIN myapp_university ON myapp_university.id = myapp_department.university_id ;  ''')
+                                    
+        result_20 = cursor.fetchall()
+        print("---------------- result_20 -----------------------")       
+        print(result_20)
+
+        ORM_20 = Student.objects.all().values('id', 'student_name', 'department__department_name', 'department__university__university_name')
+        print("======= ORM 20 ==============")
+        print(ORM_20)
+
+        # 21. Left Join to Get All Departments and Their Students (if any):
+
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_department.id, myapp_department.department_name , myapp_student.student_name 
+                            FROM myapp_department 
+                            LEFT JOIN myapp_student ON myapp_student.department_id = myapp_department.id; ''')
+                                    
+        result_21 = cursor.fetchall()
+        print("---------------- result_21 -----------------------")       
+        print(result_21)
+
+        ORM_21 = Department.objects.all().values('students__id', 'students__student_name', 'department_name')
+        print("------------- ORM 21 ----------------------")
+        print(ORM_21)      
+
+
+        # 22. calculate the number of students in each university.
+
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_university.id , myapp_university.university_name , COUNT(myapp_student.id) AS stu_count
+                            FROM myapp_university 
+                            LEFT JOIN myapp_department ON myapp_department.university_id = myapp_university.id 
+                            LEFT JOIN myapp_student ON myapp_student.department_id = myapp_department.id 
+                            GROUP BY myapp_university.id;  ''')
+                                    
+        result_22 = cursor.fetchall()
+        print("---------------- result_22 -----------------------")       
+        print(result_22)         
+
+
+        ORM_22 = University.objects.all().annotate(stu_count=Count('departments__students')).values('university_name', 'stu_count')
+        print("------------- ORM 22 ----------------------")     
+        print(ORM_22)  
 
 
         return JsonResponse(
@@ -1188,8 +1432,8 @@ class ForeignKey_ORM(APIView):
                 'students_with_university_name': list(students_in_CSE_with_university_name.values()),
                 'departments of a university': list(departments),
                 'get_dept_of_specific_student': get_dept_of_specific_student,
-                'all_students_of_specific_university(BBDU)': list(students),
-                'all_department_and _their_university': list1,
+                'all_students_of_specific_university(BBDU)': list(studentss),
+                'all_department_and _their_university': list(departments),
                 'all_students_of_CSE_department': list(students),
                 'all_students_of_all_departments_of_specific_university': list(all_students_of_all_departments_of_specific_university),
                 'all_dept_with_all_count_of_students_in_each_dept': list2,
@@ -1203,7 +1447,10 @@ class ForeignKey_ORM(APIView):
                 'all_universities_with_dept_count':list(all_universities_with_dept_count),
                 'university_of_specific_student': list(university_of_specific_student),
                 'all_departments_with_university_names':list(all_departments_with_university_names),
-                'all_students_of_specific_university': list(all_students_of_specific_university)
+                'all_students_of_specific_university': list(all_students_of_specific_university),
+                'all_students_with_their_dept_and_university' : list(result_20),
+                'all_dept_and_their_students_if_any' : list(result_21),
+                'number_of_students_in_each_university' : list(result_22),      
 
             }
         )
@@ -1335,7 +1582,7 @@ def delete_developers_second_db(request, id):
 
                                             
 # ===================== Book and author model many to many relation ================================================
-
+     
 
 class MANY_TO_MANY_ORM(APIView):
     permission_classes = []
@@ -1353,8 +1600,8 @@ class MANY_TO_MANY_ORM(APIView):
                             WHERE myapp_author.id = 1; ''')
         cursor.execute(raw_query_1) 
         result1 = cursor.fetchall()      
+        print("-------result1---------")
         print(result1)
-        print("------------------------------")
 
         # 2. Get all authors of a specific book with id=4
         all_authors_of_book_id_4 = Book.objects.filter(id=4).values('title', 'author_book__name')
@@ -1368,6 +1615,7 @@ class MANY_TO_MANY_ORM(APIView):
         cursor.execute(raw_query_2)
         result2=cursor.fetchall()
         # print(result2)
+        print("-------result2---------")
         for row in result2:
             book_id, book_title, author_name = row
             print(f"Book ID: {book_id}, Title: {book_title}, Author: {author_name}")
@@ -1378,21 +1626,40 @@ class MANY_TO_MANY_ORM(APIView):
         cursor = connection.cursor()
         raw_query_3 = ('''  SELECT myapp_author.name, myapp_book.title FROM  myapp_author 
                             INNER JOIN myapp_author_books ON myapp_author_books.author_id = myapp_author.id 
-                            INNER JOIN myapp_book ON myapp_book.id = myapp_author_books.book_id ''')
-        cursor.execute(raw_query_3)
+                            INNER JOIN myapp_book ON myapp_book.id = myapp_author_books.book_id ''')     
+        cursor.execute(raw_query_3)         
         result3 = cursor.fetchall()
+        print("-------result3---------")
         print(result3)
 
         # 4. Get all books released after a certain date by a specific author:
         all_books_by_author_id_1_released_after_01_01_1990 = Book.objects.all().filter(author_book__id=1, author_book__date_of_birth__gt='1950-01-01').values('title')
-        print(all_books_by_author_id_1_released_after_01_01_1990)
+        
+        cursor = connection.cursor()
+        raw_query_4 = ('''  SELECT myapp_book.title , myapp_author.name  from myapp_book  
+                            INNER JOIN myapp_author_books ON myapp_author_books.book_id = myapp_book.id 
+                            INNER JOIN myapp_author ON myapp_author.id = myapp_author_books.author_id 
+                            WHERE myapp_author.id = 1 ''')
+        cursor.execute(raw_query_4)
+        result4 = cursor.fetchall()
+        print("----------result 4 --------------------")
+        print(result4)
        
         # 5. Get all authors who have written more than a certain number of books:
         from django.db.models import Count
 
         all_author_who_have_written_more_then_1_book= Author.objects.all().annotate(book_count=Count('books')).filter(book_count__gt=1).values('name', 'book_count')
-        print(all_author_who_have_written_more_then_1_book)
-
+        
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT myapp_author.id AS author_id, myapp_author.name AS author_name, COUNT(myapp_author_books.book_id) AS book_count
+                            FROM myapp_author
+                            INNER JOIN myapp_author_books ON myapp_author.id = myapp_author_books.author_id
+                            GROUP BY myapp_author.id
+                            HAVING book_count > 1;  ''')      
+        result5 = cursor.fetchall()
+        print("-------result5---------")
+        print(result5)
+                           
         # 6. Get all authors and their books, sorted by the number of books each author has:
         all_authors_and_books_sortedby_num_of_books = Author.objects.all().annotate(book_count=Count('books')).values('name', 'book_count').order_by('book_count')
         print(all_authors_and_books_sortedby_num_of_books)
@@ -1403,13 +1670,41 @@ class MANY_TO_MANY_ORM(APIView):
             for book in author.books.all():
                 print(f"Book: {book.title}")
 
+                        #  ------------ SQL query ---------------
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT a.id AS author_id, a.name AS author_name, COUNT(ab.book_id) AS book_count, b.title AS book_title
+                            FROM myapp_author a
+                            LEFT JOIN myapp_author_books ab ON a.id = ab.author_id
+                            LEFT JOIN myapp_book b ON ab.book_id = b.id
+                            GROUP BY a.id, a.name, b.title
+                            ORDER BY book_count DESC, a.id, b.title; ''')                  
+        result6 = cursor.fetchall()
+        print("-------result6---------")
+        print(result6)
+
         # 7. Get all books written by authors whose biography contains a certain keyword:
         all_books_written_by_authors_biography_contains_India = Book.objects.all().filter(author_book__biography__icontains='India').values('title')
-        print(all_books_written_by_authors_biography_contains_India)
+        
+        cursor=connection.cursor()
+        cursor.execute('''  SELECT myapp_book.title , myapp_author.name FROM myapp_book 
+                            LEFT JOIN myapp_author_books ON myapp_author_books.book_id = myapp_book.id 
+                            LEFT JOIN myapp_author ON myapp_author.id = myapp_author_books.author_id 
+                            WHERE myapp_author.biography LIKE '%INDIA%';  ''')
+        result7 = cursor.fetchall()
+        print("-------result7---------")
+        print(result7)
 
         # 8. Get the count of books written by each author:
         count_of_books_written_by_each_author = Author.objects.annotate(book_count=Count('books')).values('name', 'book_count')
-        print(count_of_books_written_by_each_author)
+        
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT  myapp_author.name ,COUNT(myapp_author_books.id) AS book_count 
+                            FROM myapp_author
+                            LEFT JOIN myapp_author_books ON myapp_author_books.author_id  = myapp_author.id
+                            GROUP  BY myapp_author.name;   ''')    
+        result8 = cursor.fetchall()                
+        print("-------result8---------")
+        print(result8)
 
         return JsonResponse(
             {
