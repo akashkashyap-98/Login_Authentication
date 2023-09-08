@@ -38,10 +38,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'rest_framework_simplejwt',
+    'rest_framework_simplejwt',       
     # 'rest_framework_simplejwt.token_blacklist',
     # 'knox',
     'myapp',
+    'django_celery_results',
+    'django_celery_beat',
+    'send_mail_app'                                  
     
 ]
 
@@ -265,3 +268,20 @@ EMAIL_PORT = 587
 EMAIL_USE_SSL = False
 EMAIL_HOST_USER = 'akash.kashyap.testing@gmail.com'
 EMAIL_HOST_PASSWORD = 'xbjvzmexjsnqdxjk'
+
+
+
+# CELERY SETTINGS
+
+CELERY_BROKER_URL = 'redis://127.0.0.1:6379'
+CELERY_ACCEPT_CONTENT = ['application/json']
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_TIMEZONE = 'Asia/Kolkata'
+
+CELERY_RESULT_BACKEND = 'django-db'
+
+
+#  CELERY BEAT 
+
+CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'

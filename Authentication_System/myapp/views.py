@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 
+
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from .serializers import *
@@ -943,7 +944,7 @@ class AuthorGetAndPost(APIView):
         
         
     def get(self, request):
-        try:
+        try:                     
             author_objs = Author.objects.all()
             serializer = AuthorGetSerializer(author_objs, many=True)
             return Response(
@@ -1027,7 +1028,7 @@ class AuthorDetailsById(APIView):
                 500
             ) 
         
-    def delete(self, request , id , format=None):
+    def delete(self, request , id , format=None):  
         try:
             if Author.objects.filter(id=id).exists():
                 author_obj = Author.objects.get(id=id)
@@ -1260,7 +1261,7 @@ class ForeignKey_ORM(APIView):
         
         result_12 = cursor.fetchall()
         print("---------------- result_12 -----------------------")       
-        print(result_12)                     
+        print(result_12)                                                                                                                                                         
                                                    
 
         # 13. Fetch all departments of a university ('Babu Banarsi Das University') with the related_name 'departments':
@@ -1276,7 +1277,7 @@ class ForeignKey_ORM(APIView):
                             WHERE myapp_university.university_name = 'Babu Banarsi Das University';  ''')                  
         
         result_13 = cursor.fetchall()                                                                                                                          
-        print("---------------- result_13 -----------------------")                                                                 
+        print("---------------- result_13 -----------------------")                                                                       
         print(result_13)                    
 
 
@@ -1286,12 +1287,12 @@ class ForeignKey_ORM(APIView):
         second_method = Student.objects.filter(department__department_name='Computer Science and Engineering')
 
         cursor = connection.cursor()
-        cursor.execute('''  SELECT myapp_student.id, myapp_student.student_name , myapp_department.department_name 
+        cursor.execute('''  SELECT myapp_student.id, myapp_student.student_name , myapp_department.department_name  
                             FROM myapp_student
                             INNER JOIN myapp_department ON myapp_department.id = myapp_student.department_id 
-                            WHERE myapp_department.department_name = 'Computer Science and Engineering';  ''')        
+                            WHERE myapp_department.department_name = 'Computer Science and Engineering';  ''')                                                         
         
-        result_14 = cursor.fetchall()
+        result_14 = cursor.fetchall()                 
         print("---------------- result_14 -----------------------")                    
         print(result_14)                                                         
 
@@ -1317,8 +1318,8 @@ class ForeignKey_ORM(APIView):
 
         cursor = connection.cursor()
         cursor.execute('''  SELECT myapp_university.id , myapp_university.university_name , COUNT(myapp_department.id) AS dept_count
-                            FROM myapp_university 
-                            LEFT JOIN myapp_department ON myapp_department.university_id = myapp_university.id 
+                            FROM myapp_university    
+                            LEFT JOIN myapp_department ON myapp_department.university_id = myapp_university.id
                             GROUP BY myapp_university.id;   ''')                                                          
         
         result_16 = cursor.fetchall()
@@ -1397,7 +1398,7 @@ class ForeignKey_ORM(APIView):
         cursor = connection.cursor()
         cursor.execute('''  SELECT myapp_department.id, myapp_department.department_name , myapp_student.student_name 
                             FROM myapp_department 
-                            LEFT JOIN myapp_student ON myapp_student.department_id = myapp_department.id; ''')
+                            LEFT JOIN myapp_student ON myapp_student.department_id = myapp_department.id; ''')          
                                     
         result_21 = cursor.fetchall()
         print("---------------- result_21 -----------------------")       
@@ -1413,18 +1414,36 @@ class ForeignKey_ORM(APIView):
         cursor = connection.cursor()
         cursor.execute('''  SELECT myapp_university.id , myapp_university.university_name , COUNT(myapp_student.id) AS stu_count
                             FROM myapp_university 
-                            LEFT JOIN myapp_department ON myapp_department.university_id = myapp_university.id 
+                            LEFT JOIN myapp_department ON myapp_department.university_id = myapp_university.id
                             LEFT JOIN myapp_student ON myapp_student.department_id = myapp_department.id 
                             GROUP BY myapp_university.id;  ''')
                                     
         result_22 = cursor.fetchall()
-        print("---------------- result_22 -----------------------")       
+        print("---------------- result_22 -----------------------") 
         print(result_22)         
 
 
         ORM_22 = University.objects.all().annotate(stu_count=Count('departments__students')).values('university_name', 'stu_count')
         print("------------- ORM 22 ----------------------")     
-        print(ORM_22)  
+        print(ORM_22)     
+
+
+        # 23. List Students Who Are Enrolled in the Same Department as a Specific Student:
+
+        cursor = connection.cursor()
+        cursor.execute('''  SELECT s.student_name
+                            FROM myapp_student AS s
+                            WHERE s.department_id = (
+                                SELECT s_dept.department_id
+                                FROM myapp_student AS s_dept
+                                WHERE s_dept.student_name = 'Akash Kashyap' 
+                            ); ''')       
+                                    
+        result_23 = cursor.fetchall()
+        print("---------------- result_23 -----------------------") 
+        print(result_23)         
+
+  
 
 
         return JsonResponse(
@@ -1451,7 +1470,8 @@ class ForeignKey_ORM(APIView):
                 'all_students_with_their_dept_and_university' : list(result_20),
                 'all_dept_and_their_students_if_any' : list(result_21),
                 'number_of_students_in_each_university' : list(result_22),      
-
+                'List_Students_Who_Are_Enrolled_in_the_Same_Department_as_a_Specific_Student': list(result_23)
+              
             }
         )
 
@@ -1849,8 +1869,22 @@ def delete_horse(request, id):
     
 
 
-    
+# ==================================  DJANGO - CELERY ==============================================================
 
+from django.http import HttpResponse
+from.tasks import test_func 
 
+def test(request):
+    test_func.delay()
+    return HttpResponse("DONE")
+
+# ------------------ send mail functionality by celery worker -----------------------------
+
+from send_mail_app.tasks import send_mail_func
+def send_mail_to_user(request):
+    send_mail_func.delay()
+    return HttpResponse(" MAIL SEND SUCCESSFULLY")
+
+     
 
 

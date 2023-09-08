@@ -1139,3 +1139,337 @@
 2023-08-25 13:08:08 INFO Watching for file changes with StatReloader
 2023-08-25 13:08:35 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 8793
 2023-08-25 13:08:35 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 8793
+2023-08-29 07:20:07 INFO Watching for file changes with StatReloader
+2023-08-29 07:20:07 INFO Watching for file changes with StatReloader
+2023-08-29 07:22:33 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 8793
+2023-08-29 07:22:33 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 8793
+2023-08-29 07:23:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-29 07:23:56 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-08-29 07:23:56 INFO Watching for file changes with StatReloader
+2023-08-29 07:23:56 INFO Watching for file changes with StatReloader
+2023-08-29 07:24:00 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 8918
+2023-08-29 07:24:00 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 8918
+2023-08-30 05:54:57 INFO Watching for file changes with StatReloader
+2023-08-30 05:54:57 INFO Watching for file changes with StatReloader
+2023-08-30 05:55:01 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 8918
+2023-08-30 05:55:01 INFO "GET /get_orm_foreignKey_relation/ HTTP/1.1" 200 8918
+2023-09-06 10:23:09 INFO Watching for file changes with StatReloader
+2023-09-06 10:23:09 INFO Watching for file changes with StatReloader
+2023-09-06 10:25:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-06 10:25:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-06 10:25:10 INFO Watching for file changes with StatReloader
+2023-09-06 10:25:10 INFO Watching for file changes with StatReloader
+2023-09-06 10:27:47 INFO Watching for file changes with StatReloader
+2023-09-06 10:27:47 INFO Watching for file changes with StatReloader
+2023-09-06 10:30:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-09-06 10:30:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-09-06 10:30:11 INFO Watching for file changes with StatReloader
+2023-09-06 10:30:11 INFO Watching for file changes with StatReloader
+2023-09-06 10:30:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-06 10:30:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-06 10:30:40 INFO Watching for file changes with StatReloader
+2023-09-06 10:30:40 INFO Watching for file changes with StatReloader
+2023-09-06 10:30:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py changed, reloading.
+2023-09-06 10:30:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/models.py changed, reloading.
+2023-09-06 10:30:44 INFO Watching for file changes with StatReloader
+2023-09-06 10:30:44 INFO Watching for file changes with StatReloader
+2023-09-06 10:30:52 INFO Watching for file changes with StatReloader
+2023-09-06 10:30:52 INFO Watching for file changes with StatReloader
+2023-09-06 10:31:29 INFO Watching for file changes with StatReloader
+2023-09-06 10:31:29 INFO Watching for file changes with StatReloader
+2023-09-06 10:38:41 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-09-06 10:38:41 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-09-06 10:38:41 INFO Watching for file changes with StatReloader
+2023-09-06 10:38:41 INFO Watching for file changes with StatReloader
+2023-09-06 10:40:23 INFO Watching for file changes with StatReloader
+2023-09-06 10:40:23 INFO Watching for file changes with StatReloader
+2023-09-06 10:40:50 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-09-06 10:40:50 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-09-06 10:40:50 INFO Watching for file changes with StatReloader
+2023-09-06 10:40:50 INFO Watching for file changes with StatReloader
+2023-09-06 10:41:57 INFO Watching for file changes with StatReloader
+2023-09-06 10:41:57 INFO Watching for file changes with StatReloader
+2023-09-06 10:44:35 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/__init__.py changed, reloading.
+2023-09-06 10:44:35 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/__init__.py changed, reloading.
+2023-09-06 10:44:35 INFO Watching for file changes with StatReloader
+2023-09-06 10:44:35 INFO Watching for file changes with StatReloader
+2023-09-06 10:46:17 INFO "GET /admin/ HTTP/1.1" 302 0
+2023-09-06 10:46:17 INFO "GET /admin/ HTTP/1.1" 302 0
+2023-09-06 10:46:17 INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+2023-09-06 10:46:17 INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+2023-09-06 10:46:17 INFO "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+2023-09-06 10:46:17 INFO "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+2023-09-06 10:46:17 INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+2023-09-06 10:46:17 INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+2023-09-06 10:46:17 INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+2023-09-06 10:46:17 INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+2023-09-06 10:46:17 INFO "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+2023-09-06 10:46:17 INFO "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+2023-09-06 10:46:17 INFO "GET /static/admin/css/login.css HTTP/1.1" 304 0
+2023-09-06 10:46:17 INFO "GET /static/admin/css/login.css HTTP/1.1" 304 0
+2023-09-06 10:46:17 INFO "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+2023-09-06 10:46:17 INFO "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+2023-09-06 10:46:17 INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+2023-09-06 10:46:17 INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+2023-09-06 10:46:17 WARNING "GET /favicon.ico HTTP/1.1" 404 9712
+2023-09-06 10:46:17 WARNING "GET /favicon.ico HTTP/1.1" 404 9712
+2023-09-06 10:46:40 INFO "GET /django_celery_task/ HTTP/1.1" 200 4
+2023-09-06 10:46:40 INFO "GET /django_celery_task/ HTTP/1.1" 200 4
+2023-09-06 10:47:53 INFO "GET /admin/ HTTP/1.1" 302 0
+2023-09-06 10:47:53 INFO "GET /admin/ HTTP/1.1" 302 0
+2023-09-06 10:47:53 INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+2023-09-06 10:47:53 INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+2023-09-06 10:47:56 INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2023-09-06 10:47:56 INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2023-09-06 10:47:56 INFO "GET /admin/ HTTP/1.1" 200 15656
+2023-09-06 10:47:56 INFO "GET /admin/ HTTP/1.1" 200 15656
+2023-09-06 10:47:56 INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2023-09-06 10:47:56 INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2023-09-06 10:47:56 INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2023-09-06 10:47:56 INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2023-09-06 10:47:56 INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2023-09-06 10:47:56 INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2023-09-06 10:47:56 INFO "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+2023-09-06 10:47:56 INFO "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+2023-09-06 10:48:10 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 17364
+2023-09-06 10:48:10 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 17364
+2023-09-06 10:48:10 INFO "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+2023-09-06 10:48:10 INFO "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+2023-09-06 10:48:10 INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+2023-09-06 10:48:10 INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+2023-09-06 10:48:10 INFO "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+2023-09-06 10:48:10 INFO "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+2023-09-06 10:48:10 INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+2023-09-06 10:48:10 INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+2023-09-06 10:48:10 INFO "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+2023-09-06 10:48:10 INFO "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+2023-09-06 10:48:10 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-06 10:48:10 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-06 10:48:10 INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2023-09-06 10:48:10 INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2023-09-06 10:48:10 INFO "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2023-09-06 10:48:10 INFO "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2023-09-06 10:48:10 INFO "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+2023-09-06 10:48:10 INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+2023-09-06 10:48:10 INFO "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+2023-09-06 10:48:10 INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+2023-09-06 10:48:10 INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+2023-09-06 10:48:10 INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+2023-09-06 10:48:10 INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2023-09-06 10:48:10 INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2023-09-06 10:48:11 INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2023-09-06 10:48:11 INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2023-09-06 10:48:11 INFO "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+2023-09-06 10:48:11 INFO "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+2023-09-06 10:48:17 INFO "GET /admin/django_celery_results/taskresult/1/change/ HTTP/1.1" 200 23237
+2023-09-06 10:48:17 INFO "GET /admin/django_celery_results/taskresult/1/change/ HTTP/1.1" 200 23237
+2023-09-06 10:48:17 INFO "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+2023-09-06 10:48:17 INFO "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+2023-09-06 10:48:17 INFO "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+2023-09-06 10:48:17 INFO "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+2023-09-06 10:48:17 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-06 10:48:17 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-06 10:48:17 INFO "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+2023-09-06 10:48:17 INFO "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+2023-09-06 10:48:17 INFO "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+2023-09-06 10:48:17 INFO "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+2023-09-06 10:48:28 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 17364
+2023-09-06 10:48:28 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 17364
+2023-09-06 10:48:42 INFO "GET /admin/django_celery_results/taskresult/1/change/ HTTP/1.1" 200 23237
+2023-09-06 10:48:42 INFO "GET /admin/django_celery_results/taskresult/1/change/ HTTP/1.1" 200 23237
+2023-09-06 10:48:42 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-06 10:48:42 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-06 10:49:09 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 17364
+2023-09-06 10:49:09 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 17364
+2023-09-06 11:19:49 INFO "GET /admin/ HTTP/1.1" 200 15656
+2023-09-06 11:19:49 INFO "GET /admin/ HTTP/1.1" 200 15656
+2023-09-06 11:20:20 INFO "GET /django_celery_task/ HTTP/1.1" 200 4
+2023-09-06 11:20:20 INFO "GET /django_celery_task/ HTTP/1.1" 200 4
+2023-09-06 12:03:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-09-06 12:03:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-09-06 12:03:45 INFO Watching for file changes with StatReloader
+2023-09-06 12:03:45 INFO Watching for file changes with StatReloader
+2023-09-06 12:07:54 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-09-06 12:07:54 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-09-06 12:07:55 INFO Watching for file changes with StatReloader
+2023-09-06 12:07:55 INFO Watching for file changes with StatReloader
+2023-09-06 12:31:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-06 12:31:48 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-06 12:31:48 INFO Watching for file changes with StatReloader
+2023-09-06 12:31:48 INFO Watching for file changes with StatReloader
+2023-09-06 12:43:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-06 12:43:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-06 12:43:08 INFO Watching for file changes with StatReloader
+2023-09-06 12:43:08 INFO Watching for file changes with StatReloader
+2023-09-07 09:33:25 INFO Watching for file changes with StatReloader
+2023-09-07 09:33:25 INFO Watching for file changes with StatReloader
+2023-09-07 09:58:34 INFO "GET /admin/ HTTP/1.1" 200 15656
+2023-09-07 09:58:34 INFO "GET /admin/ HTTP/1.1" 200 15656
+2023-09-07 09:58:34 WARNING "GET /favicon.ico HTTP/1.1" 404 9712
+2023-09-07 09:58:34 WARNING "GET /favicon.ico HTTP/1.1" 404 9712
+2023-09-07 10:04:30 INFO "GET /django_celery_task/ HTTP/1.1" 200 4
+2023-09-07 10:04:30 INFO "GET /django_celery_task/ HTTP/1.1" 200 4
+2023-09-07 10:59:15 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 18388
+2023-09-07 10:59:15 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 18388
+2023-09-07 10:59:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-07 10:59:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-07 10:59:22 INFO "GET /admin/django_celery_results/taskresult/3/change/ HTTP/1.1" 200 23237
+2023-09-07 10:59:22 INFO "GET /admin/django_celery_results/taskresult/3/change/ HTTP/1.1" 200 23237
+2023-09-07 10:59:22 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-07 10:59:22 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-07 10:59:46 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 18388
+2023-09-07 10:59:46 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 18388
+2023-09-07 11:01:00 INFO "GET /admin/django_celery_results/taskresult/1/change/ HTTP/1.1" 200 23237
+2023-09-07 11:01:00 INFO "GET /admin/django_celery_results/taskresult/1/change/ HTTP/1.1" 200 23237
+2023-09-07 11:01:00 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-07 11:01:00 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-07 11:01:11 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 18388
+2023-09-07 11:01:11 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 18388
+2023-09-07 11:06:42 INFO Watching for file changes with StatReloader
+2023-09-07 11:06:42 INFO Watching for file changes with StatReloader
+2023-09-07 11:07:03 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-07 11:07:03 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-07 11:07:04 INFO Watching for file changes with StatReloader
+2023-09-07 11:07:04 INFO Watching for file changes with StatReloader
+2023-09-07 11:07:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-09-07 11:07:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-09-07 11:07:45 INFO Watching for file changes with StatReloader
+2023-09-07 11:07:45 INFO Watching for file changes with StatReloader
+2023-09-07 11:07:50 INFO Watching for file changes with StatReloader
+2023-09-07 11:07:50 INFO Watching for file changes with StatReloader
+2023-09-07 11:08:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-09-07 11:08:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-09-07 11:08:07 INFO Watching for file changes with StatReloader
+2023-09-07 11:08:07 INFO Watching for file changes with StatReloader
+2023-09-07 11:08:21 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-09-07 11:08:21 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-09-07 11:08:21 INFO Watching for file changes with StatReloader
+2023-09-07 11:08:21 INFO Watching for file changes with StatReloader
+2023-09-07 11:10:17 INFO Watching for file changes with StatReloader
+2023-09-07 11:10:17 INFO Watching for file changes with StatReloader
+2023-09-07 11:14:00 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-07 11:14:00 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-07 11:14:03 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-07 11:14:03 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-07 11:14:04 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-07 11:14:04 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-07 11:14:12 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 17230
+2023-09-07 11:14:12 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 17230
+2023-09-07 11:14:12 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-07 11:14:12 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-07 11:14:14 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-07 11:14:14 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-07 11:14:16 INFO "GET /admin/django_celery_beat/clockedschedule/ HTTP/1.1" 200 14100
+2023-09-07 11:14:16 INFO "GET /admin/django_celery_beat/clockedschedule/ HTTP/1.1" 200 14100
+2023-09-07 11:14:17 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-07 11:14:17 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-07 11:14:18 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-07 11:14:18 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-07 11:14:20 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 14102
+2023-09-07 11:14:20 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 14102
+2023-09-07 11:14:20 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-07 11:14:20 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-07 11:14:21 INFO "GET /admin/django_celery_beat/crontabschedule/add/ HTTP/1.1" 200 55302
+2023-09-07 11:14:21 INFO "GET /admin/django_celery_beat/crontabschedule/add/ HTTP/1.1" 200 55302
+2023-09-07 11:14:21 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-07 11:14:21 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-07 11:14:26 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 14102
+2023-09-07 11:14:26 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 14102
+2023-09-07 11:33:40 INFO "GET /admin/django_celery_results/groupresult/ HTTP/1.1" 200 15394
+2023-09-07 11:33:40 INFO "GET /admin/django_celery_results/groupresult/ HTTP/1.1" 200 15394
+2023-09-07 11:33:40 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-07 11:33:40 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-07 11:33:42 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 14102
+2023-09-07 11:33:42 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 14102
+2023-09-07 11:33:45 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 20364
+2023-09-07 11:33:45 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 20364
+2023-09-07 11:33:45 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-07 11:33:45 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-07 11:45:03 INFO "GET /admin/django_celery_results/taskresult/?date_done__gte=2023-09-07+00%3A00%3A00%2B00%3A00&date_done__lt=2023-09-08+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 22262
+2023-09-07 11:45:03 INFO "GET /admin/django_celery_results/taskresult/?date_done__gte=2023-09-07+00%3A00%3A00%2B00%3A00&date_done__lt=2023-09-08+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 22262
+2023-09-07 11:45:03 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-07 11:45:03 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-08 05:45:18 INFO Watching for file changes with StatReloader
+2023-09-08 05:45:18 INFO Watching for file changes with StatReloader
+2023-09-08 05:45:23 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-08 05:45:23 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-08 05:45:23 WARNING "GET /favicon.ico HTTP/1.1" 404 9712
+2023-09-08 05:45:23 WARNING "GET /favicon.ico HTTP/1.1" 404 9712
+2023-09-08 05:56:36 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 20364
+2023-09-08 05:56:36 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 20364
+2023-09-08 05:56:36 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-08 05:56:36 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-08 10:27:14 INFO Watching for file changes with StatReloader
+2023-09-08 10:27:14 INFO Watching for file changes with StatReloader
+2023-09-08 10:36:01 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-09-08 10:36:01 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-09-08 10:36:01 INFO Watching for file changes with StatReloader
+2023-09-08 10:36:01 INFO Watching for file changes with StatReloader
+2023-09-08 10:38:17 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-08 10:38:17 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-08 10:38:18 INFO Watching for file changes with StatReloader
+2023-09-08 10:38:18 INFO Watching for file changes with StatReloader
+2023-09-08 10:38:29 INFO Watching for file changes with StatReloader
+2023-09-08 10:38:29 INFO Watching for file changes with StatReloader
+2023-09-08 10:39:41 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-09-08 10:39:41 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-09-08 10:39:41 INFO Watching for file changes with StatReloader
+2023-09-08 10:39:41 INFO Watching for file changes with StatReloader
+2023-09-08 10:39:46 INFO Watching for file changes with StatReloader
+2023-09-08 10:39:46 INFO Watching for file changes with StatReloader
+2023-09-08 10:39:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/send_mail_app/tasks.py changed, reloading.
+2023-09-08 10:39:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/send_mail_app/tasks.py changed, reloading.
+2023-09-08 10:40:00 INFO Watching for file changes with StatReloader
+2023-09-08 10:40:00 INFO Watching for file changes with StatReloader
+2023-09-08 10:45:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-09-08 10:45:32 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-09-08 10:45:33 INFO Watching for file changes with StatReloader
+2023-09-08 10:45:33 INFO Watching for file changes with StatReloader
+2023-09-08 10:45:38 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-09-08 10:45:38 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-09-08 10:45:39 INFO Watching for file changes with StatReloader
+2023-09-08 10:45:39 INFO Watching for file changes with StatReloader
+2023-09-08 10:45:58 INFO "GET /send_mail_to_user/ HTTP/1.1" 200 23
+2023-09-08 10:45:58 INFO "GET /send_mail_to_user/ HTTP/1.1" 200 23
+2023-09-08 10:47:47 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/send_mail_app/tasks.py changed, reloading.
+2023-09-08 10:47:47 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/send_mail_app/tasks.py changed, reloading.
+2023-09-08 10:47:48 INFO Watching for file changes with StatReloader
+2023-09-08 10:47:48 INFO Watching for file changes with StatReloader
+2023-09-08 10:48:06 INFO "GET /send_mail_to_user/ HTTP/1.1" 200 23
+2023-09-08 10:48:06 INFO "GET /send_mail_to_user/ HTTP/1.1" 200 23
+2023-09-08 10:48:41 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/send_mail_app/tasks.py changed, reloading.
+2023-09-08 10:48:41 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/send_mail_app/tasks.py changed, reloading.
+2023-09-08 10:48:42 INFO Watching for file changes with StatReloader
+2023-09-08 10:48:42 INFO Watching for file changes with StatReloader
+2023-09-08 10:48:45 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/send_mail_app/tasks.py changed, reloading.
+2023-09-08 10:48:45 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/send_mail_app/tasks.py changed, reloading.
+2023-09-08 10:48:46 INFO Watching for file changes with StatReloader
+2023-09-08 10:48:46 INFO Watching for file changes with StatReloader
+2023-09-08 10:48:56 INFO "GET /send_mail_to_user/ HTTP/1.1" 200 23
+2023-09-08 10:48:56 INFO "GET /send_mail_to_user/ HTTP/1.1" 200 23
+2023-09-08 10:55:01 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-08 10:55:01 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-08 10:55:04 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 21852
+2023-09-08 10:55:04 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 21852
+2023-09-08 10:55:04 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-08 10:55:04 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-08 10:55:08 INFO "GET /admin/django_celery_results/taskresult/6/change/ HTTP/1.1" 200 25213
+2023-09-08 10:55:08 INFO "GET /admin/django_celery_results/taskresult/6/change/ HTTP/1.1" 200 25213
+2023-09-08 10:55:08 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-08 10:55:08 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-08 10:55:23 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 21852
+2023-09-08 10:55:23 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 21852
+2023-09-08 11:44:29 INFO "GET /admin/django_celery_results/taskresult/6/change/ HTTP/1.1" 200 25213
+2023-09-08 11:44:29 INFO "GET /admin/django_celery_results/taskresult/6/change/ HTTP/1.1" 200 25213
+2023-09-08 11:44:29 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-08 11:44:29 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-08 11:47:01 INFO Watching for file changes with StatReloader
+2023-09-08 11:47:01 INFO Watching for file changes with StatReloader
+2023-09-08 12:07:42 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-08 12:07:42 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-08 12:07:42 WARNING "GET /favicon.ico HTTP/1.1" 404 9903
+2023-09-08 12:07:42 WARNING "GET /favicon.ico HTTP/1.1" 404 9903
+2023-09-08 12:07:47 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 21852
+2023-09-08 12:07:47 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 21852
+2023-09-08 12:07:47 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-08 12:07:47 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343

@@ -151,7 +151,6 @@ class Horse(models.Model):
 		super(Horse, self).delete(*args, **kwargs)
 		# Delete the file after the model
 		storage.delete(path)
-
-
+                
 
 

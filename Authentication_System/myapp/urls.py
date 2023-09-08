@@ -44,7 +44,7 @@ urlpatterns = [
 
     # ========== url for model 'DeveloperSecondDB' to post the data in second database  ==================
     path('create_developer_second_db/', views.create_developer_second_db, name='create_developer_second_db'),
-    path('get_all_developers_second_db/', views.get_all_developers_second_db, name='get_all_developers_second_db'),
+    path('get_all_developers_second_db/', views.get_all_developers_second_db, name='get_all_developers_second_db'),      
     path('update_developers_second_db/<int:id>/', views.update_developers_second_db, name='update_developers_second_db'),
     path('get_developers_second_db/<int:id>/', views.get_developers_second_db, name='get_developers_second_db'),
     path('delete_developers_second_db/<int:id>/', views.delete_developers_second_db, name='delete_developers_second_db'),
@@ -58,7 +58,11 @@ urlpatterns = [
     path('get_all_horses/', views.get_all_horses, name='get_all_horses'),  
     path('get_horse_by_id/<int:id>/', views.get_horse_by_id, name='get_horse_by_id'), 
     path('update_Horse/<int:id>/', views.update_Horse, name='update_Horse'), 
-    path('delete_horse/<int:id>/', views.delete_horse, name='delete_horse'),
-]
+    path('delete_horse/<int:id>/', views.delete_horse, name='delete_horse'), 
+
+    # ============= url for Django-Celery ==================================
+    path('django_celery_task/', views.test , name="tests"),
+    path('send_mail_to_user/', views.send_mail_to_user, name='send_mail_to_user'),  
+] 
 
 
