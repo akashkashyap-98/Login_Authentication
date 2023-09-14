@@ -63,7 +63,7 @@ urlpatterns = [
     # ============= url for Django-Celery ==================================
     path('django_celery_task/', views.test , name="tests"),
     path('send_mail_to_user/', views.send_mail_to_user, name='send_mail_to_user'),
-    path('schedulemail/', views.schedule_mail, name='schedulemail'),                              
+    path('schedulemail/', views.schedule_mail, name='schedulemail'),                                                              
       
 ] 
 

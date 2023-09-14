@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'myapp',
     'django_celery_results',
     'django_celery_beat',
-    'send_mail_app'                                 
+    'send_mail_app'                                  
     
 ]
 
@@ -76,7 +76,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Authentication_System.wsgi.application'
+WSGI_APPLICATION = 'Authentication_System.wsgi.application'    
 
 
 # Database

@@ -21,4 +21,4 @@ def send_mail_func(self):
         recipient_list=[to_email],
         fail_silently=True,
     )
-    return "Done"
+    return "Done" 

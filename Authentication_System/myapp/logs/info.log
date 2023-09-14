@@ -2037,3 +2037,15 @@
 2023-09-14 12:19:05 INFO "GET /admin/django_celery_beat/periodictask/14/change/ HTTP/1.1" 200 38282
 2023-09-14 12:19:05 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
 2023-09-14 12:19:05 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 12:45:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-09-14 12:45:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-09-14 12:45:12 INFO Watching for file changes with StatReloader
+2023-09-14 12:45:12 INFO Watching for file changes with StatReloader
+2023-09-14 12:45:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-09-14 12:45:14 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-09-14 12:45:15 INFO Watching for file changes with StatReloader
+2023-09-14 12:45:15 INFO Watching for file changes with StatReloader
+2023-09-14 12:45:16 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/send_mail_app/tasks.py changed, reloading.
+2023-09-14 12:45:16 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/send_mail_app/tasks.py changed, reloading.
+2023-09-14 12:45:16 INFO Watching for file changes with StatReloader
+2023-09-14 12:45:16 INFO Watching for file changes with StatReloader
