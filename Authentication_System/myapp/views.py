@@ -1865,25 +1865,35 @@ def delete_horse(request, id):
                 'status_code': 500,
             },
             500
-        )  
+        )    
     
 
 
 # ==================================  DJANGO - CELERY ==============================================================
 
 from django.http import HttpResponse
-from.tasks import test_func 
+from.tasks import test_func    
 
 def test(request):
     test_func.delay()
-    return HttpResponse("DONE")
+    return HttpResponse("DONE")         
 
 # ------------------ send mail functionality by celery worker -----------------------------
 
 from send_mail_app.tasks import send_mail_func
 def send_mail_to_user(request):
     send_mail_func.delay()
-    return HttpResponse(" MAIL SEND SUCCESSFULLY")
+    return HttpResponse(" MAIL SEND SUCCESSFULLY")  
+
+# --------------- create task dynamically -----------------------
+
+from django_celery_beat.models import PeriodicTask, CrontabSchedule
+import json
+
+def schedule_mail(request):
+    schedule, created = CrontabSchedule.objects.get_or_create(hour=16, minute=40)     
+    task = PeriodicTask.objects.create(crontab=schedule, name='schedule_mail_task_'+'1', task='send_mail_app.tasks.send_mail_func') #, args=json.dumps([[2,3]]) )
+    return HttpResponse("DONE SUCESSFULLY")    
 
      
 

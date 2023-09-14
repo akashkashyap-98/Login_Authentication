@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'myapp',
     'django_celery_results',
     'django_celery_beat',
-    'send_mail_app'                                  
+    'send_mail_app'                                 
     
 ]
 

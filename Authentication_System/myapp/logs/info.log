@@ -1473,3 +1473,567 @@
 2023-09-08 12:07:47 INFO "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 21852
 2023-09-08 12:07:47 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
 2023-09-08 12:07:47 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-08 12:21:10 INFO Watching for file changes with StatReloader
+2023-09-08 12:21:10 INFO Watching for file changes with StatReloader
+2023-09-11 08:57:49 INFO Watching for file changes with StatReloader
+2023-09-11 08:57:49 INFO Watching for file changes with StatReloader
+2023-09-11 09:28:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 09:28:22 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 09:28:22 INFO Watching for file changes with StatReloader
+2023-09-11 09:28:22 INFO Watching for file changes with StatReloader
+2023-09-11 09:28:52 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 09:28:52 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 09:28:53 INFO Watching for file changes with StatReloader
+2023-09-11 09:28:53 INFO Watching for file changes with StatReloader
+2023-09-11 09:29:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-09-11 09:29:02 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-09-11 09:29:03 INFO Watching for file changes with StatReloader
+2023-09-11 09:29:03 INFO Watching for file changes with StatReloader
+2023-09-11 09:32:43 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-11 09:32:43 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-11 09:32:43 WARNING "GET /favicon.ico HTTP/1.1" 404 9903
+2023-09-11 09:32:43 WARNING "GET /favicon.ico HTTP/1.1" 404 9903
+2023-09-11 09:32:46 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 15825
+2023-09-11 09:32:46 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 15825
+2023-09-11 09:32:47 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:32:47 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:33:16 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 20746
+2023-09-11 09:33:16 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 20746
+2023-09-11 09:33:16 INFO "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+2023-09-11 09:33:16 INFO "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+2023-09-11 09:33:16 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:33:16 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:33:16 INFO "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+2023-09-11 09:33:16 INFO "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+2023-09-11 09:34:36 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 09:34:36 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 09:34:37 INFO Watching for file changes with StatReloader
+2023-09-11 09:34:37 INFO Watching for file changes with StatReloader
+2023-09-11 09:34:52 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 20745
+2023-09-11 09:34:52 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 20745
+2023-09-11 09:34:53 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:34:53 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:36:17 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 09:36:17 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 09:36:18 INFO Watching for file changes with StatReloader
+2023-09-11 09:36:18 INFO Watching for file changes with StatReloader
+2023-09-11 09:36:36 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 20746
+2023-09-11 09:36:36 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 20746
+2023-09-11 09:36:36 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:36:36 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:36:53 INFO "GET /admin/django_celery_beat/periodictask/2/change/ HTTP/1.1" 200 38566
+2023-09-11 09:36:53 INFO "GET /admin/django_celery_beat/periodictask/2/change/ HTTP/1.1" 200 38566
+2023-09-11 09:36:53 INFO "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+2023-09-11 09:36:53 INFO "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+2023-09-11 09:36:53 INFO "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+2023-09-11 09:36:53 INFO "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+2023-09-11 09:36:53 INFO "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+2023-09-11 09:36:53 INFO "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+2023-09-11 09:36:53 INFO "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+2023-09-11 09:36:53 INFO "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+2023-09-11 09:36:53 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:36:53 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:36:53 INFO "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+2023-09-11 09:36:53 INFO "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+2023-09-11 09:36:53 INFO "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+2023-09-11 09:36:53 INFO "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+2023-09-11 09:41:49 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 09:41:49 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 09:41:49 INFO Watching for file changes with StatReloader
+2023-09-11 09:41:49 INFO Watching for file changes with StatReloader
+2023-09-11 09:42:21 INFO "GET /admin/django_celery_beat/periodictask/2/change/ HTTP/1.1" 200 38671
+2023-09-11 09:42:21 INFO "GET /admin/django_celery_beat/periodictask/2/change/ HTTP/1.1" 200 38671
+2023-09-11 09:42:21 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:42:21 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:42:48 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 16785
+2023-09-11 09:42:48 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 16785
+2023-09-11 09:42:48 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:42:48 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:43:07 INFO "GET /admin/django_celery_beat/intervalschedule/ HTTP/1.1" 200 14109
+2023-09-11 09:43:07 INFO "GET /admin/django_celery_beat/intervalschedule/ HTTP/1.1" 200 14109
+2023-09-11 09:43:07 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:43:07 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:43:10 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 20747
+2023-09-11 09:43:10 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 20747
+2023-09-11 09:43:11 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:43:11 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:43:14 INFO "GET /admin/django_celery_beat/periodictask/2/change/ HTTP/1.1" 200 38671
+2023-09-11 09:43:14 INFO "GET /admin/django_celery_beat/periodictask/2/change/ HTTP/1.1" 200 38671
+2023-09-11 09:43:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:43:14 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:47:24 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-09-11 09:47:24 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/settings.py changed, reloading.
+2023-09-11 09:47:24 INFO Watching for file changes with StatReloader
+2023-09-11 09:47:24 INFO Watching for file changes with StatReloader
+2023-09-11 09:51:32 INFO Watching for file changes with StatReloader
+2023-09-11 09:51:32 INFO Watching for file changes with StatReloader
+2023-09-11 09:51:53 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 09:51:53 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 09:51:53 INFO Watching for file changes with StatReloader
+2023-09-11 09:51:53 INFO Watching for file changes with StatReloader
+2023-09-11 09:58:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 09:58:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 09:58:59 INFO Watching for file changes with StatReloader
+2023-09-11 09:58:59 INFO Watching for file changes with StatReloader
+2023-09-11 09:59:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 09:59:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 09:59:09 INFO Watching for file changes with StatReloader
+2023-09-11 09:59:09 INFO Watching for file changes with StatReloader
+2023-09-11 09:59:49 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 17106
+2023-09-11 09:59:49 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 17106
+2023-09-11 09:59:49 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:59:49 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:59:52 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 17106
+2023-09-11 09:59:52 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 17106
+2023-09-11 09:59:52 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:59:52 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:59:58 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 20747
+2023-09-11 09:59:58 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 20747
+2023-09-11 09:59:58 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 09:59:58 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 10:00:00 INFO "GET /admin/django_celery_beat/periodictask/2/change/ HTTP/1.1" 200 38773
+2023-09-11 10:00:00 INFO "GET /admin/django_celery_beat/periodictask/2/change/ HTTP/1.1" 200 38773
+2023-09-11 10:00:00 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 10:00:00 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 10:01:31 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 10:01:31 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 10:01:32 INFO Watching for file changes with StatReloader
+2023-09-11 10:01:32 INFO Watching for file changes with StatReloader
+2023-09-11 10:04:58 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 10:04:58 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 10:04:58 INFO Watching for file changes with StatReloader
+2023-09-11 10:04:58 INFO Watching for file changes with StatReloader
+2023-09-11 10:05:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 10:05:07 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 10:05:07 INFO Watching for file changes with StatReloader
+2023-09-11 10:05:07 INFO Watching for file changes with StatReloader
+2023-09-11 10:12:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 10:12:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 10:12:10 INFO Watching for file changes with StatReloader
+2023-09-11 10:12:10 INFO Watching for file changes with StatReloader
+2023-09-11 10:51:36 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 20748
+2023-09-11 10:51:36 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 20748
+2023-09-11 10:51:39 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 20748
+2023-09-11 10:51:39 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 20748
+2023-09-11 10:51:39 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 10:51:39 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 11:08:40 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 18069
+2023-09-11 11:08:40 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 18069
+2023-09-11 11:08:40 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 11:08:40 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 11:08:41 INFO "GET /admin/django_celery_beat/crontabschedule/2/change/ HTTP/1.1" 200 55633
+2023-09-11 11:08:41 INFO "GET /admin/django_celery_beat/crontabschedule/2/change/ HTTP/1.1" 200 55633
+2023-09-11 11:08:41 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 11:08:41 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 11:10:21 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 18069
+2023-09-11 11:10:21 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 18069
+2023-09-11 11:10:40 INFO "GET /admin/django_celery_beat/crontabschedule/1/change/ HTTP/1.1" 200 55629
+2023-09-11 11:10:40 INFO "GET /admin/django_celery_beat/crontabschedule/1/change/ HTTP/1.1" 200 55629
+2023-09-11 11:10:40 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 11:10:40 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 11:10:43 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 18069
+2023-09-11 11:10:43 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 18069
+2023-09-11 11:11:28 INFO "GET /admin/django_celery_beat/crontabschedule/9/change/ HTTP/1.1" 200 55637
+2023-09-11 11:11:28 INFO "GET /admin/django_celery_beat/crontabschedule/9/change/ HTTP/1.1" 200 55637
+2023-09-11 11:11:28 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 11:11:28 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 11:11:33 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 18069
+2023-09-11 11:11:33 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 18069
+2023-09-11 11:26:31 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-11 11:26:31 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-11 11:26:32 INFO Watching for file changes with StatReloader
+2023-09-11 11:26:32 INFO Watching for file changes with StatReloader
+2023-09-11 11:27:29 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-09-11 11:27:29 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-09-11 11:27:30 INFO Watching for file changes with StatReloader
+2023-09-11 11:27:30 INFO Watching for file changes with StatReloader
+2023-09-11 11:28:28 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 11:28:28 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/celery.py changed, reloading.
+2023-09-11 11:29:19 INFO Watching for file changes with StatReloader
+2023-09-11 11:29:19 INFO Watching for file changes with StatReloader
+2023-09-11 11:31:05 WARNING "GET /schedule_mail/ HTTP/1.1" 404 10093
+2023-09-11 11:31:05 WARNING "GET /schedule_mail/ HTTP/1.1" 404 10093
+2023-09-11 11:31:35 ERROR "GET /schedulemail/ HTTP/1.1" 500 87983
+2023-09-11 11:31:35 ERROR "GET /schedulemail/ HTTP/1.1" 500 87983
+2023-09-11 11:32:01 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-11 11:32:01 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-11 11:32:02 INFO Watching for file changes with StatReloader
+2023-09-11 11:32:02 INFO Watching for file changes with StatReloader
+2023-09-11 11:32:04 INFO "GET /schedulemail/ HTTP/1.1" 200 16
+2023-09-11 11:32:04 INFO "GET /schedulemail/ HTTP/1.1" 200 16
+2023-09-11 11:33:00 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 18395
+2023-09-11 11:33:00 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 18395
+2023-09-11 11:33:00 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 11:33:00 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 11:33:05 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 21347
+2023-09-11 11:33:05 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 21347
+2023-09-11 11:33:05 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 11:33:05 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 11:33:15 INFO "GET /admin/django_celery_beat/periodictask/3/change/ HTTP/1.1" 200 39171
+2023-09-11 11:33:15 INFO "GET /admin/django_celery_beat/periodictask/3/change/ HTTP/1.1" 200 39171
+2023-09-11 11:33:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 11:33:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 11:37:43 ERROR "GET /schedulemail/ HTTP/1.1" 500 94971
+2023-09-11 11:37:43 ERROR "GET /schedulemail/ HTTP/1.1" 500 94971
+2023-09-11 11:38:23 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-11 11:38:23 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-11 11:38:24 INFO Watching for file changes with StatReloader
+2023-09-11 11:38:24 INFO Watching for file changes with StatReloader
+2023-09-11 11:38:43 INFO "GET /schedulemail/ HTTP/1.1" 200 16
+2023-09-11 11:38:43 INFO "GET /schedulemail/ HTTP/1.1" 200 16
+2023-09-11 11:38:50 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 21946
+2023-09-11 11:38:50 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 21946
+2023-09-11 11:38:52 INFO "GET /admin/django_celery_beat/periodictask/4/change/ HTTP/1.1" 200 39173
+2023-09-11 11:38:52 INFO "GET /admin/django_celery_beat/periodictask/4/change/ HTTP/1.1" 200 39173
+2023-09-11 11:38:52 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 11:38:52 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-11 11:40:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-11 11:40:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-11 11:40:19 INFO Watching for file changes with StatReloader
+2023-09-11 11:40:19 INFO Watching for file changes with StatReloader
+2023-09-11 11:40:24 ERROR "GET /schedulemail/ HTTP/1.1" 500 94985
+2023-09-11 11:40:24 ERROR "GET /schedulemail/ HTTP/1.1" 500 94985
+2023-09-11 11:47:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-11 11:47:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-11 11:47:31 INFO Watching for file changes with StatReloader
+2023-09-11 11:47:31 INFO Watching for file changes with StatReloader
+2023-09-11 11:47:42 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-11 11:47:42 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-11 11:47:42 INFO Watching for file changes with StatReloader
+2023-09-11 11:47:42 INFO Watching for file changes with StatReloader
+2023-09-11 11:47:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-11 11:47:44 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-11 11:47:45 INFO Watching for file changes with StatReloader
+2023-09-11 11:47:45 INFO Watching for file changes with StatReloader
+2023-09-11 11:47:50 INFO "GET /schedulemail/ HTTP/1.1" 200 16
+2023-09-11 11:47:50 INFO "GET /schedulemail/ HTTP/1.1" 200 16
+2023-09-12 05:04:54 INFO Watching for file changes with StatReloader
+2023-09-12 05:04:54 INFO Watching for file changes with StatReloader
+2023-09-12 05:05:07 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-12 05:05:07 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-12 05:05:07 WARNING "GET /favicon.ico HTTP/1.1" 404 10084
+2023-09-12 05:05:07 WARNING "GET /favicon.ico HTTP/1.1" 404 10084
+2023-09-12 05:34:36 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 18718
+2023-09-12 05:34:36 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 18718
+2023-09-12 05:34:36 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 05:34:36 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 05:42:30 INFO "GET /admin/django_celery_beat/crontabschedule/2/change/ HTTP/1.1" 200 55633
+2023-09-12 05:42:30 INFO "GET /admin/django_celery_beat/crontabschedule/2/change/ HTTP/1.1" 200 55633
+2023-09-12 05:42:30 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 05:42:30 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 05:45:12 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-12 05:45:12 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-12 05:45:13 INFO Watching for file changes with StatReloader
+2023-09-12 05:45:13 INFO Watching for file changes with StatReloader
+2023-09-12 05:49:52 ERROR "GET /schedulemail/ HTTP/1.1" 500 94935
+2023-09-12 05:49:52 ERROR "GET /schedulemail/ HTTP/1.1" 500 94935
+2023-09-12 07:21:44 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 19041
+2023-09-12 07:21:44 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 19041
+2023-09-12 07:21:44 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 07:21:44 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 07:21:51 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 22620
+2023-09-12 07:21:51 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 22620
+2023-09-12 07:21:51 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 07:21:51 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 09:41:39 ERROR "GET /schedulemail/ HTTP/1.1" 500 95073
+2023-09-12 09:41:39 ERROR "GET /schedulemail/ HTTP/1.1" 500 95073
+2023-09-12 09:41:59 ERROR "GET /schedulemail/ HTTP/1.1" 500 95073
+2023-09-12 09:41:59 ERROR "GET /schedulemail/ HTTP/1.1" 500 95073
+2023-09-12 10:51:08 INFO "GET /admin/django_celery_beat/clockedschedule/ HTTP/1.1" 200 14100
+2023-09-12 10:51:08 INFO "GET /admin/django_celery_beat/clockedschedule/ HTTP/1.1" 200 14100
+2023-09-12 10:51:08 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 10:51:08 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 10:51:12 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 19041
+2023-09-12 10:51:12 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 19041
+2023-09-12 10:51:12 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 10:51:12 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 10:51:15 INFO "GET /admin/django_celery_beat/clockedschedule/ HTTP/1.1" 200 14100
+2023-09-12 10:51:15 INFO "GET /admin/django_celery_beat/clockedschedule/ HTTP/1.1" 200 14100
+2023-09-12 10:51:18 INFO "GET /admin/django_celery_beat/solarschedule/ HTTP/1.1" 200 14118
+2023-09-12 10:51:18 INFO "GET /admin/django_celery_beat/solarschedule/ HTTP/1.1" 200 14118
+2023-09-12 10:51:18 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 10:51:18 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 10:51:21 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 19041
+2023-09-12 10:51:21 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 19041
+2023-09-12 10:51:21 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 10:51:21 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 10:51:27 INFO "GET /admin/django_celery_beat/crontabschedule/12/change/ HTTP/1.1" 200 55639
+2023-09-12 10:51:27 INFO "GET /admin/django_celery_beat/crontabschedule/12/change/ HTTP/1.1" 200 55639
+2023-09-12 10:51:27 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 10:51:27 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 10:51:30 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 19041
+2023-09-12 10:51:30 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 19041
+2023-09-12 10:51:36 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 22620
+2023-09-12 10:51:36 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 22620
+2023-09-12 10:51:36 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 10:51:36 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 10:51:38 INFO "GET /admin/django_celery_beat/periodictask/5/change/ HTTP/1.1" 200 39400
+2023-09-12 10:51:38 INFO "GET /admin/django_celery_beat/periodictask/5/change/ HTTP/1.1" 200 39400
+2023-09-12 10:51:38 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 10:51:38 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-12 11:07:52 ERROR "GET /schedulemail/ HTTP/1.1" 500 95073
+2023-09-12 11:07:52 ERROR "GET /schedulemail/ HTTP/1.1" 500 95073
+2023-09-12 11:07:53 ERROR "GET /schedulemail/ HTTP/1.1" 500 95073
+2023-09-12 11:07:53 ERROR "GET /schedulemail/ HTTP/1.1" 500 95073
+2023-09-12 11:07:54 ERROR "GET /schedulemail/ HTTP/1.1" 500 95073
+2023-09-12 11:07:54 ERROR "GET /schedulemail/ HTTP/1.1" 500 95073
+2023-09-12 11:07:55 ERROR "GET /schedulemail/ HTTP/1.1" 500 95073
+2023-09-12 11:07:55 ERROR "GET /schedulemail/ HTTP/1.1" 500 95073
+2023-09-12 11:07:55 ERROR "GET /schedulemail/ HTTP/1.1" 500 95073
+2023-09-12 11:07:55 ERROR "GET /schedulemail/ HTTP/1.1" 500 95073
+2023-09-12 11:48:22 ERROR "GET /schedulemail/ HTTP/1.1" 500 95073
+2023-09-12 11:48:22 ERROR "GET /schedulemail/ HTTP/1.1" 500 95073
+2023-09-12 12:37:27 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-12 12:37:27 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-12 12:37:27 INFO Watching for file changes with StatReloader
+2023-09-12 12:37:27 INFO Watching for file changes with StatReloader
+2023-09-13 05:54:35 INFO Watching for file changes with StatReloader
+2023-09-13 05:54:35 INFO Watching for file changes with StatReloader
+2023-09-13 06:11:19 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-13 06:11:19 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-13 06:11:19 INFO "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2023-09-13 06:11:19 INFO "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2023-09-13 06:11:19 INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2023-09-13 06:11:19 INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2023-09-13 06:11:19 INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2023-09-13 06:11:19 INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2023-09-13 06:11:19 INFO "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2023-09-13 06:11:19 INFO "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2023-09-13 06:11:19 INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2023-09-13 06:11:19 INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2023-09-13 06:11:19 INFO "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2023-09-13 06:11:19 INFO "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2023-09-13 06:11:19 INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2023-09-13 06:11:19 INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2023-09-13 06:11:19 INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2023-09-13 06:11:19 INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2023-09-13 06:11:19 INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2023-09-13 06:11:19 INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2023-09-13 06:11:19 INFO "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+2023-09-13 06:11:19 INFO "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+2023-09-13 06:11:20 WARNING "GET /favicon.ico HTTP/1.1" 404 10084
+2023-09-13 06:11:20 WARNING "GET /favicon.ico HTTP/1.1" 404 10084
+2023-09-13 06:35:04 WARNING "GET /scheduletask/ HTTP/1.1" 404 10090
+2023-09-13 06:35:04 WARNING "GET /scheduletask/ HTTP/1.1" 404 10090
+2023-09-13 06:35:33 ERROR "GET /schedulemail/ HTTP/1.1" 500 94941
+2023-09-13 06:35:33 ERROR "GET /schedulemail/ HTTP/1.1" 500 94941
+2023-09-13 06:35:50 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-13 06:35:50 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-13 06:35:50 INFO Watching for file changes with StatReloader
+2023-09-13 06:35:50 INFO Watching for file changes with StatReloader
+2023-09-13 06:36:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-13 06:36:11 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-13 06:36:12 INFO Watching for file changes with StatReloader
+2023-09-13 06:36:12 INFO Watching for file changes with StatReloader
+2023-09-13 06:36:14 INFO "GET /schedulemail/ HTTP/1.1" 200 16
+2023-09-13 06:36:14 INFO "GET /schedulemail/ HTTP/1.1" 200 16
+2023-09-13 07:33:31 ERROR "GET /schedulemail/ HTTP/1.1" 500 95162
+2023-09-13 07:33:31 ERROR "GET /schedulemail/ HTTP/1.1" 500 95162
+2023-09-13 07:53:06 ERROR "GET /schedulemail/ HTTP/1.1" 500 95162
+2023-09-13 07:53:06 ERROR "GET /schedulemail/ HTTP/1.1" 500 95162
+2023-09-13 07:53:07 ERROR "GET /schedulemail/ HTTP/1.1" 500 95162
+2023-09-13 07:53:07 ERROR "GET /schedulemail/ HTTP/1.1" 500 95162
+2023-09-13 07:53:18 ERROR "GET /schedulemail/ HTTP/1.1" 500 95162
+2023-09-13 07:53:18 ERROR "GET /schedulemail/ HTTP/1.1" 500 95162
+2023-09-13 08:02:56 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 23243
+2023-09-13 08:02:56 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 23243
+2023-09-13 08:02:56 INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-13 08:02:56 INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-13 08:02:56 INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2023-09-13 08:02:56 INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2023-09-13 08:03:00 INFO "GET /admin/django_celery_beat/periodictask/6/change/ HTTP/1.1" 200 39503
+2023-09-13 08:03:00 INFO "GET /admin/django_celery_beat/periodictask/6/change/ HTTP/1.1" 200 39503
+2023-09-13 08:03:00 INFO "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+2023-09-13 08:03:00 INFO "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+2023-09-13 08:03:00 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-13 08:03:00 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-13 08:03:00 INFO "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+2023-09-13 08:03:00 INFO "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+2023-09-13 08:03:00 INFO "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+2023-09-13 08:03:00 INFO "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+2023-09-13 08:03:00 INFO "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+2023-09-13 08:03:00 INFO "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+2023-09-13 11:35:26 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 19364
+2023-09-13 11:35:26 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 19364
+2023-09-13 11:35:26 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-13 11:35:26 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 05:11:59 INFO Watching for file changes with StatReloader
+2023-09-14 05:11:59 INFO Watching for file changes with StatReloader
+2023-09-14 05:21:22 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-14 05:21:22 INFO "GET /admin/ HTTP/1.1" 200 18383
+2023-09-14 05:21:22 WARNING "GET /favicon.ico HTTP/1.1" 404 10084
+2023-09-14 05:21:22 WARNING "GET /favicon.ico HTTP/1.1" 404 10084
+2023-09-14 07:13:46 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 19364
+2023-09-14 07:13:46 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 19364
+2023-09-14 07:13:46 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 07:13:46 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 07:13:56 INFO "POST /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 17492
+2023-09-14 07:13:56 INFO "POST /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 17492
+2023-09-14 07:13:56 INFO "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+2023-09-14 07:13:56 INFO "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+2023-09-14 07:13:59 INFO "POST /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 302 0
+2023-09-14 07:13:59 INFO "POST /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 302 0
+2023-09-14 07:13:59 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 14241
+2023-09-14 07:13:59 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 14241
+2023-09-14 07:14:00 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 07:14:00 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 07:14:04 INFO "GET /admin/django_celery_beat/intervalschedule/ HTTP/1.1" 200 14109
+2023-09-14 07:14:04 INFO "GET /admin/django_celery_beat/intervalschedule/ HTTP/1.1" 200 14109
+2023-09-14 07:14:04 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 07:14:04 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 07:14:07 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 17230
+2023-09-14 07:14:07 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 17230
+2023-09-14 07:14:07 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 07:14:07 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 07:14:13 INFO "GET /admin/django_celery_beat/solarschedule/ HTTP/1.1" 200 14118
+2023-09-14 07:14:13 INFO "GET /admin/django_celery_beat/solarschedule/ HTTP/1.1" 200 14118
+2023-09-14 07:14:13 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 07:14:13 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 07:14:17 INFO "GET /admin/django_celery_beat/clockedschedule/ HTTP/1.1" 200 14100
+2023-09-14 07:14:17 INFO "GET /admin/django_celery_beat/clockedschedule/ HTTP/1.1" 200 14100
+2023-09-14 07:14:17 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 07:14:17 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 07:14:43 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 07:14:43 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 07:14:43 INFO Watching for file changes with StatReloader
+2023-09-14 07:14:43 INFO Watching for file changes with StatReloader
+2023-09-14 07:16:25 INFO "GET /schedulemail/ HTTP/1.1" 200 16
+2023-09-14 07:16:25 INFO "GET /schedulemail/ HTTP/1.1" 200 16
+2023-09-14 07:17:39 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 21322
+2023-09-14 07:17:39 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 21322
+2023-09-14 07:17:39 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 07:17:39 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 07:17:55 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 16153
+2023-09-14 07:17:55 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 16153
+2023-09-14 07:17:55 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 07:17:55 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 07:20:43 ERROR "GET /schedulemail/ HTTP/1.1" 500 94910
+2023-09-14 07:20:43 ERROR "GET /schedulemail/ HTTP/1.1" 500 94910
+2023-09-14 07:24:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 07:24:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 07:24:41 INFO Watching for file changes with StatReloader
+2023-09-14 07:24:41 INFO Watching for file changes with StatReloader
+2023-09-14 07:24:47 INFO Watching for file changes with StatReloader
+2023-09-14 07:24:47 INFO Watching for file changes with StatReloader
+2023-09-14 07:25:50 INFO "GET /schedulemail/ HTTP/1.1" 200 16
+2023-09-14 07:25:50 INFO "GET /schedulemail/ HTTP/1.1" 200 16
+2023-09-14 07:27:03 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 07:27:03 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 07:27:04 INFO Watching for file changes with StatReloader
+2023-09-14 07:27:04 INFO Watching for file changes with StatReloader
+2023-09-14 07:28:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 07:28:13 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 07:28:13 INFO Watching for file changes with StatReloader
+2023-09-14 07:28:13 INFO Watching for file changes with StatReloader
+2023-09-14 07:28:22 INFO "GET /schedulemail/ HTTP/1.1" 200 16
+2023-09-14 07:28:22 INFO "GET /schedulemail/ HTTP/1.1" 200 16
+2023-09-14 07:31:35 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 07:31:35 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 07:31:36 INFO Watching for file changes with StatReloader
+2023-09-14 07:31:36 INFO Watching for file changes with StatReloader
+2023-09-14 07:31:54 ERROR "GET /schedulemail/ HTTP/1.1" 500 95069
+2023-09-14 07:31:54 ERROR "GET /schedulemail/ HTTP/1.1" 500 95069
+2023-09-14 07:31:57 ERROR "GET /schedulemail/ HTTP/1.1" 500 95070
+2023-09-14 07:31:57 ERROR "GET /schedulemail/ HTTP/1.1" 500 95070
+2023-09-14 07:32:06 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 07:32:06 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 07:32:06 INFO Watching for file changes with StatReloader
+2023-09-14 07:32:06 INFO Watching for file changes with StatReloader
+2023-09-14 07:32:10 INFO "GET /schedulemail/ HTTP/1.1" 200 16
+2023-09-14 07:32:10 INFO "GET /schedulemail/ HTTP/1.1" 200 16
+2023-09-14 07:33:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 07:33:30 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 07:33:31 INFO Watching for file changes with StatReloader
+2023-09-14 07:33:31 INFO Watching for file changes with StatReloader
+2023-09-14 07:33:36 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 07:33:36 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 07:33:36 INFO Watching for file changes with StatReloader
+2023-09-14 07:33:36 INFO Watching for file changes with StatReloader
+2023-09-14 07:34:01 INFO "GET /schedulemail/ HTTP/1.1" 200 16
+2023-09-14 07:34:01 INFO "GET /schedulemail/ HTTP/1.1" 200 16
+2023-09-14 07:56:16 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 17120
+2023-09-14 07:56:16 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 17120
+2023-09-14 07:56:16 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 07:56:16 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 07:56:23 INFO "POST /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 302 0
+2023-09-14 07:56:23 INFO "POST /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 302 0
+2023-09-14 07:56:23 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 17245
+2023-09-14 07:56:23 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 17245
+2023-09-14 07:56:23 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 07:56:23 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 07:56:23 INFO "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+2023-09-14 07:56:23 INFO "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+2023-09-14 07:56:30 INFO "POST /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 16341
+2023-09-14 07:56:30 INFO "POST /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 16341
+2023-09-14 07:56:32 INFO "POST /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 302 0
+2023-09-14 07:56:32 INFO "POST /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 302 0
+2023-09-14 07:56:32 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 14240
+2023-09-14 07:56:32 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 14240
+2023-09-14 07:56:32 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 07:56:32 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 08:00:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 08:00:59 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 08:01:00 INFO Watching for file changes with StatReloader
+2023-09-14 08:01:00 INFO Watching for file changes with StatReloader
+2023-09-14 10:54:26 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 14102
+2023-09-14 10:54:26 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 14102
+2023-09-14 10:54:26 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 10:54:26 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 11:07:20 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 11:07:20 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 11:07:21 INFO Watching for file changes with StatReloader
+2023-09-14 11:07:21 INFO Watching for file changes with StatReloader
+2023-09-14 11:07:54 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 11:07:54 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-09-14 11:07:54 INFO Watching for file changes with StatReloader
+2023-09-14 11:07:54 INFO Watching for file changes with StatReloader
+2023-09-14 11:08:12 INFO "GET /schedulemail/ HTTP/1.1" 200 16
+2023-09-14 11:08:12 INFO "GET /schedulemail/ HTTP/1.1" 200 16
+2023-09-14 11:13:55 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 15508
+2023-09-14 11:13:55 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 15508
+2023-09-14 11:13:55 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 11:13:55 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 11:13:59 INFO "GET /admin/django_celery_beat/crontabschedule/20/change/ HTTP/1.1" 200 55639
+2023-09-14 11:13:59 INFO "GET /admin/django_celery_beat/crontabschedule/20/change/ HTTP/1.1" 200 55639
+2023-09-14 11:13:59 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 11:13:59 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 11:25:15 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 20065
+2023-09-14 11:25:15 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 20065
+2023-09-14 11:25:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 11:25:15 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 12:17:57 INFO "GET /admin/django_celery_beat/periodictask/14/change/ HTTP/1.1" 200 38282
+2023-09-14 12:17:57 INFO "GET /admin/django_celery_beat/periodictask/14/change/ HTTP/1.1" 200 38282
+2023-09-14 12:17:57 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 12:17:57 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 12:18:56 INFO "GET /admin/ HTTP/1.1" 200 18217
+2023-09-14 12:18:56 INFO "GET /admin/ HTTP/1.1" 200 18217
+2023-09-14 12:19:02 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 20065
+2023-09-14 12:19:02 INFO "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 20065
+2023-09-14 12:19:02 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 12:19:02 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 12:19:05 INFO "GET /admin/django_celery_beat/periodictask/14/change/ HTTP/1.1" 200 38282
+2023-09-14 12:19:05 INFO "GET /admin/django_celery_beat/periodictask/14/change/ HTTP/1.1" 200 38282
+2023-09-14 12:19:05 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-09-14 12:19:05 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
