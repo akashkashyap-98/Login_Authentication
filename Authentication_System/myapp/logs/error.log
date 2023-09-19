@@ -1657,3 +1657,196 @@ Traceback (most recent call last):
 django.core.exceptions.ValidationError: {'name': ['Periodic task with this Name already exists.']}
 2023-09-14 07:31:57 ERROR "GET /schedulemail/ HTTP/1.1" 500 95070
 2023-09-14 07:31:57 ERROR "GET /schedulemail/ HTTP/1.1" 500 95070
+2023-09-15 10:04:54 ERROR Internal Server Error: /schedule_mail_with_attachment/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1900, in schedule_mail_with_attachment
+    task = PeriodicTask.objects.create(crontab=schedule, name='schedule_mail_with_attachment_'+'1', task='send_mail_app.tasks.generate_pdf_and_send_email') #, args=json.dumps([[2,3]]) )
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django_celery_beat/models.py", line 594, in save
+    self.validate_unique()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django_celery_beat/models.py", line 561, in validate_unique
+    super().validate_unique(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/base.py", line 1236, in validate_unique
+    raise ValidationError(errors)
+django.core.exceptions.ValidationError: {'name': ['Periodic task with this Name already exists.']}
+2023-09-15 10:04:54 ERROR "GET /schedule_mail_with_attachment/ HTTP/1.1" 500 95746
+2023-09-15 10:04:54 ERROR "GET /schedule_mail_with_attachment/ HTTP/1.1" 500 95746
+2023-09-15 10:21:45 ERROR Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x7f3d870470d0>> raised: SyntaxError('invalid syntax', ('/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/send_mail_app/tasks.py', 36, 1, 'from django.core.mail import EmailMessage\n'))
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/celery/utils/dispatch/signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/celery/fixups/django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/celery/fixups/django.py", line 137, in validate_models
+    run_checks()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/checks/urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/checks/urls.py", line 24, in check_resolver
+    return check_method()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/urls/resolvers.py", line 494, in check
+    for pattern in self.url_patterns:
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/urls/resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/urls/resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/Authentication_System/urls.py", line 27, in <module>
+    path('',include('myapp.urls')),
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/urls/conf.py", line 38, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py", line 3, in <module>
+    from myapp.views import *
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1883, in <module>
+    from send_mail_app.tasks import send_mail_func
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/send_mail_app/tasks.py", line 36
+    from django.core.mail import EmailMessage
+    ^
+SyntaxError: invalid syntax
+2023-09-15 10:21:45 ERROR Signal handler <promise@0x7f3d870445e0 --> <bound method Celery._autodiscover_tasks of <Celery Authentication_System at 0x7f3d870c9130>>> raised: SyntaxError('invalid syntax', ('/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/send_mail_app/tasks.py', 36, 1, 'from django.core.mail import EmailMessage\n'))
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/celery/utils/dispatch/signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/vine/promises.py", line 160, in __call__
+    return self.throw()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/vine/promises.py", line 157, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/celery/app/base.py", line 691, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/celery/app/base.py", line 700, in _autodiscover_tasks_from_fixups
+    return self._autodiscover_tasks_from_names([
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/celery/app/base.py", line 695, in _autodiscover_tasks_from_names
+    return self.loader.autodiscover_tasks(
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/celery/loaders/base.py", line 220, in autodiscover_tasks
+    mod.__name__ for mod in autodiscover_tasks(packages or (),
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/celery/loaders/base.py", line 246, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/celery/loaders/base.py", line 246, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/celery/loaders/base.py", line 267, in find_related_module
+    return importlib.import_module(module_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/send_mail_app/tasks.py", line 36
+    from django.core.mail import EmailMessage
+    ^
+SyntaxError: invalid syntax
+2023-09-15 10:42:58 ERROR Internal Server Error: /schedule_mail_with_attachment/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1900, in schedule_mail_with_attachment
+    task = PeriodicTask.objects.create(crontab=schedule, name='schedule_mail_with_attachment_'+'6', task='send_mail_app.tasks.generate_excel_and_send_email')
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django_celery_beat/models.py", line 594, in save
+    self.validate_unique()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django_celery_beat/models.py", line 561, in validate_unique
+    super().validate_unique(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/base.py", line 1236, in validate_unique
+    raise ValidationError(errors)
+django.core.exceptions.ValidationError: {'name': ['Periodic task with this Name already exists.']}
+2023-09-15 10:42:58 ERROR "GET /schedule_mail_with_attachment/ HTTP/1.1" 500 96286
+2023-09-15 10:42:58 ERROR "GET /schedule_mail_with_attachment/ HTTP/1.1" 500 96286
+2023-09-18 07:17:13 ERROR Internal Server Error: /schedule_mail_with_attachment/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1900, in schedule_mail_with_attachment
+    task = PeriodicTask.objects.create(crontab=schedule, name='schedule_mail_with_attachment_'+'9', task='send_mail_app.tasks.generate_excel_and_send_email')
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django_celery_beat/models.py", line 594, in save
+    self.validate_unique()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django_celery_beat/models.py", line 561, in validate_unique
+    super().validate_unique(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/base.py", line 1236, in validate_unique
+    raise ValidationError(errors)
+django.core.exceptions.ValidationError: {'name': ['Periodic task with this Name already exists.']}
+2023-09-18 07:17:13 ERROR "GET /schedule_mail_with_attachment/ HTTP/1.1" 500 96435
+2023-09-18 07:17:13 ERROR "GET /schedule_mail_with_attachment/ HTTP/1.1" 500 96435
+2023-09-19 11:27:56 ERROR Internal Server Error: /schedulemail/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1895, in schedule_mail
+    task = PeriodicTask.objects.create(crontab=schedule, name='schedule_mail_task_'+'1', task='send_mail_app.tasks.send_mail_func') #, args=json.dumps([[2,3]]) )
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django_celery_beat/models.py", line 594, in save
+    self.validate_unique()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django_celery_beat/models.py", line 561, in validate_unique
+    super().validate_unique(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/base.py", line 1236, in validate_unique
+    raise ValidationError(errors)
+django.core.exceptions.ValidationError: {'name': ['Periodic task with this Name already exists.']}
+2023-09-19 11:27:56 ERROR "GET /schedulemail/ HTTP/1.1" 500 96595
+2023-09-19 11:27:56 ERROR "GET /schedulemail/ HTTP/1.1" 500 96595
+2023-09-19 11:27:57 ERROR Internal Server Error: /schedulemail/
+Traceback (most recent call last):
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py", line 1895, in schedule_mail
+    task = PeriodicTask.objects.create(crontab=schedule, name='schedule_mail_task_'+'1', task='send_mail_app.tasks.send_mail_func') #, args=json.dumps([[2,3]]) )
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django_celery_beat/models.py", line 594, in save
+    self.validate_unique()
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django_celery_beat/models.py", line 561, in validate_unique
+    super().validate_unique(*args, **kwargs)
+  File "/home/aakash/PROJECTS/LOGIN_AUTHENTICATION/myenv/lib/python3.8/site-packages/django/db/models/base.py", line 1236, in validate_unique
+    raise ValidationError(errors)
+django.core.exceptions.ValidationError: {'name': ['Periodic task with this Name already exists.']}
+2023-09-19 11:27:57 ERROR "GET /schedulemail/ HTTP/1.1" 500 96322
+2023-09-19 11:27:57 ERROR "GET /schedulemail/ HTTP/1.1" 500 96322

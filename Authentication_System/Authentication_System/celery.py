@@ -18,12 +18,12 @@ app.config_from_object(settings, namespace='CELERY')
 app.conf.beat_schedule = {
     'send-mail-everyday':{
         'task':'send_mail_app.tasks.send_mail_func',
-        'schedule': crontab(hour=16, minute=10),
+        'schedule': crontab(hour=17, minute=00),
         # 'args':(2,)
     },
     'send-mail-with-attachment':{
         'task':'send_mail_app.tasks.generate_excel_and_send_email',
-        'schedule': crontab(hour=16, minute=11),
+        'schedule': crontab(hour=17, minute=2),
     }
     
 }

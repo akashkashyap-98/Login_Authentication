@@ -1891,14 +1891,14 @@ from django_celery_beat.models import PeriodicTask, CrontabSchedule
 import json
 
 def schedule_mail(request):
-    schedule, created = CrontabSchedule.objects.get_or_create(hour=16, minute=40)     
-    task = PeriodicTask.objects.create(crontab=schedule, name='schedule_mail_task_'+'1', task='send_mail_app.tasks.send_mail_func') #, args=json.dumps([[2,3]]) )
+    schedule, created = CrontabSchedule.objects.get_or_create(hour=16, minute=55)     
+    task = PeriodicTask.objects.create(crontab=schedule, name='schedule_mail_task_'+'2', task='send_mail_app.tasks.send_mail_func') #, args=json.dumps([[2,3]]) )
     return HttpResponse("DONE SUCESSFULLY") 
 
 def schedule_mail_with_attachment(request):
-    schedule, created = CrontabSchedule.objects.get_or_create(hour=16, minute=15)     
-    task = PeriodicTask.objects.create(crontab=schedule, name='schedule_mail_with_attachment_'+'10', task='send_mail_app.tasks.generate_excel_and_send_email') 
-    return HttpResponse("DONE SUCESSFULLY , email sent with attachment") 
+    schedule, created = CrontabSchedule.objects.get_or_create(hour=16, minute=57)     
+    task = PeriodicTask.objects.create(crontab=schedule, name='schedule_mail_with_attachment_'+'11', task='send_mail_app.tasks.generate_excel_and_send_email') 
+    return HttpResponse("DONE SUCESSFULLY , email sent with attachment")
 
    
 
