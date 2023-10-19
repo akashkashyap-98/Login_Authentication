@@ -151,6 +151,12 @@ class Horse(models.Model):
 		super(Horse, self).delete(*args, **kwargs)
 		# Delete the file after the model
 		storage.delete(path)
-                
 
+# ========================== Dynamic Template (Question and answer) ==============================================
 
+class Question(models.Model):
+    text = models.TextField()
+
+class Answer(models.Model):
+     question = models.ForeignKey(Question, on_delete=models.CASCADE)
+     text = models.TextField()

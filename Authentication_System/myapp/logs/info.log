@@ -2511,3 +2511,311 @@ SyntaxError: invalid syntax
 2023-09-19 11:28:38 INFO "GET /schedulemail/ HTTP/1.1" 200 16
 2023-09-19 11:28:52 INFO "GET /schedule_mail_with_attachment/ HTTP/1.1" 200 45
 2023-09-19 11:28:52 INFO "GET /schedule_mail_with_attachment/ HTTP/1.1" 200 45
+2023-09-25 04:59:37 INFO Watching for file changes with StatReloader
+2023-09-25 04:59:37 INFO Watching for file changes with StatReloader
+2023-09-25 05:07:41 INFO "GET /admin/ HTTP/1.1" 302 0
+2023-09-25 05:07:41 INFO "GET /admin/ HTTP/1.1" 302 0
+2023-09-25 05:07:41 INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+2023-09-25 05:07:41 INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+2023-09-25 05:07:41 INFO "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2023-09-25 05:07:41 INFO "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2023-09-25 05:07:41 INFO "GET /static/admin/css/login.css HTTP/1.1" 304 0
+2023-09-25 05:07:41 INFO "GET /static/admin/css/login.css HTTP/1.1" 304 0
+2023-09-25 05:07:41 INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2023-09-25 05:07:41 INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2023-09-25 05:07:41 INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2023-09-25 05:07:41 INFO "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2023-09-25 05:07:41 INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2023-09-25 05:07:41 INFO "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2023-09-25 05:07:41 INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2023-09-25 05:07:41 INFO "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2023-09-25 05:07:41 INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2023-09-25 05:07:41 INFO "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2023-09-25 05:07:41 WARNING "GET /favicon.ico HTTP/1.1" 404 10299
+2023-09-25 05:07:41 WARNING "GET /favicon.ico HTTP/1.1" 404 10299
+2023-09-25 05:07:44 INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2023-09-25 05:07:44 INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2023-09-25 05:07:44 INFO "GET /admin/ HTTP/1.1" 200 18217
+2023-09-25 05:07:44 INFO "GET /admin/ HTTP/1.1" 200 18217
+2023-09-25 05:07:44 INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2023-09-25 05:07:44 INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2023-09-25 05:07:44 INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2023-09-25 05:07:44 INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2023-09-25 05:07:44 INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2023-09-25 05:07:44 INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2023-09-25 05:07:44 INFO "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+2023-09-25 05:07:44 INFO "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+2023-10-03 05:13:25 INFO Watching for file changes with StatReloader
+2023-10-03 05:13:25 INFO Watching for file changes with StatReloader
+2023-10-03 05:25:39 INFO "GET /admin/ HTTP/1.1" 200 18217
+2023-10-03 05:25:39 INFO "GET /admin/ HTTP/1.1" 200 18217
+2023-10-03 05:25:39 WARNING "GET /favicon.ico HTTP/1.1" 404 10299
+2023-10-03 05:25:39 WARNING "GET /favicon.ico HTTP/1.1" 404 10299
+2023-10-03 05:26:03 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 21321
+2023-10-03 05:26:03 INFO "GET /admin/django_celery_beat/crontabschedule/ HTTP/1.1" 200 21321
+2023-10-03 05:26:03 INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2023-10-03 05:26:03 INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2023-10-03 05:26:03 INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2023-10-03 05:26:03 INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2023-10-03 05:26:03 INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2023-10-03 05:26:03 INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2023-10-03 05:26:03 INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+2023-10-03 05:26:03 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-10-03 05:26:03 INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+2023-10-03 05:26:03 INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2023-10-03 05:26:03 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-10-03 05:26:03 INFO "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2023-10-03 05:26:03 INFO "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2023-10-03 05:26:03 INFO "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2023-10-03 05:26:03 INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2023-10-03 05:26:03 INFO "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2023-10-03 05:26:03 INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+2023-10-03 05:26:03 INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+2023-10-03 05:26:03 INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2023-10-03 05:26:03 INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2023-10-03 05:26:03 INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2023-10-03 05:26:03 INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2023-10-03 05:26:03 INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2023-10-03 05:26:03 INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2023-10-19 05:56:41 INFO Watching for file changes with StatReloader
+2023-10-19 05:56:41 INFO Watching for file changes with StatReloader
+2023-10-19 06:54:40 INFO Watching for file changes with StatReloader
+2023-10-19 06:54:40 INFO Watching for file changes with StatReloader
+2023-10-19 06:54:56 INFO "GET /admin/ HTTP/1.1" 302 0
+2023-10-19 06:54:56 INFO "GET /admin/ HTTP/1.1" 302 0
+2023-10-19 06:54:56 INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+2023-10-19 06:54:56 INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+2023-10-19 06:54:56 INFO "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+2023-10-19 06:54:56 INFO "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+2023-10-19 06:54:56 INFO "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+2023-10-19 06:54:56 INFO "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+2023-10-19 06:54:56 INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2023-10-19 06:54:56 INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2023-10-19 06:54:56 INFO "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2023-10-19 06:54:56 INFO "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2023-10-19 06:54:56 INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2023-10-19 06:54:56 INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2023-10-19 06:54:56 INFO "GET /static/admin/css/login.css HTTP/1.1" 304 0
+2023-10-19 06:54:56 INFO "GET /static/admin/css/login.css HTTP/1.1" 304 0
+2023-10-19 06:54:56 INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2023-10-19 06:54:56 INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2023-10-19 06:54:57 WARNING "GET /favicon.ico HTTP/1.1" 404 10299
+2023-10-19 06:54:57 WARNING "GET /favicon.ico HTTP/1.1" 404 10299
+2023-10-19 06:54:59 INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2023-10-19 06:54:59 INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2023-10-19 06:54:59 INFO "GET /admin/ HTTP/1.1" 200 18217
+2023-10-19 06:54:59 INFO "GET /admin/ HTTP/1.1" 200 18217
+2023-10-19 06:55:00 INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2023-10-19 06:55:00 INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2023-10-19 06:55:00 INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2023-10-19 06:55:00 INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2023-10-19 06:55:00 INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2023-10-19 06:55:00 INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2023-10-19 06:55:00 INFO "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+2023-10-19 06:55:00 INFO "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+2023-10-19 07:03:15 INFO Watching for file changes with StatReloader
+2023-10-19 07:03:15 INFO Watching for file changes with StatReloader
+2023-10-19 07:03:19 INFO "GET /admin/ HTTP/1.1" 200 19061
+2023-10-19 07:03:19 INFO "GET /admin/ HTTP/1.1" 200 19061
+2023-10-19 07:03:22 INFO "GET /admin/myapp/question/ HTTP/1.1" 200 14629
+2023-10-19 07:03:22 INFO "GET /admin/myapp/question/ HTTP/1.1" 200 14629
+2023-10-19 07:03:22 INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2023-10-19 07:03:22 INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2023-10-19 07:03:22 INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2023-10-19 07:03:22 INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2023-10-19 07:03:22 INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2023-10-19 07:03:22 INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2023-10-19 07:03:22 INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2023-10-19 07:03:22 INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2023-10-19 07:03:22 INFO "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2023-10-19 07:03:22 INFO "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2023-10-19 07:03:22 INFO "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2023-10-19 07:03:22 INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+2023-10-19 07:03:22 INFO "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2023-10-19 07:03:22 INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+2023-10-19 07:03:22 INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+2023-10-19 07:03:22 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-10-19 07:03:22 INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2023-10-19 07:03:22 INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+2023-10-19 07:03:22 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-10-19 07:03:22 INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2023-10-19 07:03:22 INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2023-10-19 07:03:22 INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2023-10-19 07:03:22 INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2023-10-19 07:03:22 INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2023-10-19 07:03:26 INFO "GET /admin/ HTTP/1.1" 200 19061
+2023-10-19 07:03:26 INFO "GET /admin/ HTTP/1.1" 200 19061
+2023-10-19 07:03:30 INFO "GET /admin/myapp/answer/ HTTP/1.1" 200 14615
+2023-10-19 07:03:30 INFO "GET /admin/myapp/answer/ HTTP/1.1" 200 14615
+2023-10-19 07:03:30 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-10-19 07:03:30 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-10-19 07:03:32 INFO "GET /admin/ HTTP/1.1" 200 19061
+2023-10-19 07:03:32 INFO "GET /admin/ HTTP/1.1" 200 19061
+2023-10-19 07:16:10 WARNING "GET /questions/ HTTP/1.1" 403 58
+2023-10-19 07:16:10 WARNING "GET /questions/ HTTP/1.1" 403 58
+2023-10-19 07:17:06 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-10-19 07:17:06 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-10-19 07:17:07 INFO Watching for file changes with StatReloader
+2023-10-19 07:17:07 INFO Watching for file changes with StatReloader
+2023-10-19 07:17:09 INFO "GET /questions/ HTTP/1.1" 200 27
+2023-10-19 07:17:09 INFO "GET /questions/ HTTP/1.1" 200 27
+2023-10-19 07:17:21 WARNING "PUT /questions/ HTTP/1.1" 405 40
+2023-10-19 07:17:21 WARNING "PUT /questions/ HTTP/1.1" 405 40
+2023-10-19 07:18:22 INFO "POST /questions/ HTTP/1.1" 201 130
+2023-10-19 07:18:22 INFO "POST /questions/ HTTP/1.1" 201 130
+2023-10-19 07:18:30 INFO "GET /questions/ HTTP/1.1" 200 66
+2023-10-19 07:18:30 INFO "GET /questions/ HTTP/1.1" 200 66
+2023-10-19 07:19:35 INFO "POST /questions/ HTTP/1.1" 201 130
+2023-10-19 07:19:35 INFO "POST /questions/ HTTP/1.1" 201 130
+2023-10-19 07:20:46 INFO "GET /questions/ HTTP/1.1" 200 106
+2023-10-19 07:20:46 INFO "GET /questions/ HTTP/1.1" 200 106
+2023-10-19 07:22:56 INFO "GET /QuestionDetail/1/ HTTP/1.1" 200 64
+2023-10-19 07:22:56 INFO "GET /QuestionDetail/1/ HTTP/1.1" 200 64
+2023-10-19 07:24:38 INFO "PUT /QuestionDetail/1/ HTTP/1.1" 201 136
+2023-10-19 07:24:38 INFO "PUT /QuestionDetail/1/ HTTP/1.1" 201 136
+2023-10-19 07:24:45 INFO "GET /QuestionDetail/1/ HTTP/1.1" 200 70
+2023-10-19 07:24:45 INFO "GET /QuestionDetail/1/ HTTP/1.1" 200 70
+2023-10-19 07:24:57 INFO "GET /questions/ HTTP/1.1" 200 112
+2023-10-19 07:24:57 INFO "GET /questions/ HTTP/1.1" 200 112
+2023-10-19 07:27:20 INFO "DELETE /QuestionDetail/2/ HTTP/1.1" 200 61
+2023-10-19 07:27:20 INFO "DELETE /QuestionDetail/2/ HTTP/1.1" 200 61
+2023-10-19 07:27:28 ERROR "GET /QuestionDetail/2/ HTTP/1.1" 500 105437
+2023-10-19 07:27:28 ERROR "GET /QuestionDetail/2/ HTTP/1.1" 500 105437
+2023-10-19 07:29:04 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-10-19 07:29:04 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-10-19 07:29:04 INFO Watching for file changes with StatReloader
+2023-10-19 07:29:04 INFO Watching for file changes with StatReloader
+2023-10-19 07:29:09 ERROR "GET /QuestionDetail/2/ HTTP/1.1" 500 97012
+2023-10-19 07:29:09 ERROR "GET /QuestionDetail/2/ HTTP/1.1" 500 97012
+2023-10-19 07:31:58 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-10-19 07:31:58 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-10-19 07:31:59 INFO Watching for file changes with StatReloader
+2023-10-19 07:31:59 INFO Watching for file changes with StatReloader
+2023-10-19 07:32:01 INFO "GET /QuestionDetail/2/ HTTP/1.1" 200 46
+2023-10-19 07:32:01 INFO "GET /QuestionDetail/2/ HTTP/1.1" 200 46
+2023-10-19 08:35:24 INFO "GET /admin/myapp/question/ HTTP/1.1" 200 15965
+2023-10-19 08:35:24 INFO "GET /admin/myapp/question/ HTTP/1.1" 200 15965
+2023-10-19 08:35:24 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-10-19 08:35:24 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-10-19 09:58:06 INFO "GET /admin/myapp/answer/ HTTP/1.1" 200 14615
+2023-10-19 09:58:06 INFO "GET /admin/myapp/answer/ HTTP/1.1" 200 14615
+2023-10-19 09:58:06 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-10-19 09:58:06 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-10-19 09:58:08 INFO "GET /admin/myapp/answer/add/ HTTP/1.1" 200 17034
+2023-10-19 09:58:08 INFO "GET /admin/myapp/answer/add/ HTTP/1.1" 200 17034
+2023-10-19 09:58:08 INFO "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+2023-10-19 09:58:08 INFO "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+2023-10-19 09:58:08 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-10-19 09:58:08 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-10-19 09:58:08 INFO "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+2023-10-19 09:58:08 INFO "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+2023-10-19 09:58:08 INFO "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+2023-10-19 09:58:08 INFO "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+2023-10-19 09:58:08 INFO "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+2023-10-19 09:58:08 INFO "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+2023-10-19 09:58:08 INFO "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+2023-10-19 09:58:08 INFO "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+2023-10-19 10:07:15 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-10-19 10:07:15 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-10-19 10:07:15 INFO Watching for file changes with StatReloader
+2023-10-19 10:07:15 INFO Watching for file changes with StatReloader
+2023-10-19 10:42:05 INFO "POST /questions/ HTTP/1.1" 201 136
+2023-10-19 10:42:05 INFO "POST /questions/ HTTP/1.1" 201 136
+2023-10-19 10:42:15 WARNING "POST /questions/ HTTP/1.1" 400 108
+2023-10-19 10:42:15 WARNING "POST /questions/ HTTP/1.1" 400 108
+2023-10-19 11:08:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-10-19 11:08:09 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-10-19 11:08:10 INFO Watching for file changes with StatReloader
+2023-10-19 11:08:10 INFO Watching for file changes with StatReloader
+2023-10-19 11:14:01 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-10-19 11:14:01 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-10-19 11:14:02 INFO Watching for file changes with StatReloader
+2023-10-19 11:14:02 INFO Watching for file changes with StatReloader
+2023-10-19 11:17:08 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-10-19 11:17:08 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/urls.py changed, reloading.
+2023-10-19 11:17:08 INFO Watching for file changes with StatReloader
+2023-10-19 11:17:08 INFO Watching for file changes with StatReloader
+2023-10-19 11:17:15 INFO Watching for file changes with StatReloader
+2023-10-19 11:17:15 INFO Watching for file changes with StatReloader
+2023-10-19 11:17:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-10-19 11:17:40 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/views.py changed, reloading.
+2023-10-19 11:17:41 INFO Watching for file changes with StatReloader
+2023-10-19 11:17:41 INFO Watching for file changes with StatReloader
+2023-10-19 11:17:45 INFO "GET /answers_by_id/1/ HTTP/1.1" 200 46
+2023-10-19 11:17:45 INFO "GET /answers_by_id/1/ HTTP/1.1" 200 46
+2023-10-19 11:18:46 INFO "GET /answers/ HTTP/1.1" 200 27
+2023-10-19 11:18:46 INFO "GET /answers/ HTTP/1.1" 200 27
+2023-10-19 11:19:48 INFO "GET /admin/myapp/answer/ HTTP/1.1" 200 14615
+2023-10-19 11:19:48 INFO "GET /admin/myapp/answer/ HTTP/1.1" 200 14615
+2023-10-19 11:19:52 INFO "GET /admin/myapp/question/ HTTP/1.1" 200 16218
+2023-10-19 11:19:52 INFO "GET /admin/myapp/question/ HTTP/1.1" 200 16218
+2023-10-19 11:19:52 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-10-19 11:19:52 INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-10-19 11:20:24 INFO "POST /answers/ HTTP/1.1" 201 176
+2023-10-19 11:20:24 INFO "POST /answers/ HTTP/1.1" 201 176
+2023-10-19 11:20:38 INFO "GET /answers/ HTTP/1.1" 200 87
+2023-10-19 11:20:38 INFO "GET /answers/ HTTP/1.1" 200 87
+2023-10-19 11:21:45 INFO "POST /answers/ HTTP/1.1" 201 180
+2023-10-19 11:21:45 INFO "POST /answers/ HTTP/1.1" 201 180
+2023-10-19 11:22:01 INFO "GET /answers/ HTTP/1.1" 200 152
+2023-10-19 11:22:01 INFO "GET /answers/ HTTP/1.1" 200 152
+2023-10-19 11:26:01 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-10-19 11:26:01 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-10-19 11:26:01 INFO Watching for file changes with StatReloader
+2023-10-19 11:26:01 INFO Watching for file changes with StatReloader
+2023-10-19 11:26:06 ERROR "GET /answers/ HTTP/1.1" 500 124579
+2023-10-19 11:26:06 ERROR "GET /answers/ HTTP/1.1" 500 124579
+2023-10-19 11:27:23 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-10-19 11:27:23 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-10-19 11:27:24 INFO Watching for file changes with StatReloader
+2023-10-19 11:27:24 INFO Watching for file changes with StatReloader
+2023-10-19 11:27:28 INFO "GET /answers/ HTTP/1.1" 200 152
+2023-10-19 11:27:28 INFO "GET /answers/ HTTP/1.1" 200 152
+2023-10-19 11:27:30 INFO "GET /answers/ HTTP/1.1" 200 152
+2023-10-19 11:27:30 INFO "GET /answers/ HTTP/1.1" 200 152
+2023-10-19 11:27:32 INFO "GET /answers/ HTTP/1.1" 200 152
+2023-10-19 11:27:32 INFO "GET /answers/ HTTP/1.1" 200 152
+2023-10-19 11:27:33 INFO "GET /answers/ HTTP/1.1" 200 152
+2023-10-19 11:27:33 INFO "GET /answers/ HTTP/1.1" 200 152
+2023-10-19 11:27:34 INFO "GET /answers/ HTTP/1.1" 200 152
+2023-10-19 11:27:34 INFO "GET /answers/ HTTP/1.1" 200 152
+2023-10-19 11:31:38 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-10-19 11:31:38 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-10-19 11:31:38 INFO Watching for file changes with StatReloader
+2023-10-19 11:31:38 INFO Watching for file changes with StatReloader
+2023-10-19 11:31:42 ERROR "GET /answers/ HTTP/1.1" 500 123566
+2023-10-19 11:31:42 ERROR "GET /answers/ HTTP/1.1" 500 123566
+2023-10-19 11:31:58 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-10-19 11:31:58 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-10-19 11:31:58 INFO Watching for file changes with StatReloader
+2023-10-19 11:31:58 INFO Watching for file changes with StatReloader
+2023-10-19 11:32:04 ERROR "GET /answers/ HTTP/1.1" 500 147054
+2023-10-19 11:32:04 ERROR "GET /answers/ HTTP/1.1" 500 147054
+2023-10-19 11:32:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-10-19 11:32:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-10-19 11:32:18 INFO Watching for file changes with StatReloader
+2023-10-19 11:32:18 INFO Watching for file changes with StatReloader
+2023-10-19 11:33:35 INFO "GET /answers/ HTTP/1.1" 200 138
+2023-10-19 11:33:35 INFO "GET /answers/ HTTP/1.1" 200 138
+2023-10-19 11:34:47 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-10-19 11:34:47 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-10-19 11:34:47 INFO Watching for file changes with StatReloader
+2023-10-19 11:34:47 INFO Watching for file changes with StatReloader
+2023-10-19 11:34:50 INFO "GET /answers/ HTTP/1.1" 200 212
+2023-10-19 11:34:50 INFO "GET /answers/ HTTP/1.1" 200 212
+2023-10-19 11:35:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-10-19 11:35:18 INFO /home/aakash/PROJECTS/LOGIN_AUTHENTICATION/Authentication_System/myapp/serializers.py changed, reloading.
+2023-10-19 11:35:19 INFO Watching for file changes with StatReloader
+2023-10-19 11:35:19 INFO Watching for file changes with StatReloader
+2023-10-19 11:35:28 WARNING "GET /answers/3/ HTTP/1.1" 404 10961
+2023-10-19 11:35:28 WARNING "GET /answers/3/ HTTP/1.1" 404 10961
+2023-10-19 11:35:48 INFO "GET /answers_by_id/3/ HTTP/1.1" 200 46
+2023-10-19 11:35:48 INFO "GET /answers_by_id/3/ HTTP/1.1" 200 46
+2023-10-19 11:35:57 INFO "GET /answers_by_id/2/ HTTP/1.1" 200 82
+2023-10-19 11:35:57 INFO "GET /answers_by_id/2/ HTTP/1.1" 200 82
+2023-10-19 11:36:10 INFO "DELETE /answers_by_id/2/ HTTP/1.1" 200 59
+2023-10-19 11:36:10 INFO "DELETE /answers_by_id/2/ HTTP/1.1" 200 59
+2023-10-19 11:36:16 INFO "GET /answers_by_id/2/ HTTP/1.1" 200 46
+2023-10-19 11:36:16 INFO "GET /answers_by_id/2/ HTTP/1.1" 200 46
+2023-10-19 12:10:04 INFO Watching for file changes with StatReloader
+2023-10-19 12:10:04 INFO Watching for file changes with StatReloader

@@ -35,6 +35,12 @@ class DeveloperSecondDB_Admin(admin.ModelAdmin):
 class Horse_Admin(admin.ModelAdmin):
     list_display =  ('id',  'name', 'created_at', 'updated_at')
 
+class Question_Admin(admin.ModelAdmin):
+    list_display =  ('id',  'text')
+
+class Answer_Admin(admin.ModelAdmin):
+    list_display = ('question', 'text')
+
 admin.site.register(Register, RegisterAdmin)
 admin.site.register(Login, LoginAdmin)
 admin.site.register(Employee, EmployeeAdmin )
@@ -48,4 +54,6 @@ admin.site.register(Student, Student_Admin)
 admin.site.register(DeveloperDefaultDB, DeveloperDefaultDB_Admin)
 admin.site.register(DeveloperSecondDB, DeveloperSecondDB_Admin)
 admin.site.register(Horse, Horse_Admin)
+admin.site.register(Question, Question_Admin)
+admin.site.register(Answer, Answer_Admin)
 

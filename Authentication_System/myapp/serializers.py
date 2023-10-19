@@ -282,3 +282,21 @@ class HorseUpdateSerializer(serializers.ModelSerializer):
 
 		super().update(instance = instance, validated_data= validated_data)
 		return instance  
+     
+
+# =========================================================================================
+
+
+
+class QuestionSerializer(serializers.ModelSerializer):
+
+    class Meta:
+         model = Question
+         fields = ['text']
+
+class AnswerSerializer(serializers.ModelSerializer):
+    # question = QuestionSerializer()
+
+    class Meta:
+        model = Answer
+        fields = ['question', 'text']

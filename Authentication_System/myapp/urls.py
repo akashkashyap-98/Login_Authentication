@@ -64,7 +64,13 @@ urlpatterns = [
     path('django_celery_task/', views.test , name="tests"),
     path('send_mail_to_user/', views.send_mail_to_user, name='send_mail_to_user'),
     path('schedulemail/', views.schedule_mail, name='schedulemail'),
-    path('schedule_mail_with_attachment/', views.schedule_mail_with_attachment, name='schedule_mail_with_attachment'),                                                              
+    path('schedule_mail_with_attachment/', views.schedule_mail_with_attachment, name='schedule_mail_with_attachment'),  
+    
+    # ============== urls for dynamic template (questions and answers) ================================
+    path('questions/', QuestionList.as_view()), 
+    path('QuestionDetail/<int:id>/', QuestionDetail.as_view()),
+    path('answers/', AnswerDetail.as_view()),
+    path('answers_by_id/<int:id>/', AnswerDetailById.as_view()),
                   
 ] 
 

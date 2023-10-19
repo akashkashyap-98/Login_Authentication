@@ -1900,6 +1900,150 @@ def schedule_mail_with_attachment(request):
     task = PeriodicTask.objects.create(crontab=schedule, name='schedule_mail_with_attachment_'+'11', task='send_mail_app.tasks.generate_excel_and_send_email') 
     return HttpResponse("DONE SUCESSFULLY , email sent with attachment")
 
+
+#========================== views for dynamic template (question and answers) ================================
+
+class QuestionList(APIView):
+    permission_classes = []
+    authentication_classes=[]
+
+    def get(self, request):
+        questions = Question.objects.all()
+        serializer = QuestionSerializer(questions, many=True)
+        return Response({'status':200 , 'payload':serializer.data})
+    
+
+    def post(self, request):
+        data = request.data
+        serializer = QuestionSerializer(data = data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({
+                    'message':'QUESTION CREATED SUCCESSFULLY',
+                    'status':'true',
+                    'status_code':'201',
+                    'response':serializer.data,
+                    },201)
+        return Response(serializer.errors, status=400)
+    
+class QuestionDetail(APIView):
+    permission_classes = []
+    authentication_classes=[]
+
+    def get(self, request, id):
+        if Question.objects.filter(id=id).exists():
+            question = Question.objects.get(id=id)
+            serializer = QuestionSerializer(question)
+            return Response({'status':200 , 'payload':serializer.data})    
+        else:
+            return Response({"status":False , "result" :"id does not exists"}) 
+    
+    def put(self, request, id):
+        data=request.data
+        if Question.objects.filter(id=id).exists():
+            question = Question.objects.get(id=id)
+            serializer = QuestionSerializer(question, data = data)
+            if serializer.is_valid():
+                serializer.save()
+                return Response({
+                        'message':'QUESTION UPDATED SUCCESSFULLY',
+                        'status':'true',
+                        'status_code':'201',
+                        'response':serializer.data,
+                        }, 201 )
+        return Response(serializer.errors, status=400)
+    
+    def delete(self, request, id):
+        if Question.objects.filter(id=id).exists():
+            question = Question.objects.get(id=id)
+            question.delete()
+            return Response({
+                'status':'True',
+                'message':'QUESTION  DELETED SUCCESSFULLY '
+                }, 200)
+        else:
+            return Response({'status':False, 'result':'id does not exists'}, status=400)
+
+
+class AnswerDetail(APIView):
+    permission_classes = []
+    authentication_classes=[]
+
+    def post(self, request):
+        data = request.data
+        serializer = AnswerSerializer(data=data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({
+                        'message':'ANSWER FOR PARTICULAR QUESTION NO. POSTED SUCCESSFULLY',
+                        'status':'true',
+                        'status_code':'201',
+                        'response':serializer.data,
+                        }, 201 )
+        else:
+            return Response(serializer.errors, status=400)
+    
+    def get(self,request):
+        ques_ans = Answer.objects.all()
+        serializer = AnswerSerializer(ques_ans, many=True)
+        return Response({'status':200 , 'payload':serializer.data})
+        
+
+class AnswerDetailById(APIView):
+    permission_classes = []
+    authentication_classes=[]
+
+
+    def get(self,request, id):
+        if Answer.objects.filter(id=id).exists():
+            ans_obj = Answer.objects.get(id=id)
+            serializer = AnswerSerializer(ans_obj)
+            return Response({'status':200 , 'payload':serializer.data})    
+        else:
+            return Response({"status":False , "result" :"id does not exists"})
+        
+    def put(self, request, id):
+        data = request.data
+        if Answer.objects.filter(id=id).exists():
+            ans_obj = Answer.objects.get(id=id)
+            serializer = AnswerSerializer(ans_obj, data=data)
+            if serializer.is_valid():
+                return Response({
+                        'message':'ANSWER FOR PARTICULAR QUESTION NO. UPDATED SUCCESSFULLY',
+                        'status':'true',
+                        'status_code':'201',
+                        'response':serializer.data,
+                        }, 201 )
+        else:
+            return Response(serializer.errors, status=400)
+
+    def delete(self, request, id):
+        if Answer.objects.filter(id=id).exists():
+            ans_obj = Answer.objects.get(id=id)
+            ans_obj.delete()
+            return Response({
+                'status':'True',
+                'message':'ANSWER  DELETED SUCCESSFULLY '
+                }, 200)
+        else:
+            return Response({'status':False, 'result':'id does not exists'}, status=400)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
    
 
      
